@@ -36,7 +36,7 @@ reported as NOT RUN (a warning, never a pass); the four Python suites run.
 |---|---|
 | `inputs/` | the 13 frozen `*_by_pangenome_id` tables, the literature inputs, `candidate_data_v02.tsv`, and `route_manifest.tsv` (the lock: the checksum of every input) |
 | `rules/` | `ranking_rules_v27.tsv` (the 23 rules), their resolved thresholds, the sweep plan, the test contracts |
-| `code/` | the ranking code, unchanged (`run_ranking.py` runs it) |
+| `code/` | the ranking code, the capsule's own (two edits of 2026-10-23 are recorded in `PROVENANCE.md`); `run_ranking.py` runs it |
 | `tests/` | unit, robustness and known-answer test suites |
 | `expected_outputs/` | the 21 deposited result files; the final shortlists are `candidate_route_state_v27_v01.tsv` (`final_pass`) |
 | `preflight/`, `postflight/` | the checks before and after a run |

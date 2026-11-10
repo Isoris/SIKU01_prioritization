@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """frame_check.py - is the frozen candidate frame what the capsule's own code rebuilds from the frozen tables?
 
-ranking/04_tables/candidate_data_v02.tsv (9,162 rows = 1,527 pangenome_id x 6 routes, 69 columns) is a deposit: the capsule has no script
+inputs/candidate_data_v02.tsv (9,162 rows = 1,527 pangenome_id x 6 routes, 69 columns) is a deposit: the capsule has no script
 that expands ranking_inputs_by_pangenome_id to the route grain, and analysis.yaml marks it rebuildable: false. The ranking reads it.
 This check compares it with ranking_inputs_by_pangenome_id_v01.tsv, which code_A6434_inputs_v01.py assembles from the 13 frozen tables:
 

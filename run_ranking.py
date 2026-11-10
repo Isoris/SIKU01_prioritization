@@ -7,19 +7,20 @@ WHAT COMES OUT --out-dir  the 18 ranking tables, among them candidate_route_stat
 TARGET         expected_outputs/  the 21 deposited result files; postflight/postflight.py compares a run with them
 
 
-The 23 rules live in rules/ and the code in code/ is capsule ANL_A6434's own, copied unmodified (PROVENANCE.md records where each file
-came from). This file only sets up a clean working copy (workdir.py), runs the scripts in the order of analysis.yaml, and gathers what they write.
+The 23 rules live in rules/ and the code in code/ is capsule ANL_A6434's own, copied byte for byte except two edits made on 2026-10-23
+(recorded in PROVENANCE.md, which also says where each file came from). This file only sets up a clean working copy (workdir.py), runs the scripts in the order of analysis.yaml, and gathers what they write.
 
 Steps, each stopping the stage if it fails
-  1  02_code/code_A6434_verify_input_lock_v01.py   the 13 frozen *_by_pangenome_id tables are byte-identical to the lock in
-                                                   inputs/route_manifest.tsv
-  2  02_code/build_literature_by_pangenome_id_v01.py   literature evidence per pangenome_id (a layer step 3 reads)
-  3  02_code/code_A6434_inputs_v01.py              assembles ranking_inputs_by_pangenome_id (1,527 orthogroups x 429 columns) from the
-                                                   frozen tables, plus its input audit and spine-exclusion tables
-  4  postflight/frame_check.py                     the frozen candidate frame ranking/04_tables/candidate_data_v02.tsv equals the
-                                                   step-3 table in every column they share (63 of 69), for all 9,162 rows
-  5  02_code/run_A6434_canonical_v01.py            the six scripts of analysis.yaml canonical_run.scripts (literature, production_v27,
-                                                   freeze_sweeps, execute_sweeps, perturbation, rule_authority_test)
+  1  code/code_A6434_verify_input_lock_v01.py   the 13 frozen *_by_pangenome_id tables are byte-identical to the lock in
+                                                inputs/route_manifest.tsv
+  2  code/build_literature_by_pangenome_id_v01.py   literature evidence per pangenome_id (a layer step 3 reads)
+  3  code/code_A6434_inputs_v01.py              assembles ranking_inputs_by_pangenome_id (1,527 orthogroups x 429 columns) from the
+                                                frozen tables, plus its input audit and spine-exclusion tables
+  4  postflight/frame_check.py                  the frozen candidate frame inputs/candidate_data_v02.tsv equals the
+                                                step-3 table in every column they share (63 of 69), for all 9,162 rows
+  5  code/run_A6434_canonical_v01.py            the six scripts of analysis.yaml canonical_run.scripts (literature, production_v27,
+                                                freeze_sweeps, execute_sweeps, perturbation, rule_authority_test)
+  (inside the temporary working copy the code sees the capsule's folder names, 02_code/ and capsule_brain/; see workdir.py)
 
 Why step 4 exists: the capsule has no script that expands ranking_inputs to the route grain (candidate_data_v01 -> v02 is a
 deposit; analysis.yaml marks it rebuildable: false). It is therefore frozen, and checked against what the capsule's own code rebuilds.
@@ -35,7 +36,7 @@ Variant runs (tuning): --brain DIR overlays the brain tables found in DIR (same 
 the repo is never touched. The run is then labelled "variant" in run_log.json, and the capsule's rule_authority_test (step 5, script 6)
 is skipped, because it asserts the DECLARED rules and a deliberate change to a rule is a change to the declaration. tuning/tune.py drives this.
 
-Usage:  python3 Scripts/12_frozen_inputs_to_ranked_candidates.py --out-dir DIR [--run-id ID] [--tests auto|none] [--brain DIR]
+Usage:  python3 run_ranking.py --out-dir DIR [--run-id ID] [--tests auto|none] [--brain DIR]
 Exit:   0 only if every step passed and no test failed.
 """
 import argparse, hashlib, json, os, platform, shutil, subprocess, sys, tempfile, time

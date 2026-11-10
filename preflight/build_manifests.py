@@ -33,7 +33,7 @@ CATS = {
     "inputs": [("inputs", "the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs")],
     "contracts": [("analysis.yaml", "canonical_run order and declared parameters (what is input, what is the target output)"),
                   ("rules", "the 23 rules, their resolved parameters, the sweep plan and the test contracts"),
-                  ("code", "the ranking code, unchanged from capsule ANL_A6434"),
+                  ("code", "the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)"),
                   ("run_ranking.py", "the stage launcher"), ("workdir.py", "the folder mapping used by the launcher and the preflight"),
                   ("postflight", "the post-flight checks (a change to a checker is a change to what counts as passing)"),
                   ("expected_outputs", "the target results a run is compared with")],

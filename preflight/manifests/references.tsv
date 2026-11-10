@@ -5,7 +5,7 @@ raw/CONTENTS_input_genomes.tsv	526118db29b5827e7bfcaf323fba0137ebfff1889fe6f298a
 raw/CONTENTS_panaroo_output.tsv	98191eed4f26d8b18c9916b498422a2e8a0ff84557511038d28b45d98342d196	1495	the raw archives (Panaroo output, input genomes, core alignments) and their records
 raw/RAW_UPSTREAM.tsv	8d057ecd46498cabe36ce366390242a76e9e4d22d5a63662a4da8e9efa06997b	1105	the raw archives (Panaroo output, input genomes, core alignments) and their records
 raw/README_core_alignments.md	0b7e377effeedf698fa386433a0dc7f699a2aba2f2371130ff55805f498298de	2416	the raw archives (Panaroo output, input genomes, core alignments) and their records
-raw/README_raw_upstream.md	9fd904bf870049ec30855d3470b6aa4d104451531c6fadfaaf1cbc04d9e63f3c	1166	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/README_raw_upstream.md	e5554335b8fcb06a29a54a04e00c0605e987f739b4432b20caf92e63b8a2b866	986	the raw archives (Panaroo output, input genomes, core alignments) and their records
 raw/core_alignments.7z	5e7d73bdd9d24111095b024e40eb736889772cc05d274eebeb966b3882a55feb	1109329	the raw archives (Panaroo output, input genomes, core alignments) and their records
 raw/core_alignments_manifest_md5.tsv	933578f7978a5384197a9c9f12634edce5b2f7ae24cebecd3154300e69b07d05	242370	the raw archives (Panaroo output, input genomes, core alignments) and their records
 raw/extra_concatenate_core_genome.py	56accd22deb6581a81fd87ed6c4478b7e5d2c59058a648924b58ca87240b4bb5	5918	the raw archives (Panaroo output, input genomes, core alignments) and their records

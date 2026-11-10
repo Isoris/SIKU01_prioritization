@@ -1,6 +1,6 @@
 """workdir.py - the one place that knows how this repo's folders map onto the layout the ranking code was written for.
 
-The ranking code (code/) is the original capsule code, unchanged. It looks for its files by the capsule's own folder names, so each run
+The ranking code (code/) is the original capsule code (two recorded edits, see PROVENANCE.md). It looks for its files by the capsule's own folder names, so each run
 builds a temporary working copy in which the repo folders appear under those names:
 
     repo                                   working copy (what the code sees)

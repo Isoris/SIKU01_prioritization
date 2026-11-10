@@ -9,21 +9,21 @@ rules/test_case_definition_v01.tsv	3aae6b8f9165f0c122bb6e28b744c731aa3319ba6827f
 rules/test_definition_v03.tsv	988b455c1f98b446d8ee97aa818b48342a7d14b888154bbee6f7980984acb2f5	20693	the 23 rules, their resolved parameters, the sweep plan and the test contracts
 rules/test_implementation_binding_v03.tsv	f5ab79d16c3668ad0890a89792b99e7a5ff116df064cfdbe7473552421b58d9a	17845	the 23 rules, their resolved parameters, the sweep plan and the test contracts
 rules/test_registry_v03.tsv	a24b9d8432e0f1a862fdb7c3d6ad939368c0f23e6c71c8879507541a708d3979	34415	the 23 rules, their resolved parameters, the sweep plan and the test contracts
-code/_provenance.py	58a1463784829f89476e2e82efc6bafcdb5a0b599f7f7c36bc59347b612f0d78	2674	the ranking code, unchanged from capsule ANL_A6434
-code/build_literature_by_pangenome_id_v01.py	f9fced58be9660f34bdb59c387e158791d7677587aed5f38ed2b03cd2ec49396	9085	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_execute_sweeps_v27_v01.py	619adc675c22bfccb48fcb2ef4ff43fa179e164627c5bc35a29436d79785cfae	10673	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_freeze_sweeps_v02_v01.py	f4cf40dd09c7136dfe9dd5be70d02c2b85174213e6c079a3040dd1fe99eab467	8246	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_inputs_v01.py	d6a70565291211b13d1dceb4189813a359caf7ec5f599078b3bf7c9d892621e9	16536	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_perturbation_v27_v01.py	337889a9625e8b0fd4d66170041c809a33c15546d2878c08c1f561b38e59beac	17390	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_production_v27_v01.py	c0e9d738f783a634ddbbb85ce02fcecdf7bd17c914ff8b26a67e538e95cfd321	11000	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_rule_authority_test_v02.py	fb3b8434cee5ee4f4b0fdc3869b6ba1cf08f208bc016753d6de20f6351a1ef08	1951	the ranking code, unchanged from capsule ANL_A6434
-code/code_A6434_verify_input_lock_v01.py	740ee7431c98bc1ce2043a9321a0cba635ee2e9a41fc0198603313272586dddd	2266	the ranking code, unchanged from capsule ANL_A6434
-code/run_A6434_canonical_v01.py	217f22fbcc79bcb813ceffc524b80807d0c211cf7631b25caf8bf9da9d378243	3178	the ranking code, unchanged from capsule ANL_A6434
-run_ranking.py	cc6cff3cdedd08e49e58697f2b4defc951ff6af337715ef7ec15d26bdf31bfd6	12383	the stage launcher
-workdir.py	20108c67f743ddc38aca03ad714e9a6bce12314ffe5018c213bf0c2c38883913	2451	the folder mapping used by the launcher and the preflight
+code/_provenance.py	58a1463784829f89476e2e82efc6bafcdb5a0b599f7f7c36bc59347b612f0d78	2674	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/build_literature_by_pangenome_id_v01.py	f9fced58be9660f34bdb59c387e158791d7677587aed5f38ed2b03cd2ec49396	9085	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_execute_sweeps_v27_v01.py	619adc675c22bfccb48fcb2ef4ff43fa179e164627c5bc35a29436d79785cfae	10673	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_freeze_sweeps_v02_v01.py	f4cf40dd09c7136dfe9dd5be70d02c2b85174213e6c079a3040dd1fe99eab467	8246	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_inputs_v01.py	d6a70565291211b13d1dceb4189813a359caf7ec5f599078b3bf7c9d892621e9	16536	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_perturbation_v27_v01.py	337889a9625e8b0fd4d66170041c809a33c15546d2878c08c1f561b38e59beac	17390	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_production_v27_v01.py	c0e9d738f783a634ddbbb85ce02fcecdf7bd17c914ff8b26a67e538e95cfd321	11000	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_rule_authority_test_v02.py	fb3b8434cee5ee4f4b0fdc3869b6ba1cf08f208bc016753d6de20f6351a1ef08	1951	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/code_A6434_verify_input_lock_v01.py	740ee7431c98bc1ce2043a9321a0cba635ee2e9a41fc0198603313272586dddd	2266	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+code/run_A6434_canonical_v01.py	217f22fbcc79bcb813ceffc524b80807d0c211cf7631b25caf8bf9da9d378243	3178	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
+run_ranking.py	cc15ea6a29a3a8ec61ecac375f6e3c64c6566bf9c53ad03e342cbc177a56821c	12495	the stage launcher
+workdir.py	d799cffaea498171033913ddb739d3957013a261598a78280a82759a73411e0b	2480	the folder mapping used by the launcher and the preflight
 postflight/brain_enforcement.py	896e9d196a327a5774471cdd0f3888593951769b6021bd85322bb82298886519	7218	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/build_expected_manifest.py	2e5e978ba48c4b485dff6cfae1766771eaf9c20a76c9ab1909ae259117a4d067	4058	the post-flight checks (a change to a checker is a change to what counts as passing)
-postflight/frame_check.py	635dc226e0fda7eb588e6ed3f8a0ee03c7ff6962e7ffa2e4be844a7af9a986e6	3519	the post-flight checks (a change to a checker is a change to what counts as passing)
+postflight/frame_check.py	b7ac40129bc582a24381bb039411e5b7c9a24c0e68f08b3d46c1c8f70f6dd91e	3508	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/independent_recompute.py	c5111cd1971478aaa8dd54582a974a09d23f4129dd46719722ae1caaa0e92a3a	6010	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/postflight.py	dc9c55f59d9759227131256bd722cbf44031676ef968f25ff322db685d47b8c2	10613	the post-flight checks (a change to a checker is a change to what counts as passing)
 expected_outputs/COLLECTION.sha256	72985eaf3efb02f2e85aed82d17df8c63f185b8b9ebdb2ea80aca38c91e1a2ff	157	the target results a run is compared with

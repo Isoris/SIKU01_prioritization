@@ -26,7 +26,7 @@ WHAT IS WHERE
   inputs/            INPUT   the 13 frozen *_by_pangenome_id tables (conservation/entropy, descriptors, gene data, epitopes, host similarity, InterPro,
                              M0 gate, coverage ...), the literature inputs, candidate_data_v02.tsv and route_manifest.tsv, the lock with every checksum
   rules/             RULES   ranking_rules_v27.tsv = the 23 prioritization rules (14 hard gates, 8 additive components); their thresholds, the sweep plan
-  code/              CODE    the ranking code (unchanged); run_ranking.py runs it, workdir.py maps the folders
+  code/              CODE    the ranking code (the capsule's own); run_ranking.py runs it, workdir.py maps the folders
   tests/             TESTS   unit, robustness and known-answer suites
   expected_outputs/  TARGET  the 21 deposited result files a run is compared with. The final shortlists: candidate_route_state_v27_v01.tsv
   raw/               RAW     the Panaroo output, input genomes and core alignments the input tables were derived from (records; not re-run here)
