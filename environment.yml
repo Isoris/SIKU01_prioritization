@@ -1,0 +1,23 @@
+# The environment the ranking was produced and is checked with (python + pandas pinned; R only for the four R test suites).
+#   conda env create -f environment.yml && conda activate siku01-ranking
+# pandas must be < 3: pandas 3 writes some floats with a different last digit, and the frame check (text-exact) then fails.
+name: siku01-ranking
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python =3.11
+  - pandas =2.3.3
+  - numpy =2.3.4
+  - pyyaml =6.0.3
+  # ---- R: the four R test suites (TST_carriage, TST_conservation, TST_gene_model, TST_tmh) and the conservation computation ----
+  - r-base 4.3.3
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-tibble
+  - r-stringr
+  - r-bio3d 2.4.4                    # bio3d::entropy(): never substitute another implementation
+  - bioconductor-biostrings 2.70.*
+  - r-digest
+  - mafft 7.505                      # only for re-aligning the core genes (not needed for the ranking); the alignments are frozen in raw/core_alignments.7z

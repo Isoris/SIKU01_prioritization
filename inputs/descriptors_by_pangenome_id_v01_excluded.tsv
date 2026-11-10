@@ -1,0 +1,517 @@
+pangenome_id	sample_id	annotation_id	step	reason	detail
+3838	iniae_GCF_000831485	1_refound_6	prepare	cds_not_in_frame	length 296 nt is not a multiple of 3
+7382	iniae_GCF_000831485	1_refound_13	prepare	cds_not_in_frame	length 1114 nt is not a multiple of 3
+4256	iniae_GCF_001654755	2_refound_14	prepare	cds_not_in_frame	length 208 nt is not a multiple of 3
+6479	iniae_GCF_001654755	2_refound_16	prepare	cds_not_in_frame	length 698 nt is not a multiple of 3
+6896	iniae_GCF_001654755	2_refound_18	prepare	cds_not_in_frame	length 239 nt is not a multiple of 3
+7073	iniae_GCF_001654755	2_refound_19	prepare	cds_not_in_frame	length 1429 nt is not a multiple of 3
+6867	iniae_GCF_001885145	3_refound_26	prepare	cds_not_in_frame	length 301 nt is not a multiple of 3
+6867	iniae_GCF_002220115	4_refound_31	prepare	cds_not_in_frame	length 301 nt is not a multiple of 3
+6329	iniae_GCF_003674085	5_refound_35	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6340	iniae_GCF_003674085	5_refound_36	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+7132	iniae_GCF_003674085	5_refound_38	prepare	cds_not_in_frame	length 1979 nt is not a multiple of 3
+6225	iniae_GCF_003674125	6_refound_40	prepare	cds_not_in_frame	length 224 nt is not a multiple of 3
+6270	iniae_GCF_003674125	6_refound_41	prepare	cds_not_in_frame	length 224 nt is not a multiple of 3
+6275	iniae_GCF_003674125	6_refound_42	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674125	6_refound_43	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003674125	6_refound_44	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+7132	iniae_GCF_003674125	6_refound_45	prepare	cds_not_in_frame	length 1979 nt is not a multiple of 3
+3332	iniae_GCF_003674145	7_refound_48	prepare	cds_not_in_frame	length 145 nt is not a multiple of 3
+6329	iniae_GCF_003674145	7_refound_49	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6340	iniae_GCF_003674145	7_refound_50	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+7132	iniae_GCF_003674145	7_refound_51	prepare	cds_not_in_frame	length 1979 nt is not a multiple of 3
+6329	iniae_GCF_003674165	8_refound_52	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+7132	iniae_GCF_003674165	8_refound_53	prepare	cds_not_in_frame	length 1979 nt is not a multiple of 3
+7160	iniae_GCF_003674175	9_refound_54	prepare	cds_not_in_frame	length 190 nt is not a multiple of 3
+7102	iniae_GCF_003674205	10_refound_56	prepare	cds_not_in_frame	length 472 nt is not a multiple of 3
+1329	iniae_GCF_003674215	11_refound_57	prepare	cds_not_in_frame	length 953 nt is not a multiple of 3
+7254	iniae_GCF_003674215	11_refound_60	prepare	cds_not_in_frame	length 266 nt is not a multiple of 3
+6270	iniae_GCF_003674235	12_refound_62	prepare	cds_not_in_frame	length 173 nt is not a multiple of 3
+6346	iniae_GCF_003674235	12_refound_63	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+6340	iniae_GCF_003674265	13_refound_65	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+3372	iniae_GCF_003674305	15_refound_67	prepare	cds_not_in_frame	length 196 nt is not a multiple of 3
+6329	iniae_GCF_003674305	15_refound_68	prepare	cds_not_in_frame	length 430 nt is not a multiple of 3
+6407	iniae_GCF_003674305	15_refound_69	prepare	cds_not_in_frame	length 868 nt is not a multiple of 3
+6784	iniae_GCF_003674305	15_refound_70	prepare	cds_not_in_frame	length 433 nt is not a multiple of 3
+6278	iniae_GCF_003674315	16_refound_72	prepare	cds_not_in_frame	length 149 nt is not a multiple of 3
+6329	iniae_GCF_003674315	16_refound_73	prepare	cds_not_in_frame	length 566 nt is not a multiple of 3
+6784	iniae_GCF_003674315	16_refound_75	prepare	cds_not_in_frame	length 433 nt is not a multiple of 3
+7160	iniae_GCF_003674315	16_refound_76	prepare	cds_not_in_frame	length 190 nt is not a multiple of 3
+6329	iniae_GCF_003674345	17_refound_78	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6346	iniae_GCF_003674345	17_refound_79	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+6707	iniae_GCF_003674345	17_refound_82	prepare	cds_not_in_frame	length 374 nt is not a multiple of 3
+7342	iniae_GCF_003674345	17_refound_83	prepare	cds_not_in_frame	length 151 nt is not a multiple of 3
+6329	iniae_GCF_003674355	18_refound_85	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6829	iniae_GCF_003674355	18_refound_87	prepare	cds_not_in_frame	length 308 nt is not a multiple of 3
+1426	iniae_GCF_003674385	19_refound_89	prepare	cds_not_in_frame	length 832 nt is not a multiple of 3
+3357	iniae_GCF_003674385	19_refound_91	prepare	cds_not_in_frame	length 362 nt is not a multiple of 3
+4256	iniae_GCF_003674385	19_refound_94	prepare	cds_not_in_frame	length 178 nt is not a multiple of 3
+52	iniae_GCF_003674385	19_refound_96	prepare	cds_not_in_frame	length 3473 nt is not a multiple of 3
+6329	iniae_GCF_003674385	19_refound_98	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6707	iniae_GCF_003674385	19_refound_100	prepare	cds_not_in_frame	length 688 nt is not a multiple of 3
+7050	iniae_GCF_003674385	19_refound_103	prepare	cds_not_in_frame	length 623 nt is not a multiple of 3
+6330	iniae_GCF_003674395	20_refound_106	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6346	iniae_GCF_003674395	20_refound_107	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+6998	iniae_GCF_003674395	20_refound_110	prepare	cds_not_in_frame	length 529 nt is not a multiple of 3
+2558	iniae_GCF_003674425	21_refound_111	prepare	cds_not_in_frame	length 596 nt is not a multiple of 3
+6230	iniae_GCF_003674425	21_refound_116	prepare	cds_not_in_frame	length 224 nt is not a multiple of 3
+6275	iniae_GCF_003674425	21_refound_118	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674425	21_refound_119	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6680	iniae_GCF_003674425	21_refound_123	prepare	cds_not_in_frame	length 763 nt is not a multiple of 3
+6329	iniae_GCF_003674435	22_refound_126	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6917	iniae_GCF_003674465	23_refound_130	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+4549	iniae_GCF_003674475	24_refound_131	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+7176	iniae_GCF_003674475	24_refound_136	prepare	cds_not_in_frame	length 1729 nt is not a multiple of 3
+4549	iniae_GCF_003674505	25_refound_138	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+6751	iniae_GCF_003674505	25_refound_141	prepare	cds_not_in_frame	length 301 nt is not a multiple of 3
+6772	iniae_GCF_003674505	25_refound_142	prepare	cds_not_in_frame	length 224 nt is not a multiple of 3
+7176	iniae_GCF_003674505	25_refound_143	prepare	cds_not_in_frame	length 1729 nt is not a multiple of 3
+6241	iniae_GCF_003674545	27_refound_148	prepare	cds_not_in_frame	length 499 nt is not a multiple of 3
+6275	iniae_GCF_003674545	27_refound_149	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674545	27_refound_150	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+7139	iniae_GCF_003674585	29_refound_155	prepare	cds_not_in_frame	length 685 nt is not a multiple of 3
+7242	iniae_GCF_003674585	29_refound_156	prepare	cds_not_in_frame	length 1085 nt is not a multiple of 3
+7254	iniae_GCF_003674585	29_refound_157	prepare	cds_not_in_frame	length 266 nt is not a multiple of 3
+6329	iniae_GCF_003674605	30_refound_158	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6270	iniae_GCF_003674615	31_refound_161	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6275	iniae_GCF_003674615	31_refound_162	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6279	iniae_GCF_003674615	31_refound_163	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+7254	iniae_GCF_003674615	31_refound_165	prepare	cds_not_in_frame	length 266 nt is not a multiple of 3
+4549	iniae_GCF_003674665	33_refound_168	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+6895	iniae_GCF_003674665	33_refound_173	prepare	cds_not_in_frame	length 359 nt is not a multiple of 3
+4549	iniae_GCF_003674685	34_refound_174	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+4565	iniae_GCF_003674685	34_refound_177	prepare	cds_not_in_frame	length 115 nt is not a multiple of 3
+7176	iniae_GCF_003674685	34_refound_180	prepare	cds_not_in_frame	length 1729 nt is not a multiple of 3
+4549	iniae_GCF_003674705	35_refound_182	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+6330	iniae_GCF_003674705	35_refound_185	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6749	iniae_GCF_003674715	36_refound_191	prepare	cds_not_in_frame	length 313 nt is not a multiple of 3
+6995	iniae_GCF_003674715	36_refound_192	prepare	cds_not_in_frame	length 271 nt is not a multiple of 3
+7259	iniae_GCF_003674715	36_refound_194	prepare	cds_not_in_frame	length 271 nt is not a multiple of 3
+6329	iniae_GCF_003674745	37_refound_196	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6261	iniae_GCF_003674795	40_refound_201	prepare	cds_not_in_frame	length 226 nt is not a multiple of 3
+6329	iniae_GCF_003674795	40_refound_202	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+7190	iniae_GCF_003674795	40_refound_203	prepare	cds_not_in_frame	length 293 nt is not a multiple of 3
+6270	iniae_GCF_003674825	41_refound_205	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003674825	41_refound_206	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6346	iniae_GCF_003674835	42_refound_209	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+4055	iniae_GCF_003674865	43_refound_211	prepare	cds_not_in_frame	length 256 nt is not a multiple of 3
+6329	iniae_GCF_003674865	43_refound_215	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6749	iniae_GCF_003674865	43_refound_216	prepare	cds_not_in_frame	length 254 nt is not a multiple of 3
+7176	iniae_GCF_003674865	43_refound_217	prepare	cds_not_in_frame	length 1729 nt is not a multiple of 3
+6275	iniae_GCF_003674875	44_refound_219	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674875	44_refound_220	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+7377	iniae_GCF_003674875	44_refound_223	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003674895	45_refound_225	prepare	cds_not_in_frame	length 397 nt is not a multiple of 3
+6917	iniae_GCF_003674895	45_refound_227	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+4349	iniae_GCF_003674925	46_refound_228	prepare	cds_not_in_frame	length 169 nt is not a multiple of 3
+6275	iniae_GCF_003674925	46_refound_229	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674925	46_refound_230	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6330	iniae_GCF_003674925	46_refound_231	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+7242	iniae_GCF_003674925	46_refound_233	prepare	cds_not_in_frame	length 998 nt is not a multiple of 3
+6326	iniae_GCF_003674935	47_refound_239	prepare	cds_not_in_frame	length 433 nt is not a multiple of 3
+6329	iniae_GCF_003674935	47_refound_240	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6346	iniae_GCF_003674935	47_refound_242	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+6270	iniae_GCF_003674945	48_refound_245	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6275	iniae_GCF_003674985	49_refound_249	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003674985	49_refound_250	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6340	iniae_GCF_003674985	49_refound_251	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6261	iniae_GCF_003674995	50_refound_253	prepare	cds_not_in_frame	length 226 nt is not a multiple of 3
+6340	iniae_GCF_003674995	50_refound_254	prepare	cds_not_in_frame	length 499 nt is not a multiple of 3
+7139	iniae_GCF_003674995	50_refound_256	prepare	cds_not_in_frame	length 620 nt is not a multiple of 3
+6329	iniae_GCF_003675025	51_refound_258	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6261	iniae_GCF_003675045	52_refound_260	prepare	cds_not_in_frame	length 226 nt is not a multiple of 3
+6340	iniae_GCF_003675045	52_refound_261	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6917	iniae_GCF_003675055	53_refound_266	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+7242	iniae_GCF_003675055	53_refound_267	prepare	cds_not_in_frame	length 1087 nt is not a multiple of 3
+4190	iniae_GCF_003675085	54_refound_268	prepare	cds_not_in_frame	length 229 nt is not a multiple of 3
+6286	iniae_GCF_003675085	54_refound_272	prepare	cds_not_in_frame	length 493 nt is not a multiple of 3
+7403	iniae_GCF_003675095	55_refound_275	prepare	cds_not_in_frame	length 682 nt is not a multiple of 3
+6329	iniae_GCF_003675095	55_refound_276	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+7254	iniae_GCF_003675095	55_refound_278	prepare	cds_not_in_frame	length 266 nt is not a multiple of 3
+7271	iniae_GCF_003675095	55_refound_279	prepare	cds_not_in_frame	length 1193 nt is not a multiple of 3
+2767	iniae_GCF_003675125	56_refound_281	prepare	cds_not_in_frame	length 361 nt is not a multiple of 3
+6208	iniae_GCF_003675125	56_refound_282	prepare	cds_not_in_frame	length 350 nt is not a multiple of 3
+6209	iniae_GCF_003675125	56_refound_283	prepare	cds_not_in_frame	length 350 nt is not a multiple of 3
+6213	iniae_GCF_003675125	56_refound_284	prepare	cds_not_in_frame	length 350 nt is not a multiple of 3
+6525	iniae_GCF_003675125	56_refound_297	prepare	cds_not_in_frame	length 350 nt is not a multiple of 3
+7102	iniae_GCF_003675125	56_refound_299	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+7259	iniae_GCF_003675125	56_refound_300	prepare	cds_not_in_frame	length 779 nt is not a multiple of 3
+6330	iniae_GCF_003675145	57_refound_302	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6275	iniae_GCF_003675155	58_refound_304	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003675155	58_refound_305	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6896	iniae_GCF_003675155	58_refound_307	prepare	cds_not_in_frame	length 239 nt is not a multiple of 3
+6270	iniae_GCF_003675185	59_refound_308	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003675185	59_refound_309	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6896	iniae_GCF_003675185	59_refound_311	prepare	cds_not_in_frame	length 239 nt is not a multiple of 3
+7254	iniae_GCF_003675185	59_refound_313	prepare	cds_not_in_frame	length 266 nt is not a multiple of 3
+6340	iniae_GCF_003675195	60_refound_314	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6986	iniae_GCF_003675195	60_refound_316	prepare	cds_not_in_frame	length 685 nt is not a multiple of 3
+7190	iniae_GCF_003675195	60_refound_317	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+6261	iniae_GCF_003675225	61_refound_318	prepare	cds_not_in_frame	length 226 nt is not a multiple of 3
+6340	iniae_GCF_003675225	61_refound_319	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6346	iniae_GCF_003675285	64_refound_324	prepare	cds_not_in_frame	length 1006 nt is not a multiple of 3
+6917	iniae_GCF_003675285	64_refound_326	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+7139	iniae_GCF_003675285	64_refound_327	prepare	cds_not_in_frame	length 584 nt is not a multiple of 3
+6350	iniae_GCF_003697375	65_refound_329	prepare	cds_not_in_frame	length 74 nt is not a multiple of 3
+6870	iniae_GCF_003697375	65_refound_331	prepare	cds_not_in_frame	length 167 nt is not a multiple of 3
+6329	iniae_GCF_003697405	66_refound_332	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6329	iniae_GCF_003697435	67_refound_334	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6275	iniae_GCF_003697465	68_refound_335	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003697465	68_refound_336	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003697465	68_refound_337	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6896	iniae_GCF_003697485	69_refound_340	prepare	cds_not_in_frame	length 239 nt is not a multiple of 3
+6346	iniae_GCF_003697545	72_refound_348	prepare	cds_not_in_frame	length 901 nt is not a multiple of 3
+6275	iniae_GCF_003697565	73_refound_350	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6278	iniae_GCF_003697565	73_refound_351	prepare	cds_not_in_frame	length 140 nt is not a multiple of 3
+6329	iniae_GCF_003697565	73_refound_352	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6211	iniae_GCF_003697585	74_refound_354	prepare	cds_not_in_frame	length 539 nt is not a multiple of 3
+6515	iniae_GCF_003697585	74_refound_356	prepare	cds_not_in_frame	length 986 nt is not a multiple of 3
+7190	iniae_GCF_003697585	74_refound_358	prepare	cds_not_in_frame	length 346 nt is not a multiple of 3
+651	iniae_GCF_003697605	75_refound_359	prepare	cds_not_in_frame	length 1406 nt is not a multiple of 3
+6330	iniae_GCF_003697605	75_refound_361	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+6818	iniae_GCF_003697605	75_refound_362	prepare	cds_not_in_frame	length 1676 nt is not a multiple of 3
+7342	iniae_GCF_003697605	75_refound_363	prepare	cds_not_in_frame	length 215 nt is not a multiple of 3
+6278	iniae_GCF_003697615	76_refound_365	prepare	cds_not_in_frame	length 277 nt is not a multiple of 3
+4549	iniae_GCF_003697625	77_refound_367	prepare	cds_not_in_frame	length 37 nt is not a multiple of 3
+7176	iniae_GCF_003697625	77_refound_375	prepare	cds_not_in_frame	length 1729 nt is not a multiple of 3
+6319	iniae_GCF_003697665	78_refound_376	prepare	cds_not_in_frame	length 211 nt is not a multiple of 3
+558	iniae_GCF_003697675	79_refound_377	prepare	cds_not_in_frame	length 1510 nt is not a multiple of 3
+6324	iniae_GCF_003697705	80_refound_389	prepare	cds_not_in_frame	length 668 nt is not a multiple of 3
+6896	iniae_GCF_003697705	80_refound_391	prepare	cds_not_in_frame	length 239 nt is not a multiple of 3
+6329	iniae_GCF_003697725	81_refound_392	prepare	cds_not_in_frame	length 842 nt is not a multiple of 3
+6525	iniae_GCF_003697745	82_refound_407	prepare	cds_not_in_frame	length 613 nt is not a multiple of 3
+6784	iniae_GCF_003697745	82_refound_408	prepare	cds_not_in_frame	length 433 nt is not a multiple of 3
+6998	iniae_GCF_003697745	82_refound_409	prepare	cds_not_in_frame	length 284 nt is not a multiple of 3
+7102	iniae_GCF_003697745	82_refound_410	prepare	cds_not_in_frame	length 559 nt is not a multiple of 3
+7259	iniae_GCF_003697745	82_refound_411	prepare	cds_not_in_frame	length 779 nt is not a multiple of 3
+6319	iniae_GCF_003697765	83_refound_413	prepare	cds_not_in_frame	length 211 nt is not a multiple of 3
+312	iniae_GCF_023656975	84_refound_414	prepare	cds_not_in_frame	length 1952 nt is not a multiple of 3
+3542	iniae_GCF_023656975	84_refound_418	prepare	cds_not_in_frame	length 349 nt is not a multiple of 3
+3158	iniae_GCF_023656975	84_refound_420	prepare	cds_not_in_frame	length 436 nt is not a multiple of 3
+1500	iniae_GCF_023656975	84_refound_421	prepare	cds_not_in_frame	length 937 nt is not a multiple of 3
+3208	iniae_GCF_023656975	84_refound_423	prepare	cds_not_in_frame	length 412 nt is not a multiple of 3
+4256	iniae_GCF_023656975	84_refound_424	prepare	cds_not_in_frame	length 178 nt is not a multiple of 3
+4221	iniae_GCF_023656975	84_refound_425	prepare	cds_not_in_frame	length 185 nt is not a multiple of 3
+6253	iniae_GCF_023656975	84_refound_426	prepare	cds_not_in_frame	length 202 nt is not a multiple of 3
+7403	iniae_GCF_023656975	84_refound_427	prepare	cds_not_in_frame	length 467 nt is not a multiple of 3
+6378	iniae_GCF_023656975	84_refound_428	prepare	cds_not_in_frame	length 962 nt is not a multiple of 3
+6789	iniae_GCF_023656975	84_refound_432	prepare	cds_not_in_frame	length 385 nt is not a multiple of 3
+6885	iniae_GCF_023656975	84_refound_435	prepare	cds_not_in_frame	length 232 nt is not a multiple of 3
+7267	iniae_GCF_023656975	84_refound_437	prepare	cds_not_in_frame	length 533 nt is not a multiple of 3
+6220	iniae_GCF_030020365	85_refound_440	prepare	cds_not_in_frame	length 1181 nt is not a multiple of 3
+6541	iniae_GCF_030020365	85_refound_442	prepare	cds_not_in_frame	length 4081 nt is not a multiple of 3
+7070	iniae_GCF_030020365	85_refound_444	prepare	cds_not_in_frame	length 263 nt is not a multiple of 3
+6297	iniae_GCF_030582735	86_refound_446	prepare	cds_not_in_frame	length 1178 nt is not a multiple of 3
+6542	iniae_GCF_030582735	86_refound_448	prepare	cds_not_in_frame	length 1183 nt is not a multiple of 3
+6842	iniae_GCF_030732245	88_refound_459	prepare	cds_not_in_frame	length 803 nt is not a multiple of 3
+6867	iniae_GCF_030732245	88_refound_460	prepare	cds_not_in_frame	length 301 nt is not a multiple of 3
+6867	SIKU01	89_refound_466	prepare	cds_not_in_frame	length 301 nt is not a multiple of 3
+7139	iniae_GCF_003674145	GCF_003674145_01457	protein	ambiguous_residue	non-standard residues: 4
+7140	iniae_GCF_003674215	GCF_003674215_01448	protein	ambiguous_residue	non-standard residues: 3
+6396	iniae_GCF_003674385	GCF_003674385_01037	protein	ambiguous_residue	non-standard residues: 4
+6749	iniae_GCF_003674385	GCF_003674385_01847	protein	ambiguous_residue	non-standard residues: 7
+6749	iniae_GCF_003674475	GCF_003674475_01676	protein	ambiguous_residue	non-standard residues: 6
+6749	iniae_GCF_003674505	GCF_003674505_01761	protein	ambiguous_residue	non-standard residues: 7
+6749	iniae_GCF_003674565	GCF_003674565_01726	protein	ambiguous_residue	non-standard residues: 10
+7139	iniae_GCF_003674605	GCF_003674605_00994	protein	ambiguous_residue	non-standard residues: 4
+7139	iniae_GCF_003674605	GCF_003674605_00995	protein	ambiguous_residue	non-standard residues: 4
+6749	iniae_GCF_003674685	GCF_003674685_01667	protein	ambiguous_residue	non-standard residues: 6
+6749	iniae_GCF_003674705	GCF_003674705_01673	protein	ambiguous_residue	non-standard residues: 7
+7139	iniae_GCF_003674765	GCF_003674765_00986	protein	ambiguous_residue	non-standard residues: 4
+	iniae_GCF_003674785	GCF_003674785_01515	protein	ambiguous_residue	non-standard residues: 4
+	iniae_GCF_003674825	GCF_003674825_01752	protein	ambiguous_residue	non-standard residues: 3
+7271	iniae_GCF_003674835	GCF_003674835_00776	protein	ambiguous_residue	non-standard residues: 3
+7139	iniae_GCF_003675045	GCF_003675045_00396	protein	ambiguous_residue	non-standard residues: 4
+7271	iniae_GCF_003675045	GCF_003675045_01009	protein	ambiguous_residue	non-standard residues: 4
+7242	iniae_GCF_003675225	GCF_003675225_00865	protein	ambiguous_residue	non-standard residues: 8
+7139	iniae_GCF_003675245	GCF_003675245_00945	protein	ambiguous_residue	non-standard residues: 4
+6316	SIKU01	SIKU01__00281	protein	ambiguous_residue	non-standard residues: 1
+7379	SIKU01	SIKU01__01556	protein	ambiguous_residue	non-standard residues: 5
+7259	SIKU01	SIKU01__01557	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_000300915	0_refound_0	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4256	iniae_GCF_000300915	0_refound_1	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6665	iniae_GCF_000300915	0_refound_2	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6772	iniae_GCF_000300915	0_refound_3	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6837	iniae_GCF_000300915	0_refound_4	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6975	iniae_GCF_000300915	0_refound_5	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_000831485	1_refound_7	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4256	iniae_GCF_000831485	1_refound_8	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6254	iniae_GCF_000831485	1_refound_9	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6525	iniae_GCF_000831485	1_refound_10	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_000831485	1_refound_11	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6998	iniae_GCF_000831485	1_refound_12	protein	ambiguous_residue	non-standard residues: 1
+3774	iniae_GCF_001654755	2_refound_15	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_001654755	2_refound_17	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4396	iniae_GCF_001885145	3_refound_20	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_001885145	3_refound_21	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6294	iniae_GCF_001885145	3_refound_22	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6300	iniae_GCF_001885145	3_refound_23	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6665	iniae_GCF_001885145	3_refound_24	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_001885145	3_refound_25	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6975	iniae_GCF_001885145	3_refound_27	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_002220115	4_refound_28	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6665	iniae_GCF_002220115	4_refound_29	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_002220115	4_refound_30	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6985	iniae_GCF_002220115	4_refound_32	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4549	iniae_GCF_003674085	5_refound_33	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674085	5_refound_34	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6917	iniae_GCF_003674085	5_refound_37	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674125	6_refound_39	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4549	iniae_GCF_003674145	7_refound_46	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674145	7_refound_47	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7190	iniae_GCF_003674175	9_refound_55	protein	ambiguous_residue	non-standard residues: 1
+6407	iniae_GCF_003674215	11_refound_58	protein	ambiguous_residue	non-standard residues: 1
+6917	iniae_GCF_003674215	11_refound_59	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674235	12_refound_61	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674265	13_refound_64	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_003674285	14_refound_66	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674315	16_refound_71	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6407	iniae_GCF_003674315	16_refound_74	protein	ambiguous_residue	non-standard residues: 1
+4588	iniae_GCF_003674345	17_refound_77	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6407	iniae_GCF_003674345	17_refound_80	protein	ambiguous_residue	non-standard residues: 1
+6705	iniae_GCF_003674345	17_refound_81	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674355	18_refound_84	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674355	18_refound_86	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6992	iniae_GCF_003674355	18_refound_88	protein	ambiguous_residue	non-standard residues: 1
+1850	iniae_GCF_003674385	19_refound_90	protein	ambiguous_residue	non-standard residues: 1
+2147	iniae_GCF_003674385	19_refound_92	protein	internal_stop_and_ambiguous_residue	non-standard residues: 4
+4122	iniae_GCF_003674385	19_refound_93	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+2700	iniae_GCF_003674385	19_refound_95	protein	ambiguous_residue	non-standard residues: 1
+4320	iniae_GCF_003674385	19_refound_97	protein	ambiguous_residue	non-standard residues: 1
+6669	iniae_GCF_003674385	19_refound_99	protein	ambiguous_residue	non-standard residues: 1
+6966	iniae_GCF_003674385	19_refound_101	protein	ambiguous_residue	non-standard residues: 1
+7045	iniae_GCF_003674385	19_refound_102	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7139	iniae_GCF_003674385	19_refound_104	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674395	20_refound_105	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6407	iniae_GCF_003674395	20_refound_108	protein	ambiguous_residue	non-standard residues: 1
+6705	iniae_GCF_003674395	20_refound_109	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674425	21_refound_112	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6208	iniae_GCF_003674425	21_refound_113	protein	ambiguous_residue	non-standard residues: 1
+6209	iniae_GCF_003674425	21_refound_114	protein	ambiguous_residue	non-standard residues: 1
+6213	iniae_GCF_003674425	21_refound_115	protein	ambiguous_residue	non-standard residues: 1
+6249	iniae_GCF_003674425	21_refound_117	protein	ambiguous_residue	non-standard residues: 1
+6304	iniae_GCF_003674425	21_refound_120	protein	ambiguous_residue	non-standard residues: 1
+6407	iniae_GCF_003674425	21_refound_121	protein	ambiguous_residue	non-standard residues: 1
+6525	iniae_GCF_003674425	21_refound_122	protein	ambiguous_residue	non-standard residues: 1
+6998	iniae_GCF_003674425	21_refound_124	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674435	22_refound_125	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6350	iniae_GCF_003674435	22_refound_127	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674435	22_refound_128	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674465	23_refound_129	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4122	iniae_GCF_003674475	24_refound_132	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674475	24_refound_133	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6339	iniae_GCF_003674475	24_refound_134	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6542	iniae_GCF_003674475	24_refound_135	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003674475	24_refound_137	protein	ambiguous_residue	non-standard residues: 1
+4122	iniae_GCF_003674505	25_refound_139	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674505	25_refound_140	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4549	iniae_GCF_003674525	26_refound_144	protein	ambiguous_residue	non-standard residues: 1
+6868	iniae_GCF_003674525	26_refound_145	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+2401	iniae_GCF_003674545	27_refound_146	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674545	27_refound_147	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4122	iniae_GCF_003674565	28_refound_151	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674565	28_refound_152	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6542	iniae_GCF_003674565	28_refound_153	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003674565	28_refound_154	protein	ambiguous_residue	non-standard residues: 1
+6868	iniae_GCF_003674605	30_refound_159	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674615	31_refound_160	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6470	iniae_GCF_003674615	31_refound_164	protein	ambiguous_residue	non-standard residues: 1
+4549	iniae_GCF_003674645	32_refound_166	protein	ambiguous_residue	non-standard residues: 1
+7271	iniae_GCF_003674645	32_refound_167	protein	ambiguous_residue	non-standard residues: 1
+4122	iniae_GCF_003674665	33_refound_169	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674665	33_refound_170	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6407	iniae_GCF_003674665	33_refound_171	protein	ambiguous_residue	non-standard residues: 1
+6749	iniae_GCF_003674665	33_refound_172	protein	internal_stop_and_ambiguous_residue	non-standard residues: 23
+4122	iniae_GCF_003674685	34_refound_175	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674685	34_refound_176	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+2079	iniae_GCF_003674685	34_refound_178	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6542	iniae_GCF_003674685	34_refound_179	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003674685	34_refound_181	protein	ambiguous_residue	non-standard residues: 1
+4122	iniae_GCF_003674705	35_refound_183	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674705	35_refound_184	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6542	iniae_GCF_003674705	35_refound_186	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003674705	35_refound_187	protein	ambiguous_residue	non-standard residues: 1
+4122	iniae_GCF_003674715	36_refound_188	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674715	36_refound_189	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6542	iniae_GCF_003674715	36_refound_190	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003674715	36_refound_193	protein	ambiguous_residue	non-standard residues: 1
+4549	iniae_GCF_003674745	37_refound_195	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674765	38_refound_197	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674785	39_refound_198	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7139	iniae_GCF_003674785	39_refound_199	protein	ambiguous_residue	non-standard residues: 1
+7242	iniae_GCF_003674785	39_refound_200	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674825	41_refound_204	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7271	iniae_GCF_003674825	41_refound_207	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003674835	42_refound_208	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674835	42_refound_210	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4122	iniae_GCF_003674865	43_refound_212	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003674865	43_refound_213	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6316	iniae_GCF_003674865	43_refound_214	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674875	44_refound_218	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674875	44_refound_221	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6986	iniae_GCF_003674875	44_refound_222	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674895	45_refound_224	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674895	45_refound_226	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674925	46_refound_232	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674935	47_refound_234	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4108	iniae_GCF_003674935	47_refound_235	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+6254	iniae_GCF_003674935	47_refound_236	protein	ambiguous_residue	non-standard residues: 1
+6257	iniae_GCF_003674935	47_refound_237	protein	ambiguous_residue	non-standard residues: 1
+6258	iniae_GCF_003674935	47_refound_238	protein	ambiguous_residue	non-standard residues: 1
+6339	iniae_GCF_003674935	47_refound_241	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674935	47_refound_243	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674945	48_refound_244	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674945	48_refound_246	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3662	iniae_GCF_003674985	49_refound_247	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003674985	49_refound_248	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003674985	49_refound_252	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6929	iniae_GCF_003674995	50_refound_255	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003675025	51_refound_257	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003675025	51_refound_259	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003675045	52_refound_262	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6929	iniae_GCF_003675045	52_refound_263	protein	ambiguous_residue	non-standard residues: 1
+4549	iniae_GCF_003675055	53_refound_264	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003675055	53_refound_265	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3570	iniae_GCF_003675085	54_refound_269	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003675085	54_refound_270	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4594	iniae_GCF_003675085	54_refound_271	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4549	iniae_GCF_003675095	55_refound_273	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003675095	55_refound_274	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6868	iniae_GCF_003675095	55_refound_277	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+736	iniae_GCF_003675125	56_refound_280	protein	ambiguous_residue	non-standard residues: 1
+6253	iniae_GCF_003675125	56_refound_285	protein	ambiguous_residue	non-standard residues: 1
+6254	iniae_GCF_003675125	56_refound_286	protein	ambiguous_residue	non-standard residues: 1
+6255	iniae_GCF_003675125	56_refound_287	protein	ambiguous_residue	non-standard residues: 1
+6256	iniae_GCF_003675125	56_refound_288	protein	ambiguous_residue	non-standard residues: 1
+6257	iniae_GCF_003675125	56_refound_289	protein	ambiguous_residue	non-standard residues: 1
+6259	iniae_GCF_003675125	56_refound_290	protein	ambiguous_residue	non-standard residues: 1
+6260	iniae_GCF_003675125	56_refound_291	protein	ambiguous_residue	non-standard residues: 1
+6261	iniae_GCF_003675125	56_refound_292	protein	ambiguous_residue	non-standard residues: 1
+6262	iniae_GCF_003675125	56_refound_293	protein	ambiguous_residue	non-standard residues: 1
+6263	iniae_GCF_003675125	56_refound_294	protein	ambiguous_residue	non-standard residues: 1
+6264	iniae_GCF_003675125	56_refound_295	protein	ambiguous_residue	non-standard residues: 1
+6407	iniae_GCF_003675125	56_refound_296	protein	ambiguous_residue	non-standard residues: 1
+6888	iniae_GCF_003675125	56_refound_298	protein	internal_stop_and_ambiguous_residue	non-standard residues: 10
+3898	iniae_GCF_003675145	57_refound_301	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6888	iniae_GCF_003675145	57_refound_303	protein	internal_stop_and_ambiguous_residue	non-standard residues: 10
+6407	iniae_GCF_003675155	58_refound_306	protein	ambiguous_residue	non-standard residues: 1
+6546	iniae_GCF_003675185	59_refound_310	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6966	iniae_GCF_003675185	59_refound_312	protein	ambiguous_residue	non-standard residues: 1
+6966	iniae_GCF_003675195	60_refound_315	protein	ambiguous_residue	non-standard residues: 1
+4549	iniae_GCF_003675245	62_refound_320	protein	ambiguous_residue	non-standard residues: 1
+7190	iniae_GCF_003675245	62_refound_321	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003675265	63_refound_322	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7190	iniae_GCF_003675265	63_refound_323	protein	ambiguous_residue	non-standard residues: 1
+6546	iniae_GCF_003675285	64_refound_325	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003697375	65_refound_328	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6352	iniae_GCF_003697375	65_refound_330	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4549	iniae_GCF_003697435	67_refound_333	protein	ambiguous_residue	non-standard residues: 1
+1800	iniae_GCF_003697485	69_refound_338	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003697485	69_refound_339	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003697505	70_refound_341	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6208	iniae_GCF_003697505	70_refound_342	protein	ambiguous_residue	non-standard residues: 1
+6209	iniae_GCF_003697505	70_refound_343	protein	ambiguous_residue	non-standard residues: 1
+6213	iniae_GCF_003697505	70_refound_344	protein	ambiguous_residue	non-standard residues: 1
+6525	iniae_GCF_003697505	70_refound_345	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003697545	72_refound_346	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6278	iniae_GCF_003697545	72_refound_347	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_003697565	73_refound_349	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003697565	73_refound_353	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6407	iniae_GCF_003697585	74_refound_355	protein	ambiguous_residue	non-standard residues: 1
+6784	iniae_GCF_003697585	74_refound_357	protein	internal_stop_and_ambiguous_residue	non-standard residues: 14
+3898	iniae_GCF_003697605	75_refound_360	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_003697615	76_refound_364	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6546	iniae_GCF_003697615	76_refound_366	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+4122	iniae_GCF_003697625	77_refound_368	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+4097	iniae_GCF_003697625	77_refound_369	protein	internal_stop_and_ambiguous_residue	non-standard residues: 3
+2850	iniae_GCF_003697625	77_refound_370	protein	ambiguous_residue	non-standard residues: 1
+2581	iniae_GCF_003697625	77_refound_371	protein	ambiguous_residue	non-standard residues: 1
+2079	iniae_GCF_003697625	77_refound_372	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6407	iniae_GCF_003697625	77_refound_373	protein	ambiguous_residue	non-standard residues: 1
+6749	iniae_GCF_003697625	77_refound_374	protein	ambiguous_residue	non-standard residues: 22
+6253	iniae_GCF_003697705	80_refound_378	protein	ambiguous_residue	non-standard residues: 1
+6254	iniae_GCF_003697705	80_refound_379	protein	ambiguous_residue	non-standard residues: 1
+6255	iniae_GCF_003697705	80_refound_380	protein	ambiguous_residue	non-standard residues: 1
+6256	iniae_GCF_003697705	80_refound_381	protein	ambiguous_residue	non-standard residues: 1
+6257	iniae_GCF_003697705	80_refound_382	protein	ambiguous_residue	non-standard residues: 1
+6258	iniae_GCF_003697705	80_refound_383	protein	ambiguous_residue	non-standard residues: 1
+6260	iniae_GCF_003697705	80_refound_384	protein	ambiguous_residue	non-standard residues: 1
+6261	iniae_GCF_003697705	80_refound_385	protein	ambiguous_residue	non-standard residues: 1
+6262	iniae_GCF_003697705	80_refound_386	protein	ambiguous_residue	non-standard residues: 1
+6263	iniae_GCF_003697705	80_refound_387	protein	ambiguous_residue	non-standard residues: 1
+6264	iniae_GCF_003697705	80_refound_388	protein	ambiguous_residue	non-standard residues: 1
+6407	iniae_GCF_003697705	80_refound_390	protein	ambiguous_residue	non-standard residues: 1
+6868	iniae_GCF_003697725	81_refound_393	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6917	iniae_GCF_003697725	81_refound_394	protein	ambiguous_residue	non-standard residues: 1
+6253	iniae_GCF_003697745	82_refound_395	protein	ambiguous_residue	non-standard residues: 1
+6254	iniae_GCF_003697745	82_refound_396	protein	ambiguous_residue	non-standard residues: 1
+6255	iniae_GCF_003697745	82_refound_397	protein	ambiguous_residue	non-standard residues: 1
+6256	iniae_GCF_003697745	82_refound_398	protein	ambiguous_residue	non-standard residues: 1
+6257	iniae_GCF_003697745	82_refound_399	protein	ambiguous_residue	non-standard residues: 1
+6258	iniae_GCF_003697745	82_refound_400	protein	ambiguous_residue	non-standard residues: 1
+6259	iniae_GCF_003697745	82_refound_401	protein	ambiguous_residue	non-standard residues: 1
+6260	iniae_GCF_003697745	82_refound_402	protein	ambiguous_residue	non-standard residues: 1
+6261	iniae_GCF_003697745	82_refound_403	protein	ambiguous_residue	non-standard residues: 1
+6262	iniae_GCF_003697745	82_refound_404	protein	ambiguous_residue	non-standard residues: 1
+6263	iniae_GCF_003697745	82_refound_405	protein	ambiguous_residue	non-standard residues: 1
+6264	iniae_GCF_003697745	82_refound_406	protein	ambiguous_residue	non-standard residues: 1
+1562	iniae_GCF_003697765	83_refound_412	protein	ambiguous_residue	non-standard residues: 1
+4254	iniae_GCF_023656975	84_refound_415	protein	ambiguous_residue	non-standard residues: 1
+404	iniae_GCF_023656975	84_refound_416	protein	ambiguous_residue	non-standard residues: 1
+4032	iniae_GCF_023656975	84_refound_417	protein	ambiguous_residue	non-standard residues: 1
+1193	iniae_GCF_023656975	84_refound_419	protein	ambiguous_residue	non-standard residues: 1
+3898	iniae_GCF_023656975	84_refound_422	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6479	iniae_GCF_023656975	84_refound_429	protein	ambiguous_residue	non-standard residues: 1
+6546	iniae_GCF_023656975	84_refound_430	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6694	iniae_GCF_023656975	84_refound_431	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6857	iniae_GCF_023656975	84_refound_433	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6868	iniae_GCF_023656975	84_refound_434	protein	ambiguous_residue	non-standard residues: 1
+6964	iniae_GCF_023656975	84_refound_436	protein	ambiguous_residue	non-standard residues: 1
+4396	iniae_GCF_030020365	85_refound_438	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_030020365	85_refound_439	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6243	iniae_GCF_030020365	85_refound_441	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_030020365	85_refound_443	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_030582735	86_refound_445	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6525	iniae_GCF_030582735	86_refound_447	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6665	iniae_GCF_030582735	86_refound_449	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6961	iniae_GCF_030582735	86_refound_450	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_030732225	87_refound_451	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6260	iniae_GCF_030732225	87_refound_452	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_030732225	87_refound_453	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6961	iniae_GCF_030732225	87_refound_454	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6985	iniae_GCF_030732225	87_refound_455	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	iniae_GCF_030732245	88_refound_456	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6260	iniae_GCF_030732245	88_refound_457	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	iniae_GCF_030732245	88_refound_458	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6985	iniae_GCF_030732245	88_refound_461	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7259	iniae_GCF_030732245	88_refound_462	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+3898	SIKU01	89_refound_463	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6665	SIKU01	89_refound_464	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6837	SIKU01	89_refound_465	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6961	SIKU01	89_refound_467	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+6985	SIKU01	89_refound_468	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7125	SIKU01	89_refound_469	protein	internal_stop_and_ambiguous_residue	non-standard residues: 2
+7139	iniae_GCF_003674145	GCF_003674145_01457	nucleotide	ambiguous_base	non-ACGT characters: 10
+7140	iniae_GCF_003674215	GCF_003674215_01448	nucleotide	ambiguous_base	non-ACGT characters: 10
+6396	iniae_GCF_003674385	GCF_003674385_01037	nucleotide	ambiguous_base	non-ACGT characters: 10
+6749	iniae_GCF_003674385	GCF_003674385_01847	nucleotide	ambiguous_base	non-ACGT characters: 19
+6749	iniae_GCF_003674475	GCF_003674475_01676	nucleotide	ambiguous_base	non-ACGT characters: 17
+6749	iniae_GCF_003674505	GCF_003674505_01761	nucleotide	ambiguous_base	non-ACGT characters: 20
+6749	iniae_GCF_003674565	GCF_003674565_01726	nucleotide	ambiguous_base	non-ACGT characters: 29
+7139	iniae_GCF_003674605	GCF_003674605_00994	nucleotide	ambiguous_base	non-ACGT characters: 10
+7139	iniae_GCF_003674605	GCF_003674605_00995	nucleotide	ambiguous_base	non-ACGT characters: 10
+6749	iniae_GCF_003674685	GCF_003674685_01667	nucleotide	ambiguous_base	non-ACGT characters: 16
+6749	iniae_GCF_003674705	GCF_003674705_01673	nucleotide	ambiguous_base	non-ACGT characters: 19
+7139	iniae_GCF_003674765	GCF_003674765_00986	nucleotide	ambiguous_base	non-ACGT characters: 9
+	iniae_GCF_003674785	GCF_003674785_01515	nucleotide	ambiguous_base	non-ACGT characters: 9
+	iniae_GCF_003674825	GCF_003674825_01752	nucleotide	ambiguous_base	non-ACGT characters: 7
+7271	iniae_GCF_003674835	GCF_003674835_00776	nucleotide	ambiguous_base	non-ACGT characters: 7
+7139	iniae_GCF_003675045	GCF_003675045_00396	nucleotide	ambiguous_base	non-ACGT characters: 10
+7271	iniae_GCF_003675045	GCF_003675045_01009	nucleotide	ambiguous_base	non-ACGT characters: 9
+7242	iniae_GCF_003675225	GCF_003675225_00865	nucleotide	ambiguous_base	non-ACGT characters: 22
+7139	iniae_GCF_003675245	GCF_003675245_00945	nucleotide	ambiguous_base	non-ACGT characters: 10
+6316	SIKU01	SIKU01__00281	nucleotide	ambiguous_base	non-ACGT characters: 2
+7379	SIKU01	SIKU01__01556	nucleotide	ambiguous_base	non-ACGT characters: 13
+7259	SIKU01	SIKU01__01557	nucleotide	ambiguous_base	non-ACGT characters: 1
+6749	iniae_GCF_003674665	33_refound_172	nucleotide	ambiguous_base	non-ACGT characters: 61
+6749	iniae_GCF_003697625	77_refound_374	nucleotide	ambiguous_base	non-ACGT characters: 61

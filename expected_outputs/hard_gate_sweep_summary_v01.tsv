@@ -1,0 +1,17 @@
+rule_id	layer_position	sweep_family	population	n_population	variable	operator	n_sweeps	reference_sweep_id	reference_value	n_satisfying_reference	n_satisfying_min	n_satisfying_max	n_satisfying_range	jaccard_min	jaccard_max	jaccard_range	n_not_evaluable_reference	status
+M0_CONSERVATION	M0.6	conserved_mode_score_axis	M0_ENTRY_REFERENCE	1527	conservation__median_conservation_hnorm	>	6	HNORM_REF_098	0.98	1475	1475	1475	1475-1475	1.0	1.0	1.000-1.000	0	EXECUTED
+M0_FULL_LENGTH	M0.2	full_length_floor	M0_ENTRY_REFERENCE	1527	full_length_ratio	>=	5	FULL_LENGTH_REF	1.00	1510	7	1517	7-1517	0.004636	0.998017	0.005-0.998	1	EXECUTED
+M2_AEX_PI	M2.8	aex_pI_ceiling	aex	1527	rep__pI	<=	5	M2_AEX_PI_REF	6.0	690	421	923	421-923	0.610145	0.860349	0.610-0.860	1	EXECUTED
+M2_CDS_LEN	M2.10	pdna_cds_length_ceiling	pdna_tilapia	1527	rep__cds_length_nt	<=	5	M2_CDS_LEN_REF	840	767	424	1041	424-1041	0.552803	0.822079	0.553-0.822	0	EXECUTED
+M2_CDS_LEN	M2.10	pdna_cds_length_ceiling	pdna_zebrafish	1527	rep__cds_length_nt	<=	5	M2_CDS_LEN_REF	840	767	424	1041	424-1041	0.552803	0.822079	0.553-0.822	0	EXECUTED
+M2_CELLULOSE_LEN	M2.7	cellulose_length_ceiling	cellulose	1527	rep__protein_length_aa	<	5	M2_CELLULOSE_LEN_REF	400	1114	423	1399	423-1399	0.379713	0.849733	0.380-0.850	1	EXECUTED
+M2_CEX_PI	M2.9	cex_pI_floor	cex	1527	rep__pI	>=	5	M2_CEX_PI_REF	8.0	518	430	603	430-603	0.830116	0.941818	0.830-0.942	1	EXECUTED
+M2_MW	M2.2	molecular_weight_window	aex	1527	rep__mw_da	BETWEEN	5	M2_MW_REF	20000;60000	1001	826	1147	826-1147	0.825175	0.939906	0.825-0.940	1	EXECUTED
+M2_MW	M2.2	molecular_weight_window	cellulose	1527	rep__mw_da	BETWEEN	5	M2_MW_REF	20000;60000	1001	826	1147	826-1147	0.825175	0.939906	0.825-0.940	1	EXECUTED
+M2_MW	M2.2	molecular_weight_window	cex	1527	rep__mw_da	BETWEEN	5	M2_MW_REF	20000;60000	1001	826	1147	826-1147	0.825175	0.939906	0.825-0.940	1	EXECUTED
+M2_MW	M2.2	molecular_weight_window	silica	1527	rep__mw_da	BETWEEN	5	M2_MW_REF	20000;60000	1001	826	1147	826-1147	0.825175	0.939906	0.825-0.940	1	EXECUTED
+M2_SILICA_Z	M2.6	silica_charge_ceiling	silica	1527	rep__charge_pH_7_0	<=	5	M2_SILICA_Z_REF	-15	185	62	595	62-595	0.310924	0.605405	0.311-0.605	1	EXECUTED
+M2_TMH	M2.1	integer_support	aex	1527	surface__rep_tmh_count	<=	15	TMH_MAX_02	2	1240	1129	1498	1129-1498	0.82777	0.981013	0.828-0.981	29	EXECUTED
+M2_TMH	M2.1	integer_support	cellulose	1527	surface__rep_tmh_count	<=	15	TMH_MAX_02	2	1240	1129	1498	1129-1498	0.82777	0.981013	0.828-0.981	29	EXECUTED
+M2_TMH	M2.1	integer_support	cex	1527	surface__rep_tmh_count	<=	15	TMH_MAX_02	2	1240	1129	1498	1129-1498	0.82777	0.981013	0.828-0.981	29	EXECUTED
+M2_TMH	M2.1	integer_support	silica	1527	surface__rep_tmh_count	<=	15	TMH_MAX_02	2	1240	1129	1498	1129-1498	0.82777	0.981013	0.828-0.981	29	EXECUTED

@@ -1,0 +1,1839 @@
+pangenome_id	representative_locus_tag	n_siku01_loci	rep_status	rep_pident_seabass	rep_alnlen_seabass	rep_meets_seabass	rep_pident_tilapia	rep_alnlen_tilapia	rep_meets_tilapia	rep_pident_gariepinus	rep_alnlen_gariepinus	rep_meets_gariepinus	rep_pident_macrocephalus	rep_alnlen_macrocephalus	rep_meets_macrocephalus	rep_pident_zebrafish	rep_alnlen_zebrafish	rep_meets_zebrafish	rep_pident_human	rep_alnlen_human	rep_meets_human	rep_n_hosts_any_alignment	rep_n_hosts_meeting_criterion	rep_meets_target_host	rep_meets_any_fish	rep_host_similarity_flag	rep_housekeeping_class
+14	SIKU01_001395	1	annotated																		no	0	0	no	no	none	
+21	SIKU01_000318	1	annotated							29.8	161	no	28.5	186	no						no	2	0	no	no	none	
+40	SIKU01_001140	1	annotated																		no	0	0	no	no	none	
+42	SIKU01_000257	1	annotated																		no	0	0	no	no	none	
+43	SIKU01_000165	1	annotated	26.4	1158	no	26.7	1159	no	25.9	1158	no	25.9	1158	no	24.9	1375	no	25.8	1161	no	6	0	no	no	none	DNA-directed RNA polymerase
+47	SIKU01_000164	1	annotated	26	828	no	25.7	832	no	25.9	818	no	25.9	818	no	25.8	817	no	26.1	806	no	6	0	no	no	none	DNA-directed RNA polymerase
+48	SIKU01_001303	1	annotated	24.3	1260	no	23.8	1267	no	22.5	1322	no	20.5	1266	no	23	1306	no	20.9	1287	no	6	0	no	no	none	
+50	SIKU01_000230	1	annotated																		no	0	0	no	no	none	
+51	SIKU01_000006	1	annotated				23.2	293	no	22.3	301	no	22.3	301	no				33.3	78	no	4	0	no	no	none	
+59	SIKU01_001141	1	annotated																		no	0	0	no	no	none	
+68	SIKU01_000847	1	annotated																		no	0	0	no	no	none	
+69	SIKU01_001476	1	annotated	36.3	460	yes	36.5	460	yes	35.6	478	yes	35.9	460	yes	36.6	456	yes	36.7	479	yes	6	6	yes	yes	target_host	
+82	SIKU01_001583	1	annotated	39.7	619	yes	39.2	622	yes	37.6	635	yes	37.8	635	yes	43.2	549	yes	36.7	627	yes	6	6	yes	yes	target_host	
+88	SIKU01_001678	1	annotated	35.5	107	yes	35.5	107	yes	35.5	107	yes	35.5	107	yes	36.4	107	yes	36.4	107	yes	6	6	yes	yes	target_host	
+91	SIKU01_000565	1	annotated	37.4	795	yes	38	794	yes	38.5	795	yes	38.5	795	yes	35.7	796	yes	39.1	820	yes	6	6	yes	yes	target_host	
+102	SIKU01_001233	1	annotated																		no	0	0	no	no	none	
+110	SIKU01_001222	1	annotated	35.1	977	yes	35	977	yes	35.1	978	yes	35.1	980	yes	36.8	514	yes	38.3	347	yes	6	6	yes	yes	target_host	
+113	SIKU01_000504	1	annotated	37.4	868	yes	37.7	848	yes	36.6	921	yes	36.6	920	yes	37.5	847	yes	37.1	923	yes	6	6	yes	yes	target_host	
+114	SIKU01_000072	1	annotated	28	368	no	30.9	272	no	29.9	358	no	29.3	372	no	28.4	366	no	28.2	358	no	6	0	no	no	none	
+115	SIKU01_000335	1	annotated	25.1	382	no	24.2	388	no	23.9	380	no	24.2	380	no	24.6	431	no	26.2	385	no	6	0	no	no	none	
+118	SIKU01_001862	1	annotated	34.4	445	no	34.6	448	no	33.7	460	no	33.4	440	no	33.3	438	no	34.9	453	no	6	0	no	no	none	
+125	SIKU01_000625	1	annotated	32.2	974	no	31.8	975	no	35.6	831	yes	32.1	974	no	37.8	410	yes	33.4	969	no	6	2	no	yes	other_fish_only	
+131	SIKU01_000386	1	annotated																		no	0	0	no	no	none	
+134	SIKU01_001944	1	annotated	31.5	571	no	29	631	no	30.3	621	no	30.4	559	no	31.3	562	no	38.3	227	yes	6	1	no	no	human_only	
+136	SIKU01_001666	1	annotated	22.9	598	no	23.5	618	no	24.7	506	no	25.2	473	no	21	615	no			no	5	0	no	no	none	
+143	SIKU01_001883	1	annotated	36	816	yes	35.4	853	yes	34.2	854	no	33.7	854	no	33.2	877	no	35.2	776	yes	6	3	yes	yes	target_host	
+149	SIKU01_000974	1	annotated	26.6	350	no	26.5	332	no	24.1	315	no	25.1	315	no	25.8	349	no	25.8	330	no	6	0	no	no	none	
+150	SIKU01_000387	1	annotated																		no	0	0	no	no	none	
+152	SIKU01_001213	1	annotated	29.7	165	no				26.7	165	no	27.3	165	no	26.8	164	no			no	4	0	no	no	none	
+157	SIKU01_000204	1	annotated																		no	0	0	no	no	none	
+159	SIKU01_001146	1	annotated	24.1	278	no	23.4	278	no	26.2	279	no	26.2	279	no	24.5	286	no	23.4	282	no	6	0	no	no	none	
+160	SIKU01_001374	1	annotated																		no	0	0	no	no	none	
+163	SIKU01_001681	1	annotated																		no	0	0	no	no	none	
+166	SIKU01_001531	1	annotated	27.3	121	no															no	1	0	no	no	none	
+167	SIKU01_001696	1	annotated	30.3	185	no	25.7	424	no	22.5	476	no	22.9	484	no	23.5	507	no	23.6	496	no	6	0	no	no	none	
+168	SIKU01_000472	1	annotated	23.5	654	no	23.4	650	no	22.9	581	no	24.1	584	no	29.2	250	no			no	5	0	no	no	none	
+179	SIKU01_001691	1	annotated	25.7	420	no	26	384	no	25.7	501	no	25.9	501	no	25.3	501	no	24.2	500	no	6	0	no	no	none	
+181	SIKU01_001699	1	annotated																		no	0	0	no	no	none	
+184	SIKU01_001342	1	annotated	35.1	405	yes	34.6	405	no	32.1	505	no	32.3	505	no	31.1	543	no	36.8	345	yes	6	2	yes	yes	target_host	
+185	SIKU01_000865	1	annotated																		no	0	0	no	no	none	
+187	SIKU01_000163	1	annotated																		no	0	0	no	no	none	
+194	SIKU01_001706	1	annotated																		no	0	0	no	no	none	
+195	SIKU01_000725	1	annotated	37.4	788	yes	37.7	802	yes	37.1	812	yes	37.2	812	yes	36.2	810	yes	38.1	792	yes	6	6	yes	yes	target_host	
+201	SIKU01_000685	1	annotated	36.9	295	yes	36.3	295	yes	36.9	293	yes	36.6	292	yes	37.3	295	yes	37.9	214	yes	6	6	yes	yes	target_host	
+205	SIKU01_001554	1	annotated																		no	0	0	no	no	none	
+215	SIKU01_000297	1	annotated	39	136	yes	40.4	136	yes	38.4	125	yes	38.4	125	yes	38	137	yes	39.4	137	yes	6	6	yes	yes	target_host	
+218	SIKU01_001542	1	annotated																		no	0	0	no	no	none	
+219	SIKU01_000485	1	annotated																		no	0	0	no	no	none	
+221	SIKU01_000736	1	annotated																		no	0	0	no	no	none	
+223	SIKU01_001929	1	annotated																		no	0	0	no	no	none	
+227	SIKU01_000292	1	annotated																		no	0	0	no	no	none	
+230	SIKU01_001110	1	annotated	31.3	99	no															no	1	0	no	no	none	
+234	SIKU01_000325	1	annotated	35.6	708	yes	35.7	708	yes	35.2	713	yes	35.2	713	yes	36.1	720	yes	35.7	709	yes	6	6	yes	yes	target_host	
+235	SIKU01_000633	1	annotated	26.7	524	no	25.3	651	no	24.9	671	no	24.8	648	no	24.3	651	no	24.5	654	no	6	0	no	no	none	
+236	SIKU01_001932	1	annotated																		no	0	0	no	no	none	
+245	SIKU01_000715	1	annotated	29.7	192	no	31.6	193	no	32	194	no	30.2	192	no	29.9	224	no	28.9	239	no	6	0	no	no	none	
+246	SIKU01_001273	1	annotated	32.8	787	no	33.2	791	no	33.1	773	no	33.5	776	no	32.9	778	no	37.6	510	yes	6	1	no	no	human_only	
+247	SIKU01_000332	1	annotated																		no	0	0	no	no	none	
+258	SIKU01_000591	1	annotated																		no	0	0	no	no	none	
+259	SIKU01_001766	1	annotated	44.4	691	yes	43.8	697	yes	44.1	689	yes	43.8	689	yes	43.6	690	yes	42.5	692	yes	6	6	yes	yes	target_host	Elongation factor G
+262	SIKU01_001908	1	annotated							23.4	278	no									no	1	0	no	no	none	
+272	SIKU01_001570	1	annotated																		no	0	0	no	no	none	
+274	SIKU01_001256	1	annotated	47.5	668	yes	48.1	668	yes	47.4	667	yes	47.2	669	yes	47	668	yes	46.3	668	yes	6	6	yes	yes	target_host	
+278	SIKU01_001653	1	annotated	29.2	89	no										34	100	no	27.5	131	no	3	0	no	no	none	
+281	SIKU01_001391	1	annotated	34.5	499	no	34.3	499	no	34.3	508	no	34.1	505	no	34.3	499	no	37.8	82	yes	6	1	no	no	human_only	
+286	SIKU01_000707	1	annotated	37.4	91	yes	37.4	91	yes	37.4	91	yes	37.4	91	yes	36.3	91	yes	37.4	91	yes	6	6	yes	yes	target_host	
+287	SIKU01_001561	1	annotated	27.1	579	no	28.2	571	no	27.6	576	no	27.4	576	no	27.5	589	no	27.6	584	no	6	0	no	no	none	
+288	SIKU01_001723	1	annotated	30.4	441	no	30.9	433	no	30	427	no	29.3	454	no	29.5	434	no	30.5	439	no	6	0	no	no	none	
+292	SIKU01_000435	1	annotated																		no	0	0	no	no	none	
+296	SIKU01_001973	1	annotated																		no	0	0	no	no	none	
+300	SIKU01_000014	1	annotated	50.1	455	yes	49.9	461	yes	49.5	461	yes	49.5	461	yes	47.2	492	yes	50.2	456	yes	6	6	yes	yes	target_host	
+306	SIKU01_001167	1	annotated	54.2	72	no	45.9	109	yes	47.2	72	no	47.1	85	yes	48.6	72	no	45.8	72	no	6	2	no	yes	other_fish_only	
+307	SIKU01_001943	1	annotated	34.9	338	no	35.3	334	yes	35.9	334	yes	36.2	334	yes	36.2	334	yes	35.9	334	yes	6	5	no	yes	other_fish_only	
+312	SIKU01_001187	1	annotated	25.9	626	no	26.9	658	no	26.4	662	no	26.7	663	no	26.6	659	no	26.4	673	no	6	0	no	no	none	
+314	SIKU01_000832	1	annotated	26.3	596	no	25.6	632	no	25.3	637	no	24.7	639	no	24.8	690	no	24.6	647	no	6	0	no	no	none	
+317	SIKU01_001327	1	annotated	38.9	647	yes	40	635	yes	39.8	645	yes	39.7	645	yes	39.8	645	yes	39.6	623	yes	6	6	yes	yes	target_host	
+323	SIKU01_001015	1	annotated																		no	0	0	no	no	none	
+324	SIKU01_001219	1	annotated																		no	0	0	no	no	none	
+327	SIKU01_000228	1	annotated																		no	0	0	no	no	none	
+330	SIKU01_000760	1	annotated	33	533	no	33.3	523	no	32.8	536	no	33.4	536	no	33	522	no	35.8	391	yes	6	1	no	no	human_only	
+331	SIKU01_001527	1	annotated	35.1	208	yes	35.1	208	yes	35.6	208	yes	35.6	208	yes	35.1	208	yes	35	206	yes	6	6	yes	yes	target_host	
+337	SIKU01_001974	1	annotated	36.1	643	yes	35.8	639	yes	36.7	638	yes	36.1	645	yes	38.9	638	yes	39.6	632	yes	6	6	yes	yes	target_host	
+338	SIKU01_001915	1	annotated	25.1	672	no	25.2	682	no	25.4	670	no	25.8	670	no	26.3	684	no	25.6	675	no	6	0	no	no	none	
+340	SIKU01_000337	1	annotated																		no	0	0	no	no	none	
+342	SIKU01_001063	1	annotated	30.3	548	no	30.6	546	no	31.2	545	no	31.2	545	no	30.8	545	no	30.5	545	no	6	0	no	no	none	
+346	SIKU01_001164	1	annotated	23.9	670	no	23.9	675	no	23.4	661	no	24.1	665	no	26.7	604	no	25.6	657	no	6	0	no	no	none	
+352	SIKU01_001669	1	annotated																		no	0	0	no	no	none	
+354	SIKU01_000315	1	annotated	26.7	602	no	26.6	609	no	25.4	606	no	25.6	610	no	24.9	607	no	26.8	586	no	6	0	no	no	none	
+361	SIKU01_000553	1	annotated	41.4	133	yes	42.1	133	yes	42.1	133	yes	42.1	133	yes	42.5	134	yes	36.1	241	yes	6	6	yes	yes	target_host	
+364	SIKU01_000782	1	annotated	50	600	yes	50	604	yes	50.2	600	yes	50	600	yes	51.5	600	yes	50.5	600	yes	6	6	yes	yes	target_host	
+365	SIKU01_001566	1	annotated	31.2	612	no	31.3	613	no	31.3	608	no	31.4	608	no	31.3	608	no	31.3	607	no	6	0	no	no	none	
+367	SIKU01_001625	1	annotated	57.4	545	yes	57.6	545	yes	57.1	545	yes	57.2	545	yes	56.7	545	yes	57.2	545	yes	6	6	yes	yes	target_host	DnaK / Hsp70 chaperone
+370	SIKU01_000851	1	annotated	31.5	686	no	30.6	686	no	31.3	687	no	30.9	689	no	31.3	691	no	31.3	686	no	6	0	no	no	none	
+371	SIKU01_001137	1	annotated																		no	0	0	no	no	none	
+377	SIKU01_000620	1	annotated																		no	0	0	no	no	none	
+378	SIKU01_001234	1	annotated																		no	0	0	no	no	none	
+383	SIKU01_000659	1	annotated																		no	0	0	no	no	none	
+386	SIKU01_000071	1	annotated																		no	0	0	no	no	none	
+388	SIKU01_000793	1	annotated																		no	0	0	no	no	none	
+389	SIKU01_001658	1	annotated	30.1	302	no	28.6	273	no	23.9	528	no	23.7	528	no	25.5	494	no	28.1	306	no	6	0	no	no	none	
+393	SIKU01_001364	1	annotated																		no	0	0	no	no	none	
+399	SIKU01_000852	1	annotated																		no	0	0	no	no	none	
+401	SIKU01_000764	1	annotated	39	480	yes	38.3	480	yes	39.5	479	yes	39.5	479	yes	39	479	yes	38.2	471	yes	6	6	yes	yes	target_host	
+402	SIKU01_000548	1	annotated	40.9	320	yes	41.4	220	yes	40.1	329	yes	40.4	329	yes	41.4	319	yes	40.7	324	yes	6	6	yes	yes	target_host	
+404	SIKU01_000408	1	annotated																		no	0	0	no	no	none	
+405	SIKU01_001951	1	annotated	42.4	585	yes	42.7	586	yes	41.3	586	yes	41.6	587	yes	41.3	586	yes	40.7	580	yes	6	6	yes	yes	target_host	
+407	SIKU01_000156	1	annotated	35.1	222	yes	35.3	221	yes	36.2	224	yes	36.2	224	yes	33.9	242	no	37.4	222	yes	6	5	yes	yes	target_host	
+409	SIKU01_001055	1	annotated	39.7	310	yes	40.8	319	yes	42	295	yes	42	295	yes	40.7	295	yes	39.4	302	yes	6	6	yes	yes	target_host	
+411	SIKU01_000547	1	annotated	36.7	221	yes	39.1	225	yes	35.1	379	yes	35.1	379	yes	35.6	385	yes	35.5	318	yes	6	6	yes	yes	target_host	
+415	SIKU01_000636	1	annotated																		no	0	0	no	no	none	
+416	SIKU01_001863	1	annotated																		no	0	0	no	no	none	
+418	SIKU01_000698	1	annotated	27.6	479	no	28	485	no	26	485	no	27.8	474	no	27.3	520	no	44.4	108	yes	6	1	no	no	human_only	
+423	SIKU01_001186	1	annotated																		no	0	0	no	no	none	
+428	SIKU01_000155	1	annotated	40.1	202	yes	35.1	285	yes	36.2	232	yes	36.6	232	yes	38.5	205	yes	37.6	202	yes	6	6	yes	yes	target_host	
+430	SIKU01_000908	1	annotated	32.3	554	no	30.9	570	no	31.2	536	no	30.2	563	no	32.7	554	no	30.4	565	no	6	0	no	no	none	
+432	SIKU01_001834	1	annotated	39.6	240	yes	43.4	251	yes	43.9	237	yes	43.5	237	yes	43.9	237	yes	36.4	393	yes	6	6	yes	yes	target_host	
+436	SIKU01_000714	1	annotated	22.3	413	no	22.4	402	no	23.8	429	no	24	416	no	20.9	430	no	26.6	222	no	6	0	no	no	none	
+444	SIKU01_001947	1	annotated	35.4	457	yes	34.9	513	no	39.6	336	yes	35.2	508	yes	31.7	526	no	36.2	467	yes	6	4	yes	yes	target_host	
+446	SIKU01_001657	1	annotated	35.3	187	yes	31.3	265	no	30.9	265	no	25.3	479	no	35.1	194	yes	37	127	yes	6	3	yes	yes	target_host	
+447	SIKU01_001754	1	annotated	29.8	121	no															no	1	0	no	no	none	
+452	SIKU01_001868	1	annotated																		no	0	0	no	no	none	
+456	SIKU01_000643	1	annotated	26.4	296	no	25.3	316	no	25.9	316	no	26.5	302	no	24.3	296	no	29.8	218	no	6	0	no	no	none	
+457	SIKU01_001253	1	annotated	45.4	628	yes	45	620	yes	43.9	619	yes	44.6	619	yes	43	619	yes	44.7	619	yes	6	6	yes	yes	target_host	
+460	SIKU01_000913	1	annotated	42	629	yes	42	619	yes	41.6	623	yes	41.1	623	yes	41.9	623	yes	41	619	yes	6	6	yes	yes	target_host	
+462	SIKU01_000753	1	annotated																		no	0	0	no	no	none	
+464	SIKU01_000418	1	annotated																		no	0	0	no	no	none	
+465	SIKU01_000520	1	annotated																		no	0	0	no	no	none	
+469	SIKU01_000757	1	annotated	23.8	442	no	23.8	442	no	23.3	446	no	23.3	446	no	23.5	446	no	24.2	265	no	6	0	no	no	none	
+470	SIKU01_001824	1	annotated	30	543	no	30.9	547	no	31.8	548	no	31.9	549	no	31.4	563	no	29.5	539	no	6	0	no	no	none	
+472	SIKU01_000578	1	annotated																		no	0	0	no	no	none	
+477	SIKU01_001428	1	annotated																		no	0	0	no	no	none	
+490	SIKU01_000384	1	annotated																		no	0	0	no	no	none	
+493	SIKU01_001898	1	annotated																		no	0	0	no	no	none	
+496	SIKU01_001559	1	annotated																		no	0	0	no	no	none	
+501	SIKU01_001902	1	annotated	51.2	535	yes	51	535	yes	51.6	535	yes	51.2	535	yes	50.1	535	yes	50.5	545	yes	6	6	yes	yes	target_host	GroEL / Hsp60 chaperonin
+503	SIKU01_001921	1	annotated	32.5	573	no	31.9	530	no	33.2	545	no	32.7	544	no	30.9	553	no	30.5	532	no	6	0	no	no	none	
+504	SIKU01_001350	1	annotated	29.7	101	no				27.7	101	no									no	2	0	no	no	none	
+507	SIKU01_001994	1	annotated	28.9	522	no	29.3	522	no	28.7	522	no	28.7	522	no	28.6	521	no	28.2	532	no	6	0	no	no	none	
+511	SIKU01_000303	1	annotated	34.6	537	no	33.5	520	no	34.5	536	no	34.5	539	no	33.6	529	no	36.4	107	yes	6	1	no	no	human_only	
+512	SIKU01_000407	1	annotated	47	549	yes	47.2	549	yes	47.5	547	yes	47.7	547	yes	48.3	547	yes	47.7	551	yes	6	6	yes	yes	target_host	
+513	SIKU01_001534	1	annotated																		no	0	0	no	no	none	
+519	SIKU01_001467	1	annotated																		no	0	0	no	no	none	
+522	SIKU01_000914	1	annotated	30.5	151	no	29.8	151	no	31.1	151	no	31.2	154	no	29	155	no	27.3	154	no	6	0	no	no	none	
+529	SIKU01_000958	1	annotated	28.4	464	no	28.4	464	no	28.9	464	no	28.9	464	no	28.9	464	no	29.3	454	no	6	0	no	no	none	
+530	SIKU01_000469	1	annotated																		no	0	0	no	no	none	
+533	SIKU01_000422	1	annotated																		no	0	0	no	no	none	
+537	SIKU01_000963	1	annotated	35.9	563	yes	36.2	563	yes	36.2	564	yes	36.2	564	yes	36.1	565	yes	35.5	563	yes	6	6	yes	yes	target_host	
+543	SIKU01_001930	1	annotated																		no	0	0	no	no	none	
+545	SIKU01_001205	1	annotated																		no	0	0	no	no	none	
+548	SIKU01_001017	1	annotated	25.5	415	no	25.4	397	no	26	407	no	26	407	no	24.2	418	no	23.9	406	no	6	0	no	no	none	
+550	SIKU01_000919	1	annotated	29	528	no	28.7	527	no	29.3	515	no	29.3	515	no	28.6	531	no	30.7	501	no	6	0	no	no	none	
+551	SIKU01_000650	1	annotated																		no	0	0	no	no	none	
+552	SIKU01_000597	1	annotated	30.6	477	no	31.4	477	no	29.9	478	no	29.9	478	no	30.3	478	no	31.2	484	no	6	0	no	no	none	
+558	SIKU01_000709	1	annotated	24	375	no	22.2	527	no	26.2	370	no	21.8	527	no	28.3	367	no	27.1	365	no	6	0	no	no	none	
+560	SIKU01_001911	1	annotated	24.6	281	no	24	287	no	23.5	315	no	23.3	322	no	26.1	188	no	27.4	285	no	6	0	no	no	none	
+561	SIKU01_000903	1	annotated	30.5	213	no	35.6	202	yes	29.1	213	no	28.6	213	no	29.3	215	no	31.9	213	no	6	1	no	yes	other_fish_only	
+562	SIKU01_000381	1	annotated																		no	0	0	no	no	none	
+564	SIKU01_000992	1	annotated																		no	0	0	no	no	none	
+565	SIKU01_001080	1	annotated																		no	0	0	no	no	none	
+578	SIKU01_001567	1	annotated	44.4	500	yes	45.3	499	yes	45.2	500	yes	45.2	500	yes	45.4	500	yes	46.8	500	yes	6	6	yes	yes	target_host	
+580	SIKU01_000704	1	annotated	27.7	375	no	28.7	376	no	26.2	531	no	26	531	no	25.6	531	no	26.1	410	no	6	0	no	no	none	
+582	SIKU01_000436	1	annotated																		no	0	0	no	no	none	
+584	SIKU01_000724	1	annotated																		no	0	0	no	no	none	
+586	SIKU01_001156	1	annotated	56.5	503	yes	56.5	503	yes	56.5	503	yes	56.5	503	yes	56.3	503	yes	58.2	488	yes	6	6	yes	yes	target_host	F0F1 ATP synthase
+588	SIKU01_000849	1	annotated	36.9	512	yes	38.7	473	yes	37.9	512	yes	37.9	512	yes	39.4	475	yes	38.1	475	yes	6	6	yes	yes	target_host	
+589	SIKU01_000194	1	annotated																		no	0	0	no	no	none	
+593	SIKU01_001481	1	annotated																		no	0	0	no	no	none	
+596	SIKU01_001243	1	annotated	41.9	499	yes	42.3	501	yes	39.7	526	yes	41.2	507	yes	42.1	501	yes	43	502	yes	6	6	yes	yes	target_host	
+602	SIKU01_000073	1	annotated	37.6	465	yes	36.9	488	yes	37.5	451	yes	37.5	451	yes	37.2	452	yes	39.4	447	yes	6	6	yes	yes	target_host	
+605	SIKU01_001991	1	annotated	41.8	455	yes	41.9	454	yes	42.2	455	yes	42	455	yes	41.8	455	yes	42.2	455	yes	6	6	yes	yes	target_host	
+606	SIKU01_001345	1	annotated																		no	0	0	no	no	none	
+607	SIKU01_000308	1	annotated																		no	0	0	no	no	none	
+608	SIKU01_000540	1	annotated	28.6	227	no	21.8	431	no	25.8	213	no	33.2	211	no	29.5	227	no	35.5	93	yes	6	1	no	no	human_only	
+610	SIKU01_000966	1	annotated	33.2	187	no	30	207	no	30.6	216	no	30.1	216	no	28.6	224	no	25.7	404	no	6	0	no	no	none	
+622	SIKU01_001636	1	annotated	38.9	509	yes	39.4	487	yes	38	492	yes	38.5	494	yes	38.9	470	yes	38.9	504	yes	6	6	yes	yes	target_host	
+627	SIKU01_001544	1	annotated	29.8	540	no	29.6	540	no	29.6	538	no	29.7	529	no	30.5	531	no	30.6	513	no	6	0	no	no	none	
+628	SIKU01_001602	1	annotated																		no	0	0	no	no	none	
+629	SIKU01_001536	1	annotated																		no	0	0	no	no	none	
+635	SIKU01_001872	1	annotated																		no	0	0	no	no	none	
+641	SIKU01_001818	1	annotated	31.3	489	no	32.6	485	no	30.5	498	no	29	520	no	36.5	348	yes	39.7	287	yes	6	2	no	yes	other_fish_only	
+642	SIKU01_001429	1	annotated																		no	0	0	no	no	none	
+645	SIKU01_001430	1	annotated																		no	0	0	no	no	none	
+651	SIKU01_001010	1	annotated	28.9	502	no	29.3	499	no	30.4	504	no	30.2	504	no	32	509	no	28.3	495	no	6	0	no	no	none	
+652	SIKU01_001635	1	annotated	34	491	no	34.8	488	no	34.3	481	no	34.1	481	no	35.3	481	yes	36.9	407	yes	6	2	no	yes	other_fish_only	
+653	SIKU01_001654	1	annotated	23.9	523	no	25.5	377	no	26.5	378	no	26.5	378	no	25.9	379	no	35.2	91	yes	6	1	no	no	human_only	
+654	SIKU01_001670	1	annotated																		no	0	0	no	no	none	
+655	SIKU01_000666	1	annotated																		no	0	0	no	no	none	
+657	SIKU01_001161	1	annotated																		no	0	0	no	no	none	
+658	SIKU01_001881	1	annotated																		no	0	0	no	no	none	
+660	SIKU01_000153	1	annotated																		no	0	0	no	no	none	
+661	SIKU01_000637	1	annotated	33.6	476	no	32.4	476	no	31.6	471	no	31.2	471	no	30.8	471	no	35.4	345	yes	6	1	no	no	human_only	GAPDH
+664	SIKU01_000430	1	annotated																		no	0	0	no	no	none	
+665	SIKU01_001206	1	annotated																		no	0	0	no	no	none	
+668	SIKU01_000763	1	annotated	28	478	no	28.1	477	no	30.1	482	no	29.3	485	no	28.9	488	no	28.5	481	no	6	0	no	no	none	
+680	SIKU01_001885	1	annotated	44.3	61	no	30.1	153	no	43.7	71	no	42.3	71	no	28.7	150	no	38.4	99	yes	6	1	no	no	human_only	
+681	SIKU01_001523	1	annotated	41.2	170	yes	39.6	182	yes	45.5	191	yes	45.5	191	yes	46.6	191	yes	47.1	191	yes	6	6	yes	yes	target_host	
+682	SIKU01_001154	1	annotated	66.7	472	yes	66.7	472	yes	67.1	471	yes	67.1	471	yes	67.1	471	yes	66.7	471	yes	6	6	yes	yes	target_host	F0F1 ATP synthase
+685	SIKU01_000795	1	annotated	40	85	yes	44.4	81	yes	40.2	87	yes	40.2	87	yes	36.5	85	yes	41.8	79	no	6	5	yes	yes	target_host	
+686	SIKU01_000374	1	annotated																		no	0	0	no	no	none	
+687	SIKU01_001564	1	annotated	26.1	283	no	26.4	288	no	29	145	no	29.7	145	no	23.8	303	no	24.4	221	no	6	0	no	no	none	
+691	SIKU01_000654	1	annotated																		no	0	0	no	no	none	
+694	SIKU01_001293	1	annotated	30.5	486	no	29.9	465	no	30.5	491	no	30.8	487	no	30.7	486	no	37.5	96	yes	6	1	no	no	human_only	
+699	SIKU01_000019	1	annotated	32.7	401	no	32.2	404	no	32.1	393	no	32.8	393	no	31.6	408	no	31.2	413	no	6	0	no	no	none	
+700	SIKU01_000383	1	annotated	35.4	460	yes	34.8	460	no	35	460	yes	35.2	463	yes	35.9	463	yes	33.8	458	no	6	4	yes	yes	target_host	
+701	SIKU01_001649	1	annotated																		no	0	0	no	no	none	
+705	SIKU01_001383	1	annotated	25.7	187	no	25.1	187	no	25.8	190	no									no	3	0	no	no	none	
+707	SIKU01_001810	1	annotated	41.2	452	yes	42.3	452	yes	42.4	451	yes	42.1	451	yes	41.7	451	yes	43.2	454	yes	6	6	yes	yes	target_host	
+711	SIKU01_000594	1	annotated																		no	0	0	no	no	none	
+712	SIKU01_000796	1	annotated	35.3	85	yes	32.6	473	no	33.1	483	no	32.6	488	no	35.7	350	yes	33	467	no	6	2	yes	yes	target_host	
+714	SIKU01_001287	1	annotated																		no	0	0	no	no	none	
+715	SIKU01_001493	1	annotated	29.8	400	no	30.2	401	no	30.2	378	no	29.9	378	no	29.1	392	no	35.3	286	yes	6	1	no	no	human_only	
+722	SIKU01_000792	1	annotated	33.3	460	no	33.1	441	no	34.4	439	no	29.9	455	no	35.9	251	yes	35.1	251	yes	6	2	no	yes	other_fish_only	
+728	SIKU01_000976	1	annotated	24.1	328	no	24.4	328	no	26	242	no	26.4	242	no	24.8	327	no	24.7	336	no	6	0	no	no	none	
+729	SIKU01_001490	1	annotated																		no	0	0	no	no	none	
+730	SIKU01_001971	1	annotated																		no	0	0	no	no	none	
+733	SIKU01_000558	1	annotated																		no	0	0	no	no	none	
+734	SIKU01_001613	1	annotated	48.4	450	yes	48	450	yes	48.4	450	yes	48.7	450	yes	47.8	450	yes	47.6	450	yes	6	6	yes	yes	target_host	
+737	SIKU01_001487	1	annotated																		no	0	0	no	no	none	
+739	SIKU01_001390	1	annotated																		no	0	0	no	no	none	
+743	SIKU01_001306	1	annotated																		no	0	0	no	no	none	
+744	SIKU01_001790	1	annotated																		no	0	0	no	no	none	
+745	SIKU01_000240	1	annotated																		no	0	0	no	no	none	
+748	SIKU01_000455	1	annotated	32.7	202	no	32.2	202	no	32.7	199	no	32.7	199	no	31.2	199	no	32.5	200	no	6	0	no	no	none	
+753	SIKU01_000770	1	annotated	35.9	92	yes	39.1	92	yes	22.1	462	no	22.6	495	no	22.2	505	no	23.1	415	no	6	2	yes	yes	target_host	
+754	SIKU01_000398	1	annotated																		no	0	0	no	no	none	
+756	SIKU01_000721	1	annotated																		no	0	0	no	no	none	
+757	SIKU01_001059	1	annotated	29.8	393	no	31.3	393	no	30.3	393	no	31	390	no	30.3	393	no	31.3	393	no	6	0	no	no	none	
+758	SIKU01_001844	1	annotated																22.9	371	no	1	0	no	no	none	
+760	SIKU01_001814	1	annotated																		no	0	0	no	no	none	
+761	SIKU01_001918	1	annotated																		no	0	0	no	no	none	
+762	SIKU01_001211	1	annotated	32.1	455	no	32.8	454	no	32.7	468	no	33	469	no	36.7	248	yes	37.5	355	yes	6	2	no	yes	other_fish_only	
+763	SIKU01_001760	1	annotated	25.3	443	no	24.5	445	no	26.2	447	no	27	440	no	26.5	446	no	28.8	444	no	6	0	no	no	none	
+767	SIKU01_000767	1	annotated																		no	0	0	no	no	none	
+768	SIKU01_000881	1	annotated																		no	0	0	no	no	none	
+769	SIKU01_000328	1	annotated	39.2	324	yes	38	324	yes	36.6	320	yes	35.9	329	yes	39.6	323	yes	41.6	320	yes	6	6	yes	yes	target_host	
+770	SIKU01_001552	1	annotated	33.4	359	no	33.4	359	no	35.6	368	yes	31.8	359	no	32	359	no	35	371	yes	6	2	no	yes	other_fish_only	
+774	SIKU01_001328	1	annotated	19.6	321	no	19.9	322	no	19.6	336	no	19.9	336	no	20.5	322	no	20.6	321	no	6	0	no	no	none	
+775	SIKU01_001363	1	annotated	24.8	428	no	23	434	no	23.1	424	no	22.2	424	no	24.1	424	no	24.5	351	no	6	0	no	no	none	
+783	SIKU01_001440	1	annotated	24.9	357	no	25.3	360	no	23.8	361	no	24	363	no	24.5	363	no	23.9	356	no	6	0	no	no	none	
+785	SIKU01_000343	1	annotated																		no	0	0	no	no	none	
+786	SIKU01_000530	1	annotated	38.5	78	no	40.2	82	yes	31.7	161	no	32.5	157	no	41	78	no	37.6	85	yes	6	2	no	yes	other_fish_only	
+789	SIKU01_001469	1	annotated																		no	0	0	no	no	none	
+791	SIKU01_000864	1	annotated																		no	0	0	no	no	none	
+792	SIKU01_000573	1	annotated																		no	0	0	no	no	none	
+793	SIKU01_001280	1	annotated																		no	0	0	no	no	none	
+797	SIKU01_001529	1	annotated	28.2	316	no	29.1	316	no	35.5	172	yes	36	172	yes	27.5	378	no	30.4	329	no	6	2	no	yes	other_fish_only	
+799	SIKU01_001798	1	annotated																		no	0	0	no	no	none	
+804	SIKU01_000684	1	annotated																		no	0	0	no	no	none	
+805	SIKU01_000701	1	annotated	40.8	333	yes	40.2	333	yes	39.9	333	yes	39	333	yes	41.3	327	yes	40.4	327	yes	6	6	yes	yes	target_host	
+807	SIKU01_000559	1	annotated																		no	0	0	no	no	none	
+813	SIKU01_001126	1	annotated																		no	0	0	no	no	none	
+814	SIKU01_001816	1	annotated																		no	0	0	no	no	none	
+815	SIKU01_001477	1	annotated	35.9	92	yes	33.3	132	no	28.7	143	no	25.2	214	no	35.2	88	yes	37.8	90	yes	6	3	yes	yes	target_host	
+823	SIKU01_001181	1	annotated	50	434	yes	49.3	440	yes	49.3	434	yes	50	434	yes	50.2	440	yes	49.7	431	yes	6	6	yes	yes	target_host	alpha-enolase
+824	SIKU01_001813	1	annotated																		no	0	0	no	no	none	
+826	SIKU01_000097	1	annotated																		no	0	0	no	no	none	
+829	SIKU01_001224	1	annotated	41.1	107	yes	26	327	no	25.2	365	no	27.2	298	no	27	281	no	40.2	107	yes	6	2	yes	yes	target_host	
+830	SIKU01_001295	1	annotated	33.8	275	no	34.2	275	no	33.5	275	no	33.5	275	no	33.1	275	no	38	200	yes	6	1	no	no	human_only	
+831	SIKU01_001518	1	annotated	27.4	124	no															no	1	0	no	no	none	
+835	SIKU01_001952	1	annotated	24	462	no	24.5	457	no	24.2	475	no	24.8	475	no	24.7	462	no	26.4	474	no	6	0	no	no	none	
+836	SIKU01_001261	1	annotated																		no	0	0	no	no	none	
+837	SIKU01_001599	1	annotated																		no	0	0	no	no	none	
+840	SIKU01_000065	1	annotated	24.6	391	no	24.6	390	no	24.9	390	no	25.1	390	no	24.5	392	no	26.9	398	no	6	0	no	no	none	
+841	SIKU01_000200	1	annotated	44.2	421	yes	43.9	421	yes	43.7	421	yes	43.7	421	yes	45.2	423	yes	46.1	421	yes	6	6	yes	yes	target_host	
+845	SIKU01_000661	1	annotated																		no	0	0	no	no	none	
+849	SIKU01_001035	1	annotated																		no	0	0	no	no	none	
+850	SIKU01_000011	1	annotated																		no	0	0	no	no	none	
+853	SIKU01_000664	1	annotated																		no	0	0	no	no	none	
+855	SIKU01_000334	1	annotated																		no	0	0	no	no	none	
+856	SIKU01_000404	1	annotated																		no	0	0	no	no	none	
+861	SIKU01_001151	1	annotated																		no	0	0	no	no	none	
+865	SIKU01_000012	1	annotated																		no	0	0	no	no	none	
+866	SIKU01_001232	1	annotated																		no	0	0	no	no	none	
+870	SIKU01_000899	1	annotated	37.8	400	yes	37.6	396	yes	37.1	426	yes	38.9	396	yes	36.6	423	yes	38.3	397	yes	6	6	yes	yes	target_host	
+871	SIKU01_001050	1	annotated	22.9	170	no	21.1	351	no	20.2	352	no	20.2	352	no	23.2	354	no	24.6	211	no	6	0	no	no	none	
+872	SIKU01_000482	1	annotated																		no	0	0	no	no	none	
+874	SIKU01_001609	1	annotated	36.6	361	yes	36	361	yes	36	353	yes	36	353	yes	35.2	361	yes	36.3	353	yes	6	6	yes	yes	target_host	
+881	SIKU01_000283	1	annotated	37.2	433	yes	37	432	yes	38.2	427	yes	37.9	425	yes	38.9	424	yes	36.6	435	yes	6	6	yes	yes	target_host	
+882	SIKU01_001772	1	annotated																		no	0	0	no	no	none	
+888	SIKU01_000989	1	annotated	25.4	464	no	24.3	445	no	26.4	421	no	26.2	420	no	26.6	436	no	25.9	437	no	6	0	no	no	none	
+891	SIKU01_001718	1	annotated																		no	0	0	no	no	none	
+892	SIKU01_001129	1	annotated																		no	0	0	no	no	none	
+893	SIKU01_001841	1	annotated	26.8	429	no	27.8	388	no	28.1	388	no	27.4	457	no	27.1	442	no	38.2	173	yes	6	1	no	no	human_only	
+895	SIKU01_000918	1	annotated	28.6	199	no	29.1	199	no	29.6	199	no	29.1	199	no	30.4	204	no	32.7	199	no	6	0	no	no	none	
+896	SIKU01_000427	1	annotated																		no	0	0	no	no	none	
+897	SIKU01_000710	1	annotated																		no	0	0	no	no	none	
+898	SIKU01_000712	1	annotated																		no	0	0	no	no	none	
+900	SIKU01_001087	1	annotated	24.1	456	no	23.2	461	no	26.6	451	no	26.6	451	no	25.7	451	no	26	465	no	6	0	no	no	none	
+901	SIKU01_001123	1	annotated																		no	0	0	no	no	none	
+902	SIKU01_000649	1	annotated																		no	0	0	no	no	none	
+903	SIKU01_000314	1	annotated																		no	0	0	no	no	none	
+909	SIKU01_000162	1	annotated	35.8	430	yes	35.1	433	yes	34.9	433	no	34.8	437	no	35.2	435	yes	35.9	432	yes	6	4	yes	yes	target_host	
+910	SIKU01_000713	1	annotated																		no	0	0	no	no	none	
+912	SIKU01_001257	1	annotated	35.6	404	yes	35.1	402	yes	34.4	401	no	34.2	401	no	35.2	403	yes	34.2	398	no	6	3	yes	yes	target_host	
+919	SIKU01_000722	1	annotated																		no	0	0	no	no	none	
+920	SIKU01_000979	1	annotated	40.9	455	yes	41.3	455	yes	41.1	453	yes	40.8	453	yes	41.7	453	yes	43.3	427	yes	6	6	yes	yes	target_host	
+921	SIKU01_001987	1	annotated																		no	0	0	no	no	none	
+925	SIKU01_000631	1	annotated																		no	0	0	no	no	none	
+927	SIKU01_001557	1	annotated	34.1	414	no	33.7	416	no	35.7	414	yes	35.3	416	yes	35.3	416	yes	34.1	411	no	6	3	no	yes	other_fish_only	
+930	SIKU01_000732	1	annotated	33.4	311	no	32.5	311	no	31.8	314	no	31.5	314	no	32.7	321	no	34.8	293	no	6	0	no	no	none	
+934	SIKU01_000699	1	annotated																		no	0	0	no	no	none	
+937	SIKU01_000434	1	annotated																		no	0	0	no	no	none	
+938	SIKU01_001460	1	annotated	21.8	353	no	21.9	384	no	19.8	343	no	23	356	no	21.6	352	no	23.6	352	no	6	0	no	no	none	
+942	SIKU01_000752	1	annotated							25.4	236	no	25.4	236	no						no	2	0	no	no	none	
+943	SIKU01_000819	1	annotated	25.9	397	no	26.4	397	no	26.2	397	no	26.2	397	no	25.9	397	no	26.7	382	no	6	0	no	no	none	
+944	SIKU01_000863	1	annotated	21.8	119	no										29.3	116	no	30.8	117	no	3	0	no	no	none	
+945	SIKU01_000526	1	annotated																		no	0	0	no	no	none	
+951	SIKU01_001227	1	annotated																		no	0	0	no	no	none	
+952	SIKU01_001616	1	annotated	35.2	421	yes	35.2	420	yes	36.1	421	yes	36.3	421	yes	35.6	418	yes	37	414	yes	6	6	yes	yes	target_host	
+954	SIKU01_000047	1	annotated																		no	0	0	no	no	none	
+959	SIKU01_001046	1	annotated	40.6	488	yes	40.6	488	yes	40.4	490	yes	40.4	495	yes	41	490	yes	41.6	488	yes	6	6	yes	yes	target_host	
+960	SIKU01_001489	1	annotated	32.4	259	no	27.2	430	no	31.6	272	no	32.3	254	no	31.3	259	no	30.8	260	no	6	0	no	no	none	
+962	SIKU01_001128	1	annotated																		no	0	0	no	no	none	
+964	SIKU01_001864	1	annotated	35.5	214	yes	35.2	213	yes	36.3	215	yes	36.1	202	yes	36.5	203	yes	35.7	213	yes	6	6	yes	yes	target_host	
+965	SIKU01_000428	1	annotated	27.6	228	no	24	391	no	29.8	228	no	24.5	388	no	26.7	251	no	23.5	388	no	6	0	no	no	none	
+968	SIKU01_001118	1	annotated																		no	0	0	no	no	none	
+969	SIKU01_001942	1	annotated																		no	0	0	no	no	none	
+970	SIKU01_001226	1	annotated																		no	0	0	no	no	none	
+974	SIKU01_000692	1	annotated	24.3	144	no	28.8	146	no	26.1	180	no	26.7	180	no	21.6	422	no	27.2	147	no	6	0	no	no	none	
+975	SIKU01_000839	1	annotated	41	83	yes	41	83	yes	41.2	85	yes	41.2	85	yes	29.9	201	no	41	83	yes	6	5	yes	yes	target_host	Ribosomal protein
+989	SIKU01_001101	1	annotated																		no	0	0	no	no	none	
+990	SIKU01_001189	1	annotated																		no	0	0	no	no	none	
+991	SIKU01_001647	1	annotated	27.4	354	no	28.1	352	no	26.5	366	no	26.8	366	no	27.4	365	no	25.9	401	no	6	0	no	no	none	
+993	SIKU01_000152	1	annotated	21.8	372	no	21.4	370	no	24.5	323	no	24.5	323	no	23.8	366	no	23	322	no	6	0	no	no	none	
+994	SIKU01_000798	1	annotated																		no	0	0	no	no	none	
+996	SIKU01_001064	1	annotated	34.2	222	no	35.6	194	yes	33.9	218	no	33.9	218	no	35.2	219	yes	35.2	193	yes	6	3	no	yes	other_fish_only	
+997	SIKU01_000365	1	annotated																		no	0	0	no	no	none	
+999	SIKU01_000683	1	annotated	31.7	388	no	32.7	388	no	31.4	388	no	31.7	388	no	32	388	no	35.6	101	yes	6	1	no	no	human_only	
+1000	SIKU01_001840	1	annotated	24	391	no	24.3	387	no	24.9	390	no	25.1	390	no	24.5	387	no	25.5	385	no	6	0	no	no	none	
+1001	SIKU01_000460	1	annotated				22.8	241	no												no	1	0	no	no	none	
+1006	SIKU01_002002	1	annotated	31.9	285	no	31.7	287	no	32.8	268	no	33.6	268	no	42	100	yes	33.7	285	no	6	1	no	yes	other_fish_only	
+1010	SIKU01_000557	1	annotated																		no	0	0	no	no	none	
+1012	SIKU01_000224	1	annotated																		no	0	0	no	no	none	
+1014	SIKU01_001811	1	annotated	39.9	391	yes	40.2	391	yes	39.9	409	yes	39.9	409	yes	42.7	391	yes	41.7	410	yes	6	6	yes	yes	target_host	
+1017	SIKU01_000175	1	annotated																		no	0	0	no	no	none	
+1019	SIKU01_001229	1	annotated	58.9	397	yes	56.9	397	yes	57.2	397	yes	56.9	397	yes	56.2	397	yes	55.4	395	yes	6	6	yes	yes	target_host	Elongation factor Tu
+1020	SIKU01_001763	1	annotated	45.3	413	yes	45	413	yes	45.8	417	yes	45.6	417	yes	45.3	413	yes	45	413	yes	6	6	yes	yes	target_host	
+1028	SIKU01_000686	1	annotated	43.9	392	yes	43.8	395	yes	42.1	392	yes	42.3	392	yes	43.5	395	yes	41.1	394	yes	6	6	yes	yes	target_host	
+1037	SIKU01_001212	1	annotated	26	362	no	25.7	358	no	24.5	363	no	23.9	389	no	25.1	390	no	27.5	320	no	6	0	no	no	none	
+1038	SIKU01_000647	1	annotated	55.5	380	yes	56.3	380	yes	55.8	380	yes	54.7	380	yes	55.3	380	yes	54.5	380	yes	6	6	yes	yes	target_host	
+1040	SIKU01_001479	1	annotated																		no	0	0	no	no	none	
+1044	SIKU01_001586	1	annotated																		no	0	0	no	no	none	
+1050	SIKU01_000510	1	annotated																		no	0	0	no	no	none	
+1054	SIKU01_000049	1	annotated	26	411	no	25.5	411	no	28.5	411	no	28.1	388	no	27.9	423	no	28.4	415	no	6	0	no	no	none	
+1055	SIKU01_000751	1	annotated																		no	0	0	no	no	none	
+1059	SIKU01_000054	1	annotated																		no	0	0	no	no	none	
+1061	SIKU01_000629	1	annotated	24.6	386	no	24.6	378	no	24.1	394	no	23.7	393	no	28.4	278	no	27.2	316	no	6	0	no	no	none	
+1063	SIKU01_001049	1	annotated	27.2	408	no	26.5	407	no	25.9	444	no	26.1	444	no	26.9	383	no	26.8	444	no	6	0	no	no	none	
+1065	SIKU01_001422	1	annotated																		no	0	0	no	no	none	
+1066	SIKU01_001748	1	annotated																		no	0	0	no	no	none	
+1069	SIKU01_000323	1	annotated																		no	0	0	no	no	none	
+1073	SIKU01_000135	1	annotated																		no	0	0	no	no	none	
+1074	SIKU01_001107	1	annotated																		no	0	0	no	no	none	
+1075	SIKU01_001130	1	annotated	27.8	198	no	26.8	198	no	28.5	207	no	28.5	207	no	28.4	222	no	27.9	197	no	6	0	no	no	none	
+1076	SIKU01_001537	1	annotated																		no	0	0	no	no	none	
+1079	SIKU01_000307	1	annotated	34.6	387	no	34.2	389	no	34.5	386	no	34.1	384	no	35.5	386	yes	35.6	388	yes	6	2	no	yes	other_fish_only	
+1080	SIKU01_000425	1	annotated																		no	0	0	no	no	none	
+1090	SIKU01_001019	1	annotated	27.6	370	no	27.7	368	no	27.1	362	no	27.3	362	no	27.4	372	no	27.4	368	no	6	0	no	no	none	
+1094	SIKU01_001687	1	annotated	31.8	431	no	31.8	428	no	32.7	434	no	31.7	432	no	34.4	430	no	32.9	423	no	6	0	no	no	none	
+1100	SIKU01_001133	1	annotated																		no	0	0	no	no	none	
+1105	SIKU01_000616	1	annotated																		no	0	0	no	no	none	
+1106	SIKU01_001574	1	annotated	29.7	357	no	30.9	350	no	31.8	352	no	32	350	no	30	350	no	31.4	350	no	6	0	no	no	none	
+1107	SIKU01_001742	1	annotated																		no	0	0	no	no	none	
+1118	SIKU01_001102	1	annotated	36.2	356	yes	36.4	357	yes	37.5	357	yes	37.8	357	yes	37.2	358	yes	34.6	356	no	6	5	yes	yes	target_host	
+1119	SIKU01_001858	1	annotated	44.5	366	yes	43.4	366	yes	42.2	367	yes	42.5	367	yes	42.6	366	yes	44.7	360	yes	6	6	yes	yes	target_host	
+1121	SIKU01_001886	1	annotated	40.3	367	yes	39.8	367	yes	39.4	376	yes	40.7	378	yes	40.3	377	yes	39.2	375	yes	6	6	yes	yes	target_host	
+1123	SIKU01_001732	1	annotated																		no	0	0	no	no	none	
+1124	SIKU01_000002	1	annotated																		no	0	0	no	no	none	
+1125	SIKU01_000062	1	annotated																		no	0	0	no	no	none	
+1126	SIKU01_001624	1	annotated	37.5	355	yes	36	292	yes	35.6	351	yes	47.9	117	yes	35.2	358	yes	38.7	155	yes	6	6	yes	yes	target_host	
+1129	SIKU01_001938	1	annotated																		no	0	0	no	no	none	
+1130	SIKU01_000302	1	annotated	28.4	282	no	29.8	245	no	38.8	85	yes	30.2	245	no	29	272	no	30.3	211	no	6	1	no	yes	other_fish_only	
+1133	SIKU01_000245	1	annotated	26.6	417	no	27	419	no	27.2	389	no	27	389	no	26	416	no	25.7	409	no	6	0	no	no	none	
+1134	SIKU01_000772	1	annotated	28.6	391	no	28.4	391	no	30.4	391	no	31.8	390	no	29.5	387	no	28.3	382	no	6	0	no	no	none	
+1139	SIKU01_001172	1	annotated																		no	0	0	no	no	none	
+1140	SIKU01_001842	1	annotated																		no	0	0	no	no	none	
+1141	SIKU01_001245	1	annotated																		no	0	0	no	no	none	
+1142	SIKU01_001499	1	annotated																		no	0	0	no	no	none	
+1149	SIKU01_000786	1	annotated																		no	0	0	no	no	none	
+1153	SIKU01_001976	1	annotated	43.9	383	yes	42.3	383	yes	43.5	384	yes	44	384	yes	42.6	383	yes	42.8	383	yes	6	6	yes	yes	target_host	
+1154	SIKU01_000377	1	annotated																		no	0	0	no	no	none	
+1160	SIKU01_001171	1	annotated																		no	0	0	no	no	none	
+1161	SIKU01_000004	1	annotated	42.8	381	yes	42.5	381	yes	43.2	373	yes	43.2	373	yes	42.9	373	yes	42.3	381	yes	6	6	yes	yes	target_host	
+1162	SIKU01_001218	1	annotated																		no	0	0	no	no	none	
+1163	SIKU01_001506	1	annotated	25.8	488	no	25.1	466	no	25.9	491	no	25.9	491	no	26.3	483	no	25.2	520	no	6	0	no	no	none	
+1164	SIKU01_001003	1	annotated	40.1	337	yes	39.5	337	yes	39.2	337	yes	39.6	338	yes	37.7	337	yes	39.8	337	yes	6	6	yes	yes	target_host	
+1172	SIKU01_001136	1	annotated																		no	0	0	no	no	none	
+1175	SIKU01_001664	1	annotated																		no	0	0	no	no	none	
+1183	SIKU01_000744	1	annotated	23.3	373	no	23.2	371	no	23.8	374	no	23.8	374	no	22.6	371	no			no	5	0	no	no	none	
+1187	SIKU01_001985	1	annotated																		no	0	0	no	no	none	
+1192	SIKU01_001989	1	annotated																		no	0	0	no	no	none	
+1193	SIKU01_001698	1	annotated	28.6	420	no	28.3	420	no	27.3	417	no	27.8	417	no	37.7	114	yes	35.1	111	yes	6	2	no	yes	other_fish_only	
+1198	SIKU01_001866	1	annotated																		no	0	0	no	no	none	
+1199	SIKU01_001410	1	annotated	47.9	363	yes	48.5	363	yes	47.7	369	yes	46.6	369	yes	47.7	363	yes	45.5	365	yes	6	6	yes	yes	target_host	
+1202	SIKU01_000233	1	annotated																		no	0	0	no	no	none	
+1203	SIKU01_000639	1	annotated	30	307	no	30.3	307	no	30.2	308	no	30.2	308	no	30.6	310	no	35.4	144	yes	6	1	no	no	human_only	
+1206	SIKU01_001230	1	annotated																		no	0	0	no	no	none	
+1211	SIKU01_001292	1	annotated																		no	0	0	no	no	none	
+1212	SIKU01_001331	1	annotated	28.8	250	no	29.3	249	no	30.3	244	no	29.3	270	no	26.4	375	no	30	263	no	6	0	no	no	none	
+1215	SIKU01_000545	1	annotated																		no	0	0	no	no	none	
+1217	SIKU01_000915	1	annotated																		no	0	0	no	no	none	
+1218	SIKU01_000983	1	annotated	43.2	264	yes	40.9	313	yes	43.6	289	yes	43.2	287	yes	43	286	yes	41.5	311	yes	6	6	yes	yes	target_host	
+1219	SIKU01_000519	1	annotated	30.1	236	no	31.4	194	no	32.4	222	no	31.8	220	no	39.4	104	yes	37.6	93	yes	6	2	no	yes	other_fish_only	
+1225	SIKU01_000304	1	annotated																		no	0	0	no	no	none	
+1226	SIKU01_000522	1	annotated																		no	0	0	no	no	none	
+1227	SIKU01_001441	1	annotated	30.1	339	no	31.7	334	no							29.9	318	no			no	3	0	no	no	none	
+1228	SIKU01_001677	1	annotated	30.2	248	no	30.6	248	no	30.8	305	no	29.5	305	no	27.9	297	no	31.9	260	no	6	0	no	no	none	
+1231	SIKU01_001023	1	annotated																		no	0	0	no	no	none	
+1233	SIKU01_000259	1	annotated																		no	0	0	no	no	none	
+1236	SIKU01_001608	1	annotated																		no	0	0	no	no	none	
+1245	SIKU01_000438	1	annotated	29.7	219	no	28.3	223	no	26.4	242	no	39.8	88	yes	38.6	88	yes	29.2	226	no	6	2	no	yes	other_fish_only	
+1249	SIKU01_000904	1	annotated																		no	0	0	no	no	none	
+1252	SIKU01_001362	1	annotated																		no	0	0	no	no	none	
+1253	SIKU01_001492	1	annotated	31.6	231	no	36.5	222	yes	35.7	235	yes	35.3	235	yes	35	234	yes	36.4	118	yes	6	5	no	yes	other_fish_only	
+1255	SIKU01_001882	1	annotated																		no	0	0	no	no	none	
+1257	SIKU01_000935	1	annotated																		no	0	0	no	no	none	
+1261	SIKU01_001198	1	annotated																		no	0	0	no	no	none	
+1266	SIKU01_000747	1	annotated	33.8	337	no	31.8	336	no	31.3	336	no	31.3	336	no	31.4	338	no	32.4	343	no	6	0	no	no	none	
+1267	SIKU01_000655	1	annotated																		no	0	0	no	no	none	
+1268	SIKU01_000371	1	annotated																		no	0	0	no	no	none	
+1269	SIKU01_000593	1	annotated							21.3	188	no	20.7	184	no	22.6	208	no			no	3	0	no	no	none	
+1270	SIKU01_001756	1	annotated	28.2	259	no	29.4	245	no	26	265	no	29	248	no	28.9	242	no	26.2	229	no	6	0	no	no	none	
+1275	SIKU01_001148	1	annotated	34.2	269	no	33.8	269	no	33.8	269	no	33.8	269	no	34.2	269	no	37.9	116	yes	6	1	no	no	human_only	
+1278	SIKU01_001913	1	annotated	30.5	220	no	31.2	215	no	29.6	213	no	28.6	220	no	30	213	no	41.5	94	yes	6	1	no	no	human_only	
+1279	SIKU01_000291	1	annotated																		no	0	0	no	no	none	
+1292	SIKU01_000258	1	annotated																		no	0	0	no	no	none	
+1293	SIKU01_000968	1	annotated																		no	0	0	no	no	none	
+1294	SIKU01_000518	1	annotated													28.1	146	no			no	1	0	no	no	none	
+1296	SIKU01_001595	1	annotated																		no	0	0	no	no	none	
+1297	SIKU01_001627	1	annotated																		no	0	0	no	no	none	
+1307	SIKU01_001166	1	annotated							26.5	147	no	26.5	147	no	26.4	144	no	28.3	145	no	4	0	no	no	none	
+1308	SIKU01_000609	1	annotated																		no	0	0	no	no	none	
+1309	SIKU01_001757	1	annotated																		no	0	0	no	no	none	
+1313	SIKU01_000613	1	annotated																		no	0	0	no	no	none	
+1314	SIKU01_001434	1	annotated																		no	0	0	no	no	none	
+1317	SIKU01_000651	1	annotated																		no	0	0	no	no	none	
+1320	SIKU01_000136	1	annotated																		no	0	0	no	no	none	
+1321	SIKU01_000835	1	annotated	33	336	no	33.5	337	no	33.3	336	no	33.9	336	no	34.4	317	no	35.2	253	yes	6	1	no	no	human_only	
+1322	SIKU01_001961	1	annotated																		no	0	0	no	no	none	
+1323	SIKU01_001992	1	annotated	30.2	334	no	29.8	336	no	30.2	338	no	29.9	338	no	29.1	340	no	27.9	341	no	6	0	no	no	none	
+1329	SIKU01_000154	1	annotated																		no	0	0	no	no	none	
+1330	SIKU01_000723	1	annotated																		no	0	0	no	no	none	
+1333	SIKU01_001750	1	annotated	33.1	329	no	33.5	328	no	32.2	332	no	33	333	no	31.4	328	no	30.2	328	no	6	0	no	no	none	
+1337	SIKU01_001836	1	annotated	31.3	348	no	30.3	343	no	31.3	348	no	32.9	346	no	31.4	344	no	30.5	347	no	6	0	no	no	none	
+1340	SIKU01_000848	1	annotated	40.3	310	yes	41	310	yes	40.1	334	yes	39.5	334	yes	40.7	334	yes	40.8	306	yes	6	6	yes	yes	target_host	
+1341	SIKU01_000528	1	annotated	38.8	327	yes	36.7	335	yes	38.2	325	yes	38.8	325	yes	38.5	325	yes	41.2	325	yes	6	6	yes	yes	target_host	
+1344	SIKU01_001577	1	annotated				32.7	110	no				23.7	135	no	33	106	no	27.8	169	no	4	0	no	no	none	
+1345	SIKU01_001765	1	annotated	44.9	336	yes	44.6	336	yes	44.6	336	yes	44.9	336	yes	44.6	336	yes	43.9	335	yes	6	6	yes	yes	target_host	GAPDH
+1351	SIKU01_001553	1	annotated							23.3	318	no	23.6	318	no				23.5	243	no	3	0	no	no	none	
+1355	SIKU01_000067	1	annotated	36.6	82	yes	36.6	82	yes	26	204	no	26	204	no	35.4	82	yes	40.2	82	yes	6	4	yes	yes	target_host	
+1357	SIKU01_001525	1	annotated																		no	0	0	no	no	none	
+1360	SIKU01_000229	1	annotated																		no	0	0	no	no	none	
+1361	SIKU01_001330	1	annotated																		no	0	0	no	no	none	
+1362	SIKU01_001457	1	annotated	31.8	129	no	31	129	no	29.8	131	no	29	131	no	31.5	130	no	30.3	201	no	6	0	no	no	none	
+1366	SIKU01_000749	1	annotated																		no	0	0	no	no	none	
+1367	SIKU01_000754	1	annotated																		no	0	0	no	no	none	
+1368	SIKU01_000762	1	annotated	43.7	323	yes	44.6	323	yes	44.3	323	yes	44	323	yes	41.8	323	yes	43.7	323	yes	6	6	yes	yes	target_host	
+1369	SIKU01_001077	1	annotated																21.3	343	no	1	0	no	no	none	
+1370	SIKU01_000306	1	annotated																		no	0	0	no	no	none	
+1371	SIKU01_001329	1	annotated																		no	0	0	no	no	none	
+1372	SIKU01_001435	1	annotated																		no	0	0	no	no	none	
+1373	SIKU01_001778	1	annotated	36.6	331	yes	36.8	334	yes	36.6	331	yes	37	330	yes	37.2	331	yes	37.3	330	yes	6	6	yes	yes	target_host	
+1376	SIKU01_000051	1	annotated																		no	0	0	no	no	none	
+1377	SIKU01_001051	1	annotated	25	156	no	29.4	143	no	25.5	157	no	25.5	157	no	25.2	155	no	33.3	81	no	6	0	no	no	none	
+1378	SIKU01_000309	1	annotated	40.4	344	yes	41	344	yes	41.5	342	yes	41.5	342	yes	42.2	344	yes	39.1	343	yes	6	6	yes	yes	target_host	
+1380	SIKU01_000936	1	annotated	30.9	311	no	30.9	311	no	33.7	249	no	33.7	249	no	33	273	no	37.6	117	yes	6	1	no	no	human_only	
+1381	SIKU01_000997	1	annotated																		no	0	0	no	no	none	
+1382	SIKU01_000457	1	annotated																		no	0	0	no	no	none	
+1383	SIKU01_000533	1	annotated																		no	0	0	no	no	none	
+1384	SIKU01_001325	1	annotated	28.4	278	no	36.8	152	yes	35.5	220	yes	35.5	220	yes	29.1	282	no	30.4	276	no	6	3	no	yes	other_fish_only	
+1389	SIKU01_000765	1	annotated	30.5	259	no	29.7	306	no	30.4	296	no	33.6	268	no	29.9	298	no	28.8	306	no	6	0	no	no	none	
+1391	SIKU01_001871	1	annotated																		no	0	0	no	no	none	
+1392	SIKU01_001316	1	annotated	38.9	337	yes	39.2	337	yes	39.5	337	yes	38.9	337	yes	40.4	337	yes	39.2	337	yes	6	6	yes	yes	target_host	
+1393	SIKU01_001318	1	annotated	33.4	335	no	33.4	335	no	31.3	336	no	31.3	336	no	33.6	336	no	32.8	335	no	6	0	no	no	none	
+1394	SIKU01_001604	1	annotated																		no	0	0	no	no	none	
+1398	SIKU01_000727	1	annotated	34.9	304	no	34.2	304	no	32.8	302	no	33.1	302	no	32	303	no	34.3	309	no	6	0	no	no	none	
+1404	SIKU01_000975	1	annotated	41.8	304	yes	40.8	304	yes	39.8	304	yes	41	305	yes	41.1	304	yes	39.1	307	yes	6	6	yes	yes	target_host	L-lactate dehydrogenase
+1405	SIKU01_000991	1	annotated	31.8	349	no	31.5	349	no	31.8	343	no	31.8	343	no	34.4	326	no	35	340	yes	6	1	no	no	human_only	
+1406	SIKU01_001875	1	annotated																		no	0	0	no	no	none	
+1407	SIKU01_000537	1	annotated																		no	0	0	no	no	none	
+1408	SIKU01_001217	1	annotated	40.2	92	yes	32.6	267	no	31.1	286	no	31.1	299	no	32.4	272	no	35.7	280	yes	6	2	yes	yes	target_host	
+1411	SIKU01_000055	1	annotated																		no	0	0	no	no	none	
+1413	SIKU01_001127	1	annotated																		no	0	0	no	no	none	
+1417	SIKU01_000157	1	annotated	28.5	284	no	28.2	284	no	30.6	252	no	31	252	no	27.7	318	no	29.9	284	no	6	0	no	no	none	
+1418	SIKU01_000191	1	annotated	34.4	259	no	34.7	259	no	32.8	259	no	32.8	259	no	34.1	258	no	32.8	259	no	6	0	no	no	none	
+1419	SIKU01_001208	1	annotated																		no	0	0	no	no	none	
+1425	SIKU01_001621	1	annotated																		no	0	0	no	no	none	
+1426	SIKU01_000187	1	annotated																		no	0	0	no	no	none	
+1429	SIKU01_001002	1	annotated	41.3	312	yes	41.7	312	yes	42.3	312	yes	42.3	312	yes	42	312	yes	42	312	yes	6	6	yes	yes	target_host	
+1430	SIKU01_000551	1	annotated	27.9	326	no	27.6	323	no	29.4	326	no	29.5	325	no	28.1	324	no	35.1	134	yes	6	1	no	no	human_only	
+1431	SIKU01_000761	1	annotated	36.7	313	yes	35.6	323	yes	35.4	311	yes	35.7	311	yes	36.3	311	yes	35.4	311	yes	6	6	yes	yes	target_host	
+1432	SIKU01_000880	1	annotated																		no	0	0	no	no	none	
+1434	SIKU01_000048	1	annotated	45.4	313	yes	45.4	313	yes	45.4	313	yes	45.7	313	yes	45	313	yes	45.7	315	yes	6	6	yes	yes	target_host	
+1437	SIKU01_001619	1	annotated																		no	0	0	no	no	none	
+1442	SIKU01_000645	1	annotated	31.5	143	no	35.3	116	yes	32.5	151	no	32.5	151	no	27.3	253	no	32.4	145	no	6	1	no	yes	other_fish_only	
+1443	SIKU01_000521	1	annotated	30.1	302	no	37.1	89	yes	29	328	no	30	300	no	36.1	83	yes	27.9	323	no	6	2	no	yes	other_fish_only	
+1446	SIKU01_000632	1	annotated	25	176	no	23	187	no	25.3	194	no	25.8	194	no	24.2	194	no	25.1	187	no	6	0	no	no	none	
+1452	SIKU01_000174	1	annotated																		no	0	0	no	no	none	
+1453	SIKU01_000905	1	annotated																		no	0	0	no	no	none	
+1454	SIKU01_000971	1	annotated																		no	0	0	no	no	none	
+1461	SIKU01_000242	1	annotated																		no	0	0	no	no	none	
+1463	SIKU01_000288	1	annotated				41.7	60	no	30.6	98	no	34.9	63	no						no	3	0	no	no	none	Ribosomal protein
+1468	SIKU01_000769	1	annotated																		no	0	0	no	no	none	
+1469	SIKU01_001178	1	annotated																		no	0	0	no	no	none	
+1470	SIKU01_000531	1	annotated																		no	0	0	no	no	none	
+1471	SIKU01_001556	1	annotated	34.9	341	no	36.8	334	yes	37.4	348	yes	37.2	347	yes	37.1	337	yes	35.2	321	yes	6	5	no	yes	other_fish_only	
+1475	SIKU01_001667	1	annotated							23.1	160	no	23.1	160	no						no	2	0	no	no	none	
+1477	SIKU01_001053	1	annotated	28	318	no	27.8	317	no	28.2	316	no	28.8	316	no	30.9	317	no	26.9	312	no	6	0	no	no	none	
+1478	SIKU01_000541	1	annotated																		no	0	0	no	no	none	
+1479	SIKU01_001679	1	annotated																		no	0	0	no	no	none	
+1485	SIKU01_000167	1	annotated																		no	0	0	no	no	none	
+1486	SIKU01_001201	1	annotated																		no	0	0	no	no	none	
+1487	SIKU01_000624	1	annotated																		no	0	0	no	no	none	
+1496	SIKU01_000105	1	annotated																		no	0	0	no	no	none	DNA-directed RNA polymerase
+1497	SIKU01_001771	1	annotated																		no	0	0	no	no	none	
+1499	SIKU01_001335	1	annotated	30.9	175	no	30.9	175	no	29.1	175	no	29.1	175	no	30.3	175	no	28	175	no	6	0	no	no	none	
+1500	SIKU01_001702	1	annotated	27.8	126	no	25.7	206	no	26.8	112	no	23.4	218	no				27	100	no	5	0	no	no	none	
+1501	SIKU01_000888	1	annotated																		no	0	0	no	no	none	
+1503	SIKU01_001950	1	annotated																		no	0	0	no	no	none	
+1504	SIKU01_000586	1	annotated	26.5	283	no	25.6	289	no	25.3	281	no	25.1	287	no	26.6	286	no	25.3	285	no	6	0	no	no	none	
+1505	SIKU01_001438	1	annotated	27.3	165	no															no	1	0	no	no	none	
+1506	SIKU01_001530	1	annotated	24	313	no	24.2	269	no	22.8	312	no	23.4	312	no	24.1	278	no	27	322	no	6	0	no	no	none	
+1507	SIKU01_001755	1	annotated	27.7	235	no	29.1	234	no	30.7	238	no	31.1	238	no	31.1	238	no	32.6	230	no	6	0	no	no	none	
+1515	SIKU01_000883	1	annotated																35.6	118	yes	1	1	no	no	human_only	
+1516	SIKU01_001014	1	annotated																		no	0	0	no	no	none	
+1518	SIKU01_001927	1	annotated	28.9	90	no	30	90	no	27.5	91	no	27.5	91	no	31.1	90	no			no	5	0	no	no	none	
+1519	SIKU01_001270	1	annotated																		no	0	0	no	no	none	
+1520	SIKU01_001777	1	annotated																		no	0	0	no	no	none	
+1524	SIKU01_000734	1	annotated	38.6	83	yes	37.9	322	yes	23.4	286	no	24.6	284	no	35.9	348	yes	36.2	351	yes	6	4	yes	yes	target_host	
+1526	SIKU01_000338	1	annotated																		no	0	0	no	no	none	
+1527	SIKU01_001215	1	annotated																		no	0	0	no	no	none	
+1528	SIKU01_001378	1	annotated																		no	0	0	no	no	none	
+1529	SIKU01_001465	1	annotated							24.1	274	no									no	1	0	no	no	none	
+1530	SIKU01_001618	1	annotated	31.5	317	no	35.2	108	yes	33.1	299	no	33.8	299	no	32.4	299	no	39.4	109	yes	6	2	no	yes	other_fish_only	
+1536	SIKU01_000687	1	annotated																		no	0	0	no	no	none	
+1538	SIKU01_000437	1	annotated																		no	0	0	no	no	none	
+1540	SIKU01_001337	1	annotated																		no	0	0	no	no	none	
+1541	SIKU01_001433	1	annotated																		no	0	0	no	no	none	
+1545	SIKU01_001075	1	annotated																		no	0	0	no	no	none	
+1546	SIKU01_001173	1	annotated	40.3	211	yes	40.3	211	yes	38	245	yes	38	245	yes	36.1	244	yes	36.3	226	yes	6	6	yes	yes	target_host	
+1549	SIKU01_001571	1	annotated																		no	0	0	no	no	none	
+1553	SIKU01_000897	1	annotated	29.1	148	no	30	150	no	31.3	150	no	31.3	150	no	30.7	150	no	27.9	154	no	6	0	no	no	none	
+1556	SIKU01_001634	1	annotated																		no	0	0	no	no	none	
+1557	SIKU01_001651	1	annotated	27.6	214	no	24.3	309	no	26.2	214	no	26.6	214	no	25.5	239	no	24.3	259	no	6	0	no	no	none	
+1562	SIKU01_000696	1	annotated																		no	0	0	no	no	none	
+1563	SIKU01_001105	1	annotated	26.5	306	no	25.9	305	no	27.4	307	no	27.7	307	no	26.4	307	no	27.4	307	no	6	0	no	no	none	L-lactate dehydrogenase
+1564	SIKU01_000339	1	annotated																		no	0	0	no	no	none	
+1565	SIKU01_001652	1	annotated	23.4	329	no	23.4	329	no	23.7	329	no	23.4	329	no	24	329	no	22.8	329	no	6	0	no	no	none	
+1566	SIKU01_001788	1	annotated	30.7	283	no	28.9	280	no	30.7	280	no	30	280	no	29.6	277	no	27.9	283	no	6	0	no	no	none	
+1571	SIKU01_001091	1	annotated																		no	0	0	no	no	none	
+1572	SIKU01_001207	1	annotated																		no	0	0	no	no	none	
+1574	SIKU01_001548	1	annotated	24.5	294	no	25	208	no	22.8	294	no	24.4	213	no	25.4	213	no	25.9	286	no	6	0	no	no	none	
+1575	SIKU01_001704	1	annotated																		no	0	0	no	no	none	
+1576	SIKU01_001758	1	annotated																		no	0	0	no	no	none	
+1580	SIKU01_001096	1	annotated	36.2	177	yes	35.6	177	yes	32.8	192	no	33.9	192	no	32.8	183	no			no	5	2	yes	yes	target_host	
+1581	SIKU01_000538	1	annotated	30.4	299	no	33.8	299	no	31.9	301	no	30.8	308	no	32.1	299	no	34.1	299	no	6	0	no	no	none	
+1582	SIKU01_001606	1	annotated																		no	0	0	no	no	none	
+1593	SIKU01_001284	1	annotated																		no	0	0	no	no	none	
+1597	SIKU01_000924	1	annotated	23.4	222	no	23.6	216	no	24	204	no	26.3	205	no	27.8	169	no	25.9	185	no	6	0	no	no	none	
+1599	SIKU01_001837	1	annotated	22.6	265	no	22.3	265	no	23.4	265	no	23.4	265	no	22.8	263	no	21.3	263	no	6	0	no	no	none	
+1602	SIKU01_001478	1	annotated																		no	0	0	no	no	none	
+1608	SIKU01_000151	1	annotated																		no	0	0	no	no	none	
+1610	SIKU01_001255	1	annotated	40.6	288	yes	40.6	288	yes	42.8	290	yes	41.2	291	yes	43.4	290	yes	42.6	291	yes	6	6	yes	yes	target_host	
+1611	SIKU01_001358	1	annotated	26.3	342	no	25.3	340	no	25.8	326	no	25.6	324	no	25.6	340	no	25.3	312	no	6	0	no	no	none	
+1613	SIKU01_001484	1	annotated																		no	0	0	no	no	none	
+1614	SIKU01_001787	1	annotated	24.6	260	no	23.6	296	no	26.2	294	no	25.9	294	no	25.4	260	no	23.6	288	no	6	0	no	no	none	
+1622	SIKU01_000998	1	annotated	29.1	275	no	36.4	184	yes	36.2	177	yes	36.2	177	yes	31.5	203	no	28.9	218	no	6	3	no	yes	other_fish_only	
+1625	SIKU01_001209	1	annotated																		no	0	0	no	no	none	
+1626	SIKU01_001662	1	annotated																		no	0	0	no	no	none	
+1627	SIKU01_001694	1	annotated																		no	0	0	no	no	none	
+1628	SIKU01_000934	1	annotated																		no	0	0	no	no	none	
+1630	SIKU01_000419	1	annotated	25.6	164	no	25.5	165	no	24.6	171	no	24.6	171	no	25.9	166	no	24.4	164	no	6	0	no	no	none	
+1631	SIKU01_000483	1	annotated																		no	0	0	no	no	none	
+1636	SIKU01_000889	1	annotated																		no	0	0	no	no	none	
+1637	SIKU01_000372	1	annotated																		no	0	0	no	no	none	
+1639	SIKU01_000491	1	annotated																		no	0	0	no	no	none	
+1642	SIKU01_000188	1	annotated																		no	0	0	no	no	none	
+1643	SIKU01_000199	1	annotated																		no	0	0	no	no	none	
+1645	SIKU01_001054	1	annotated				24.3	267	no	26.6	241	no	26.1	241	no				23.3	300	no	4	0	no	no	none	
+1647	SIKU01_001897	1	annotated	32.8	177	no	30.6	180	no	31.1	177	no	30.5	177	no	29.1	175	no	31.7	186	no	6	0	no	no	none	
+1648	SIKU01_001949	1	annotated																		no	0	0	no	no	none	
+1653	SIKU01_000414	1	annotated																		no	0	0	no	no	none	
+1654	SIKU01_000459	1	annotated	35.2	105	yes	34.8	112	no	34.5	119	no	34.5	113	no	38.6	127	yes	35	117	yes	6	3	yes	yes	target_host	
+1655	SIKU01_001668	1	annotated	31.8	110	no	30.6	108	no							26.8	198	no			no	3	0	no	no	none	
+1657	SIKU01_000668	1	annotated																		no	0	0	no	no	none	
+1660	SIKU01_001558	1	annotated	29.2	291	no	28.5	291	no	28.3	293	no	28.3	293	no	28.5	291	no	29.6	291	no	6	0	no	no	none	
+1666	SIKU01_000235	1	annotated																		no	0	0	no	no	none	
+1667	SIKU01_001155	1	annotated	27.9	294	no	28.3	293	no	26	296	no	26	296	no	27.6	294	no	27.3	304	no	6	0	no	no	none	F0F1 ATP synthase
+1670	SIKU01_001415	1	annotated																		no	0	0	no	no	none	
+1672	SIKU01_000192	1	annotated																		no	0	0	no	no	none	
+1673	SIKU01_001978	1	annotated																		no	0	0	no	no	none	
+1674	SIKU01_001993	1	annotated																		no	0	0	no	no	none	
+1675	SIKU01_000575	1	annotated	29	238	no	28.6	238	no	31.3	195	no	31.3	195	no	29.4	245	no	28	243	no	6	0	no	no	none	
+1677	SIKU01_001775	1	annotated																		no	0	0	no	no	none	
+1678	SIKU01_001781	1	annotated	29.1	285	no	30.5	285	no	26.8	302	no	26.5	302	no	27.5	291	no	29.4	309	no	6	0	no	no	none	
+1679	SIKU01_001792	1	annotated																		no	0	0	no	no	none	
+1685	SIKU01_000745	1	annotated	24.8	250	no	24.5	253	no	26.7	251	no	26.7	251	no	24	250	no	23.9	238	no	6	0	no	no	none	
+1686	SIKU01_000755	1	annotated																		no	0	0	no	no	none	
+1695	SIKU01_000226	1	annotated																		no	0	0	no	no	none	
+1698	SIKU01_001990	1	annotated																		no	0	0	no	no	none	
+1699	SIKU01_001412	1	annotated																		no	0	0	no	no	none	
+1700	SIKU01_001612	1	annotated	22.2	189	no	22.2	189	no	22.2	189	no							23.3	189	no	4	0	no	no	none	
+1710	SIKU01_001149	1	annotated																		no	0	0	no	no	none	
+1711	SIKU01_001807	1	annotated																		no	0	0	no	no	none	
+1712	SIKU01_001877	1	annotated																		no	0	0	no	no	none	
+1714	SIKU01_001278	1	annotated																		no	0	0	no	no	none	
+1722	SIKU01_000717	1	annotated																		no	0	0	no	no	none	
+1724	SIKU01_001034	1	annotated																		no	0	0	no	no	none	
+1725	SIKU01_000662	1	annotated	28.7	282	no	29.9	254	no	31.5	254	no	31.1	254	no	28.4	282	no	30	277	no	6	0	no	no	none	
+1727	SIKU01_001806	1	annotated	35.9	209	yes	36.2	218	yes	30.8	240	no	35	217	yes	35.7	210	yes	35.1	208	yes	6	5	yes	yes	target_host	
+1731	SIKU01_000336	1	annotated	22.8	259	no	22.4	259	no	23.1	264	no	22.7	264	no	21.8	261	no	21.9	283	no	6	0	no	no	none	
+1733	SIKU01_000572	1	annotated	43.8	297	yes	42.5	294	yes	42	293	yes	42.9	289	yes	43	293	yes	44.1	290	yes	6	6	yes	yes	target_host	
+1739	SIKU01_000827	1	annotated																		no	0	0	no	no	none	
+1740	SIKU01_000929	1	annotated	30.8	299	no	29.8	299	no	30.8	302	no	30.1	302	no	30.1	299	no	36.7	210	yes	6	1	no	no	human_only	
+1741	SIKU01_001134	1	annotated	28.1	278	no	29.5	237	no	27.9	244	no	27.9	244	no	25.9	286	no	28.1	281	no	6	0	no	no	none	
+1742	SIKU01_001367	1	annotated																		no	0	0	no	no	none	
+1743	SIKU01_001764	1	annotated																		no	0	0	no	no	none	
+1752	SIKU01_001066	1	annotated																		no	0	0	no	no	none	
+1753	SIKU01_000403	1	annotated																		no	0	0	no	no	none	
+1755	SIKU01_001376	1	annotated																		no	0	0	no	no	none	
+1766	SIKU01_001780	1	annotated																		no	0	0	no	no	none	
+1772	SIKU01_000768	1	annotated																		no	0	0	no	no	none	
+1773	SIKU01_000787	1	annotated	34.2	260	no	35.1	296	yes	33.7	264	no	34.8	264	no	36.5	260	yes	35.2	290	yes	6	3	no	yes	other_fish_only	
+1774	SIKU01_000932	1	annotated																		no	0	0	no	no	none	
+1775	SIKU01_000301	1	annotated																		no	0	0	no	no	none	
+1776	SIKU01_001494	1	annotated																		no	0	0	no	no	none	
+1777	SIKU01_001705	1	annotated	35.7	98	yes	30.6	258	no	36.4	99	yes	37.4	99	yes	30.5	266	no	40	100	yes	6	4	yes	yes	target_host	
+1783	SIKU01_000882	1	annotated	35.2	219	yes	34.7	219	no	36.9	222	yes	36.9	222	yes	36.7	221	yes	32.1	252	no	6	4	yes	yes	target_host	
+1784	SIKU01_001965	1	annotated																		no	0	0	no	no	none	
+1785	SIKU01_001982	1	annotated	33.2	220	no	36.9	84	yes	35.2	88	yes	32.1	252	no	31.4	277	no	35.1	211	yes	6	3	no	yes	other_fish_only	
+1786	SIKU01_001983	1	annotated	31.1	225	no	31.1	225	no	30	287	no	32.3	232	no	31.6	237	no	35.5	234	yes	6	1	no	no	human_only	
+1799	SIKU01_000247	1	annotated	29.8	94	no	29.8	94	no	28.7	94	no	28.7	94	no						no	4	0	no	no	none	
+1800	SIKU01_000861	1	annotated																		no	0	0	no	no	none	
+1801	SIKU01_000928	1	annotated																		no	0	0	no	no	none	
+1802	SIKU01_001048	1	annotated	26.3	270	no	25	300	no	25.1	303	no	25.4	303	no	27	267	no	24.8	270	no	6	0	no	no	none	
+1804	SIKU01_000656	1	annotated	29.4	272	no	30.9	272	no	28.8	271	no	30.4	273	no	30.8	273	no	30.1	266	no	6	0	no	no	none	
+1805	SIKU01_000423	1	annotated																		no	0	0	no	no	none	
+1806	SIKU01_000481	1	annotated																		no	0	0	no	no	none	
+1807	SIKU01_000580	1	annotated																		no	0	0	no	no	none	
+1809	SIKU01_001349	1	annotated																		no	0	0	no	no	none	
+1810	SIKU01_001573	1	annotated	38	271	yes	40.4	265	yes	37.4	262	yes	38.5	262	yes	41.4	268	yes	36.7	286	yes	6	6	yes	yes	target_host	
+1815	SIKU01_000720	1	annotated																		no	0	0	no	no	none	
+1823	SIKU01_000080	1	annotated	38.6	197	yes	41.6	197	yes	41.4	198	yes	41.9	198	yes	41.6	197	yes	39.5	195	yes	6	6	yes	yes	target_host	Ribosomal protein
+1824	SIKU01_001495	1	annotated																		no	0	0	no	no	none	
+1829	SIKU01_000982	1	annotated	33.6	229	no	29	245	no	35.2	193	yes	35.7	196	yes	35.2	219	yes	36.8	185	yes	6	4	no	yes	other_fish_only	
+1830	SIKU01_000484	1	annotated																		no	0	0	no	no	none	
+1831	SIKU01_001445	1	annotated	30.3	221	no	32.3	217	no	35.7	213	yes	35.7	213	yes	29.4	221	no	35	80	yes	6	3	no	yes	other_fish_only	
+1832	SIKU01_001796	1	annotated																		no	0	0	no	no	none	
+1833	SIKU01_001309	1	annotated																		no	0	0	no	no	none	
+1842	SIKU01_001016	1	annotated																		no	0	0	no	no	none	
+1843	SIKU01_000347	1	annotated																		no	0	0	no	no	none	
+1845	SIKU01_000576	1	annotated																		no	0	0	no	no	none	
+1846	SIKU01_001237	1	annotated																		no	0	0	no	no	none	
+1847	SIKU01_001296	1	annotated																		no	0	0	no	no	none	
+1848	SIKU01_001400	1	annotated	39.1	274	yes	39.4	274	yes	39.8	274	yes	39.8	274	yes	39.6	275	yes	39	277	yes	6	6	yes	yes	target_host	
+1850	SIKU01_000813	1	annotated																		no	0	0	no	no	none	
+1852	SIKU01_001543	1	annotated	25.7	272	no	25.7	272	no	31.4	156	no	32.1	156	no	26.5	272	no			no	5	0	no	no	none	
+1855	SIKU01_000743	1	annotated	39.8	327	yes	39.1	330	yes	37.7	334	yes	37	332	yes	37.2	336	yes	45.3	276	yes	6	6	yes	yes	target_host	
+1857	SIKU01_001924	1	annotated																		no	0	0	no	no	none	
+1862	SIKU01_000833	1	annotated																		no	0	0	no	no	none	
+1863	SIKU01_001808	1	annotated	26.2	225	no	28.9	194	no	26	223	no	26.7	202	no	25.7	202	no	26.9	193	no	6	0	no	no	none	
+1870	SIKU01_000045	1	annotated																		no	0	0	no	no	none	
+1871	SIKU01_000161	1	annotated																		no	0	0	no	no	none	
+1872	SIKU01_000227	1	annotated																		no	0	0	no	no	none	
+1874	SIKU01_001277	1	annotated																		no	0	0	no	no	none	
+1875	SIKU01_001285	1	annotated																		no	0	0	no	no	none	
+1876	SIKU01_001576	1	annotated																		no	0	0	no	no	none	
+1880	SIKU01_000222	1	annotated	32.3	257	no	35.8	254	yes	29.8	255	no	30	257	no	32.3	257	no	37.8	90	yes	6	2	no	yes	other_fish_only	
+1882	SIKU01_001770	1	annotated	30.5	128	no	28.9	128	no	31.6	133	no	34.5	113	no	30.1	133	no			no	5	0	no	no	none	
+1883	SIKU01_001784	1	annotated																		no	0	0	no	no	none	
+1889	SIKU01_000060	1	annotated																		no	0	0	no	no	none	
+1891	SIKU01_001305	1	annotated																		no	0	0	no	no	none	
+1892	SIKU01_001605	1	annotated																		no	0	0	no	no	none	
+1895	SIKU01_001981	1	annotated																		no	0	0	no	no	none	
+1898	SIKU01_001131	1	annotated																		no	0	0	no	no	none	
+1899	SIKU01_000658	1	annotated																		no	0	0	no	no	none	
+1900	SIKU01_000600	1	annotated																		no	0	0	no	no	none	
+1901	SIKU01_001225	1	annotated																		no	0	0	no	no	none	
+1902	SIKU01_001297	1	annotated																		no	0	0	no	no	none	
+1906	SIKU01_000189	1	annotated	29.6	233	no	29.6	233	no	28.9	232	no	29.7	222	no	29.6	233	no	35.4	209	yes	6	1	no	no	human_only	
+1907	SIKU01_000728	1	annotated																		no	0	0	no	no	none	
+1908	SIKU01_000890	1	annotated	32.7	214	no	32.2	214	no	30.5	236	no	29.7	236	no	31.7	221	no	35.8	109	yes	6	1	no	no	human_only	
+1910	SIKU01_001859	1	annotated																		no	0	0	no	no	none	
+1911	SIKU01_001551	1	annotated																		no	0	0	no	no	none	
+1916	SIKU01_001031	1	annotated																		no	0	0	no	no	none	
+1918	SIKU01_001414	1	annotated																		no	0	0	no	no	none	
+1920	SIKU01_000719	1	annotated																		no	0	0	no	no	none	
+1921	SIKU01_000844	1	annotated																		no	0	0	no	no	none	
+1922	SIKU01_001199	1	annotated	44	50	no	42	50	no	40	50	no	40	50	no				43.6	55	no	5	0	no	no	none	
+1924	SIKU01_001308	1	annotated	35.9	223	yes	35.4	223	yes	34.5	223	no	35	223	yes	35.9	223	yes	36.8	223	yes	6	5	yes	yes	target_host	
+1930	SIKU01_001025	1	annotated																		no	0	0	no	no	none	
+1931	SIKU01_001121	1	annotated																		no	0	0	no	no	none	
+1932	SIKU01_000313	1	annotated	27.3	249	no	26.9	249	no	29.7	185	no	29.2	185	no	29.2	185	no	27.3	249	no	6	0	no	no	none	
+1933	SIKU01_001458	1	annotated																		no	0	0	no	no	none	
+1935	SIKU01_001830	1	annotated																		no	0	0	no	no	none	
+1936	SIKU01_000563	1	annotated																		no	0	0	no	no	none	
+1938	SIKU01_001594	1	annotated																		no	0	0	no	no	none	
+1939	SIKU01_001623	1	annotated	35.4	99	yes	28.1	267	no	28	268	no	27.2	268	no	27.8	270	no	29.4	262	no	6	1	yes	yes	target_host	
+1940	SIKU01_001659	1	annotated	26.8	231	no	30.9	230	no	27.7	231	no	36.2	94	yes	28.7	230	no	29.2	233	no	6	1	no	yes	other_fish_only	
+1943	SIKU01_000742	1	annotated	34.1	132	no	26.9	193	no	32.8	116	no	33.6	116	no	32.7	113	no	29.2	96	no	6	0	no	no	none	
+1944	SIKU01_000766	1	annotated																		no	0	0	no	no	none	
+1945	SIKU01_001439	1	annotated																		no	0	0	no	no	none	
+1950	SIKU01_000802	1	annotated																		no	0	0	no	no	none	
+1951	SIKU01_000930	1	annotated				23.3	180	no	24.9	185	no	25.3	186	no	24.7	186	no	23.2	185	no	5	0	no	no	none	
+1952	SIKU01_002003	1	annotated																		no	0	0	no	no	none	
+1954	SIKU01_001444	1	annotated																		no	0	0	no	no	none	
+1957	SIKU01_000952	1	annotated																		no	0	0	no	no	none	
+1958	SIKU01_000628	1	annotated	29.9	268	no	29.2	267	no	30	267	no	30	267	no	31.8	267	no	31.1	267	no	6	0	no	no	none	
+1959	SIKU01_001432	1	annotated	29.2	236	no	28.9	239	no	27.8	230	no	27.8	230	no	31.3	233	no	27.4	230	no	6	0	no	no	none	
+1960	SIKU01_001646	1	annotated																		no	0	0	no	no	none	
+1964	SIKU01_001854	1	annotated																		no	0	0	no	no	none	
+1965	SIKU01_001889	1	annotated	25.1	231	no	26.3	232	no	24.4	238	no	23.1	238	no	26.4	235	no	26.4	159	no	6	0	no	no	none	
+1967	SIKU01_001269	1	annotated																		no	0	0	no	no	none	
+1972	SIKU01_001024	1	annotated																		no	0	0	no	no	none	
+1973	SIKU01_001197	1	annotated	27.7	148	no	29.5	146	no	26	146	no	24	146	no	27.9	183	no			no	5	0	no	no	none	
+1974	SIKU01_000454	1	annotated																		no	0	0	no	no	none	
+1980	SIKU01_000690	1	annotated																		no	0	0	no	no	none	
+1982	SIKU01_000590	1	annotated																		no	0	0	no	no	none	
+1984	SIKU01_001783	1	annotated	29.2	257	no	35.3	187	yes	27.6	257	no	27.6	257	no	34.5	206	no	32	200	no	6	1	no	yes	other_fish_only	
+1994	SIKU01_000179	1	annotated	29.3	266	no	29.3	266	no	27.8	266	no	28.8	264	no	28.8	264	no	29	262	no	6	0	no	no	none	
+1995	SIKU01_000862	1	annotated																		no	0	0	no	no	none	
+1996	SIKU01_000886	1	annotated	26.1	245	no	26.9	245	no	26.5	245	no	26.9	245	no	27.7	238	no	27.6	261	no	6	0	no	no	none	
+1997	SIKU01_000426	1	annotated	31.3	224	no	30.9	233	no	38.1	84	yes	38.1	84	yes	36.9	84	yes	30.8	221	no	6	3	no	yes	other_fish_only	
+2000	SIKU01_001611	1	annotated																		no	0	0	no	no	none	
+2011	SIKU01_000050	1	annotated																		no	0	0	no	no	none	
+2012	SIKU01_000774	1	annotated	29.7	246	no	28.9	246	no	27.2	272	no	27.2	272	no	28.6	276	no	27	252	no	6	0	no	no	none	
+2013	SIKU01_001065	1	annotated																		no	0	0	no	no	none	
+2016	SIKU01_001912	1	annotated	26.2	214	no	26.2	214	no	26.2	210	no	26.7	210	no	28.5	214	no	28.1	210	no	6	0	no	no	none	Ribosomal protein
+2017	SIKU01_000400	1	annotated	27.2	162	no	35.4	79	no	39.7	78	no	39.7	78	no	38	79	no			no	5	0	no	no	none	
+2021	SIKU01_000735	1	annotated	30.1	186	no	32.8	186	no	27.4	237	no	27.8	237	no	30.3	221	no	30.2	189	no	6	0	no	no	none	
+2023	SIKU01_001419	1	annotated	28.9	239	no	29.5	237	no	29.3	239	no	29.5	237	no	31.5	238	no	31.2	237	no	6	0	no	no	none	
+2027	SIKU01_000424	1	annotated																		no	0	0	no	no	none	
+2028	SIKU01_000509	1	annotated				29.2	120	no				28.2	213	no	27.6	105	no			no	3	0	no	no	none	
+2029	SIKU01_000564	1	annotated																		no	0	0	no	no	none	
+2032	SIKU01_000756	1	annotated	30.2	215	no	29.3	215	no	29.4	235	no	35.4	82	yes	29.6	213	no	29.1	213	no	6	1	no	yes	other_fish_only	
+2033	SIKU01_000891	1	annotated	35.3	201	yes	35.3	201	yes	35.7	196	yes	35.2	196	yes	36.7	196	yes	34.5	223	no	6	5	yes	yes	target_host	
+2034	SIKU01_000973	1	annotated																		no	0	0	no	no	none	
+2035	SIKU01_000996	1	annotated	35	197	yes	34.4	247	no	32.3	251	no	33.9	251	no	36.5	249	yes	37	81	yes	6	3	yes	yes	target_host	
+2036	SIKU01_001228	1	annotated	44	241	yes	43.3	240	yes	40.8	240	yes	40.1	237	yes	42	243	yes	40.5	242	yes	6	6	yes	yes	target_host	
+2052	SIKU01_001125	1	annotated	30.1	186	no	29	186	no	27.5	178	no	23	226	no	28.3	180	no	27.5	182	no	6	0	no	no	none	
+2053	SIKU01_000326	1	annotated																		no	0	0	no	no	none	
+2062	SIKU01_000312	1	annotated	37.5	232	yes	37.1	232	yes	37.9	232	yes	37.9	232	yes	39.2	232	yes	39	231	yes	6	6	yes	yes	target_host	
+2063	SIKU01_001442	1	annotated																		no	0	0	no	no	none	
+2072	SIKU01_001869	1	annotated																		no	0	0	no	no	none	
+2073	SIKU01_000348	1	annotated	28.7	258	no	27.7	206	no	29.9	261	no	28.4	257	no	31.9	213	no	27.6	228	no	6	0	no	no	none	
+2074	SIKU01_000399	1	annotated	28.2	277	no	29.7	279	no	28.4	282	no	28.4	285	no	37.3	126	yes	30.1	272	no	6	1	no	yes	other_fish_only	
+2084	SIKU01_001078	1	annotated																		no	0	0	no	no	none	
+2085	SIKU01_000289	1	annotated																		no	0	0	no	no	none	
+2086	SIKU01_001210	1	annotated																		no	0	0	no	no	none	
+2087	SIKU01_001454	1	annotated																		no	0	0	no	no	none	
+2088	SIKU01_001550	1	annotated	35.3	221	yes	33.9	218	no	36.1	216	yes	35.3	221	yes	35.3	218	yes	35.8	226	yes	6	5	yes	yes	target_host	
+2089	SIKU01_001629	1	annotated																		no	0	0	no	no	none	
+2095	SIKU01_000705	1	annotated	37.3	185	yes	36.6	186	yes	35.1	185	yes	36.6	186	yes	36.2	185	yes	37.8	185	yes	6	6	yes	yes	target_host	
+2096	SIKU01_000421	1	annotated	35	220	yes	36.3	215	yes	32.6	233	no	32.2	233	no	35.4	189	yes	35.5	220	yes	6	4	yes	yes	target_host	
+2097	SIKU01_001501	1	annotated	26.3	152	no	29.1	117	no	28.8	125	no	30.7	127	no	27.4	117	no	31.3	128	no	6	0	no	no	none	
+2098	SIKU01_001528	1	annotated	23.1	260	no	25.4	181	no	25.9	259	no	26.6	259	no	21.1	237	no	30.5	164	no	6	0	no	no	none	
+2103	SIKU01_000606	1	annotated																		no	0	0	no	no	none	
+2105	SIKU01_001463	1	annotated	39.2	97	yes	33.1	148	no	34.7	144	no	41	100	yes	30.2	278	no	27.2	279	no	6	2	yes	yes	target_host	
+2113	SIKU01_000773	1	annotated																		no	0	0	no	no	none	
+2114	SIKU01_000571	1	annotated	35.9	217	yes	36.3	215	yes	35.2	213	yes	37	211	yes	35.1	188	yes	36.3	234	yes	6	6	yes	yes	target_host	
+2115	SIKU01_001369	1	annotated																		no	0	0	no	no	none	
+2116	SIKU01_001560	1	annotated	31.4	236	no	31.7	230	no	32.2	230	no	32.2	230	no	34.2	243	no	34.1	229	no	6	0	no	no	none	
+2117	SIKU01_001617	1	annotated	40.9	235	yes	41.3	235	yes	43.1	232	yes	43.5	232	yes	44.3	235	yes	39.3	234	yes	6	6	yes	yes	target_host	
+2123	SIKU01_000053	1	annotated																		no	0	0	no	no	none	
+2124	SIKU01_000805	1	annotated																		no	0	0	no	no	none	
+2126	SIKU01_000409	1	annotated																		no	0	0	no	no	none	
+2135	SIKU01_000993	1	annotated	30.3	244	no	31.6	244	no	34.2	202	no	32.3	223	no	30.9	233	no	33.6	244	no	6	0	no	no	none	
+2136	SIKU01_001377	1	annotated	31.4	185	no	30	200	no	29.6	203	no	29.7	185	no	30.9	204	no	30.7	218	no	6	0	no	no	none	
+2140	SIKU01_001281	1	annotated																		no	0	0	no	no	none	
+2141	SIKU01_001596	1	annotated	31.4	226	no	31.4	226	no	31.9	226	no	31.9	226	no	31.4	207	no	32.9	210	no	6	0	no	no	none	
+2148	SIKU01_000385	1	annotated	32.7	113	no	28.3	99	no	30.3	99	no	30.3	99	no	29.1	110	no			no	5	0	no	no	none	
+2149	SIKU01_001451	1	annotated																		no	0	0	no	no	none	
+2157	SIKU01_000056	1	annotated																		no	0	0	no	no	none	
+2159	SIKU01_000807	1	annotated																		no	0	0	no	no	none	
+2160	SIKU01_001392	1	annotated																		no	0	0	no	no	none	
+2164	SIKU01_001876	1	annotated	27.4	201	no	27.6	185	no	25	184	no	23.2	194	no				27	178	no	5	0	no	no	none	
+2165	SIKU01_000615	1	annotated	26.1	157	no	26.8	157	no												no	2	0	no	no	none	
+2166	SIKU01_001340	1	annotated																		no	0	0	no	no	none	
+2167	SIKU01_001486	1	annotated																		no	0	0	no	no	none	
+2168	SIKU01_001496	1	annotated	31.4	242	no	31.3	240	no	30.8	237	no	30.8	237	no	29.7	236	no	32.2	242	no	6	0	no	no	none	
+2169	SIKU01_001498	1	annotated																		no	0	0	no	no	none	
+2182	SIKU01_000965	1	annotated																		no	0	0	no	no	none	
+2183	SIKU01_001044	1	annotated																		no	0	0	no	no	none	
+2184	SIKU01_001074	1	annotated																		no	0	0	no	no	none	
+2185	SIKU01_001159	1	annotated	26.7	161	no	26.1	161	no										26.9	171	no	3	0	no	no	none	F0F1 ATP synthase
+2186	SIKU01_001819	1	annotated																		no	0	0	no	no	none	
+2188	SIKU01_001923	1	annotated																		no	0	0	no	no	none	
+2189	SIKU01_001085	1	annotated	35.6	188	yes	31.2	221	no	36.5	203	yes	36.5	203	yes	35.5	203	yes	35.6	188	yes	6	5	yes	yes	target_host	
+2195	SIKU01_000411	1	annotated																		no	0	0	no	no	none	
+2196	SIKU01_001307	1	annotated																		no	0	0	no	no	none	
+2197	SIKU01_001313	1	annotated	39.2	240	yes	38.7	243	yes	36.3	245	yes	36.3	245	yes	36.4	253	yes	40.3	243	yes	6	6	yes	yes	target_host	
+2202	SIKU01_000623	1	annotated	28.8	170	no	29.7	172	no	29.9	137	no	23.1	225	no	33.3	174	no	31.7	123	no	6	0	no	no	none	
+2203	SIKU01_001630	1	annotated	29.2	137	no	31.4	102	no	29.2	137	no	29.2	137	no	29.2	137	no	36.2	105	yes	6	1	no	no	human_only	
+2207	SIKU01_000614	1	annotated	37.8	209	yes	38.3	209	yes	34.2	243	no	35.4	209	yes	37	208	yes	35.1	208	yes	6	5	yes	yes	target_host	
+2208	SIKU01_001453	1	annotated																		no	0	0	no	no	none	
+2210	SIKU01_001799	1	annotated	24.5	139	no	23.7	139	no							23.7	139	no	23.7	139	no	4	0	no	no	none	
+2212	SIKU01_000875	1	annotated	36.5	85	yes	35.3	173	yes	40	80	yes	40	80	yes	36.6	82	yes	35.5	200	yes	6	6	yes	yes	target_host	
+2213	SIKU01_001007	1	annotated	28	107	no	28	107	no	27.8	115	no	27.8	115	no	26.1	115	no	29.9	107	no	6	0	no	no	none	
+2215	SIKU01_001310	1	annotated																		no	0	0	no	no	none	
+2216	SIKU01_001565	1	annotated	35.3	207	yes	35	206	yes	36.2	246	yes	35.4	246	yes	35.7	244	yes	35.6	239	yes	6	6	yes	yes	target_host	
+2223	SIKU01_000160	1	annotated	27.6	214	no	26.4	208	no	25.9	212	no	25.5	212	no	27	211	no	24.6	199	no	6	0	no	no	none	
+2224	SIKU01_000253	1	annotated																		no	0	0	no	no	none	
+2225	SIKU01_000273	1	annotated	33.1	236	no	35.2	159	yes	31.3	233	no	31.8	233	no	34.2	237	no	35.3	224	yes	6	2	no	yes	other_fish_only	
+2226	SIKU01_000845	1	annotated	33.6	217	no	35.1	194	yes	31.5	235	no	31.1	235	no	31.9	235	no	29	224	no	6	1	no	yes	other_fish_only	
+2227	SIKU01_000960	1	annotated																		no	0	0	no	no	none	
+2228	SIKU01_001843	1	annotated																		no	0	0	no	no	none	
+2238	SIKU01_000911	1	annotated				25.8	256	no	23.6	258	no	23.1	260	no	24.2	264	no			no	4	0	no	no	none	
+2240	SIKU01_000373	1	annotated																		no	0	0	no	no	none	
+2241	SIKU01_000587	1	annotated	52.1	234	yes	51.7	234	yes	51.7	232	yes	51.7	232	yes	50.9	234	yes	50.9	234	yes	6	6	yes	yes	target_host	
+2243	SIKU01_001526	1	annotated																		no	0	0	no	no	none	
+2244	SIKU01_001610	1	annotated																		no	0	0	no	no	none	
+2253	SIKU01_000627	1	annotated																		no	0	0	no	no	none	
+2254	SIKU01_001216	1	annotated	31.2	215	no	31.6	225	no	29.8	215	no	31.9	226	no	31.6	215	no	32.3	226	no	6	0	no	no	none	
+2255	SIKU01_001304	1	annotated	34.1	223	no	34.1	223	no	34.1	223	no	34.1	223	no	33.6	223	no	35.5	93	yes	6	1	no	no	human_only	
+2256	SIKU01_001380	1	annotated																		no	0	0	no	no	none	
+2257	SIKU01_001752	1	annotated																		no	0	0	no	no	none	
+2264	SIKU01_000741	1	annotated																		no	0	0	no	no	none	
+2265	SIKU01_000791	1	annotated				27.6	98	no										33.3	108	no	2	0	no	no	none	
+2266	SIKU01_000797	1	annotated	34.1	223	no	34.5	223	no	34.8	230	no	34.8	230	no	34.5	223	no	35	223	yes	6	1	no	no	human_only	
+2267	SIKU01_000806	1	annotated																		no	0	0	no	no	none	
+2269	SIKU01_001174	1	annotated																		no	0	0	no	no	none	
+2271	SIKU01_001884	1	annotated																		no	0	0	no	no	none	
+2272	SIKU01_000570	1	annotated																		no	0	0	no	no	none	
+2273	SIKU01_001370	1	annotated																24.1	216	no	1	0	no	no	none	Ribosomal protein
+2274	SIKU01_001461	1	annotated	27.4	208	no	26.4	208	no	26.4	208	no	26	208	no	26.2	210	no	26.6	207	no	6	0	no	no	none	
+2275	SIKU01_001491	1	annotated																		no	0	0	no	no	none	
+2285	SIKU01_001959	1	annotated																		no	0	0	no	no	none	
+2286	SIKU01_001482	1	annotated																		no	0	0	no	no	none	
+2287	SIKU01_001655	1	annotated																		no	0	0	no	no	none	
+2297	SIKU01_000738	1	annotated																		no	0	0	no	no	none	
+2298	SIKU01_000652	1	annotated																		no	0	0	no	no	none	
+2299	SIKU01_000500	1	annotated																		no	0	0	no	no	none	
+2300	SIKU01_001336	1	annotated																		no	0	0	no	no	none	
+2307	SIKU01_001114	1	annotated																		no	0	0	no	no	none	
+2308	SIKU01_001191	1	annotated																		no	0	0	no	no	none	
+2309	SIKU01_000525	1	annotated																		no	0	0	no	no	none	
+2311	SIKU01_001279	1	annotated																		no	0	0	no	no	none	
+2319	SIKU01_001108	1	annotated																		no	0	0	no	no	none	
+2323	SIKU01_000894	1	annotated																		no	0	0	no	no	none	
+2324	SIKU01_000607	1	annotated	39.7	63	no	38.1	63	no	32.3	62	no	33.9	62	no	39.7	63	no	36.5	63	no	6	0	no	no	none	
+2325	SIKU01_001488	1	annotated																		no	0	0	no	no	none	
+2331	SIKU01_001000	1	annotated																		no	0	0	no	no	none	
+2332	SIKU01_001022	1	annotated																		no	0	0	no	no	none	
+2333	SIKU01_001143	1	annotated	39.3	84	yes	36.9	84	yes	35.1	191	yes	35.3	102	yes	27.7	202	no	37	81	yes	6	5	yes	yes	target_host	
+2334	SIKU01_001838	1	annotated	28.7	150	no	29.3	150	no	29.7	155	no	29.3	184	no	28	161	no	27.3	150	no	6	0	no	no	none	
+2336	SIKU01_001977	1	annotated																		no	0	0	no	no	none	
+2337	SIKU01_000322	1	annotated	31.9	72	no	31.9	72	no	31.9	72	no	31.9	72	no	31.9	72	no			no	5	0	no	no	none	
+2338	SIKU01_000560	1	annotated	29	214	no	28.5	246	no	28	214	no	28	214	no	29	217	no	31.3	230	no	6	0	no	no	none	
+2347	SIKU01_000205	1	annotated																		no	0	0	no	no	none	
+2350	SIKU01_001470	1	annotated																		no	0	0	no	no	none	
+2351	SIKU01_001680	1	annotated																		no	0	0	no	no	none	
+2358	SIKU01_000937	1	annotated																		no	0	0	no	no	none	
+2360	SIKU01_001878	1	annotated																		no	0	0	no	no	none	
+2365	SIKU01_000900	1	annotated	33.3	216	no	33.7	208	no	34.3	216	no	33.8	216	no	34.6	208	no	32.3	217	no	6	0	no	no	none	
+2366	SIKU01_001175	1	annotated																		no	0	0	no	no	none	
+2369	SIKU01_001417	1	annotated	41.7	48	no	41.7	48	no	22.3	211	no	22.3	211	no				41.7	48	no	5	0	no	no	none	
+2370	SIKU01_001774	1	annotated	44	218	yes	43.6	218	yes	43.2	213	yes	43.7	213	yes	41.7	216	yes	43.6	218	yes	6	6	yes	yes	target_host	
+2375	SIKU01_000828	1	annotated																		no	0	0	no	no	none	
+2376	SIKU01_001401	1	annotated																		no	0	0	no	no	none	
+2379	SIKU01_000178	1	annotated																		no	0	0	no	no	none	
+2381	SIKU01_000739	1	annotated	29.3	188	no	30.3	188	no	28	189	no	27	189	no	29.8	188	no	29.9	177	no	6	0	no	no	none	
+2384	SIKU01_001185	1	annotated	31	200	no	33.3	183	no	32.4	210	no	32.4	210	no	31.5	200	no	35.2	91	yes	6	1	no	no	human_only	
+2395	SIKU01_000083	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+2396	SIKU01_000829	1	annotated	49.5	216	yes	49.1	216	yes	50	216	yes	50	216	yes	49.5	216	yes	49.5	214	yes	6	6	yes	yes	target_host	
+2397	SIKU01_000892	1	annotated																		no	0	0	no	no	none	
+2398	SIKU01_000621	1	annotated																		no	0	0	no	no	none	
+2399	SIKU01_000622	1	annotated	30.8	185	no	29.7	185	no	29.2	185	no	29.2	185	no	26.3	186	no	29.3	188	no	6	0	no	no	none	
+2400	SIKU01_001252	1	annotated																		no	0	0	no	no	none	
+2401	SIKU01_001275	1	annotated																		no	0	0	no	no	none	
+2402	SIKU01_001436	1	annotated																		no	0	0	no	no	none	
+2404	SIKU01_000925	1	annotated	25.2	218	no	24.8	218	no	28.8	212	no	28.6	217	no	27.7	213	no	27.5	204	no	6	0	no	no	none	
+2405	SIKU01_000549	1	annotated																		no	0	0	no	no	none	
+2406	SIKU01_001447	1	annotated	26.3	80	no	30.3	119	no	30.1	93	no	29	93	no	33.6	113	no	30.1	113	no	6	0	no	no	none	
+2410	SIKU01_000872	1	annotated																		no	0	0	no	no	none	
+2411	SIKU01_001979	1	annotated																		no	0	0	no	no	none	
+2412	SIKU01_001311	1	annotated																		no	0	0	no	no	none	
+2413	SIKU01_001339	1	annotated	24.6	203	no	27.8	198	no	26.3	194	no	25.3	194	no	25.6	203	no	25.6	211	no	6	0	no	no	none	
+2414	SIKU01_001379	1	annotated																		no	0	0	no	no	none	
+2419	SIKU01_000190	1	annotated	31.3	147	no	20	175	no	27.3	139	no	27.3	139	no	26	177	no	29	169	no	6	0	no	no	none	
+2420	SIKU01_001006	1	annotated																		no	0	0	no	no	none	
+2421	SIKU01_000626	1	annotated																		no	0	0	no	no	none	
+2422	SIKU01_001524	1	annotated																		no	0	0	no	no	none	
+2423	SIKU01_001562	1	annotated	31.2	199	no	31.2	199	no	30.2	199	no	30.2	199	no	30.2	199	no	29.9	174	no	6	0	no	no	none	
+2432	SIKU01_000219	1	annotated																		no	0	0	no	no	none	
+2433	SIKU01_000221	1	annotated																		no	0	0	no	no	none	
+2435	SIKU01_000831	1	annotated																		no	0	0	no	no	none	
+2436	SIKU01_000859	1	annotated																		no	0	0	no	no	none	
+2443	SIKU01_000246	1	annotated																		no	0	0	no	no	none	
+2444	SIKU01_000733	1	annotated																		no	0	0	no	no	none	
+2445	SIKU01_001346	1	annotated																		no	0	0	no	no	none	
+2447	SIKU01_001500	1	annotated																		no	0	0	no	no	none	
+2448	SIKU01_001519	1	annotated																		no	0	0	no	no	none	
+2449	SIKU01_001593	1	annotated																		no	0	0	no	no	none	
+2457	SIKU01_000480	1	annotated	25.9	193	no	26.6	203	no	27.1	203	no	26.6	203	no	27.6	185	no	29	186	no	6	0	no	no	none	
+2458	SIKU01_001214	1	annotated	30	203	no	37.8	90	yes	28.6	203	no	30	203	no	30.5	203	no	36.3	91	yes	6	2	no	yes	other_fish_only	
+2460	SIKU01_001795	1	annotated																		no	0	0	no	no	none	
+2466	SIKU01_001241	1	annotated	37.8	90	yes	38.9	90	yes	36.5	104	yes	35.6	104	yes	36.5	104	yes	35.6	104	yes	6	6	yes	yes	target_host	
+2468	SIKU01_001411	1	annotated	36.5	203	yes	38.4	203	yes	36.9	206	yes	37.4	206	yes	37.6	205	yes	38.4	203	yes	6	6	yes	yes	target_host	
+2469	SIKU01_001416	1	annotated	24.7	198	no	25.7	202	no	26.3	198	no	26.8	198	no	24.7	198	no	23.2	198	no	6	0	no	no	none	
+2470	SIKU01_001504	1	annotated	23	235	no	22.9	218	no				19.5	236	no	26.9	219	no	25.2	226	no	5	0	no	no	none	
+2471	SIKU01_001773	1	annotated																		no	0	0	no	no	none	
+2476	SIKU01_000677	1	annotated	32.3	189	no	31.5	200	no	30.2	189	no	33.9	189	no	28.8	198	no	31.7	189	no	6	0	no	no	none	
+2477	SIKU01_000860	1	annotated	36.4	195	yes	34	206	no	32	203	no	32	203	no	30.7	205	no	35	203	yes	6	2	yes	yes	target_host	
+2479	SIKU01_001427	1	annotated	31.4	204	no	30.9	204	no	30.9	204	no	30.9	204	no	31.9	204	no	31.4	204	no	6	0	no	no	none	
+2480	SIKU01_001640	1	annotated																		no	0	0	no	no	none	
+2489	SIKU01_000077	1	annotated	34.8	207	no	33.8	207	no	32.5	209	no	32.1	209	no	31.6	209	no	28.1	203	no	6	0	no	no	none	Ribosomal protein
+2492	SIKU01_000822	1	annotated	25.6	172	no	25	172	no	25.6	180	no	25.6	180	no	25.5	184	no	23.3	176	no	6	0	no	no	none	
+2493	SIKU01_000640	1	annotated	44.3	210	yes	40.5	215	yes	41.7	216	yes	43.8	210	yes	43.8	210	yes	44	207	yes	6	6	yes	yes	target_host	
+2494	SIKU01_001254	1	annotated	33.8	198	no	33.2	205	no	35.1	205	yes	35.6	205	yes	34.7	196	no	31.9	191	no	6	2	no	yes	other_fish_only	
+2495	SIKU01_001286	1	annotated	30.1	73	no	26.4	125	no	53.5	43	no	34.2	111	no	24.8	125	no	27	126	no	6	0	no	no	none	
+2496	SIKU01_001533	1	annotated	36.9	187	yes	37.4	187	yes	36.4	187	yes	35.8	187	yes	36.5	126	yes	36.7	147	yes	6	6	yes	yes	target_host	
+2507	SIKU01_000078	1	annotated	36.7	207	yes	36.6	202	yes	37.6	194	yes	38.1	194	yes	37.4	198	yes	47.1	119	yes	6	6	yes	yes	target_host	Ribosomal protein
+2510	SIKU01_000599	1	annotated																		no	0	0	no	no	none	
+2511	SIKU01_001299	1	annotated	33.7	187	no	33	182	no	29.5	200	no	30.3	195	no	30.8	195	no	29.8	215	no	6	0	no	no	none	
+2523	SIKU01_000789	1	annotated																		no	0	0	no	no	none	
+2524	SIKU01_001012	1	annotated													27.2	136	no			no	1	0	no	no	none	
+2525	SIKU01_000653	1	annotated																		no	0	0	no	no	none	
+2526	SIKU01_001980	1	annotated																		no	0	0	no	no	none	
+2538	SIKU01_000321	1	annotated	27.4	175	no	25.1	175	no	26.1	180	no	26.1	180	no	25.3	198	no	30.1	176	no	6	0	no	no	none	
+2539	SIKU01_000561	1	annotated																		no	0	0	no	no	none	
+2545	SIKU01_000063	1	annotated																		no	0	0	no	no	none	
+2546	SIKU01_000841	1	annotated																		no	0	0	no	no	none	
+2547	SIKU01_000843	1	annotated																		no	0	0	no	no	none	
+2549	SIKU01_001969	1	annotated							30.3	119	no									no	1	0	no	no	none	Ribosomal protein
+2550	SIKU01_000492	1	annotated																		no	0	0	no	no	none	
+2551	SIKU01_001347	1	annotated	41	195	yes	40	195	yes	41.2	187	yes	41.3	189	yes	41.2	187	yes	34.2	190	no	6	5	yes	yes	target_host	
+2552	SIKU01_001276	1	annotated	32.3	229	no	35.2	105	yes	32.9	213	no	33.3	213	no	31.9	229	no	32.4	213	no	6	1	no	yes	other_fish_only	
+2557	SIKU01_001083	1	annotated																		no	0	0	no	no	none	
+2558	SIKU01_000610	1	annotated	47	202	yes	46	202	yes	48.8	201	yes	49.5	202	yes	48	202	yes	48	202	yes	6	6	yes	yes	target_host	Superoxide dismutase
+2573	SIKU01_000794	1	annotated																		no	0	0	no	no	none	
+2574	SIKU01_000809	1	annotated																		no	0	0	no	no	none	
+2575	SIKU01_000977	1	annotated																		no	0	0	no	no	none	
+2576	SIKU01_001828	1	annotated																		no	0	0	no	no	none	
+2578	SIKU01_001541	1	annotated																		no	0	0	no	no	none	
+2583	SIKU01_000898	1	annotated																		no	0	0	no	no	none	
+2584	SIKU01_001011	1	annotated	36.5	85	yes	35.6	132	yes	35.6	87	yes	29.8	131	no	29	155	no	28.5	151	no	6	3	yes	yes	target_host	
+2585	SIKU01_001045	1	annotated	35.3	150	yes	36	150	yes	38.7	142	yes	38.7	142	yes	35.2	142	yes	35	163	yes	6	6	yes	yes	target_host	
+2593	SIKU01_000234	1	annotated																		no	0	0	no	no	none	
+2596	SIKU01_000320	1	annotated																		no	0	0	no	no	none	
+2597	SIKU01_000487	1	annotated																		no	0	0	no	no	none	
+2598	SIKU01_000592	1	annotated																		no	0	0	no	no	none	
+2605	SIKU01_000746	1	annotated																		no	0	0	no	no	none	
+2606	SIKU01_000812	1	annotated																		no	0	0	no	no	none	
+2607	SIKU01_001941	1	annotated																		no	0	0	no	no	none	
+2608	SIKU01_001503	1	annotated																		no	0	0	no	no	none	
+2609	SIKU01_001656	1	annotated																		no	0	0	no	no	none	
+2616	SIKU01_000981	1	annotated	32.2	180	no	33.3	180	no	33	182	no	33.1	181	no	33.7	178	no	26.9	182	no	6	0	no	no	none	
+2619	SIKU01_001426	1	annotated	47.7	193	yes	48.9	190	yes	49.5	190	yes	48.9	190	yes	47.4	190	yes	47.4	190	yes	6	6	yes	yes	target_host	
+2620	SIKU01_001695	1	annotated																		no	0	0	no	no	none	
+2621	SIKU01_001782	1	annotated																		no	0	0	no	no	none	
+2632	SIKU01_000879	1	annotated																		no	0	0	no	no	none	
+2633	SIKU01_001849	1	annotated																		no	0	0	no	no	none	
+2650	SIKU01_000327	1	annotated																		no	0	0	no	no	none	
+2651	SIKU01_001628	1	annotated																		no	0	0	no	no	none	
+2665	SIKU01_000867	1	annotated																		no	0	0	no	no	none	
+2666	SIKU01_000990	1	annotated													41.5	53	no			no	1	0	no	no	none	
+2668	SIKU01_001737	1	annotated																		no	0	0	no	no	none	
+2674	SIKU01_000984	1	annotated	25.6	195	no	25.3	190	no	24	192	no	24	192	no	24.2	182	no	24.3	177	no	6	0	no	no	none	
+2682	SIKU01_000251	1	annotated																		no	0	0	no	no	none	
+2684	SIKU01_000488	1	annotated							25.3	178	no	24.2	178	no						no	2	0	no	no	none	
+2685	SIKU01_001315	1	annotated	27.2	191	no	29.5	190	no	30.2	189	no	29.1	189	no	25.9	189	no	30.3	188	no	6	0	no	no	none	
+2688	SIKU01_001001	1	annotated																		no	0	0	no	no	none	
+2697	SIKU01_001361	1	annotated																		no	0	0	no	no	none	
+2703	SIKU01_000909	1	annotated																		no	0	0	no	no	none	
+2704	SIKU01_000005	1	annotated	29.2	171	no	27.4	179	no	26.2	183	no	25.7	183	no	25.3	178	no	24.2	178	no	6	0	no	no	none	
+2716	SIKU01_001032	1	annotated	52.7	182	yes	51.4	177	yes	51.4	179	yes	52	179	yes	51.4	179	yes	52.4	191	yes	6	6	yes	yes	target_host	
+2717	SIKU01_001910	1	annotated	39.6	182	yes	38.5	182	yes	35.9	181	yes	39	182	yes	36.5	181	yes	37.9	182	yes	6	6	yes	yes	target_host	
+2718	SIKU01_000402	1	annotated																		no	0	0	no	no	none	
+2719	SIKU01_000503	1	annotated																		no	0	0	no	no	none	
+2720	SIKU01_001238	1	annotated																		no	0	0	no	no	none	
+2721	SIKU01_001248	1	annotated	53.1	177	yes	53.1	179	yes	53	183	yes	53.6	181	yes	53.2	173	yes	53.1	177	yes	6	6	yes	yes	target_host	
+2722	SIKU01_001448	1	annotated																		no	0	0	no	no	none	
+2731	SIKU01_001188	1	annotated																		no	0	0	no	no	none	
+2733	SIKU01_000850	1	annotated																40	50	no	1	0	no	no	none	
+2734	SIKU01_000316	1	annotated																		no	0	0	no	no	none	
+2735	SIKU01_001368	1	annotated	33.3	156	no	33.5	158	no	29.9	154	no	29.9	154	no	30.6	180	no	27	122	no	6	0	no	no	none	
+2736	SIKU01_001485	1	annotated																		no	0	0	no	no	none	
+2737	SIKU01_001674	1	annotated																		no	0	0	no	no	none	
+2754	SIKU01_000820	1	annotated																		no	0	0	no	no	none	
+2755	SIKU01_000660	1	annotated																		no	0	0	no	no	none	
+2756	SIKU01_001940	1	annotated																		no	0	0	no	no	none	
+2757	SIKU01_001382	1	annotated				31.2	125	no												no	1	0	no	no	none	
+2758	SIKU01_001452	1	annotated																		no	0	0	no	no	none	
+2765	SIKU01_000874	1	annotated																		no	0	0	no	no	none	
+2766	SIKU01_000931	1	annotated																		no	0	0	no	no	none	
+2767	SIKU01_001183	1	annotated																		no	0	0	no	no	none	
+2769	SIKU01_001516	1	annotated																		no	0	0	no	no	none	
+2770	SIKU01_001645	1	annotated																		no	0	0	no	no	none	
+2780	SIKU01_000910	1	annotated	38	179	yes	34.6	179	no	35.6	177	yes	36.7	177	yes	35.4	175	yes	35.2	176	yes	6	5	yes	yes	target_host	
+2781	SIKU01_000390	1	annotated																		no	0	0	no	no	none	
+2783	SIKU01_001449	1	annotated																		no	0	0	no	no	none	
+2784	SIKU01_001692	1	annotated																		no	0	0	no	no	none	
+2794	SIKU01_000089	1	annotated	28.1	128	no	28.1	128	no	28.1	128	no	28.1	128	no	28.1	128	no	28.1	128	no	6	0	no	no	none	Ribosomal protein
+2795	SIKU01_000013	1	annotated	31.5	181	no	31.5	181	no	30.4	181	no	30.4	181	no	30.9	181	no	30.4	181	no	6	0	no	no	none	
+2802	SIKU01_000534	1	annotated																		no	0	0	no	no	none	
+2803	SIKU01_001626	1	annotated	30.7	153	no	29.4	153	no	30.7	153	no	30.7	153	no	31.4	153	no	32	153	no	6	0	no	no	none	
+2806	SIKU01_001157	1	annotated																23.6	165	no	1	0	no	no	none	F0F1 ATP synthase
+2807	SIKU01_001855	1	annotated																		no	0	0	no	no	none	
+2808	SIKU01_001968	1	annotated																		no	0	0	no	no	none	
+2810	SIKU01_000471	1	annotated																		no	0	0	no	no	none	
+2811	SIKU01_001366	1	annotated	40.9	154	yes	42.7	157	yes	40.9	154	yes	42	112	yes	39.4	155	yes	40	155	yes	6	6	yes	yes	target_host	
+2812	SIKU01_001572	1	annotated																		no	0	0	no	no	none	
+2821	SIKU01_001839	1	annotated	29.1	141	no	26.2	191	no	24.7	194	no	25.3	194	no	24.1	141	no	30	140	no	6	0	no	no	none	
+2822	SIKU01_000453	1	annotated																		no	0	0	no	no	none	
+2823	SIKU01_001483	1	annotated																		no	0	0	no	no	none	
+2828	SIKU01_000149	1	annotated																		no	0	0	no	no	none	
+2829	SIKU01_001113	1	annotated	33.9	115	no	33.6	116	no	32.5	117	no	32.5	117	no	34.8	115	no			no	5	0	no	no	none	
+2830	SIKU01_000589	1	annotated																		no	0	0	no	no	none	
+2831	SIKU01_001600	1	annotated																		no	0	0	no	no	none	
+2842	SIKU01_001507	1	annotated																		no	0	0	no	no	none	
+2843	SIKU01_001762	1	annotated																		no	0	0	no	no	none	
+2847	SIKU01_001068	1	annotated																		no	0	0	no	no	none	
+2858	SIKU01_001088	1	annotated	37.7	61	no	36.1	61	no	34.4	61	no	34.4	61	no	34.4	61	no	28.4	141	no	6	0	no	no	none	
+2859	SIKU01_001456	1	annotated																		no	0	0	no	no	none	
+2862	SIKU01_000737	1	annotated	44.2	156	yes	44.6	157	yes	41.6	166	yes	41.3	167	yes	44.7	159	yes	42.5	167	yes	6	6	yes	yes	target_host	
+2863	SIKU01_001079	1	annotated																		no	0	0	no	no	none	
+2865	SIKU01_001540	1	annotated																		no	0	0	no	no	none	
+2880	SIKU01_000349	1	annotated																		no	0	0	no	no	none	
+2881	SIKU01_000588	1	annotated																		no	0	0	no	no	none	
+2887	SIKU01_001747	1	annotated																		no	0	0	no	no	none	
+2890	SIKU01_000270	1	annotated																		no	0	0	no	no	none	
+2892	SIKU01_001168	1	annotated																		no	0	0	no	no	none	
+2893	SIKU01_001853	1	annotated	30.8	156	no	33.3	159	no	34.7	118	no	29.5	149	no	33.1	160	no	32.1	156	no	6	0	no	no	none	
+2900	SIKU01_001236	1	annotated																		no	0	0	no	no	none	
+2908	SIKU01_000046	1	annotated																		no	0	0	no	no	none	
+2909	SIKU01_000825	1	annotated																		no	0	0	no	no	none	
+2910	SIKU01_001041	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+2911	SIKU01_001820	1	annotated																		no	0	0	no	no	none	
+2912	SIKU01_001926	1	annotated																		no	0	0	no	no	none	
+2914	SIKU01_001462	1	annotated																		no	0	0	no	no	none	
+2921	SIKU01_001047	1	annotated	27.8	176	no							24.8	149	no	30.3	145	no	28.5	158	no	4	0	no	no	none	
+2922	SIKU01_000642	1	annotated																		no	0	0	no	no	none	
+2923	SIKU01_001933	1	annotated																		no	0	0	no	no	none	
+2924	SIKU01_001360	1	annotated	23.7	131	no	23.7	131	no	25.6	125	no	27.5	131	no	26.2	126	no	25	132	no	6	0	no	no	none	
+2931	SIKU01_000094	1	annotated	32.4	145	no	32.4	145	no	33.1	145	no	33.1	145	no	33.1	145	no	32.4	145	no	6	0	no	no	none	Ribosomal protein
+2932	SIKU01_001158	1	annotated																		no	0	0	no	no	none	F0F1 ATP synthase
+2933	SIKU01_001407	1	annotated	39.5	124	yes	38.7	124	yes	35	163	yes	40.9	127	yes	35	123	yes	34.7	167	no	6	5	yes	yes	target_host	
+2934	SIKU01_001424	1	annotated																		no	0	0	no	no	none	
+2935	SIKU01_001480	1	annotated																		no	0	0	no	no	none	
+2936	SIKU01_001601	1	annotated																		no	0	0	no	no	none	
+2941	SIKU01_000225	1	annotated																		no	0	0	no	no	none	
+2942	SIKU01_001029	1	annotated																		no	0	0	no	no	none	
+2943	SIKU01_001984	1	annotated	39	100	yes	37	100	yes	39.6	101	yes	40.8	103	yes	39.6	101	yes	38.5	109	yes	6	6	yes	yes	target_host	
+2944	SIKU01_000535	1	annotated																		no	0	0	no	no	none	
+2947	SIKU01_001684	1	annotated	27	111	no	27	111	no	26.3	118	no	26.3	118	no	24.3	111	no	26.3	114	no	6	0	no	no	none	
+2960	SIKU01_000871	1	annotated																		no	0	0	no	no	none	
+2971	SIKU01_000058	1	annotated																		no	0	0	no	no	none	
+2973	SIKU01_001879	1	annotated																		no	0	0	no	no	none	
+2980	SIKU01_001294	1	annotated																		no	0	0	no	no	none	
+2981	SIKU01_001466	1	annotated																		no	0	0	no	no	none	Elongation factor G
+2982	SIKU01_001535	1	annotated																		no	0	0	no	no	none	
+2992		2	non_1to1_mapping																								
+2994	SIKU01_000967	1	annotated	45	149	yes	47.3	148	yes	36.8	155	yes	36.1	158	yes	43.4	159	yes	45.3	148	yes	6	6	yes	yes	target_host	
+2995	SIKU01_001062	1	annotated	31	100	no	32.3	96	no	26.5	102	no	28.9	97	no	27.6	105	no	30	120	no	6	0	no	no	none	
+2996	SIKU01_002000	1	annotated																		no	0	0	no	no	none	
+3005	SIKU01_001508	1	annotated																		no	0	0	no	no	none	
+3006	SIKU01_001720	1	annotated																		no	0	0	no	no	none	
+3018	SIKU01_001860	1	annotated																		no	0	0	no	no	none	
+3019	SIKU01_000401	1	annotated																		no	0	0	no	no	none	
+3020	SIKU01_000524	1	annotated																		no	0	0	no	no	none	
+3022	SIKU01_001267	1	annotated																		no	0	0	no	no	none	
+3023	SIKU01_001274	1	annotated																		no	0	0	no	no	none	
+3032	SIKU01_000287	1	annotated																		no	0	0	no	no	none	
+3033	SIKU01_001767	1	annotated	32.3	158	no	29.7	158	no	33.1	157	no	34.4	157	no	32.7	156	no	28.7	157	no	6	0	no	no	none	Ribosomal protein
+3034	SIKU01_001789	1	annotated																		no	0	0	no	no	none	
+3038	SIKU01_001115	1	annotated																		no	0	0	no	no	none	
+3039	SIKU01_000577	1	annotated																		no	0	0	no	no	none	
+3040	SIKU01_001341	1	annotated																		no	0	0	no	no	none	
+3041	SIKU01_001455	1	annotated																		no	0	0	no	no	none	
+3048	SIKU01_000785	1	annotated	24.8	145	no	25.4	142	no	27.4	146	no	28.8	146	no	28.2	149	no	28.9	149	no	6	0	no	no	none	
+3051	SIKU01_000295	1	annotated																		no	0	0	no	no	none	
+3052	SIKU01_001431	1	annotated																		no	0	0	no	no	none	
+3053	SIKU01_001437	1	annotated																		no	0	0	no	no	none	
+3060	SIKU01_001711	1	annotated																		no	0	0	no	no	none	
+3077	SIKU01_001905	1	annotated																		no	0	0	no	no	none	
+3078	SIKU01_001975	1	annotated																		no	0	0	no	no	none	
+3087	SIKU01_000267	1	annotated																		no	0	0	no	no	none	
+3088	SIKU01_000497	1	annotated																		no	0	0	no	no	none	
+3097	SIKU01_000177	1	annotated																		no	0	0	no	no	none	
+3098	SIKU01_001195	1	annotated	32.7	104	no	32.7	101	no	29.7	118	no	29.7	118	no	31	100	no	37.2	113	yes	6	1	no	no	human_only	
+3099	SIKU01_001972	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+3100	SIKU01_000410	1	annotated																		no	0	0	no	no	none	
+3101	SIKU01_001648	1	annotated																		no	0	0	no	no	none	
+3102	SIKU01_001676	1	annotated	34	144	no	35.1	151	yes	36	125	yes	35.2	125	yes	36	111	yes	32.5	123	no	6	4	no	yes	other_fish_only	
+3106	SIKU01_001804	1	annotated																		no	0	0	no	no	none	
+3107	SIKU01_000069	1	annotated	31.8	148	no	31.8	148	no	33.1	148	no	33.1	148	no	32.4	148	no	36.5	148	yes	6	1	no	no	human_only	
+3110	SIKU01_000926	1	annotated																		no	0	0	no	no	none	
+3111	SIKU01_001835	1	annotated																		no	0	0	no	no	none	
+3119	SIKU01_000244	1	annotated																		no	0	0	no	no	none	
+3120	SIKU01_001090	1	annotated																		no	0	0	no	no	none	
+3121	SIKU01_001182	1	annotated																		no	0	0	no	no	none	
+3122	SIKU01_000354	1	annotated	36.8	117	yes	36.3	113	yes	35.4	113	yes	37.2	113	yes	36.3	113	yes	33.6	113	no	6	5	yes	yes	target_host	Ribosomal protein
+3134	SIKU01_000783	1	annotated	43.3	150	yes	47	134	yes	48.9	131	yes	48.1	131	yes	45.4	130	yes	50	126	yes	6	6	yes	yes	target_host	
+3135	SIKU01_001822	1	annotated	28.4	134	no	30.1	133	no	31.6	136	no	31.6	136	no	31	142	no	30.3	155	no	6	0	no	no	none	
+3136	SIKU01_000298	1	annotated	43.2	148	yes	41.8	146	yes	41.2	148	yes	41.9	148	yes	42.6	148	yes	42.6	148	yes	6	6	yes	yes	target_host	
+3137	SIKU01_001272	1	annotated																		no	0	0	no	no	none	
+3142	SIKU01_000096	1	annotated	30.3	155	no	36.6	93	yes	35.6	87	yes	29.7	155	no				41.7	60	no	5	2	no	yes	other_fish_only	Ribosomal protein
+3143	SIKU01_001039	1	annotated																		no	0	0	no	no	none	
+3144	SIKU01_000346	1	annotated																		no	0	0	no	no	none	
+3146	SIKU01_001615	1	annotated																		no	0	0	no	no	none	
+3152	SIKU01_000856	1	annotated																		no	0	0	no	no	none	
+3153	SIKU01_000951	1	annotated																		no	0	0	no	no	none	
+3154	SIKU01_001946	1	annotated																		no	0	0	no	no	none	
+3155	SIKU01_000429	1	annotated	28.9	135	no	29.2	137	no	27.9	136	no	29.4	136	no	29.6	135	no	29.4	143	no	6	0	no	no	none	
+3156	SIKU01_001581	1	annotated																		no	0	0	no	no	none	
+3157	SIKU01_001672	1	annotated																		no	0	0	no	no	none	
+3158	SIKU01_001700	1	annotated	28.9	76	no	33.3	78	no							30.2	86	no	31	71	no	4	0	no	no	none	
+3159	SIKU01_001712	1	annotated																		no	0	0	no	no	none	
+3165	SIKU01_000223	1	annotated																		no	0	0	no	no	none	
+3167	SIKU01_001288	1	annotated																		no	0	0	no	no	none	
+3168	SIKU01_001622	1	annotated																		no	0	0	no	no	none	
+3180	SIKU01_001200	1	annotated																		no	0	0	no	no	none	
+3181	SIKU01_001861	1	annotated																		no	0	0	no	no	none	
+3195	SIKU01_000299	1	annotated																		no	0	0	no	no	none	
+3205	SIKU01_001371	1	annotated	34.7	150	no	34.7	150	no	37	146	yes	36.3	146	yes	37.4	139	yes	40.1	137	yes	6	4	no	yes	other_fish_only	Ribosomal protein
+3206	SIKU01_001614	1	annotated																		no	0	0	no	no	none	
+3207	SIKU01_001751	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+3208	SIKU01_001354	1	annotated																		no	0	0	no	no	none	
+3216	SIKU01_000780	1	annotated	48.2	139	yes	46	139	yes	47.1	140	yes	46.8	139	yes	47.5	139	yes	45.7	140	yes	6	6	yes	yes	target_host	
+3236	SIKU01_001103	1	annotated																		no	0	0	no	no	none	
+3237	SIKU01_001935	1	annotated																		no	0	0	no	no	none	
+3239	SIKU01_001597	1	annotated	34	100	no	36.4	99	yes	34	100	no	35	100	yes	32.7	104	no	35	103	yes	6	3	no	yes	other_fish_only	
+3252	SIKU01_001153	1	annotated																		no	0	0	no	no	none	F0F1 ATP synthase
+3253	SIKU01_001403	1	annotated																		no	0	0	no	no	none	
+3266	SIKU01_000070	1	annotated																		no	0	0	no	no	none	
+3267	SIKU01_000084	1	annotated	31.7	139	no	31.5	124	no	32.4	139	no	33.6	140	no	35.6	135	yes	33.1	136	no	6	1	no	yes	other_fish_only	Ribosomal protein
+3269	SIKU01_000972	1	annotated							26.6	139	no	26.6	139	no	27.3	139	no			no	3	0	no	no	none	
+3270	SIKU01_001768	1	annotated	46.8	124	yes	57.6	85	yes	55.3	94	yes	54.3	94	yes	52.1	94	yes	55	80	yes	6	6	yes	yes	target_host	Ribosomal protein
+3291	SIKU01_000127	1	annotated																		no	0	0	no	no	none	
+3293	SIKU01_000799	1	annotated																		no	0	0	no	no	none	
+3294	SIKU01_000477	1	annotated																		no	0	0	no	no	none	
+3295	SIKU01_001268	1	annotated																		no	0	0	no	no	none	
+3296	SIKU01_001359	1	annotated																		no	0	0	no	no	none	
+3307	SIKU01_000884	1	annotated																		no	0	0	no	no	none	
+3319	SIKU01_000376	1	annotated	45.3	64	no	46.9	64	no	40.9	66	no	40.9	66	no	39.4	66	no	42.4	66	no	6	0	no	no	none	
+3333	SIKU01_000091	1	annotated	28.4	141	no	28.4	141	no	29.4	136	no	29.4	136	no	29.4	136	no	29.4	136	no	6	0	no	no	none	Ribosomal protein
+3334	SIKU01_000790	1	annotated																		no	0	0	no	no	none	
+3335	SIKU01_001937	1	annotated																		no	0	0	no	no	none	
+3347	SIKU01_000185	1	annotated																		no	0	0	no	no	none	
+3348	SIKU01_000329	1	annotated																		no	0	0	no	no	none	
+3349	SIKU01_000366	1	annotated																		no	0	0	no	no	none	
+3350	SIKU01_000499	1	annotated																		no	0	0	no	no	none	
+3351	SIKU01_001223	1	annotated																		no	0	0	no	no	none	
+3357	SIKU01_000355	1	annotated	36.6	123	yes	38.2	123	yes	41.5	123	yes	41.5	123	yes	42.3	123	yes	40.7	123	yes	6	6	yes	yes	target_host	Ribosomal protein
+3369	SIKU01_000901	1	annotated	50	122	yes	50	122	yes	47.2	127	yes	47.2	127	yes	51.2	127	yes	55.4	121	yes	6	6	yes	yes	target_host	
+3371	SIKU01_001356	1	annotated																		no	0	0	no	no	none	
+3373	SIKU01_001673	1	annotated																		no	0	0	no	no	none	
+3382	SIKU01_000106	1	annotated	33.3	126	no	31.7	126	no	33.9	124	no	33.9	124	no	32	125	no	35.7	126	yes	6	1	no	no	human_only	Ribosomal protein
+3383	SIKU01_000126	1	annotated																		no	0	0	no	no	none	
+3386	SIKU01_000688	1	annotated																33.3	93	no	1	0	no	no	none	
+3387	SIKU01_000552	1	annotated																		no	0	0	no	no	none	
+3388	SIKU01_001555	1	annotated																		no	0	0	no	no	none	
+3398	SIKU01_000104	1	annotated	50.4	113	yes	50.4	117	yes	50.4	117	yes	51.3	117	yes	51.3	117	yes	45.3	117	yes	6	6	yes	yes	target_host	Ribosomal protein
+3401	SIKU01_001988	1	annotated																		no	0	0	no	no	none	
+3404	SIKU01_001587	1	annotated																		no	0	0	no	no	none	
+3405	SIKU01_001895	1	annotated																		no	0	0	no	no	none	
+3418	SIKU01_001067	1	annotated																		no	0	0	no	no	none	
+3419	SIKU01_001145	1	annotated																		no	0	0	no	no	none	
+3421	SIKU01_001887	1	annotated	48.2	114	yes	45.6	125	yes	45.6	114	yes	46.5	114	yes	43.9	114	yes	41.6	125	yes	6	6	yes	yes	target_host	
+3423	SIKU01_001235	1	annotated																		no	0	0	no	no	none	
+3425	SIKU01_001334	1	annotated	31	145	no	32.9	143	no	32.2	143	no	31.5	143	no	32.2	143	no	33.3	144	no	6	0	no	no	none	
+3430	SIKU01_001138	1	annotated																		no	0	0	no	no	none	
+3431	SIKU01_001715	1	annotated																		no	0	0	no	no	none	
+3440	SIKU01_001220	1	annotated																		no	0	0	no	no	none	
+3441	SIKU01_001314	1	annotated																		no	0	0	no	no	none	
+3442	SIKU01_001402	1	annotated																		no	0	0	no	no	none	
+3454	SIKU01_000009	1	annotated																		no	0	0	no	no	none	
+3460	SIKU01_000087	1	annotated	38.2	102	yes	38.2	102	yes	38.2	102	yes	38.2	102	yes	38.2	102	yes	38.2	102	yes	6	6	yes	yes	target_host	Ribosomal protein
+3461	SIKU01_000846	1	annotated																		no	0	0	no	no	none	
+3462	SIKU01_000311	1	annotated																		no	0	0	no	no	none	
+3463	SIKU01_001761	1	annotated																		no	0	0	no	no	none	
+3469	SIKU01_000103	1	annotated	24.1	141	no	24.1	141	no	24.8	141	no	24.8	141	no	24.1	141	no			no	5	0	no	no	none	Ribosomal protein
+3471	SIKU01_001040	1	annotated	31.1	135	no	34.1	132	no	36.1	133	yes	35.3	133	yes	32.3	133	no	30.9	136	no	6	2	no	yes	other_fish_only	Ribosomal protein
+3472	SIKU01_000417	1	annotated																		no	0	0	no	no	none	
+3473	SIKU01_001240	1	annotated	32.8	58	no	35.8	53	no	42.3	52	no	44.2	52	no	36.5	52	no			no	5	0	no	no	none	
+3495	SIKU01_000694	1	annotated																		no	0	0	no	no	none	
+3507	SIKU01_001827	1	annotated																		no	0	0	no	no	none	
+3519	SIKU01_001111	1	annotated	40	100	yes	40	100	yes	36	100	yes				39	100	yes	39.4	94	yes	5	5	yes	yes	target_host	Ribosomal protein
+3520	SIKU01_001124	1	annotated																		no	0	0	no	no	none	
+3521	SIKU01_001809	1	annotated																		no	0	0	no	no	none	
+3522	SIKU01_001708	1	annotated																		no	0	0	no	no	none	
+3537	SIKU01_000093	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+3538	SIKU01_000201	1	annotated																		no	0	0	no	no	none	
+3539	SIKU01_000917	1	annotated																		no	0	0	no	no	none	
+3540	SIKU01_001966	1	annotated																		no	0	0	no	no	none	
+3541	SIKU01_001406	1	annotated																		no	0	0	no	no	none	
+3542	SIKU01_001522	1	annotated	38.8	80	yes	36.3	80	yes	36.3	80	yes	36.3	80	yes	33.8	80	no	37.5	80	yes	6	5	yes	yes	target_host	
+3543	SIKU01_001582	1	annotated							25.9	112	no	25.9	112	no						no	2	0	no	no	none	
+3544	SIKU01_001738	1	annotated																		no	0	0	no	no	none	
+3554	SIKU01_000144	1	annotated																		no	0	0	no	no	none	
+3555	SIKU01_000173	1	annotated																		no	0	0	no	no	none	
+3556	SIKU01_000243	1	annotated																		no	0	0	no	no	none	
+3558	SIKU01_001945	1	annotated																		no	0	0	no	no	none	
+3559	SIKU01_001502	1	annotated	28.7	101	no	26.7	101	no	29.7	101	no	27.7	101	no	32.7	101	no	30.7	101	no	6	0	no	no	none	
+3560	SIKU01_001665	1	annotated																		no	0	0	no	no	none	
+3570	SIKU01_001373	1	annotated																		no	0	0	no	no	none	
+3571	SIKU01_001568	1	annotated																		no	0	0	no	no	none	
+3572	SIKU01_001716	1	annotated																		no	0	0	no	no	none	
+3584	SIKU01_001004	1	annotated																		no	0	0	no	no	none	
+3585	SIKU01_001192	1	annotated	32.6	86	no	32.6	86	no	30.2	86	no	32.6	86	no	33.3	87	no			no	5	0	no	no	none	Ribosomal protein
+3586	SIKU01_001736	1	annotated																		no	0	0	no	no	none	
+3608	SIKU01_000082	1	annotated	30.1	103	no	31.1	103	no	33	103	no	33	103	no	30.1	103	no	29.1	103	no	6	0	no	no	none	Ribosomal protein
+3609	SIKU01_000922	1	annotated																		no	0	0	no	no	none	
+3610	SIKU01_001546	1	annotated																		no	0	0	no	no	none	
+3619	SIKU01_001106	1	annotated																		no	0	0	no	no	none	
+3620	SIKU01_001901	1	annotated																		no	0	0	no	no	none	
+3621	SIKU01_000310	1	annotated																		no	0	0	no	no	none	
+3622	SIKU01_000370	1	annotated																		no	0	0	no	no	none	
+3638	SIKU01_000858	1	annotated																		no	0	0	no	no	none	
+3640	SIKU01_001135	1	annotated																		no	0	0	no	no	none	
+3663	SIKU01_000364	1	annotated																		no	0	0	no	no	none	
+3664	SIKU01_001413	1	annotated																		no	0	0	no	no	none	
+3671	SIKU01_001289	1	annotated																		no	0	0	no	no	none	
+3679	SIKU01_000169	1	annotated																		no	0	0	no	no	none	
+3682	SIKU01_001388	1	annotated																		no	0	0	no	no	none	
+3693	SIKU01_001093	1	annotated	31.1	74	no															no	1	0	no	no	none	
+3694	SIKU01_000358	1	annotated																		no	0	0	no	no	none	
+3695	SIKU01_001539	1	annotated																		no	0	0	no	no	none	
+3717		2	non_1to1_mapping																								
+3718	SIKU01_000239	1	annotated																		no	0	0	no	no	none	
+3719	SIKU01_001532	1	annotated																		no	0	0	no	no	none	DNA-directed RNA polymerase
+3736	SIKU01_001094	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+3738	SIKU01_000452	1	annotated																		no	0	0	no	no	none	
+3740	SIKU01_001690	1	annotated	38.3	81	yes	39.1	92	yes	32.9	85	no	32.9	85	no	36.7	90	yes	36.4	88	yes	6	4	yes	yes	target_host	
+3755	SIKU01_001290	1	annotated																		no	0	0	no	no	none	
+3771	SIKU01_000076	1	annotated	28.3	99	no	31	100	no	31	100	no	31	100	no	31	100	no	31	100	no	6	0	no	no	none	Ribosomal protein
+3772	SIKU01_001505	1	annotated																		no	0	0	no	no	none	
+3773	SIKU01_001693	1	annotated																		no	0	0	no	no	none	
+3774	SIKU01_000947	1	annotated																		no	0	0	no	no	none	
+3779	SIKU01_000088	1	annotated	28	100	no	28	100	no	27	100	no	26	100	no						no	4	0	no	no	none	Ribosomal protein
+3780	SIKU01_000675	1	annotated																		no	0	0	no	no	none	
+3781	SIKU01_000726	1	annotated																		no	0	0	no	no	none	
+3782	SIKU01_000379	1	annotated																		no	0	0	no	no	none	
+3797	SIKU01_000566	1	annotated																		no	0	0	no	no	none	
+3798	SIKU01_001584	1	annotated																		no	0	0	no	no	none	
+3799	SIKU01_001598	1	annotated																		no	0	0	no	no	none	
+3800	SIKU01_001637	1	annotated																		no	0	0	no	no	none	
+3813	SIKU01_000238	1	annotated																		no	0	0	no	no	none	
+3815	SIKU01_001934	1	annotated																		no	0	0	no	no	none	
+3836	SIKU01_000079	1	annotated																40	55	no	1	0	no	no	none	Ribosomal protein
+3837	SIKU01_000248	1	annotated																		no	0	0	no	no	none	
+3838	SIKU01_001856	1	annotated																		no	0	0	no	no	none	
+3839	SIKU01_001585	1	annotated																		no	0	0	no	no	none	
+3853	SIKU01_001092	1	annotated	44.4	72	no	48.6	72	no	43.7	71	no	43.7	71	no	42.9	77	no			no	5	0	no	no	none	Ribosomal protein
+3870	SIKU01_001194	1	annotated																		no	0	0	no	no	none	
+3871	SIKU01_001903	1	annotated	38.6	88	yes	39.8	88	yes	37.5	88	yes	38.6	88	yes	35.2	88	yes	40.9	88	yes	6	6	yes	yes	target_host	
+3874	SIKU01_001685	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+3875	SIKU01_001722	1	annotated																		no	0	0	no	no	none	
+3896	SIKU01_001919	1	annotated																		no	0	0	no	no	none	
+3910	SIKU01_000367	1	annotated																		no	0	0	no	no	none	
+3930	SIKU01_000081	1	annotated	42.3	52	no	42.3	52	no	42.3	52	no	42.3	52	no	42.3	52	no	42.3	52	no	6	0	no	no	none	Ribosomal protein
+3932	SIKU01_001880	1	annotated																		no	0	0	no	no	none	
+3933	SIKU01_001970	1	annotated																		no	0	0	no	no	none	
+3934	SIKU01_000604	1	annotated	37.3	67	no	37.3	67	no	38.8	67	no	40.3	67	no	37.3	67	no			no	5	0	no	no	none	
+3935	SIKU01_001399	1	annotated																		no	0	0	no	no	none	
+3936	SIKU01_001423	1	annotated																		no	0	0	no	no	none	
+3937	SIKU01_001464	1	annotated																31.5	92	no	1	0	no	no	none	
+3952	SIKU01_000254	1	annotated																		no	0	0	no	no	none	
+3956	SIKU01_000583	1	annotated																		no	0	0	no	no	none	
+3965	SIKU01_000008	1	annotated																		no	0	0	no	no	none	
+3966	SIKU01_001725	1	annotated																		no	0	0	no	no	none	
+3981	SIKU01_001271	1	annotated																		no	0	0	no	no	none	
+3993	SIKU01_001936	1	annotated																		no	0	0	no	no	none	
+3994	SIKU01_000324	1	annotated	35.8	81	yes	34.6	81	no	38.3	81	yes	38.3	81	yes	37	81	yes			no	5	4	yes	yes	target_host	Ribosomal protein
+3995	SIKU01_001749	1	annotated	44.8	67	no	44.8	67	no	39.6	91	yes	39.6	91	yes	37.8	90	yes	48.2	56	no	6	3	no	yes	other_fish_only	Ribosomal protein
+4003	SIKU01_001907	1	annotated																		no	0	0	no	no	none	
+4004	SIKU01_001632	1	annotated																		no	0	0	no	no	none	
+4015	SIKU01_000635	1	annotated																		no	0	0	no	no	none	
+4028	SIKU01_000086	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4031	SIKU01_000359	1	annotated																		no	0	0	no	no	none	
+4033	SIKU01_001204	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4034	SIKU01_001381	1	annotated																		no	0	0	no	no	none	
+4035	SIKU01_001644	1	annotated																		no	0	0	no	no	none	
+4036	SIKU01_001741	1	annotated																		no	0	0	no	no	none	
+4047	SIKU01_000562	1	annotated																		no	0	0	no	no	none	
+4048	SIKU01_001569	1	annotated																		no	0	0	no	no	none	
+4056	SIKU01_000498	1	annotated																		no	0	0	no	no	none	
+4093	SIKU01_000711	1	annotated																		no	0	0	no	no	none	
+4094	SIKU01_000866	1	annotated																		no	0	0	no	no	none	
+4095	SIKU01_001081	1	annotated																		no	0	0	no	no	none	
+4111	SIKU01_000550	1	annotated																		no	0	0	no	no	none	
+4112	SIKU01_001450	1	annotated																		no	0	0	no	no	none	
+4122	SIKU01_000554	1	annotated																		no	0	0	no	no	none	
+4123	SIKU01_001459	1	annotated																		no	0	0	no	no	none	
+4124	SIKU01_001683	1	annotated	37	54	no	38.2	55	no	47.3	55	no	47.3	55	no	41.8	55	no	47.4	57	no	6	0	no	no	none	Ribosomal protein
+4131	SIKU01_001343	1	annotated																		no	0	0	no	no	none	
+4132	SIKU01_001386	1	annotated																		no	0	0	no	no	none	
+4133	SIKU01_001549	1	annotated																		no	0	0	no	no	none	
+4147	SIKU01_000896	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4148	SIKU01_001633	1	annotated																		no	0	0	no	no	none	
+4171	SIKU01_000569	1	annotated																		no	0	0	no	no	none	
+4172	SIKU01_001753	1	annotated																		no	0	0	no	no	none	
+4203	SIKU01_000064	1	annotated																		no	0	0	no	no	none	
+4204	SIKU01_001620	1	annotated																		no	0	0	no	no	none	
+4230	SIKU01_000101	1	annotated																		no	0	0	no	no	none	
+4231	SIKU01_000634	1	annotated							44.1	34	no									no	1	0	no	no	none	
+4243	SIKU01_000574	1	annotated																		no	0	0	no	no	none	
+4252	SIKU01_001005	1	annotated																		no	0	0	no	no	none	
+4255	SIKU01_001260	1	annotated																		no	0	0	no	no	none	
+4256	SIKU01_000617	1	annotated																		no	0	0	no	no	none	
+4266	SIKU01_001906	1	annotated	47	66	no	47	66	no	47	66	no	47	66	no	47	66	no	38.3	81	yes	6	1	no	no	human_only	
+4279	SIKU01_000085	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4296	SIKU01_001112	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4297	SIKU01_000585	1	annotated																		no	0	0	no	no	none	
+4298	SIKU01_001475	1	annotated	40.9	66	no	40.9	66	no	40.9	66	no	40.9	66	no	40.9	66	no	40.9	66	no	6	0	no	no	none	
+4306	SIKU01_001160	1	annotated																		no	0	0	no	no	none	F0F1 ATP synthase
+4307	SIKU01_000003	1	annotated																		no	0	0	no	no	none	
+4308	SIKU01_001707	1	annotated																		no	0	0	no	no	none	
+4315	SIKU01_000210	1	annotated																		no	0	0	no	no	none	
+4324	SIKU01_000748	1	annotated																		no	0	0	no	no	none	
+4325	SIKU01_000868	1	annotated																		no	0	0	no	no	none	
+4326	SIKU01_001896	1	annotated																		no	0	0	no	no	none	
+4349	SIKU01_001150	1	annotated																		no	0	0	no	no	none	DNA-directed RNA polymerase
+4350	SIKU01_000416	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4351	SIKU01_001365	1	annotated																		no	0	0	no	no	none	
+4364	SIKU01_000986	1	annotated																		no	0	0	no	no	none	
+4373	SIKU01_000095	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4374	SIKU01_001953	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4385	SIKU01_001139	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4386	SIKU01_001892	1	annotated																		no	0	0	no	no	none	
+4420	SIKU01_000475	1	annotated																		no	0	0	no	no	none	
+4466	SIKU01_000702	1	annotated																		no	0	0	no	no	none	
+4467	SIKU01_000921	1	annotated																		no	0	0	no	no	none	
+4468	SIKU01_001893	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4473	SIKU01_001954	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+4479	SIKU01_001928	1	annotated																		no	0	0	no	no	none	
+4490	SIKU01_001283	1	annotated																		no	0	0	no	no	none	
+4501	SIKU01_001258	1	annotated																		no	0	0	no	no	none	
+4536	SIKU01_000700	1	annotated																		no	0	0	no	no	none	
+4537	SIKU01_000378	1	annotated																		no	0	0	no	no	none	
+4554	SIKU01_000102	1	annotated	52.6	38	no				47.4	38	no	47.4	38	no	47.4	38	no	44.4	36	no	5	0	no	no	none	Ribosomal protein
+4556	SIKU01_000010	1	annotated																		no	0	0	no	no	none	
+4557	SIKU01_000420	1	annotated																		no	0	0	no	no	none	
+6207	SIKU01_000099	1	annotated																		no	0	0	no	no	none	
+6208	SIKU01_001095	1	annotated																		no	0	0	no	no	none	
+6210	SIKU01_000415	1	annotated																		no	0	0	no	no	none	
+6211	SIKU01_001545	1	annotated																		no	0	0	no	no	none	
+6213	SIKU01_000100	1	annotated																		no	0	0	no	no	none	
+6214	SIKU01_001042	1	annotated																		no	0	0	no	no	none	
+6215	SIKU01_000962	1	annotated																		no	0	0	no	no	none	
+6218	SIKU01_000596	1	annotated																		no	0	0	no	no	none	
+6220	SIKU01_000648	1	annotated																		no	0	0	no	no	none	
+6225	SIKU01_000017	1	annotated				31.4	105	no												no	1	0	no	no	none	
+6240	SIKU01_000139	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6242	SIKU01_000214	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6249	SIKU01_000432	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6251	SIKU01_001319	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6252	SIKU01_001730	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6257	SIKU01_001098	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6265	SIKU01_000255	1	annotated																		no	0	0	no	no	none	
+6275	SIKU01_001202	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6280	SIKU01_000279	1	annotated																		no	0	0	no	no	none	
+6281	SIKU01_000949	1	annotated																		no	0	0	no	no	none	
+6282	SIKU01_000948	1	annotated																		no	0	0	no	no	none	
+6283	SIKU01_000939	1	annotated																		no	0	0	no	no	none	
+6284	SIKU01_000740	1	annotated																		no	0	0	no	no	none	
+6286	SIKU01_000854	1	annotated																		no	0	0	no	no	none	
+6287	SIKU01_000361	1	annotated																		no	0	0	no	no	none	
+6288	SIKU01_000276	1	annotated																		no	0	0	no	no	none	
+6290	SIKU01_000068	1	annotated																		no	0	0	no	no	none	
+6292	SIKU01_000021	1	annotated																		no	0	0	no	no	none	
+6293	SIKU01_001967	1	annotated																		no	0	0	no	no	none	
+6294	SIKU01_002001	1	annotated																		no	0	0	no	no	none	
+6296	SIKU01_001320	1	annotated																		no	0	0	no	no	none	
+6297	SIKU01_000674	1	annotated																		no	0	0	no	no	none	
+6298	SIKU01_001353	1	annotated																		no	0	0	no	no	none	
+6299	SIKU01_001338	1	annotated																		no	0	0	no	no	none	
+6300	SIKU01_001321	1	annotated																		no	0	0	no	no	none	
+6301	SIKU01_000970	1	annotated																		no	0	0	no	no	none	
+6302	SIKU01_001301	1	annotated																		no	0	0	no	no	none	
+6304	SIKU01_001037	1	annotated																		no	0	0	no	no	none	
+6314	SIKU01_000352	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6315	SIKU01_000507	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6316	SIKU01_000271	1	annotated													27.8	90	no			no	1	0	no	no	none	
+6317	SIKU01_000671	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6318	SIKU01_001038	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6319	SIKU01_000618	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6320	SIKU01_001264	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6324	SIKU01_000877	1	annotated																		no	0	0	no	no	none	
+6326	SIKU01_001785	1	annotated																		no	0	0	no	no	none	
+6327	SIKU01_001914	1	annotated																		no	0	0	no	no	none	
+6330	SIKU01_000330	1	annotated																		no	0	0	no	no	none	
+6331	SIKU01_001817	1	annotated																		no	0	0	no	no	none	
+6332	SIKU01_001326	1	annotated																		no	0	0	no	no	none	
+6375	SIKU01_001579	1	annotated	30.4	46	no				35.1	37	no	35.1	37	no	34.1	41	no			no	4	0	no	no	none	
+6377	SIKU01_000166	1	annotated																		no	0	0	no	no	none	
+6378	SIKU01_001302	1	annotated																		no	0	0	no	no	none	
+6388	SIKU01_001851	1	annotated																		no	0	0	no	no	none	
+6392	SIKU01_000203	1	annotated																		no	0	0	no	no	none	
+6393	SIKU01_001375	1	annotated	41.7	223	yes	41.3	223	yes	42.2	223	yes	42.2	223	yes	41.7	223	yes	41.3	223	yes	6	6	yes	yes	target_host	
+6406	SIKU01_000708	1	annotated																		no	0	0	no	no	none	
+6408	SIKU01_000940	1	annotated	26.4	216	no	35.2	176	yes	31.9	213	no	31.9	216	no	28.1	221	no	35.6	146	yes	6	2	no	yes	other_fish_only	
+6410	SIKU01_000759	1	annotated																		no	0	0	no	no	none	
+6416	SIKU01_000781	1	annotated																		no	0	0	no	no	none	
+6418	SIKU01_001832	1	annotated																		no	0	0	no	no	none	
+6424	SIKU01_000546	1	annotated																		no	0	0	no	no	none	
+6427	SIKU01_000388	1	annotated																		no	0	0	no	no	none	
+6428	SIKU01_001948	1	annotated																		no	0	0	no	no	none	
+6432	SIKU01_000758	1	annotated																		no	0	0	no	no	none	
+6434	SIKU01_001825	1	annotated																		no	0	0	no	no	none	
+6436	SIKU01_000603	1	annotated																		no	0	0	no	no	none	
+6438	SIKU01_001351	1	annotated																		no	0	0	no	no	none	
+6441	SIKU01_000406	1	annotated																		no	0	0	no	no	none	DNA-directed RNA polymerase
+6442	SIKU01_001468	1	annotated							25.2	163	no	25.2	163	no						no	2	0	no	no	none	
+6445	SIKU01_000959	1	annotated																		no	0	0	no	no	none	
+6446	SIKU01_000957	1	annotated																		no	0	0	no	no	none	
+6450	SIKU01_001249	1	annotated	33.4	311	no	30.7	313	no	30.4	306	no	30.4	306	no	30.2	305	no	29.7	313	no	6	0	no	no	none	
+6452	SIKU01_000380	1	annotated	30.2	298	no	28.7	296	no	30.1	299	no	31.2	298	no	29.6	291	no	27.5	291	no	6	0	no	no	none	
+6453	SIKU01_000382	1	annotated																		no	0	0	no	no	none	
+6456	SIKU01_000703	1	annotated																		no	0	0	no	no	none	
+6468	SIKU01_000803	1	annotated																		no	0	0	no	no	none	
+6469	SIKU01_001873	1	annotated	35.8	313	yes	35.7	300	yes	36.5	315	yes	36.6	314	yes	36.3	314	yes	35.8	260	yes	6	6	yes	yes	target_host	
+6470	SIKU01_000817	1	annotated							24.6	122	no	23.7	114	no	25.4	114	no			no	3	0	no	no	none	
+6471	SIKU01_001009	1	annotated																		no	0	0	no	no	none	
+6472	SIKU01_000665	1	annotated																		no	0	0	no	no	none	
+6475	SIKU01_000431	1	annotated																		no	0	0	no	no	none	
+6479	SIKU01_000595	1	annotated																		no	0	0	no	no	none	
+6482	SIKU01_000532	1	annotated																		no	0	0	no	no	none	
+6484	SIKU01_001177	1	annotated																		no	0	0	no	no	none	
+6486	SIKU01_000456	1	annotated	36.7	98	yes	35.7	98	yes	35.4	96	yes	37	92	yes	37.5	96	yes	36.1	97	yes	6	6	yes	yes	target_host	
+6490	SIKU01_001845	1	annotated							25	220	no	23.6	225	no				33.3	93	no	3	0	no	no	none	
+6491	SIKU01_000124	1	annotated																		no	0	0	no	no	none	
+6492	SIKU01_001815	1	annotated																		no	0	0	no	no	none	
+6493	SIKU01_001917	1	annotated	35.7	263	yes	35	263	yes	35.2	264	yes	36	264	yes	35.6	261	yes	36	261	yes	6	6	yes	yes	target_host	
+6497	SIKU01_000529	1	annotated																		no	0	0	no	no	none	
+6503	SIKU01_000473	1	annotated	26.3	167	no	26.3	167	no	28.1	153	no	27.5	153	no	27.5	153	no	25.7	152	no	6	0	no	no	none	
+6505	SIKU01_001262	1	annotated																		no	0	0	no	no	none	
+6507	SIKU01_000663	1	annotated																		no	0	0	no	no	none	
+6508	SIKU01_000333	1	annotated																		no	0	0	no	no	none	
+6509	SIKU01_001231	1	annotated																		no	0	0	no	no	none	
+6515	SIKU01_000978	1	annotated																		no	0	0	no	no	none	
+6516	SIKU01_000980	1	annotated																		no	0	0	no	no	none	
+6518	SIKU01_000818	1	annotated																		no	0	0	no	no	none	
+6519	SIKU01_000527	1	annotated							33.9	56	no	29.5	88	no						no	2	0	no	no	none	
+6522	SIKU01_001119	1	annotated																		no	0	0	no	no	none	
+6524	SIKU01_000693	1	annotated																		no	0	0	no	no	none	
+6525	SIKU01_000130	1	annotated																		no	0	0	no	no	none	
+6527	SIKU01_000682	1	annotated	25.8	512	no	27.7	516	no	26.6	531	no	26.2	531	no	27.5	516	no	35.1	174	yes	6	1	no	no	human_only	
+6532	SIKU01_001812	1	annotated																		no	0	0	no	no	none	
+6533	SIKU01_000176	1	annotated																		no	0	0	no	no	none	
+6534	SIKU01_000611	1	annotated																		no	0	0	no	no	none	
+6538	SIKU01_001421	1	annotated																		no	0	0	no	no	none	
+6539	SIKU01_000132	1	annotated																		no	0	0	no	no	none	
+6540	SIKU01_001020	1	annotated																		no	0	0	no	no	none	
+6541	SIKU01_001018	1	annotated																		no	0	0	no	no	none	
+6542	SIKU01_001686	1	annotated																		no	0	0	no	no	none	
+6543	SIKU01_001689	1	annotated																		no	0	0	no	no	none	
+6544	SIKU01_001027	1	annotated																		no	0	0	no	no	none	
+6545	SIKU01_001575	1	annotated																		no	0	0	no	no	none	
+6547	SIKU01_001857	1	annotated																		no	0	0	no	no	none	
+6549	SIKU01_000001	1	annotated																		no	0	0	no	no	none	
+6550	SIKU01_000061	1	annotated																		no	0	0	no	no	none	
+6556	SIKU01_001986	1	annotated	25.5	161	no	25.5	161	no	26.1	157	no	26.1	157	no	24.8	161	no	26.7	161	no	6	0	no	no	none	
+6557	SIKU01_001867	1	annotated	28.3	492	no	28.1	487	no	28.1	495	no	28.1	495	no	36.6	227	yes	28.8	490	no	6	1	no	yes	other_fish_only	
+6558	SIKU01_000232	1	annotated																		no	0	0	no	no	none	
+6559	SIKU01_000638	1	annotated																		no	0	0	no	no	none	
+6560	SIKU01_001891	1	annotated																		no	0	0	no	no	none	
+6561	SIKU01_001291	1	annotated																		no	0	0	no	no	none	
+6564	SIKU01_000946	1	annotated																		no	0	0	no	no	none	
+6568	SIKU01_000262	1	annotated																		no	0	0	no	no	none	
+6571	SIKU01_001165	1	annotated	30.4	148	no	22.5	413	no	27.9	154	no	27.9	154	no	26	154	no	25.9	216	no	6	0	no	no	none	
+6574	SIKU01_000953	1	annotated																		no	0	0	no	no	none	
+6575	SIKU01_000955	1	annotated																		no	0	0	no	no	none	
+6576	SIKU01_000612	1	annotated																		no	0	0	no	no	none	
+6577	SIKU01_001661	1	annotated																		no	0	0	no	no	none	
+6578	SIKU01_000836	1	annotated																		no	0	0	no	no	none	
+6579	SIKU01_001960	1	annotated																		no	0	0	no	no	none	
+6580	SIKU01_000142	1	annotated																		no	0	0	no	no	none	
+6585	SIKU01_000305	1	annotated	21.7	391	no	28.2	206	no	24.1	203	no	20.5	390	no	26.6	207	no	28.3	106	no	6	0	no	no	none	
+6587	SIKU01_000052	1	annotated	30.8	78	no	30.8	78	no	32	75	no	30.8	78	no	29.5	78	no			no	5	0	no	no	none	
+6588	SIKU01_001052	1	annotated																		no	0	0	no	no	none	
+6593	SIKU01_001874	1	annotated																		no	0	0	no	no	none	
+6595	SIKU01_000646	1	annotated																		no	0	0	no	no	none	
+6596	SIKU01_000241	1	annotated																		no	0	0	no	no	none	
+6597	SIKU01_000942	1	annotated																		no	0	0	no	no	none	
+6598	SIKU01_001733	1	annotated																		no	0	0	no	no	none	
+6599	SIKU01_000542	1	annotated																		no	0	0	no	no	none	
+6600	SIKU01_000168	1	annotated																		no	0	0	no	no	none	
+6601	SIKU01_001703	1	annotated																		no	0	0	no	no	none	
+6602	SIKU01_000887	1	annotated																		no	0	0	no	no	none	
+6606	SIKU01_001650	1	annotated																		no	0	0	no	no	none	
+6608	SIKU01_001547	1	annotated																23.9	343	no	1	0	no	no	none	
+6609	SIKU01_001759	1	annotated																		no	0	0	no	no	none	
+6610	SIKU01_000150	1	annotated																		no	0	0	no	no	none	
+6612	SIKU01_001786	1	annotated																		no	0	0	no	no	none	
+6613	SIKU01_000999	1	annotated	28.8	191	no	29.3	191	no	30.3	185	no	30.3	185	no	29.7	175	no	27.1	236	no	6	0	no	no	none	
+6619	SIKU01_000236	1	annotated																		no	0	0	no	no	none	
+6621	SIKU01_001776	1	annotated																		no	0	0	no	no	none	
+6622	SIKU01_001793	1	annotated																		no	0	0	no	no	none	
+6623	SIKU01_001791	1	annotated																		no	0	0	no	no	none	
+6624	SIKU01_000266	1	annotated																		no	0	0	no	no	none	
+6628	SIKU01_000718	1	annotated																		no	0	0	no	no	none	
+6629	SIKU01_000716	1	annotated																		no	0	0	no	no	none	
+6630	SIKU01_001033	1	annotated	30.1	336	no	29.9	338	no	29.5	336	no	29.5	336	no	30.9	327	no	31.2	337	no	6	0	no	no	none	
+6635	SIKU01_000933	1	annotated	25.9	617	no	24.4	627	no	24	629	no	23.8	668	no	24.7	620	no	25.7	619	no	6	0	no	no	none	
+6636	SIKU01_001964	1	annotated	22.5	276	no	22.4	286	no	23.4	286	no	23.1	286	no	23.1	286	no	24.4	275	no	6	0	no	no	none	
+6637	SIKU01_000927	1	annotated																		no	0	0	no	no	none	
+6641	SIKU01_001348	1	annotated				27.9	122	no										31.1	119	no	2	0	no	no	none	
+6642	SIKU01_001446	1	annotated	25.7	171	no	25.6	160	no	28.1	171	no	28.1	171	no	26.3	171	no	25.6	160	no	6	0	no	no	none	
+6643	SIKU01_001797	1	annotated																		no	0	0	no	no	none	
+6644	SIKU01_000814	1	annotated																		no	0	0	no	no	none	
+6645	SIKU01_001925	1	annotated																		no	0	0	no	no	none	
+6647	SIKU01_000059	1	annotated																		no	0	0	no	no	none	
+6648	SIKU01_000801	1	annotated																		no	0	0	no	no	none	
+6649	SIKU01_000657	1	annotated	23.3	484	no	25	396	no	24.3	494	no	25.2	496	no	25	512	no	22.9	480	no	6	0	no	no	none	
+6650	SIKU01_000601	1	annotated																		no	0	0	no	no	none	
+6651	SIKU01_001298	1	annotated																		no	0	0	no	no	none	
+6652	SIKU01_000729	1	annotated																		no	0	0	no	no	none	
+6653	SIKU01_001026	1	annotated	30.4	204	no	34.1	220	no	31.4	204	no	31.4	204	no	42.7	89	yes	36.2	174	yes	6	2	no	yes	other_fish_only	
+6654	SIKU01_001120	1	annotated																		no	0	0	no	no	none	
+6655	SIKU01_001122	1	annotated	29.8	94	no	26.1	119	no	30.2	129	no	29.5	129	no	32.3	99	no	32.3	99	no	6	0	no	no	none	
+6660	SIKU01_001443	1	annotated																		no	0	0	no	no	none	
+6663	SIKU01_001196	1	annotated	27.1	354	no	27.2	349	no	26.8	351	no	28.3	346	no	27.3	355	no	28.6	343	no	6	0	no	no	none	
+6664	SIKU01_000691	1	annotated																		no	0	0	no	no	none	
+6668	SIKU01_000885	1	annotated																		no	0	0	no	no	none	
+6669	SIKU01_000479	1	annotated																		no	0	0	no	no	none	
+6672	SIKU01_000995	1	annotated																		no	0	0	no	no	none	
+6676	SIKU01_000824	1	annotated																		no	0	0	no	no	none	
+6677	SIKU01_000290	1	annotated																		no	0	0	no	no	none	
+6679	SIKU01_000706	1	annotated	27.3	150	no	27.3	150	no	27	115	no	27	115	no	25.2	115	no			no	5	0	no	no	none	
+6680	SIKU01_000605	1	annotated																		no	0	0	no	no	none	
+6683	SIKU01_001282	1	annotated																		no	0	0	no	no	none	
+6685	SIKU01_000057	1	annotated	37.2	592	yes	37.9	581	yes	37	584	yes	37.3	584	yes	37.3	598	yes	37.4	610	yes	6	6	yes	yes	target_host	
+6687	SIKU01_001394	1	annotated																		no	0	0	no	no	none	
+6690	SIKU01_000964	1	annotated							22.6	371	no	22.6	371	no	23.8	378	no	24	379	no	4	0	no	no	none	
+6692	SIKU01_000412	1	annotated	25.5	216	no	24.9	213	no	22.3	206	no	21.1	204	no				25.1	191	no	5	0	no	no	none	
+6694	SIKU01_000876	1	annotated																		no	0	0	no	no	none	
+6695	SIKU01_001008	1	annotated																		no	0	0	no	no	none	
+6699	SIKU01_001100	1	annotated																		no	0	0	no	no	none	
+6701	SIKU01_001958	1	annotated																		no	0	0	no	no	none	
+6702	SIKU01_001109	1	annotated																		no	0	0	no	no	none	
+6704	SIKU01_000608	1	annotated																		no	0	0	no	no	none	
+6705	SIKU01_001021	1	annotated																		no	0	0	no	no	none	
+6709	SIKU01_000893	1	annotated	37.2	414	yes	31	830	no	31.7	830	no	31.4	830	no	38.6	505	yes	37.5	448	yes	6	3	yes	yes	target_host	
+6711	SIKU01_000218	1	annotated																		no	0	0	no	no	none	
+6712	SIKU01_000220	1	annotated																		no	0	0	no	no	none	
+6713	SIKU01_000776	1	annotated																		no	0	0	no	no	none	
+6719	SIKU01_001242	1	annotated	29.8	114	no	29.4	126	no							26	223	no			no	3	0	no	no	none	
+6721	SIKU01_001639	1	annotated																		no	0	0	no	no	none	
+6722	SIKU01_001641	1	annotated	30	90	no	37.1	89	yes	25.7	101	no	33	91	no	33.7	104	no			no	5	1	no	yes	other_fish_only	
+6724	SIKU01_000641	1	annotated																		no	0	0	no	no	none	
+6727	SIKU01_000788	1	annotated																		no	0	0	no	no	none	
+6728	SIKU01_001013	1	annotated	25.6	519	no	25.9	513	no	25.3	518	no	25.3	518	no	26.2	512	no	25.9	513	no	6	0	no	no	none	
+6730	SIKU01_001072	1	annotated																		no	0	0	no	no	none	
+6732	SIKU01_001082	1	annotated	40.7	81	yes	42	81	yes	41.8	79	no	41.8	79	no	39.2	79	no	44.2	77	no	6	2	yes	yes	target_host	Ribosomal protein
+6733	SIKU01_001084	1	annotated																		no	0	0	no	no	none	
+6736	SIKU01_000808	1	annotated	27.1	269	no	23.3	262	no	24.6	268	no	24.5	286	no	25.9	263	no	25.7	268	no	6	0	no	no	none	
+6737	SIKU01_001829	1	annotated																		no	0	0	no	no	none	
+6738	SIKU01_000340	1	annotated																		no	0	0	no	no	none	
+6739	SIKU01_000342	1	annotated																		no	0	0	no	no	none	
+6742	SIKU01_000486	1	annotated																		no	0	0	no	no	none	
+6746	SIKU01_001425	1	annotated																		no	0	0	no	no	none	
+6747	SIKU01_000878	1	annotated																		no	0	0	no	no	none	
+6750	SIKU01_001739	1	annotated																		no	0	0	no	no	none	
+6751	SIKU01_000985	1	annotated																		no	0	0	no	no	none	
+6753	SIKU01_000252	1	annotated	24.2	326	no	27.6	152	no	26.1	176	no	25	176	no	23.6	237	no			no	5	0	no	no	none	
+6754	SIKU01_000489	1	annotated																		no	0	0	no	no	none	
+6755	SIKU01_000679	1	annotated																		no	0	0	no	no	none	
+6758	SIKU01_001247	1	annotated	22.8	294	no	23.1	294	no	23.6	305	no	23.9	305	no	25	296	no	24.7	287	no	6	0	no	no	none	
+6763	SIKU01_001939	1	annotated	23.1	199	no	25	200	no	31.5	108	no	27.9	197	no	25.4	197	no	33.3	87	no	6	0	no	no	none	
+6764	SIKU01_000873	1	annotated																		no	0	0	no	no	none	
+6765	SIKU01_001184	1	annotated																		no	0	0	no	no	none	
+6766	SIKU01_000391	1	annotated																		no	0	0	no	no	none	
+6767	SIKU01_000090	1	annotated	41	39	no	41	39	no	41	39	no	41	39	no	41	39	no	43.6	39	no	6	0	no	no	none	Ribosomal protein
+6771	SIKU01_001069	1	annotated																		no	0	0	no	no	none	
+6772	SIKU01_001590	1	annotated													29.6	98	no			no	1	0	no	no	none	
+6776	SIKU01_000536	1	annotated																		no	0	0	no	no	none	
+6778	SIKU01_001995	1	annotated																		no	0	0	no	no	none	
+6781	SIKU01_000523	1	annotated																		no	0	0	no	no	none	
+6782	SIKU01_001266	1	annotated																		no	0	0	no	no	none	
+6784	SIKU01_001955	1	annotated																		no	0	0	no	no	none	
+6785	SIKU01_000296	1	annotated	22.1	602	no	26.8	302	no	24.1	299	no	23.1	299	no	21.3	596	no	24.8	250	no	6	0	no	no	none	
+6788	SIKU01_001675	1	annotated																		no	0	0	no	no	none	
+6789	SIKU01_001803	1	annotated																		no	0	0	no	no	none	
+6791	SIKU01_001089	1	annotated	30.1	176	no	32	178	no	30.1	176	no	30.1	176	no	29.9	204	no	32.3	186	no	6	0	no	no	none	
+6792	SIKU01_001821	1	annotated													23.3	172	no			no	1	0	no	no	none	
+6793	SIKU01_001823	1	annotated																		no	0	0	no	no	none	
+6794	SIKU01_000853	1	annotated																		no	0	0	no	no	none	
+6795	SIKU01_000950	1	annotated																		no	0	0	no	no	none	
+6796	SIKU01_001580	1	annotated	36.6	815	yes	36.8	820	yes	36.2	853	yes	37.3	829	yes	36.2	829	yes	35.8	812	yes	6	6	yes	yes	target_host	
+6797	SIKU01_001671	1	annotated																		no	0	0	no	no	none	
+6802	SIKU01_001404	1	annotated																		no	0	0	no	no	none	
+6803	SIKU01_001769	1	annotated																		no	0	0	no	no	none	
+6805	SIKU01_000800	1	annotated	48.9	268	yes	47.6	271	yes	45.9	270	yes	46.3	270	yes	47.4	270	yes	46.7	270	yes	6	6	yes	yes	target_host	
+6808	SIKU01_000356	1	annotated																		no	0	0	no	no	none	
+6810	SIKU01_000902	1	annotated																		no	0	0	no	no	none	
+6816	SIKU01_001221	1	annotated	43.6	94	yes	41.6	101	yes	36.6	112	yes	35.7	112	yes	38.4	138	yes	43	93	yes	6	6	yes	yes	target_host	
+6818	SIKU01_001589	1	annotated																		no	0	0	no	no	none	
+6819	SIKU01_001144	1	annotated																		no	0	0	no	no	none	
+6820	SIKU01_001333	1	annotated																		no	0	0	no	no	none	
+6823	SIKU01_001239	1	annotated																		no	0	0	no	no	none	
+6825	SIKU01_000695	1	annotated																		no	0	0	no	no	none	
+6826	SIKU01_001826	1	annotated																		no	0	0	no	no	none	
+6828	SIKU01_000202	1	annotated																		no	0	0	no	no	none	
+6829	SIKU01_001372	1	annotated																		no	0	0	no	no	none	
+6832	SIKU01_000923	1	annotated																		no	0	0	no	no	none	
+6835	SIKU01_000857	1	annotated																		no	0	0	no	no	none	
+6838	SIKU01_001389	1	annotated																		no	0	0	no	no	none	
+6839	SIKU01_000357	1	annotated																		no	0	0	no	no	none	
+6840	SIKU01_000183	1	annotated																		no	0	0	no	no	none	
+6844	SIKU01_000676	1	annotated																		no	0	0	no	no	none	
+6846	SIKU01_000237	1	annotated																		no	0	0	no	no	none	
+6848		2	non_1to1_mapping																								
+6849	SIKU01_001904	1	annotated	31.9	332	no	32.2	338	no	26.2	172	no	32.6	328	no	32.7	333	no	31.3	345	no	6	0	no	no	none	
+6851	SIKU01_001920	1	annotated																		no	0	0	no	no	none	
+6852	SIKU01_001398	1	annotated																		no	0	0	no	no	none	
+6853		2	non_1to1_mapping																								
+6854	SIKU01_000007	1	annotated																		no	0	0	no	no	none	
+6856	SIKU01_001724	1	annotated																		no	0	0	no	no	none	
+6857	SIKU01_000360	1	annotated																		no	0	0	no	no	none	
+6858	SIKU01_000512	1	annotated	22.2	378	no	24.9	209	no	20.9	383	no	20.7	382	no	20.7	376	no	26.1	203	no	6	0	no	no	none	
+6861	SIKU01_001682	1	annotated	31.1	103	no										30.6	134	no			no	2	0	no	no	none	
+6866	SIKU01_000869	1	annotated																		no	0	0	no	no	none	
+6868	SIKU01_000209	1	annotated																		no	0	0	no	no	none	
+6869	SIKU01_000211	1	annotated																		no	0	0	no	no	none	
+6872	SIKU01_000987	1	annotated																		no	0	0	no	no	none	
+6876	SIKU01_000476	1	annotated																		no	0	0	no	no	none	
+6877	SIKU01_001894	1	annotated																		no	0	0	no	no	none	
+6879	SIKU01_000439	1	annotated	30.5	220	no	32.7	223	no	29.4	238	no	29.4	238	no	34.3	239	no	36.7	90	yes	6	1	no	no	human_only	
+6889	SIKU01_000969	1	annotated																		no	0	0	no	no	none	
+6893	SIKU01_000277	1	annotated																		no	0	0	no	no	none	
+6898	SIKU01_001578	1	annotated	24.3	419	no	23.4	418	no	21.8	417	no	22.4	474	no	23.3	433	no	23.6	424	no	6	0	no	no	none	
+6899	SIKU01_001900	1	annotated																		no	0	0	no	no	none	
+6900	SIKU01_000216	1	annotated																		no	0	0	no	no	none	
+6905	SIKU01_001833	1	annotated	42.7	300	yes	41.4	222	yes	41.1	299	yes	42.1	299	yes	42.9	296	yes	47.5	223	yes	6	6	yes	yes	target_host	
+6908	SIKU01_000389	1	annotated	32.3	220	no	27.8	263	no	30	267	no	29.8	265	no	28.6	245	no	30.5	239	no	6	0	no	no	none	
+6909	SIKU01_000514	1	annotated													31.3	99	no			no	1	0	no	no	none	
+6913	SIKU01_001250	1	annotated	43.8	473	yes	43.3	473	yes	44.2	473	yes	44.2	473	yes	43.1	473	yes	43.5	478	yes	6	6	yes	yes	target_host	
+6914	SIKU01_000197	1	annotated																		no	0	0	no	no	none	
+6916	SIKU01_000074	1	annotated	22.2	418	no	22.4	415	no	25	424	no	24.8	423	no	22	414	no			no	5	0	no	no	none	
+6917	SIKU01_000075	1	annotated																		no	0	0	no	no	none	
+6920	SIKU01_001060	1	annotated	35.5	318	yes	36	317	yes	42.4	290	yes	42.1	290	yes	36.1	371	yes	46.3	242	yes	6	6	yes	yes	target_host	
+6924	SIKU01_000474	1	annotated																		no	0	0	no	no	none	
+6927	SIKU01_000433	1	annotated																		no	0	0	no	no	none	
+6928	SIKU01_001420	1	annotated																		no	0	0	no	no	none	
+6929	SIKU01_001028	1	annotated																		no	0	0	no	no	none	
+6935	SIKU01_000954	1	annotated	33.9	109	no	35.5	107	yes	35.7	98	yes	35.7	98	yes	27.1	96	no	32.6	89	no	6	3	no	yes	other_fish_only	
+6936	SIKU01_001660	1	annotated																		no	0	0	no	no	none	
+6937	SIKU01_000066	1	annotated																		no	0	0	no	no	none	
+6938	SIKU01_000941	1	annotated																		no	0	0	no	no	none	
+6939	SIKU01_000543	1	annotated	22.7	299	no	27.1	221	no	24.2	227	no	24.7	227	no	28	218	no	23.7	219	no	6	0	no	no	none	
+6940	SIKU01_001794	1	annotated	25.5	380	no	35.6	104	yes	38.5	91	yes	25	484	no	38.1	97	yes	37.1	97	yes	6	4	no	yes	other_fish_only	
+6941	SIKU01_000777	1	annotated																		no	0	0	no	no	none	
+6945	SIKU01_000602	1	annotated	41.3	356	yes	40.4	356	yes	39.9	356	yes	39.9	356	yes	39.9	356	yes	40.7	354	yes	6	6	yes	yes	target_host	
+6946	SIKU01_001323	1	annotated																		no	0	0	no	no	none	
+6947	SIKU01_000823	1	annotated																		no	0	0	no	no	none	
+6949	SIKU01_001099	1	annotated																		no	0	0	no	no	none	
+6955	SIKU01_001852	1	annotated																		no	0	0	no	no	none	
+6956	SIKU01_000496	1	annotated																		no	0	0	no	no	none	
+6966	SIKU01_000278	1	annotated																		no	0	0	no	no	none	
+6970	SIKU01_000680	1	annotated																		no	0	0	no	no	none	
+6972	SIKU01_001056	1	annotated	36.2	232	yes	36.2	232	yes	37.5	232	yes	35.4	314	yes	35.2	301	yes	37.1	232	yes	6	6	yes	yes	target_host	
+6973	SIKU01_000494	1	annotated	27	285	no	28.8	212	no	31.9	248	no	29.5	292	no	26.7	285	no	28.7	244	no	6	0	no	no	none	
+6975	SIKU01_000133	1	annotated																		no	0	0	no	no	none	
+6976	SIKU01_000961	1	annotated																		no	0	0	no	no	none	
+6983	SIKU01_000362	1	annotated	29.5	258	no	32.1	246	no	32.4	262	no	32.8	262	no	31.5	248	no	36	100	yes	6	1	no	no	human_only	
+6986	SIKU01_000673	1	annotated																		no	0	0	no	no	none	
+6987	SIKU01_000506	1	annotated																		no	0	0	no	no	none	
+6988	SIKU01_000505	1	annotated																		no	0	0	no	no	none	
+7012	SIKU01_001396	1	annotated	35.5	349	yes	35.3	348	yes	35.2	344	yes	35.1	348	yes	35.7	356	yes	33.4	356	no	6	5	yes	yes	target_host	
+7013	SIKU01_000319	1	annotated																		no	0	0	no	no	none	
+7014	SIKU01_000317	1	annotated																		no	0	0	no	no	none	
+7015	SIKU01_000256	1	annotated																		no	0	0	no	no	none	
+7016	SIKU01_000231	1	annotated	32.4	213	no	32.6	230	no	32.9	228	no	32.4	216	no	32	228	no	32.4	219	no	6	0	no	no	none	
+7020	SIKU01_001147	1	annotated	27.7	94	no															no	1	0	no	no	none	
+7022	SIKU01_001697	1	annotated																		no	0	0	no	no	none	
+7023	SIKU01_000293	1	annotated																		no	0	0	no	no	none	
+7024	SIKU01_001931	1	annotated																		no	0	0	no	no	none	
+7025	SIKU01_001916	1	annotated	29.7	306	no	30.3	300	no	30	310	no	30.2	308	no	29.9	294	no	32	291	no	6	0	no	no	none	
+7026	SIKU01_001163	1	annotated	26.6	256	no	26.6	256	no	25.8	256	no	26.2	256	no	26.2	256	no	28.3	247	no	6	0	no	no	none	
+7029	SIKU01_000912	1	annotated																		no	0	0	no	no	none	
+7030	SIKU01_001713	1	annotated																		no	0	0	no	no	none	
+7031	SIKU01_001899	1	annotated																		no	0	0	no	no	none	
+7032	SIKU01_001922	1	annotated																		no	0	0	no	no	none	
+7034	SIKU01_000470	1	annotated																		no	0	0	no	no	none	
+7038	SIKU01_001244	1	annotated																		no	0	0	no	no	none	
+7039	SIKU01_000539	1	annotated																		no	0	0	no	no	none	
+7040	SIKU01_001603	1	annotated																		no	0	0	no	no	none	
+7041	SIKU01_000667	1	annotated	37.9	203	yes	40.9	203	yes	36.5	200	yes	36.5	200	yes	38.5	200	yes	38	200	yes	6	6	yes	yes	target_host	
+7044	SIKU01_001384	1	annotated	28.6	273	no	28.6	266	no	25.6	277	no	26.2	279	no	26.8	254	no	23.7	257	no	6	0	no	no	none	
+7046	SIKU01_000771	1	annotated																		no	0	0	no	no	none	
+7047	SIKU01_001058	1	annotated	27.7	137	no	28.4	116	no	32.3	99	no	33.3	99	no	30.2	116	no	27.7	119	no	6	0	no	no	none	
+7048	SIKU01_000344	1	annotated	29.3	471	no	29	482	no	28.9	478	no	29.1	478	no	30.6	457	no	36.5	96	yes	6	1	no	no	human_only	
+7049	SIKU01_001179	1	annotated																		no	0	0	no	no	none	
+7050	SIKU01_000098	1	annotated	39.2	209	yes	41	200	yes	38.8	209	yes	38.8	209	yes	39.6	197	yes	37.7	215	yes	6	6	yes	yes	target_host	
+7051	SIKU01_001517	1	annotated																		no	0	0	no	no	none	
+7052	SIKU01_001036	1	annotated																		no	0	0	no	no	none	
+7053	SIKU01_000405	1	annotated	28.3	198	no	27.2	202	no	28.8	205	no	28.8	205	no	27.8	198	no	29	200	no	6	0	no	no	none	
+7056	SIKU01_000284	1	annotated	28	157	no	28.7	157	no	27	159	no	28.3	159	no	26.4	159	no	27.6	156	no	6	0	no	no	none	
+7057	SIKU01_001719	1	annotated																		no	0	0	no	no	none	
+7058	SIKU01_001717	1	annotated																		no	0	0	no	no	none	
+7061	SIKU01_000731	1	annotated	29.5	312	no	28.2	316	no	30.6	310	no	30.6	310	no	31.7	315	no	31.8	311	no	6	0	no	no	none	
+7063	SIKU01_001865	1	annotated	33	112	no	33.9	112	no	29.6	152	no	30.3	152	no	34.8	112	no	28.9	187	no	6	0	no	no	none	
+7064	SIKU01_001117	1	annotated																		no	0	0	no	no	none	
+7069	SIKU01_000556	1	annotated																		no	0	0	no	no	none	
+7070	SIKU01_000511	1	annotated																		no	0	0	no	no	none	
+7071	SIKU01_000750	1	annotated	30.9	149	no	30.4	148	no	27.6	145	no	27.6	145	no	27.9	154	no	29.6	125	no	6	0	no	no	none	
+7072	SIKU01_001132	1	annotated																		no	0	0	no	no	none	
+7073	SIKU01_001731	1	annotated																		no	0	0	no	no	none	
+7074	SIKU01_001170	1	annotated																		no	0	0	no	no	none	
+7075	SIKU01_001663	1	annotated																		no	0	0	no	no	none	
+7076	SIKU01_001409	1	annotated																		no	0	0	no	no	none	
+7077	SIKU01_001332	1	annotated																		no	0	0	no	no	none	
+7078	SIKU01_000544	1	annotated																		no	0	0	no	no	none	
+7079	SIKU01_000260	1	annotated																		no	0	0	no	no	none	
+7080	SIKU01_001607	1	annotated																		no	0	0	no	no	none	
+7081	SIKU01_000517	1	annotated																		no	0	0	no	no	none	
+7082	SIKU01_000834	1	annotated	26.1	348	no	25.9	348	no	24.6	349	no	25	320	no	25.5	349	no	24.9	338	no	6	0	no	no	none	
+7083	SIKU01_001962	1	annotated	25.3	162	no	30.2	139	no	25.6	164	no	25	164	no				26.1	161	no	5	0	no	no	none	
+7084	SIKU01_000458	1	annotated	33.3	96	no	32.8	116	no	32.2	121	no	30.3	152	no	28.8	156	no	38	100	yes	6	1	no	no	human_only	
+7085	SIKU01_001324	1	annotated																		no	0	0	no	no	none	
+7087	SIKU01_001317	1	annotated																		no	0	0	no	no	none	
+7088	SIKU01_000158	1	annotated																		no	0	0	no	no	none	
+7089	SIKU01_000186	1	annotated																		no	0	0	no	no	none	
+7090	SIKU01_001104	1	annotated	51.4	463	yes	51.9	466	yes	36.9	477	yes	36.9	477	yes	49	467	yes	52.2	462	yes	6	6	yes	yes	target_host	
+7091	SIKU01_000490	1	annotated																		no	0	0	no	no	none	
+7092	SIKU01_000198	1	annotated																		no	0	0	no	no	none	
+7093	SIKU01_000669	1	annotated																		no	0	0	no	no	none	
+7094	SIKU01_000193	1	annotated																		no	0	0	no	no	none	
+7096	SIKU01_001805	1	annotated																		no	0	0	no	no	none	
+7097	SIKU01_000826	1	annotated	25	525	no	24.6	525	no	25.5	530	no	26.2	530	no	36.6	194	yes	37.6	197	yes	6	2	no	yes	other_fish_only	
+7098	SIKU01_000300	1	annotated																		no	0	0	no	no	none	
+7101	SIKU01_001030	1	annotated																		no	0	0	no	no	none	
+7105	SIKU01_001888	1	annotated	23.5	400	no	23	400	no	26.7	255	no	26.7	255	no	27.1	255	no	24.6	325	no	6	0	no	no	none	
+7107	SIKU01_000689	1	annotated	36.8	201	yes	37.4	190	yes	36.5	189	yes	38.2	199	yes	37.3	201	yes	37.7	223	yes	6	6	yes	yes	target_host	
+7108	SIKU01_000180	1	annotated																		no	0	0	no	no	none	
+7109	SIKU01_000775	1	annotated																		no	0	0	no	no	none	
+7110	SIKU01_001418	1	annotated	30.4	214	no	31.5	203	no	30.8	227	no	32.1	224	no	32.5	206	no	35.4	96	yes	6	1	no	no	human_only	
+7111	SIKU01_000804	1	annotated																		no	0	0	no	no	none	
+7112	SIKU01_001497	1	annotated																		no	0	0	no	no	none	
+7114	SIKU01_001073	1	annotated																		no	0	0	no	no	none	
+7115	SIKU01_001086	1	annotated																		no	0	0	no	no	none	
+7116	SIKU01_001312	1	annotated																		no	0	0	no	no	none	
+7117	SIKU01_001800	1	annotated																		no	0	0	no	no	none	Ribosomal protein
+7118	SIKU01_000159	1	annotated																		no	0	0	no	no	none	
+7119	SIKU01_000274	1	annotated																		no	0	0	no	no	none	
+7120	SIKU01_000501	1	annotated																		no	0	0	no	no	none	
+7121	SIKU01_000895	1	annotated																		no	0	0	no	no	none	
+7122	SIKU01_001142	1	annotated																		no	0	0	no	no	none	
+7126	SIKU01_000830	1	annotated																41.5	53	no	1	0	no	no	none	
+7127	SIKU01_001251	1	annotated	23.4	431	no	23.5	426	no	23.4	445	no	25.4	418	no	24.1	448	no	21.8	440	no	6	0	no	no	none	
+7128	SIKU01_001563	1	annotated																		no	0	0	no	no	none	
+7130	SIKU01_001520	1	annotated	39.9	301	yes	40.2	301	yes	40.4	307	yes	40.1	307	yes	41.3	303	yes	39.7	310	yes	6	6	yes	yes	target_host	
+7136	SIKU01_000810	1	annotated	23.2	233	no	23.5	238	no	26.2	183	no	26.8	183	no	28.7	136	no	24.7	182	no	6	0	no	no	none	
+7139	SIKU01_000811	1	annotated																		no	0	0	no	no	none	
+7140	SIKU01_001848	1	annotated																		no	0	0	no	no	none	
+7143	SIKU01_000502	1	annotated																		no	0	0	no	no	none	
+7145	SIKU01_000821	1	annotated	25.5	212	no				28.9	197	no									no	2	0	no	no	none	
+7149	SIKU01_000350	1	annotated																		no	0	0	no	no	none	
+7150	SIKU01_001746	1	annotated				25.4	181	no												no	1	0	no	no	none	
+7152	SIKU01_000269	1	annotated																25	264	no	1	0	no	no	none	
+7153	SIKU01_001408	1	annotated	33.1	263	no	32.6	264	no	33.1	266	no	32.1	265	no	35.1	242	yes	35.9	198	yes	6	2	no	yes	other_fish_only	
+7155	SIKU01_000870	1	annotated																		no	0	0	no	no	none	
+7158	SIKU01_000286	1	annotated	30	200	no	28.5	200	no	31.6	212	no	31.6	212	no	31	200	no	35.5	124	yes	6	1	no	no	human_only	
+7159	SIKU01_000294	1	annotated																		no	0	0	no	no	none	
+7161	SIKU01_000568	1	annotated	33.5	334	no	33.8	334	no				34.9	298	no	36.4	305	yes	34.6	312	no	5	1	no	yes	other_fish_only	
+7163	SIKU01_000784	1	annotated																		no	0	0	no	no	none	
+7168	SIKU01_000128	1	annotated																		no	0	0	no	no	none	
+7169	SIKU01_000375	1	annotated																		no	0	0	no	no	none	
+7170	SIKU01_000092	1	annotated	32.6	86	no	26.3	186	no	24.2	186	no	24.2	186	no	26.3	186	no	25.3	186	no	6	0	no	no	none	Ribosomal protein
+7171	SIKU01_000184	1	annotated																		no	0	0	no	no	none	
+7174	SIKU01_001357	1	annotated	25.2	115	no	26.1	115	no	28.1	121	no	28.1	121	no	37.1	62	no	40.3	62	no	6	0	no	no	none	
+7175	SIKU01_001355	1	annotated																		no	0	0	no	no	none	
+7176	SIKU01_001591	1	annotated																		no	0	0	no	no	none	
+7179	SIKU01_001709	1	annotated																		no	0	0	no	no	none	
+7181	SIKU01_001193	1	annotated																		no	0	0	no	no	none	
+7182	SIKU01_001735	1	annotated																		no	0	0	no	no	none	
+7183	SIKU01_000369	1	annotated																		no	0	0	no	no	none	
+7185	SIKU01_000363	1	annotated																		no	0	0	no	no	none	
+7186	SIKU01_000170	1	annotated																		no	0	0	no	no	none	
+7188	SIKU01_001638	1	annotated																		no	0	0	no	no	none	
+7191	SIKU01_001721	1	annotated																		no	0	0	no	no	none	
+7192	SIKU01_000368	1	annotated																		no	0	0	no	no	none	
+7194	SIKU01_000584	1	annotated	30.5	577	no	30.5	619	no	30.4	621	no	29.6	621	no	31	600	no	30.9	595	no	6	0	no	no	none	
+7195	SIKU01_001726	1	annotated																		no	0	0	no	no	none	
+7197	SIKU01_001631	1	annotated																		no	0	0	no	no	none	
+7200	SIKU01_001643	1	annotated				36.2	105	yes				31.4	105	no				30.5	105	no	3	1	no	yes	other_fish_only	
+7201	SIKU01_001740	1	annotated																		no	0	0	no	no	none	
+7204	SIKU01_000555	1	annotated																		no	0	0	no	no	none	
+7205	SIKU01_001385	1	annotated	27.8	241	no	30.8	237	no	26.5	245	no	27.3	245	no	28.2	245	no	29.6	243	no	6	0	no	no	none	
+7211	SIKU01_001259	1	annotated																		no	0	0	no	no	none	
+7218	SIKU01_000672	1	annotated																		no	0	0	no	no	none	
+7223		2	non_1to1_mapping																								
+7227	SIKU01_001831	1	annotated																		no	0	0	no	no	none	
+7231	SIKU01_001176	1	annotated																		no	0	0	no	no	none	
+7232		2	non_1to1_mapping																								
+7233	SIKU01_001890	1	annotated																		no	0	0	no	no	none	
+7234	SIKU01_000945	1	annotated																		no	0	0	no	no	none	
+7236	SIKU01_000261	1	annotated	29.4	221	no	29.4	221	no	30.3	221	no	30.3	221	no	29.9	221	no	31.8	223	no	6	0	no	no	none	
+7237	SIKU01_000143	1	annotated	27.6	319	no	27	337	no	26.8	358	no	26.8	358	no	29.8	322	no	29	359	no	6	0	no	no	none	
+7238	SIKU01_000141	1	annotated																		no	0	0	no	no	none	
+7239	SIKU01_000265	1	annotated																		no	0	0	no	no	none	
+7240	SIKU01_000779	1	annotated																		no	0	0	no	no	none	
+7241	SIKU01_001963	1	annotated																		no	0	0	no	no	none	
+7242	SIKU01_000815	1	annotated																		no	0	0	no	no	none	
+7243	SIKU01_000730	1	annotated																		no	0	0	no	no	none	
+7244	SIKU01_000994	1	annotated																		no	0	0	no	no	none	
+7245	SIKU01_001957	1	annotated																		no	0	0	no	no	none	
+7246	SIKU01_001642	1	annotated	28	293	no	29	293	no	27.4	299	no	26.8	299	no	27.6	293	no	28	286	no	6	0	no	no	none	
+7247	SIKU01_001071	1	annotated																		no	0	0	no	no	none	
+7248	SIKU01_000341	1	annotated																		no	0	0	no	no	none	
+7250	SIKU01_000678	1	annotated	44.8	67	no	44.8	67	no	30.2	159	no	31.1	167	no	29.2	233	no	40.9	66	no	6	0	no	no	none	
+7251	SIKU01_001246	1	annotated																		no	0	0	no	no	none	
+7254	SIKU01_001729	1	annotated																		no	0	0	no	no	none	
+7256	SIKU01_000944	1	annotated																		no	0	0	no	no	none	
+7257	SIKU01_001397	1	annotated																		no	0	0	no	no	none	
+7259	SIKU01_001473	1	annotated				31.4	105	no												no	1	0	no	no	none	
+7263	SIKU01_000196	1	annotated																		no	0	0	no	no	none	
+7265	SIKU01_000264	1	annotated	28.8	198	no	28.6	199	no	29.9	194	no	29.3	198	no	28.1	192	no	28.1	199	no	6	0	no	no	none	
+7266	SIKU01_000778	1	annotated																		no	0	0	no	no	none	
+7267	SIKU01_001322	1	annotated	31.3	160	no	31.9	163	no	30.1	163	no	30.1	163	no	30	160	no	30.1	163	no	6	0	no	no	none	
+7270	SIKU01_000280	1	annotated																		no	0	0	no	no	none	
+7271	SIKU01_000816	1	annotated																		no	0	0	no	no	none	
+7272	SIKU01_000681	1	annotated																		no	0	0	no	no	none	
+7273	SIKU01_000493	1	annotated																		no	0	0	no	no	none	
+7276	SIKU01_001714	1	annotated																		no	0	0	no	no	none	
+7277	SIKU01_000195	1	annotated																		no	0	0	no	no	none	
+7278	SIKU01_000345	1	annotated																		no	0	0	no	no	none	
+7279	SIKU01_000285	1	annotated																		no	0	0	no	no	none	
+7281	SIKU01_000516	1	annotated																		no	0	0	no	no	none	
+7284	SIKU01_000275	1	annotated																		no	0	0	no	no	none	
+7285	SIKU01_000207	1	annotated																		no	0	0	no	no	none	
+7291	SIKU01_001745	1	annotated																		no	0	0	no	no	none	
+7294	SIKU01_000567	1	annotated							34.2	117	no	33.3	117	no						no	2	0	no	no	none	
+7299	SIKU01_001734	1	annotated	35.1	97	yes	35.1	97	yes	37.1	124	yes	36	136	yes	35.4	113	yes	35.7	143	yes	6	6	yes	yes	target_host	
+7301	SIKU01_001727	1	annotated																		no	0	0	no	no	none	
+7307	SIKU01_000468	1	annotated																		no	0	0	no	no	none	
+7309	SIKU01_001956	1	annotated																		no	0	0	no	no	none	
+7315	SIKU01_001744	1	annotated													23.1	251	no			no	1	0	no	no	none	
+7325	SIKU01_001743	1	annotated																		no	0	0	no	no	none	
+7335	SIKU01_000478	1	annotated																		no	0	0	no	no	none	
+7338	SIKU01_000146	1	annotated																		no	0	0	no	no	none	
+7341	SIKU01_000145	1	annotated																		no	0	0	no	no	none	
+7344	SIKU01_001801	1	annotated													29.6	98	no			no	1	0	no	no	none	
+7346	SIKU01_000212	1	annotated																		no	0	0	no	no	none	
+7355	SIKU01_000206	1	annotated																		no	0	0	no	no	none	
+7383	SIKU01_001710	1	annotated																		no	0	0	no	no	none	
+7403	SIKU01_000022	1	annotated													29.6	98	no			no	1	0	no	no	none	

@@ -1,0 +1,1308 @@
+case_id	pangenome_id	sample_id	paralog	paralog_handling	n_genomes	threshold	exclude_paralogs	expected_result	description
+C01	PID_C01	SAMPLE_001	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_002	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_003	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_004	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_005	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_006	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_007	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_008	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_009	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_010	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_011	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_012	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_013	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_014	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_015	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_016	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_017	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_018	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_019	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_020	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_021	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_022	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_023	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_024	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_025	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_026	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_027	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_028	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_029	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_030	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_031	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_032	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_033	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_034	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_035	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_036	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_037	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_038	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_039	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_040	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_041	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_042	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_043	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_044	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_045	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_046	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_047	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_048	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_049	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_050	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_051	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_052	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_053	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_054	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_055	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_056	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_057	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_058	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_059	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_060	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_061	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_062	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_063	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_064	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_065	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_066	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_067	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_068	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_069	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_070	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_071	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_072	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_073	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_074	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_075	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_076	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_077	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_078	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_079	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_080	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_081	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_082	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_083	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_084	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_085	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_086	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_087	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_088	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_089	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C01	PID_C01	SAMPLE_090	0	NONE	90	0.95	TRUE	PASS	carriage above threshold
+C02	PID_C02	SAMPLE_001	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_002	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_003	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_004	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_005	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_006	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_007	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_008	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_009	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_010	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_011	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_012	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_013	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_014	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_015	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_016	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_017	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_018	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_019	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_020	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_021	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_022	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_023	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_024	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_025	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_026	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_027	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_028	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_029	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_030	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_031	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_032	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_033	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_034	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_035	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_036	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_037	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_038	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_039	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_040	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_041	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_042	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_043	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_044	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_045	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_046	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_047	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_048	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_049	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_050	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_051	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_052	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_053	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_054	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_055	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_056	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_057	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_058	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_059	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_060	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_061	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_062	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_063	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_064	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_065	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_066	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_067	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_068	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_069	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_070	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_071	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_072	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_073	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_074	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_075	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_076	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_077	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_078	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_079	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_080	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_081	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_082	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_083	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_084	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_085	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_086	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_087	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_088	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_089	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_090	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_091	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_092	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_093	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_094	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C02	PID_C02	SAMPLE_095	0	NONE	100	0.95	TRUE	PASS	carriage exactly at threshold
+C03	PID_C03	SAMPLE_001	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_002	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_003	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_004	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_005	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_006	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_007	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_008	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_009	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_010	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_011	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_012	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_013	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_014	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_015	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_016	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_017	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_018	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_019	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_020	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_021	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_022	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_023	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_024	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_025	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_026	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_027	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_028	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_029	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_030	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_031	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_032	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_033	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_034	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_035	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_036	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_037	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_038	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_039	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_040	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_041	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_042	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_043	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_044	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_045	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_046	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_047	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_048	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_049	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_050	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_051	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_052	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_053	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_054	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_055	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_056	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_057	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_058	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_059	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_060	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_061	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_062	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_063	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_064	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_065	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_066	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_067	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_068	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_069	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_070	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_071	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_072	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_073	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_074	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_075	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_076	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_077	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_078	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_079	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_080	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_081	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_082	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_083	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_084	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_085	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_086	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_087	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_088	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_089	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_090	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_091	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_092	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_093	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C03	PID_C03	SAMPLE_094	0	NONE	100	0.95	TRUE	FAIL	carriage one genome below threshold
+C04	PID_C04	SAMPLE_001	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_002	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_003	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_004	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_005	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_006	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_007	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_008	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_009	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_010	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_011	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_012	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_013	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_014	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_015	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_016	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_017	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_018	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_019	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_020	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_021	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_022	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_023	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_024	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_025	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_026	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_027	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_028	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_029	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_030	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_031	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_032	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_033	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_034	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_035	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_036	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_037	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_038	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_039	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_040	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_041	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_042	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_043	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_044	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_045	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_046	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_047	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_048	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_049	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_050	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_051	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_052	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_053	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_054	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_055	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_056	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_057	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_058	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_059	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_060	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_061	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_062	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_063	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_064	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_065	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_066	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_067	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_068	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_069	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_070	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_071	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_072	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_073	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_074	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_075	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_076	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_077	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_078	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_079	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_080	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_081	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_082	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_083	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_084	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_085	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_086	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_087	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_088	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_089	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_090	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_091	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_092	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_093	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_094	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_095	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_096	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_097	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_098	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_099	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_100	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C04	PID_C04	SAMPLE_101	0	NONE	100	0.95	TRUE	FAIL	impossible count: more present than genomes
+C05	PID_C05	SAMPLE_001	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_002	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_003	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_004	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_005	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_006	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_007	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_008	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_009	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_010	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_011	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_012	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_013	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_014	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_015	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_016	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_017	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_018	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_019	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_020	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_021	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_022	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_023	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_024	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_025	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_026	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_027	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_028	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_029	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_030	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_031	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_032	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_033	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_034	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_035	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_036	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_037	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_038	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_039	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_040	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_041	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_042	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_043	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_044	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_045	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_046	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_047	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_048	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_049	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_050	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_051	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_052	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_053	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_054	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_055	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_056	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_057	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_058	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_059	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_060	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_061	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_062	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_063	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_064	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_065	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_066	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_067	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_068	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_069	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_070	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_071	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_072	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_073	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_074	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_075	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_076	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_077	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_078	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_079	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_080	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_081	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_082	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_083	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_084	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_085	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_086	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_087	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_088	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_089	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_090	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_091	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_092	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_093	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_094	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_095	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present
+C05	PID_C05	SAMPLE_001	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C05	PID_C05	SAMPLE_002	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C05	PID_C05	SAMPLE_003	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C05	PID_C05	SAMPLE_004	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C05	PID_C05	SAMPLE_005	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C05	PID_C05	SAMPLE_006	0	NONE	100	0.95	TRUE	PASS	duplicate rows must not inflate n_present (duplicate row)
+C06	PID_C06	SAMPLE_001	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_002	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_003	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_004	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_005	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_006	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_007	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_008	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_009	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_010	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_011	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_012	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_013	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_014	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_015	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_016	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_017	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_018	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_019	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_020	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_021	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_022	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_023	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_024	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_025	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_026	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_027	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_028	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_029	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_030	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_031	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_032	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_033	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_034	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_035	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_036	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_037	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_038	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_039	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_040	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_041	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_042	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_043	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_044	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_045	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_046	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_047	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_048	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_049	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_050	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_051	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_052	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_053	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_054	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_055	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_056	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_057	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_058	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_059	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_060	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_061	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_062	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_063	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_064	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_065	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_066	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_067	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_068	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_069	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_070	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_071	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_072	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_073	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_074	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_075	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_076	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_077	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_078	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_079	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_080	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_081	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_082	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_083	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_084	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_085	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_086	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_087	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_088	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_089	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C06	PID_C06	SAMPLE_090	0	NONE	90	0.99	TRUE	PASS	default threshold 0.99, full carriage
+C07	PID_C07	SAMPLE_001	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_002	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_003	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_004	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_005	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_006	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_007	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_008	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_009	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_010	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_011	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_012	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_013	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_014	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_015	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_016	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_017	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_018	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_019	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_020	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_021	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_022	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_023	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_024	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_025	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_026	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_027	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_028	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_029	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_030	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_031	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_032	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_033	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_034	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_035	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_036	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_037	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_038	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_039	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_040	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_041	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_042	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_043	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_044	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_045	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_046	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_047	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_048	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_049	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_050	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_051	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_052	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_053	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_054	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_055	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_056	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_057	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_058	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_059	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_060	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_061	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_062	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_063	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_064	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_065	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_066	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_067	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_068	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_069	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_070	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_071	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_072	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_073	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_074	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_075	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_076	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_077	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_078	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_079	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_080	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_081	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_082	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_083	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_084	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_085	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_086	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_087	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_088	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C07	PID_C07	SAMPLE_089	0	NONE	90	0.99	TRUE	FAIL	default threshold 0.99, one genome short
+C08	PID_C08	SAMPLE_001	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_002	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_003	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_004	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_005	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_006	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_007	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_008	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_009	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_010	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_011	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_012	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_013	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_014	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_015	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_016	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_017	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_018	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_019	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_020	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_021	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_022	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_023	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_024	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_025	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_026	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_027	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_028	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_029	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_030	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_031	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_032	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_033	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_034	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_035	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_036	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_037	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_038	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_039	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_040	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_041	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_042	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_043	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_044	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_045	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_046	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_047	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_048	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_049	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_050	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_051	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_052	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_053	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_054	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_055	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_056	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_057	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_058	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_059	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_060	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_061	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_062	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_063	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_064	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_065	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_066	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_067	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_068	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_069	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_070	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_071	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_072	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_073	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_074	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_075	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_076	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_077	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_078	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_079	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_080	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_081	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_082	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_083	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_084	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_085	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_086	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_087	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_088	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_089	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C08	PID_C08	SAMPLE_090	1	NONE	90	0.99	TRUE	FAIL	legacy path: paralogous cluster excluded here
+C09	PID_C09	SAMPLE_001	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_002	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_003	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_004	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_005	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_006	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_007	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_008	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_009	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_010	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_011	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_012	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_013	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_014	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_015	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_016	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_017	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_018	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_019	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_020	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_021	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_022	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_023	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_024	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_025	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_026	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_027	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_028	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_029	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_030	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_031	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_032	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_033	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_034	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_035	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_036	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_037	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_038	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_039	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_040	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_041	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_042	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_043	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_044	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_045	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_046	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_047	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_048	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_049	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_050	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_051	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_052	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_053	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_054	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_055	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_056	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_057	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_058	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_059	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_060	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_061	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_062	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_063	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_064	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_065	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_066	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_067	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_068	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_069	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_070	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_071	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_072	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_073	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_074	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_075	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_076	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_077	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_078	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_079	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_080	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_081	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_082	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_083	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_084	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_085	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_086	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_087	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_088	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_089	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C09	PID_C09	SAMPLE_090	1	NONE	90	0.99	FALSE	PASS	same cluster, exclusion off
+C10	PID_C10		0	NONE	90	0.99	TRUE	FAIL	carried by no genome
+C11	PID_C11	SAMPLE_001	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_002	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_003	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_004	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_005	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_006	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_007	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_008	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_009	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_010	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_011	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_012	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_013	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_014	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_015	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_016	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_017	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_018	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_019	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_020	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_021	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_022	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_023	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_024	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_025	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_026	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_027	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_028	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_029	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_030	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_031	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_032	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_033	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_034	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_035	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_036	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_037	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_038	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_039	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_040	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_041	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_042	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_043	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_044	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_045	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_046	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_047	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_048	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_049	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_050	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_051	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_052	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_053	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_054	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_055	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_056	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_057	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_058	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_059	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_060	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_061	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_062	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_063	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_064	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_065	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_066	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_067	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_068	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_069	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_070	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_071	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_072	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_073	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_074	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_075	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_076	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_077	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_078	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_079	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_080	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_081	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_082	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_083	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_084	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_085	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_086	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_087	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_088	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_089	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_090	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_091	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_092	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_093	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_094	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_095	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present
+C11	PID_C11	SAMPLE_001	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C11	PID_C11	SAMPLE_002	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C11	PID_C11	SAMPLE_003	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C11	PID_C11	SAMPLE_004	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C11	PID_C11	SAMPLE_005	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C11	PID_C11	SAMPLE_006	0	COLLAPSED	100	0.95	TRUE	FAIL	COLLAPSED claimed but duplicates present (duplicate row)
+C12	PID_C12	SAMPLE_001	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_002	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_003	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_004	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_005	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_006	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_007	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_008	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_009	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_010	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_011	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_012	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_013	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_014	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_015	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_016	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_017	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_018	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_019	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_020	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_021	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_022	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_023	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_024	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_025	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_026	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_027	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_028	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_029	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_030	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_031	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_032	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_033	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_034	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_035	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_036	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_037	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_038	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_039	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_040	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_041	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_042	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_043	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_044	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_045	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_046	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_047	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_048	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_049	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_050	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_051	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_052	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_053	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_054	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_055	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_056	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_057	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_058	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_059	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_060	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_061	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_062	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_063	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_064	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_065	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_066	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_067	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_068	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_069	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_070	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_071	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_072	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_073	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_074	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_075	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_076	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_077	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_078	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_079	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_080	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_081	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_082	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_083	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_084	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_085	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_086	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_087	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_088	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_089	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_090	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_091	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_092	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_093	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_094	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C12	PID_C12	SAMPLE_095	0	COLLAPSED	100	0.95	TRUE	PASS	COLLAPSED claimed and honoured
+C13	PID_C13	SAMPLE_001	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_002	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_003	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_004	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_005	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_006	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_007	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_008	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_009	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_010	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_011	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_012	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_013	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_014	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_015	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_016	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_017	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_018	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_019	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_020	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_021	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_022	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_023	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_024	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_025	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_026	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_027	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_028	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_029	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_030	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_031	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_032	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_033	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_034	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_035	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_036	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_037	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_038	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_039	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_040	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_041	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_042	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_043	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_044	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_045	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_046	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_047	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_048	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_049	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_050	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_051	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_052	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_053	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_054	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_055	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_056	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_057	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_058	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_059	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_060	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_061	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_062	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_063	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_064	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_065	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_066	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_067	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_068	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_069	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_070	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_071	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_072	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_073	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_074	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_075	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_076	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_077	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_078	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_079	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_080	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_081	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_082	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_083	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_084	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_085	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_086	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_087	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_088	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_089	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C13	PID_C13	SAMPLE_090	1	EXCLUDED	90	0.99	TRUE	FAIL	EXCLUDED cluster must not reach the gate
+C14	PID_C14	SAMPLE_001	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_002	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_003	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_004	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_005	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_006	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_007	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_008	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_009	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_010	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_011	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_012	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_013	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_014	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_015	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_016	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_017	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_018	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_019	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_020	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_021	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_022	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_023	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_024	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_025	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_026	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_027	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_028	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_029	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_030	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_031	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_032	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_033	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_034	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_035	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_036	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_037	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_038	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_039	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_040	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_041	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_042	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_043	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_044	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_045	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_046	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_047	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_048	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_049	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_050	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_051	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_052	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_053	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_054	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_055	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_056	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_057	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_058	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_059	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_060	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_061	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_062	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_063	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_064	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_065	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_066	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_067	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_068	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_069	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_070	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_071	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_072	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_073	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_074	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_075	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_076	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_077	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_078	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_079	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_080	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_081	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_082	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_083	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_084	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_085	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_086	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_087	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_088	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_089	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C14	PID_C14	SAMPLE_090	1	COLLAPSED	90	0.99	TRUE	PASS	collapsed upstream; flag is history, not a veto
+C15	PID_C15	SAMPLE_001	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_002	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_003	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_004	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_005	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_006	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_007	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_008	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_009	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_010	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_011	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_012	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_013	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_014	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_015	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_016	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_017	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_018	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_019	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_020	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_021	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_022	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_023	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_024	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_025	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_026	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_027	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_028	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_029	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_030	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_031	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_032	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_033	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_034	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_035	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_036	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_037	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_038	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_039	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_040	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_041	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_042	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_043	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_044	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_045	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_046	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_047	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_048	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_049	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_050	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_051	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_052	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_053	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_054	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_055	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_056	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_057	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_058	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_059	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_060	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_061	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_062	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_063	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_064	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_065	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_066	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_067	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_068	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_069	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_070	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_071	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_072	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_073	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_074	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_075	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_076	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_077	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_078	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_079	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_080	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_081	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_082	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_083	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_084	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_085	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_086	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_087	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_088	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_089	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies
+C15	PID_C15	SAMPLE_090	1	UNKNOWN	90	0.99	TRUE	FAIL	provenance unknown, so the legacy exclusion applies

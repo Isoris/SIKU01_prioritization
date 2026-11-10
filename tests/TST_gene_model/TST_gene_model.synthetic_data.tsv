@@ -1,0 +1,21 @@
+sample_id	orthogroup_id	description	nt	aa	expected_result
+Test_orf_pair_01	TEST_OG_01	valid uppercase CDS/protein pair	ATGTAA	M	TRUE
+Test_orf_pair_02	TEST_OG_02	valid lowercase CDS/protein pair	atgtaa	m	TRUE
+Test_orf_pair_03	TEST_OG_03	valid mixed-case CDS/protein pair	AtGtAa	m	TRUE
+Test_orf_pair_04	TEST_OG_04	leading/trailing spaces are stripped	  ATGTAA  	  M  	TRUE
+Test_orf_pair_05	TEST_OG_05	terminal stop symbol in AA is optional	ATGTAA	M*	TRUE
+Test_orf_pair_06	TEST_OG_06	valid alternative bacterial start codon	GTGAAATAA	MK	TRUE
+Test_orf_pair_07	TEST_OG_07	CDS contains only start codon and no terminal stop	ATG	M	FALSE
+Test_orf_pair_08	TEST_OG_08	invalid initiation codon	AAAAAATAA	KK	FALSE
+Test_orf_pair_09	TEST_OG_09	CDS length is not divisible by three	ATGAAATA	MK	FALSE
+Test_orf_pair_10	TEST_OG_10	terminal stop codon is missing	ATGAAA	MK	FALSE
+Test_orf_pair_11	TEST_OG_11	internal in-frame stop before terminal stop	ATGTAAGGGTAA	MG	FALSE
+Test_orf_pair_12	TEST_OG_12	AA sequence does not match translated CDS	ATGAAATAA	MR	FALSE
+Test_orf_pair_13	TEST_OG_13	AA does not begin with methionine	ATGAAATAA	LK	FALSE
+Test_orf_pair_14	TEST_OG_14	internal whitespace is not silently repaired	ATG   AAATAA	MK	FALSE
+Test_orf_pair_15	TEST_OG_15	resolvable IUPAC codon is accepted	ATGGCNTAA	MA	TRUE
+Test_orf_pair_16	TEST_OG_16	ambiguous IUPAC codon with non-unique translation fails	ATGAANTAA	MX	FALSE
+Test_orf_pair_17	TEST_OG_17	missing nucleotide sequence	NA	M	FALSE
+Test_orf_pair_18	TEST_OG_18	missing amino-acid sequence	ATGTAA	NA	FALSE
+Test_orf_pair_19	TEST_OG_19	empty nucleotide sequence		M	FALSE
+Test_orf_pair_20	TEST_OG_20	empty amino-acid sequence	ATGTAA		FALSE

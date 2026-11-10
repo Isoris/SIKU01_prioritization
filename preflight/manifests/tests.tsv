@@ -1,0 +1,27 @@
+path	sha256_lf	bytes	role
+tests/RULE_TEST_INDEX_v27.tsv	278a2e306064a33868d3071396c295b0999e43015ac6177b06f98ab25da41951	7581	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/run_all_tests_A6434_v01.sh	c14c2240d88818de9d073a5b0a7782c1b046e45978c91a13ab9f85ed31254804	4451	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_carriage/TST_carriage.robustness_test.R	2cf174c6b35276a0aaa8e3bbd86a4004626018218a3efca7fc0433fdb6ba3f84	1911	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_carriage/TST_carriage.sensitivity_test.R	21a641cda700e113da1019ddff9a3b6eb3efbedddb77d13be0111eb5370b6f7f	544	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_carriage/TST_carriage.synthetic_data.tsv	dc4b25a5383e84eafd874efe9a49b736c61ffa1b82de55477c20cb70f23778e7	116472	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_carriage/TST_carriage.unit_test.R	ed72a51dda97af5ac5f48f0de0bedd2d2d3bca5a4b505cf27f92ca2b2cd4e724	8726	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation.robustness_test.R	d26c2842b530c8ba0ae69712f9b98591c1ac1fcd125ee2a3152ae3864951b1d6	1906	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation.sensitivity_test.R	9f05c1c9b9ded63c37e03b6c7c101eb9cc8489de99f1c723fbbcba6923e5813b	545	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation.unit_test.R	e4b1544057acdd8f20b533b3d658d3752cbdc57060888ed0e9db729755a72299	8837	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation_design_v01.md	6b0323d88e4cd257c62247bd6626aa60c355b8e6ea8d3bc48cfd8d22015b585e	1338	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation_functions_and_packages_v01.md	82b4f5b98a436a8862281bf290d0d3ca3ab93087a535b234d29be84e92f1c59e	1028	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_conservation/TST_conservation_seed_msa_library_v01.tsv.gz	981518bb7fe2207105f4a03d725a124af8abf2065a531128a437ed86ec71e2cb	107181	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_execution/TST_execution_against_data.unit_test.py	bb3de646e4fb57cd27df795a1eece845182dc9cc738b05815d3800ef042cd4f1	13401	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_gene_model/TST_gene_model.robustness_test.R	7659368ed17bee0e57439e59386a5da082fce9885857835163e978d8d940016f	1975	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_gene_model/TST_gene_model.sensitivity_test.R	5f3361fd0ee4bf11e905fa707e6de3f28bbeb36a8f85d2fa1265121c4d298748	474	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_gene_model/TST_gene_model.synthetic_data.tsv	723b42b859da830e110577a9e9544479f430f6714be6953003b536b51ff91934	1673	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_gene_model/TST_gene_model.unit_test.R	37259bb53cedd3d7018709f8f169b6bcb843faf431dab6e80fc74d82dd5886b3	6480	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_numerical/TST_numerical_against_production.unit_test.py	ec2c89bcd9f7953a827215cd0cb188f71532a700d26affd4f99234f1a03c215e	8987	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_numerical/TST_sweep_satisfies_against_production.unit_test.py	8487a198bfe3cab749c4a02dc8a61371526ab00b40800a1bcafde6ef41b7bc5d	7874	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_perturbation/TST_perturbation_against_production.unit_test.py	1f5dc7217b3b45a97274f5860ef828e0ded410c083fdd05868250d06ff1cf2c6	10958	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_tmh/TST_tmh.synthetic_data.tsv	9adad0bb558e2ff953da5cbe2eb06b4693c9fe61d7651e313378153e82b6746d	1090	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/TST_tmh/TST_tmh.unit_test.R	fa2a82a7baa19e5848bf61ce16ac5564deffa89354e7c06e9695d24032622aaa	5451	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/_shared/MASTER_numeric_range.synthetic_data.tsv	491daa6545c44c2a8d8bcfb1340ced81a4cbd1299ff35cf5fb5ad6ecfff285d6	4966	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/_shared/MASTER_numeric_range_unit_test.R	3b780f6117f19c104069e29bbecf75d198673b2e3d4855751aa3146cc547e917	22301	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/_shared/siku01_cli_logging_and_sensitivity_v01.R	e6b54a432e9afa5429a3a77296fb72c4cb93dfeff559a3b10ab33e46030844ea	13996	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv
+tests/_shared/siku01_helpers_and_tests_v04.R	5df9911d18030326df956a274cfeb9fc927b2738f593c3ee7c32ed437ba6741d	40255	unit, robustness and known-answer suites, shared helpers, RULE_TEST_INDEX_v27.tsv

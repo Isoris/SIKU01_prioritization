@@ -1,0 +1,5 @@
+path	bytes	sha256	role	copied_from
+raw_upstream/panaroo_output.7z	12276877	9d1729f8065ba184f68ef3bcbbe4f69274d2317df0d796bba4b96ab54c3a59dc	the frozen Panaroo products (graph, gene_data, presence/absence matrix, ...): input RES_SINIAE_PANAROO_90 of WF_A5093	F:\SIKU01\SIKU01\00_upstream\panaroo_output\panaroo_output.7z
+raw_upstream/input_genomes.7z	19905209	d79d17b236826de22c1487f90b951bfd521f8d2794b3518013515fb34a0f4b7e	the annotation set Panaroo was given (one GFF3 per isolate): input RES_SINIAE_PANEL_PROKKA_GFF3 of WF_A5093	F:\SIKU01\SIKU01\00_upstream\panaroo_output\input_genomes.7z
+raw_upstream/extra_run_panaroo.sh	336	335a31464c85bf527f5f5ebab5a473e2a0c2bec6bbb5bfe30cfbd4cbce0495a9	the Panaroo command line (strict clean mode, core 0.95, family 0.85, mafft, 20 threads)	F:\SIKU01\SIKU01\00_upstream\panaroo_output\extra_run_panaroo.sh
+raw_upstream/extra_concatenate_core_genome.py	5918	56accd22deb6581a81fd87ed6c4478b7e5d2c59058a648924b58ca87240b4bb5	core-genome concatenation helper named in extra_run_panaroo.sh	F:\SIKU01\SIKU01\00_upstream\panaroo_output\extra_concatenate_core_genome.py

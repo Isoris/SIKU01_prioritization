@@ -1,0 +1,17 @@
+path	sha256_lf	bytes	role
+environment.yml	1a0617e14129665e5913307c37f2c4930335caa21a7b17a789f37d7757fe9cea	978	the pinned environment
+docs/UPSTREAM_PRODUCERS.tsv	9b19cf560d4e09d10ca911772e49487a71dabae897db52f9682f399169e7d104	4299	where each frozen table came from
+raw/CONTENTS_input_genomes.tsv	526118db29b5827e7bfcaf323fba0137ebfff1889fe6f298ac402b1981139cff	15539	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/CONTENTS_panaroo_output.tsv	98191eed4f26d8b18c9916b498422a2e8a0ff84557511038d28b45d98342d196	1495	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/RAW_UPSTREAM.tsv	8d057ecd46498cabe36ce366390242a76e9e4d22d5a63662a4da8e9efa06997b	1105	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/README_core_alignments.md	0b7e377effeedf698fa386433a0dc7f699a2aba2f2371130ff55805f498298de	2416	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/README_raw_upstream.md	9fd904bf870049ec30855d3470b6aa4d104451531c6fadfaaf1cbc04d9e63f3c	1166	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/core_alignments.7z	5e7d73bdd9d24111095b024e40eb736889772cc05d274eebeb966b3882a55feb	1109329	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/core_alignments_manifest_md5.tsv	933578f7978a5384197a9c9f12634edce5b2f7ae24cebecd3154300e69b07d05	242370	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/extra_concatenate_core_genome.py	56accd22deb6581a81fd87ed6c4478b7e5d2c59058a648924b58ca87240b4bb5	5918	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/extra_run_panaroo.sh	335a31464c85bf527f5f5ebab5a473e2a0c2bec6bbb5bfe30cfbd4cbce0495a9	336	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/input_genomes.7z	d74af1af72cef992b1845d624e48c12130bf6f070ea81629a219cb896a8ab8e8	19905209	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/panaroo_output.7z	5bc30d974d6c9d745e3e9b7e5c945640da48830c13c640dd34c58677a484c7fd	12276877	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/upstream_scripts/01_fetch_genomes_NCBI.py	70e3739c9f23fb25a3bf88d8ef3d2e2b49364653a0a031ff78067d6140592cac	7812	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/upstream_scripts/README.md	e5f4921f3cd6826c5ca231eafd6471b3ca68deee00b5e76a828c567d7961f1b7	916	the raw archives (Panaroo output, input genomes, core alignments) and their records
+raw/upstream_scripts/SHA256.txt	fc33bf2df0d3d135957dc2dbafef30e935eea62eba6603ce3abdfbb617d5657b	91	the raw archives (Panaroo output, input genomes, core alignments) and their records

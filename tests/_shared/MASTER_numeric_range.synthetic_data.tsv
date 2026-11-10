@@ -1,0 +1,35 @@
+test_id	sample_id	pangenome_id	description	operating_low	operating_high	operating_low_op	operating_high_op	target_low	target_high	target_low_op	target_high_op	value_case	input_type	test_setup	expected_result	expected_operating_status	expected_target_status	expected_error
+T001	TEST_SAMPLE	PID_TEST	below operating range	0	100	>=	<=	20	60	>=	<=	BELOW_OPERATING_LOW	double	NORMAL	FALSE	OUTSIDE_OPERATING_LOW	NOT_EVALUATED	FALSE
+T002	TEST_SAMPLE	PID_TEST	exact operating lower boundary, inclusive	0	100	>=	<=	20	60	>=	<=	AT_OPERATING_LOW	double	NORMAL	FALSE	OPERATING_OK	FAIL_LOW	FALSE
+T003	TEST_SAMPLE	PID_TEST	between operating low and target low	0	100	>=	<=	20	60	>=	<=	BETWEEN_OPERATING_LOW_TARGET_LOW	double	NORMAL	FALSE	OPERATING_OK	FAIL_LOW	FALSE
+T004	TEST_SAMPLE	PID_TEST	just below target low	0	100	>=	<=	20	60	>=	<=	JUST_BELOW_TARGET_LOW	double	NORMAL	FALSE	OPERATING_OK	FAIL_LOW	FALSE
+T005	TEST_SAMPLE	PID_TEST	exact target lower boundary, inclusive	0	100	>=	<=	20	60	>=	<=	AT_TARGET_LOW	double	NORMAL	TRUE	OPERATING_OK	PASS	FALSE
+T006	TEST_SAMPLE	PID_TEST	middle of target range	0	100	>=	<=	20	60	>=	<=	MID_TARGET	double	NORMAL	TRUE	OPERATING_OK	PASS	FALSE
+T007	TEST_SAMPLE	PID_TEST	exact target upper boundary, inclusive	0	100	>=	<=	20	60	>=	<=	AT_TARGET_HIGH	double	NORMAL	TRUE	OPERATING_OK	PASS	FALSE
+T008	TEST_SAMPLE	PID_TEST	just above target high	0	100	>=	<=	20	60	>=	<=	JUST_ABOVE_TARGET_HIGH	double	NORMAL	FALSE	OPERATING_OK	FAIL_HIGH	FALSE
+T009	TEST_SAMPLE	PID_TEST	between target high and operating high	0	100	>=	<=	20	60	>=	<=	BETWEEN_TARGET_HIGH_OPERATING_HIGH	double	NORMAL	FALSE	OPERATING_OK	FAIL_HIGH	FALSE
+T010	TEST_SAMPLE	PID_TEST	exact operating upper boundary, inclusive	0	100	>=	<=	20	60	>=	<=	AT_OPERATING_HIGH	double	NORMAL	FALSE	OPERATING_OK	FAIL_HIGH	FALSE
+T011	TEST_SAMPLE	PID_TEST	above operating range	0	100	>=	<=	20	60	>=	<=	ABOVE_OPERATING_HIGH	double	NORMAL	FALSE	OUTSIDE_OPERATING_HIGH	NOT_EVALUATED	FALSE
+T012	TEST_SAMPLE	PID_TEST	missing numeric input	0	100	>=	<=	20	60	>=	<=	MISSING	double	NORMAL	FALSE	INVALID_MISSING	NOT_EVALUATED	FALSE
+T013	TEST_SAMPLE	PID_TEST	exact target lower boundary, exclusive	0	100	>=	<=	20	60	>	<=	AT_TARGET_LOW	double	NORMAL	FALSE	OPERATING_OK	FAIL_LOW	FALSE
+T014	TEST_SAMPLE	PID_TEST	exact target upper boundary, exclusive	0	100	>=	<=	20	60	>=	<	AT_TARGET_HIGH	double	NORMAL	FALSE	OPERATING_OK	FAIL_HIGH	FALSE
+T015	TEST_SAMPLE	PID_TEST	inside target with both boundaries exclusive	0	100	>=	<=	20	60	>	<	MID_TARGET	double	NORMAL	TRUE	OPERATING_OK	PASS	FALSE
+T016	TEST_SAMPLE	PID_TEST	exact operating lower boundary, exclusive	0	100	>	<=	20	60	>	<=	AT_OPERATING_LOW	double	NORMAL	FALSE	OUTSIDE_OPERATING_LOW	NOT_EVALUATED	FALSE
+T017	TEST_SAMPLE	PID_TEST	exact operating upper boundary, exclusive	0	100	>=	<	20	60	>=	<	AT_OPERATING_HIGH	double	NORMAL	FALSE	OUTSIDE_OPERATING_HIGH	NOT_EVALUATED	FALSE
+T018	TEST_SAMPLE	PID_TEST	integer input accepted	0	100	>=	<=	20	60	>=	<=	MID_TARGET	integer	NORMAL	TRUE	OPERATING_OK	PASS	FALSE
+T019	TEST_SAMPLE	PID_TEST	character value column rejected	0	100	>=	<=	20	60	>=	<=	MID_TARGET	character	NORMAL	NA	NA	NA	TRUE
+T020	TEST_SAMPLE	PID_TEST	operating high equals low	10	10	>=	<=	20	60	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T021	TEST_SAMPLE	PID_TEST	operating high below low	10	5	>=	<=	20	60	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T022	TEST_SAMPLE	PID_TEST	target high equals low	0	100	>=	<=	40	40	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T023	TEST_SAMPLE	PID_TEST	target high below low	0	100	>=	<=	60	20	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T024	TEST_SAMPLE	PID_TEST	invalid lower operator	0	100	>=	<=	20	60	=>	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T025	TEST_SAMPLE	PID_TEST	invalid upper operator	0	100	>=	<=	20	60	>=	=<	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T026	TEST_SAMPLE	PID_TEST	target extends below operating range	0	100	>=	<=	-10	60	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T027	TEST_SAMPLE	PID_TEST	target extends above operating range	0	100	>=	<=	20	110	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T028	TEST_SAMPLE	PID_TEST	target includes excluded operating lower endpoint	0	100	>	<=	0	60	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T029	TEST_SAMPLE	PID_TEST	target includes excluded operating upper endpoint	0	100	>=	<	20	100	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T030	TEST_SAMPLE	PID_TEST	missing desired numeric value column	0	100	>=	<=	20	60	>=	<=	MID_TARGET	double	MISSING_VALUE_COLUMN	NA	NA	NA	TRUE
+T031	TEST_SAMPLE	PID_TEST	sample_id must be character	0	100	>=	<=	20	60	>=	<=	MID_TARGET	double	SAMPLE_ID_NUMERIC	NA	NA	NA	TRUE
+T032	TEST_SAMPLE	PID_TEST	pangenome_id must be character	0	100	>=	<=	20	60	>=	<=	MID_TARGET	double	PANGENOME_ID_NUMERIC	NA	NA	NA	TRUE
+T033	TEST_SAMPLE	PID_TEST	missing operating lower bound	NA	100	>=	<=	20	60	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE
+T034	TEST_SAMPLE	PID_TEST	missing target upper bound	0	100	>=	<=	20	NA	>=	<=	MID_TARGET	double	NORMAL	NA	NA	NA	TRUE

@@ -1,0 +1,15 @@
+perturbation_id	perturbation_class	omitted_rule_id	applicable_routes	reference_ruleset_id	reference_execution_order_id	description	status
+LOO_M0_ORF	hard_gate_leave_one_rule_out	M0_ORF	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_ORF; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M0_FULL_LENGTH	hard_gate_leave_one_rule_out	M0_FULL_LENGTH	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_FULL_LENGTH; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M0_CARRIAGE	hard_gate_leave_one_rule_out	M0_CARRIAGE	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_CARRIAGE; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M0_PROTEIN_FORM	hard_gate_leave_one_rule_out	M0_PROTEIN_FORM	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_PROTEIN_FORM; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M0_SPAN_OCCUPANCY	hard_gate_leave_one_rule_out	M0_SPAN_OCCUPANCY	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_SPAN_OCCUPANCY; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M0_CONSERVATION	hard_gate_leave_one_rule_out	M0_CONSERVATION	aex; cellulose; cex; pdna_tilapia; pdna_zebrafish; silica	ranking_rules_v27	rule_order	omit only M0_CONSERVATION; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_TMH	hard_gate_leave_one_rule_out	M2_TMH	aex; cellulose; cex; silica	ranking_rules_v27	rule_order	omit only M2_TMH; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_MW	hard_gate_leave_one_rule_out	M2_MW	aex; cellulose; cex; silica	ranking_rules_v27	rule_order	omit only M2_MW; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_SILICA_Z	hard_gate_leave_one_rule_out	M2_SILICA_Z	silica	ranking_rules_v27	rule_order	omit only M2_SILICA_Z; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_CELLULOSE_LEN	hard_gate_leave_one_rule_out	M2_CELLULOSE_LEN	cellulose	ranking_rules_v27	rule_order	omit only M2_CELLULOSE_LEN; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_AEX_PI	hard_gate_leave_one_rule_out	M2_AEX_PI	aex	ranking_rules_v27	rule_order	omit only M2_AEX_PI; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_CEX_PI	hard_gate_leave_one_rule_out	M2_CEX_PI	cex	ranking_rules_v27	rule_order	omit only M2_CEX_PI; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_CDS_LEN	hard_gate_leave_one_rule_out	M2_CDS_LEN	pdna_tilapia; pdna_zebrafish	ranking_rules_v27	rule_order	omit only M2_CDS_LEN; every remaining hard rule stays at its reference specification	EXECUTED
+LOO_M2_TYPEIIS	hard_gate_leave_one_rule_out	M2_TYPEIIS	pdna_tilapia; pdna_zebrafish	ranking_rules_v27	rule_order	omit only M2_TYPEIIS; every remaining hard rule stays at its reference specification	EXECUTED

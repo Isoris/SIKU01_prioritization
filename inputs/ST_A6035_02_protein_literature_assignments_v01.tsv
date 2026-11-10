@@ -1,0 +1,70 @@
+Locus tag	PGAP product	Gene	Vaccine reference	PMIDs (n)	PMIDs
+SIKU01_000139	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_000164	DNA-directed RNA polymerase subunit beta	rpoB	—	1	23623616
+SIKU01_000193	accessory Sec-dependent serine-rich glycoprotein adhesin	—	—	1	28415641
+SIKU01_000195	helix-turn-helix domain-containing protein	—	—	1	18665241
+SIKU01_000196	helix-turn-helix domain-containing protein	—	—	1	18665241
+SIKU01_000197	LPXTG cell wall anchor domain-containing protein	—	—	2	18430254; 18665241
+SIKU01_000198	toxic anion resistance protein	—	—	1	18665241
+SIKU01_000199	hypothetical protein	—	—	1	18430254
+SIKU01_000200	adenylosuccinate synthase	—	—	1	18430254
+SIKU01_000214	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_000368	LysM peptidoglycan-binding domain-containing protein	—	Sip (LysM)	1	18430080
+SIKU01_000432	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_000435	peptide ABC transporter substrate-binding protein	—	—	1	17337564
+SIKU01_000514	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_000518	extracellular solute-binding protein	—	—	1	20096393
+SIKU01_000531	carbamate kinase	arcC	—	1	32940251
+SIKU01_000578	DNA repair protein RecN	recN	—	1	19880633
+SIKU01_000801	purine-nucleoside phosphorylase	deoD	—	2	17194809; 17098893
+SIKU01_000802	LytR family transcriptional regulator	—	—	2	17194809; 17098893
+SIKU01_000803	LysR family transcriptional regulator	—	—	1	23001668
+SIKU01_000804	LCP family protein	—	—	2	17194809; 17098893
+SIKU01_000805	tyrosine protein phosphatase	—	—	3	17194809; 17098893; 22107596
+SIKU01_000806	Wzz/FepE/Etk N-terminal domain-containing protein	—	—	3	17194809; 17098893; 22107596
+SIKU01_000808	nucleoside-diphosphate sugar epimerase/dehydratase	—	—	2	17194809; 17098893
+SIKU01_000809	sugar transferase	—	—	2	17194809; 17098893
+SIKU01_000811	capsular biosynthesis protein CpsH	—	—	2	17194809; 17098893
+SIKU01_000812	DapH/DapD/GlmU-related protein	—	—	2	17194809; 17098893
+SIKU01_000813	NAD(P)-dependent oxidoreductase	—	—	2	17194809; 17098893
+SIKU01_000814	glycosyltransferase family 2 protein	—	—	2	17194809; 17098893
+SIKU01_000815	glycosyltransferase	—	—	2	17194809; 17098893
+SIKU01_000816	hypothetical protein	—	—	2	17194809; 17098893
+SIKU01_000817	glycosyltransferase family 4 protein	—	—	2	17194809; 17098893
+SIKU01_000818	flippase	—	—	2	17194809; 17098893
+SIKU01_000820	hypothetical protein	—	—	2	17194809; 17098893
+SIKU01_000862	CAMP factor family pore-forming toxin	—	—	1	17991014
+SIKU01_000902	BMP family protein	—	BMP (BMP family lipoprotein)	1	31585177
+SIKU01_000905	ABC transporter permease	—	—	1	18665241
+SIKU01_000906	S8 family serine peptidase	—	C5a (S8 Serine peptidase)	1	18665241
+SIKU01_000908	phospho-sugar mutase	—	—	1	16177373
+SIKU01_000971	DUF1002 domain-containing protein	—	—	1	28415641
+SIKU01_000973	sortase	—	—	1	25090938
+SIKU01_001022	response regulator	—	—	1	17537179
+SIKU01_001036	polysaccharide deacetylase family protein	—	—	1	19762441
+SIKU01_001098	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_001146	phenylalanine--tRNA ligase subunit beta	pheT	—	1	32940251
+SIKU01_001171	ABC transporter permease	sagI	SagI	1	23063784
+SIKU01_001172	SagG family ABC transporter permease subunit	sagH	SagH	1	12228303
+SIKU01_001173	ABC transporter ATP-binding protein	sagG	SagG	1	23063784
+SIKU01_001174	SagF family protein	sagF	SagF	1	23063784
+SIKU01_001175	CPBP family intramembrane metalloprotease	—	—	1	12228303
+SIKU01_001176	YcaO-like family protein	—	—	1	12228303
+SIKU01_001177	streptolysin associated protein SagC	—	—	1	12228303
+SIKU01_001178	SagB family peptide dehydrogenase	—	—	1	12228303
+SIKU01_001179	streptolysin S family TOMM toxin	sagE	SagE	1	12228303
+SIKU01_001187	DNA topoisomerase (ATP-hydrolyzing) subunit B	gyrB	—	1	23623616
+SIKU01_001319	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_001376	metal ABC transporter permease	—	—	1	21122131
+SIKU01_001377	metal ABC transporter ATP-binding protein	—	—	2	21122131; 21111784
+SIKU01_001378	metal ABC transporter substrate-binding protein	—	—	1	21122131
+SIKU01_001396	L-lactate oxidase	lctO	lctO	1	10508058
+SIKU01_001397	lactate permease LctP family transporter	—	—	1	10508058
+SIKU01_001398	SdpI family protein	—	—	1	10508058
+SIKU01_001527	Stk1 family PASTA domain-containing Ser/Thr kinase	pknB	—	1	32940251
+SIKU01_001561	transketolase	tkt	—	1	32940251
+SIKU01_001624	molecular chaperone DnaJ	dnaJ	—	1	16487673
+SIKU01_001730	IS3-like element IS981 family transposase	—	—	2	17194809; 17098893
+SIKU01_001760	type I glutamate--ammonia ligase	glnA	—	1	32940251
+SIKU01_001794	exo-alpha-sialidase	NanH	Neu (neuraminidase A)	1	28415641
+SIKU01_001902	chaperonin GroEL	groL	—	1	19620365

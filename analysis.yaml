@@ -1,0 +1,1445 @@
+analysis:
+  id: ANL_A6434_CANDIDATE_RANKING
+  capsule_revision: v34_v27_cleanup
+  os_version_source: inherited_from_v32
+  authority: current_executed_contract
+  status: EXECUTED_REVIEWER_READY
+  status_history:
+  - state: PRE_EXECUTION_FINALIZATION
+    resolved: '2026-10-07'
+    summary: 'status corrected to executed: all declared outputs exist with provenance and the reproducibility checks pass'
+  - state: MANIFEST_HASH_DRIFT
+    resolved: '2026-10-07'
+    summary: artifact_manifest.tsv hashes corrected to the verified bytes; verify.py reports 20/20 PASS
+  - state: V27_CLEANUP
+    resolved: '2026-10-11'
+    summary: manuscript prose removed from the contract; pre-v27 tasks retired; duplicate authority manifests and pre-v27
+      root files moved to 10_superseded/root_pre_v27_cleanup_2026-10-11/ (MOVE_LOG.tsv); rule_audit and reviewer_traceability
+      added
+  - state: V38_RERUN
+    resolved: '2026-10-11'
+    summary: canonical pipeline rerun on the v27 rules reproduced all 20 declared outputs byte-identically (verify 20/20);
+      the 9 wired test suites passed; manuscript v38 numbers checked, 68 of 71 match
+  - state: MANUSCRIPT_V38_CORRECTIONS
+    resolved: '2026-10-11'
+    summary: three stale Q3 values in the Methods prose corrected to the executed values, and the Table 1 reference-population
+      column relabelled M0_ENTRY_REFERENCE in both the builder and the manuscript; manuscript number check 40/40, no rerun
+      required (no executed value changed)
+  branch_ref: BR_SINIAE_PRIORITISATION
+  dependency_graph_ref: DG_SINIAE_PRIORITISATION
+  objective: Apply a hypothesis-generating manufacturability prioritisation to the 1,527 pangenome-family M0-entry candidates
+    across six manufacturing routes using current hard-gate eligibility rules and unweighted 0/+1 additive evidence components;
+    validate implementation fidelity, quantify hard-gate sensitivity and hard/additive perturbation stability, and bind
+    regenerated outputs to the manuscript.
+  execution_scope:
+    profile: REPRODUCE_FROM_CHECKPOINTS
+    stops_at:
+    - DP_A6434_CANDIDATE_DATA
+    statement: The candidate evidence frame DP_A6434_CANDIDATE_DATA (04_tables/candidate_data_v02.tsv, 9162 rows, pangenome_id x route_id)
+      is a deposited frame that is supplied as a frozen data product, not re-executed (rebuildable false; see frozen_inputs.deposited_frame).
+      The alignments, MSA, InterProScan, host-similarity and other upstream stages that produced the *_by_pangenome_id inputs are not re-executed.
+  frozen_inputs:
+    note: The thirteen *_by_pangenome_id tables below are the frozen upstream deposits this capsule reads; they are routed
+      in from other capsules/analyses and are not regenerated here, which is why the reproduction audit does not need a
+      pinned environment to reproduce them byte-for-byte (06_reproducibility/ENVIRONMENT_NOTES_v01.md). Three ship as .tsv.gz
+      because they are record-level, one row per sample rather than per family; the rest are already aggregated to one row
+      per pangenome_id (or pangenome_id x pangenome_class). conform_heuristic_inputs merges a subset of these into 01_analysis_output/derived/ranking_inputs_by_pangenome_id_v01.tsv,
+      which is a derived product, not a frozen input.
+    record_level:
+      08_source_data/routed_input/descriptors_by_pangenome_id_v01.tsv.gz:
+        grain: pangenome_id_x_sample_id
+        n_rows: 171880
+        content: per-sample protein/nucleotide descriptor record; the unaggregated source the family-level descriptor summaries
+          below are built from
+      08_source_data/routed_input/gene_data_by_pangenome_id_v01.tsv.gz:
+        grain: pangenome_id_x_sample_id
+        n_rows: 171880
+        content: per-sample gene/sequence record (locus tag, scaffold, protein and DNA sequence), keyed the same way as
+          the descriptor record above
+      08_source_data/routed_input/descriptors_population_by_pangenome_id_v01.tsv.gz:
+        grain: pangenome_id_x_descriptor
+        n_rows: 43064
+        content: per-family-per-descriptor population reference statistics (panel median/Q1/Q3/min/max, reference-vs-panel
+          comparison); supports the distribution-derived thresholds in parameter_resolution
+    family_level:
+      08_source_data/routed_input/m0_gate_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1538
+        content: ORF intactness, annotation-form consistency, coverage and topology QC per family; carries m0_pass and m0_fail_reason,
+          the source of the M0-entry reference population (n=1527)
+      08_source_data/routed_input/coverage_qc_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1538
+        content: alignment occupancy/coverage QC detail (shared_fraction, block structure, annotation-form majority) underlying
+          the M0 QC gates
+      08_source_data/routed_input/conservation_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1538
+        content: per-family alignment conservation statistics (H.norm, entropy) feeding the conservation sweep and gate
+      08_source_data/routed_input/nucleotide_descriptors_by_pangenome_id_v01.tsv:
+        grain: pangenome_id_x_pangenome_class
+        n_rows: 3001
+        content: per-family nucleotide/codon descriptor distribution summary (CDS length, GC3, CAI variants, Type IIS site
+          counts; n/median/Q1/Q3 per descriptor)
+      08_source_data/routed_input/protein_descriptors_by_pangenome_id_v01.tsv:
+        grain: pangenome_id_x_pangenome_class
+        n_rows: 3001
+        content: per-family protein physicochemical descriptor distribution summary (length, MW, pI, charge at three pH
+          values, GRAVY, instability, aliphatic index; n/median/Q1/Q3 per descriptor)
+      08_source_data/routed_input/interpro_by_pangenome_id_v02.tsv:
+        grain: pangenome_id
+        n_rows: 1838
+        content: per-family representative-locus domain/signal annotation summary (InterPro/Pfam/signature counts, signal
+          peptide, TM-helix count, surface-motif counts, predicted localisation)
+      08_source_data/routed_input/host_similarity_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1838
+        content: per-family representative-locus alignment identity against the six reference proteomes, with a per-host
+          pass/fail flag and a summary flag
+      08_source_data/routed_input/nonspecific_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1838
+        content: per-family representative-locus local-window match counts against the same six proteomes, at finer grain
+          than host_similarity above
+      08_source_data/routed_input/epitope_by_pangenome_id_v01.tsv:
+        grain: pangenome_id
+        n_rows: 1838
+        content: per-family representative-locus database peptide-match summary (hit/peptide counts, best identity/E-value,
+          source species)
+      08_source_data/routed_input/descriptors_by_pangenome_id_v01_excluded.tsv:
+        grain: pangenome_id_x_sample_id
+        n_rows: 516
+        content: records excluded from the descriptor pipeline, with the exclusion step and reason
+    built_not_frozen:
+      04_tables/literature_by_pangenome_id_v01.tsv:
+        built_by: 02_code/build_literature_by_pangenome_id_v01.py
+        content: the one *_by_pangenome_id table this capsule builds itself, from the upstream A6035 literature-evidence
+          deposit; not a frozen routed input like the ones above
+    deposited_frame:
+      04_tables/candidate_data_v02.tsv:
+        grain: pangenome_id_x_route_id
+        n_rows: 9162
+        content: the evidence frame the v27 production, sweeps and rule-authority test read
+        rebuildable: false
+        note: its former builder (code_A6434_conform_heuristic_inputs_v01.py) reads candidate_data_v01.tsv, ranking_rules_v02.tsv
+          and ranking_decisions_R_v*.tsv, none of which is present, so the frame is treated as a frozen deposit. It still
+          carries the pre-v27 columns score_m1_general, score_m1_protein, score_m2_pdna and route_id, which no v27 rule
+          reads.
+  governing_principles:
+  - Work from capsule evidence, not memory.
+  - A test cannot redefine a rule.
+  - A result cannot redefine a rule.
+  - Manuscript prose cannot redefine a rule.
+  - Never patch derived results manually to force agreement with rule authority.
+  - Historical artifacts are provenance only unless explicitly promoted after audit.
+  authority_order:
+    rule_owner: capsule_brain/ranking_rules_v27.tsv
+    parameter_owner: capsule_brain/rule_parameter_resolution_v02.tsv
+    sweep_contract: capsule_brain/ST_A6434_03_parameter_sweep_contract_v02.tsv
+    test_architecture:
+    - capsule_brain/test_registry_v03.tsv
+    - capsule_brain/rule_test_contract_v03.tsv
+    - capsule_brain/test_definition_v03.tsv
+    - capsule_brain/test_implementation_binding_v03.tsv
+    - capsule_brain/test_case_definition_v01.tsv
+    - 01_analysis_output/derived/test_execution_status_v01.tsv
+    - 01_analysis_output/derived/test_case_execution_status_v01.tsv
+    - 01_analysis_output/derived/analysis_validation_contract_v01.tsv
+    - 01_analysis_output/derived/test_analysis_binding_v01.tsv
+    audits:
+    - 06_notes/RPT_A6434_v31_deep_audit_v02.md
+    - 06_notes/RPT_A6434_v31_final_audit_v01.md
+    - 06_notes/RPT_A6434_v30_reviewed_TST_integration.md
+    crosswalk: capsule_brain/rule_id_crosswalk_v02.tsv
+    artifact_verification: artifact_manifest.tsv (checked by verify.py)
+    artifact_inventory: ARTIFACT_AUTHORITY.tsv (engine-generated)
+    rule_test_index: tests/RULE_TEST_INDEX_v27.tsv
+  rule_model:
+    rule_records: 23
+    declaration_records: 1
+    executable_rules: 22
+    hard_gates: 14
+    additive_components: 8
+    unique_ranking: false
+    negative_weights: false
+    additive_retention_threshold: false
+    n_of_m_retention: false
+    hard_outcomes:
+    - FAIL
+    - PASS
+    additive_outcomes:
+    - 0
+    - 1
+    additive_score_definition: sum_of_applicable_satisfied_components
+    hard_gate_ids:
+    - M0_ORF (M0.1)
+    - M0_FULL_LENGTH (M0.2)
+    - M0_CARRIAGE (M0.3)
+    - M0_PROTEIN_FORM (M0.4)
+    - M0_SPAN_OCCUPANCY (M0.5)
+    - M0_CONSERVATION (M0.6)
+    - M2_TMH (M2.1)
+    - M2_MW (M2.2)
+    - M2_SILICA_Z (M2.6)
+    - M2_CELLULOSE_LEN (M2.7)
+    - M2_AEX_PI (M2.8)
+    - M2_CEX_PI (M2.9)
+    - M2_CDS_LEN (M2.10)
+    - M2_TYPEIIS (M2.11)
+    additive_component_ids:
+    - M1_EPITOPE (M1.1)
+    - M1_LITERATURE (M1.2)
+    - M2_CAI (M2.3)
+    - M2_GRAVY (M2.4)
+    - M2_INSTABILITY (M2.5)
+    - M2_GC3 (M2.12)
+    - M2_CAI_ON (M2.13)
+    - M2_CAI_DR (M2.14)
+    final_pass: AND of the hard gates applicable to the route; additive components never alter it
+  routes:
+    recombinant_protein:
+    - silica
+    - cellulose
+    - aex
+    - cex
+    pdna:
+    - pdna_tilapia
+    - pdna_zebrafish
+  grains:
+    rule_specification: rule_id
+    parameter_resolution: rule_id
+    m0_entry_reference: pangenome_id
+    m0_entry_reference_n: 1527
+    candidate_route: pangenome_id_x_route_id
+    sensitivity_contract: rule_id_x_sweep_id
+    sensitivity_execution: rule_id_x_sweep_id_x_route_id
+    hard_loo_summary: route_id_x_omitted_hard_rule_id
+    hard_loo_candidate: pangenome_id_x_route_id_x_perturbation_id
+    additive_loco_summary: route_id_x_omitted_additive_component_id
+    additive_loco_candidate: pangenome_id_x_route_id_x_perturbation_id
+    final_route_outcome: route_id
+  parameter_resolution:
+    reference_population_id: M0_ENTRY_REFERENCE
+    reference_grain: pangenome_id
+    n_reference: 1527
+    frozen_for_execution: true
+    parameters:
+      M2_CAI: Q3_rep__cai_ec
+      M2_GC3: Q3_rep__gc3
+      M2_CAI_ON: Q3_rep__cai_on
+      M2_CAI_DR: Q3_rep__cai_dr
+      M2_CDS_LEN: median_rep__cds_length_nt
+    population_identifier:
+      canonical_population_id: M0_ENTRY_REFERENCE
+      declared_by_rule: M0_INPUT (M0.0)
+      n: 1527
+      note: M0_ENTRY_REFERENCE is the population; M0_INPUT is the rule_id of the declaration record that defines it. They
+        are different objects and neither is a synonym for the other. Every distribution_binding_id, every distribution-derived
+        rule expression and every non-route sweep population uses M0_ENTRY_REFERENCE; M0_INPUT appears only as a rule_id.
+        Asserted by tests/TST_execution/TST_execution_against_data.unit_test.py
+      presentation_inconsistency: 'RESOLVED 2026-10-11. 02_code/build_A6434_manuscript_param_table_v01.py now names the
+        population from distribution_binding_id (M0_ENTRY_REFERENCE) and keeps the step label after the slash, and the five
+        Table 1 cells in the v38 manuscript were relabelled to match. The authority table was not rewritten and no executed
+        value changed: production reads only declared_symbol and resolved_value.'
+  sensitivity:
+    scope: numerical_hard_gates_only
+    additive_threshold_sweeps: false
+    additive_stability_method: LOCO
+    excluded_from_threshold_sensitivity:
+      M0_ORF: Boolean
+      M0_CARRIAGE: fixed_panel_core_definition
+      M0_PROTEIN_FORM: categorical_annotation_QC
+      M0_SPAN_OCCUPANCY: exact_annotation_QC_not_swept
+      M2_TYPEIIS: Boolean_zero_site_rule
+      additive_rules: handled_by_LOCO_not_threshold_sweep
+    selected_numeric_hard_rules:
+    - M0_FULL_LENGTH
+    - M0_CONSERVATION
+    - M2_TMH
+    - M2_MW
+    - M2_SILICA_Z
+    - M2_CELLULOSE_LEN
+    - M2_AEX_PI
+    - M2_CEX_PI
+    - M2_CDS_LEN
+    freeze_requirement: Resolve and write every rule_id x sweep_id row before calculating any candidate-retention, final-pass,
+      Jaccard, or manuscript-facing sensitivity outcome.
+    conservation_sweep:
+      derivation_population: M0_ENTRY_REFERENCE
+      variable: conservation__median_conservation_hnorm
+      method: Fit a reproducible KDE on the bounded 0-1 score distribution. Treat the highest-H.norm density mode, including
+        an endpoint mode at 1.0, as the conserved mode. Resolve the nearest density antimode immediately to its left. Define
+        five score-axis thresholds at 0%, 20%, 40%, 60%, and 80% of the interval from that antimode to the upper conserved-mode
+        boundary; add the canonical 0.98 threshold explicitly. Do not use empirical member quantiles, because the H.norm
+        distribution contains a large plateau at 1.0 and those quantiles can collapse to duplicate thresholds. If a defensible
+        antimode cannot be resolved, invoke the documented fallback before outcome execution.
+      operator_fixed: '>'
+      canonical_reference: 0.98
+    tmh_sweep:
+      variable: surface__rep_tmh_count
+      method: integer_support_0_to_observed_max
+      observed_max_in_candidate_data_v02: 14
+      canonical_reference: 2
+      operator_fixed: <=
+    other_numeric_hard_sweeps: Claude may select compact scientifically interpretable grids from measurement scale and predictor
+      distribution, but must resolve/freeze them in the sweep contract before inspecting eligibility consequences. Two-sided
+      rules should normally vary one boundary at a time rather than use a large Cartesian grid.
+  stability:
+    hard_gates: leave_one_rule_out
+    additive_components: leave_one_component_out
+    hard_loo_minimum_outputs:
+    - n_final_pass_reference
+    - n_final_pass_perturbed
+    - delta_final_pass_LOO
+    - n_newly_admitted
+    - final_pass_jaccard
+    additive_loco_population: fixed_current_hard_gate_final_pass_set_by_route
+    additive_loco_minimum_outputs:
+    - n_final_pass_reference
+    - n_scores_changed
+    - pct_scores_changed
+    - score_delta
+    - score_spearman_rho
+    - tier_membership_outputs_if_a_tier_definition_is_declared
+  validation:
+    level_1_rule:
+    - boundary
+    - Boolean
+    - composite_expression
+    - known_answer
+    - robustness
+    - direction
+    level_2_heuristic:
+    - parameter_resolution
+    - hard_gate_sensitivity
+    - hard_LOO
+    - additive_LOCO
+    level_3_system:
+    - end_to_end_known_answer
+    - route_isolation
+    - invariants
+    - manuscript_reconciliation
+    registered_test_obligations: 152
+    current_loo_loco_obligations: 22
+    note: registered_obligation_is_not_equivalent_to_implemented_or_executed_test
+    test_implementation_bindings:
+      total: 32
+      source: capsule_brain/test_implementation_binding_v03.tsv
+      resolved_dedicated_suite: 9
+      resolved_production_known_answer: 15
+      resolved_pipeline_equivalence: 2
+      resolved_rule_omission_perturbation: 5
+      not_applicable: 1
+      unresolved: 0
+      note: every one of the 32 obligation rows resolves to a test file that exists. coverage_kind distinguishes a dedicated
+        suite from known-answer, pipeline-equivalence and rule-omission coverage; rule-omission coverage is robustness to
+        omitting the rule, not to perturbed input values.
+    executed_tests:
+      runner: tests/run_all_tests_A6434_v01.sh
+      last_run: '2026-10-11'
+      result: 9 passed, 0 failed, 0 blocked
+      detail: TST_numerical known-answer 364/364 over 22 rules (108 per-rule cases + 256 additive-score combinations); sweep
+        equivalence 38/38 over the 9 swept rules
+      status_table: 01_analysis_output/raw/GATE_TEST_STATUS_v01.tsv
+    analysis_layer_bindings:
+      source: 01_analysis_output/derived/test_analysis_binding_v01.tsv
+      grain: rule_id x analysis_layer x test_id
+      rows: 84
+      rules: 22
+      layers:
+        reference_execution:
+          rules: 22
+          function: evaluate()
+          module: 02_code/code_A6434_production_v27_v01.py
+          test: tests/TST_numerical/TST_numerical_against_production.unit_test.py
+        sensitivity:
+          rules: 9
+          function: satisfies()
+          module: 02_code/code_A6434_execute_sweeps_v27_v01.py
+          test: tests/TST_numerical/TST_sweep_satisfies_against_production.unit_test.py
+        hard_gate_LOO:
+          rules: 14
+          function: final_pass(d, omit)
+          module: 02_code/code_A6434_perturbation_v27_v01.py
+          test: tests/TST_perturbation/TST_perturbation_against_production.unit_test.py
+        additive_LOCO:
+          rules: 8
+          function: score(d, omit)
+          module: 02_code/code_A6434_perturbation_v27_v01.py
+          test: tests/TST_perturbation/TST_perturbation_against_production.unit_test.py
+        executed_data_reproduction:
+          rules: 22
+          function: run()
+          module: 02_code/code_A6434_production_v27_v01.py
+          test: tests/TST_execution/TST_execution_against_data.unit_test.py
+        executed_sweep_reproduction:
+          rules: 9
+          function: satisfies()
+          module: 02_code/code_A6434_execute_sweeps_v27_v01.py
+          test: tests/TST_execution/TST_execution_against_data.unit_test.py
+      note: 'the validation layer does not re-evaluate rule predicates: LOO and LOCO read the production outcomes and recompute
+        the same intersection and accumulation with one rule omitted. The perturbation test asserts that equivalence on
+        all 9,162 candidate-route rows, so a drift between the ranking and its own sensitivity analysis fails a test instead
+        of changing a published number.'
+    executed_data_reproduction:
+      test: tests/TST_execution/TST_execution_against_data.unit_test.py
+      result: 18/18 passed
+      checked_on: '2026-10-11'
+      note: 're-derives the deposited reference execution and sweeps from 04_tables/candidate_data_v02.tsv using the production
+        functions themselves: 122,160 rule outcomes, 9,162 candidate-route states, 80 rule x route counts and 121 sweep
+        rows all reproduced. This is distinct from verify.py, which compares bytes to recorded hashes, and from a canonical
+        rerun, which re-runs the same code path that wrote the files.'
+      missing_value_token_agreement: 'evaluate() and satisfies() carry different missing-value token sets (the sweep additionally
+        treats ''-'' as missing). No cell of the current frame carries a divergent token, so the two layers cannot disagree
+        today; that is a property of the data, not the code, and is now asserted by the executed-data test rather than assumed.
+        Neither set was changed: altering production''s set is a semantic change to the executing authority and is not warranted
+        by anything observed.'
+  manuscript:
+    binding: external
+    source: manuscript/01_Manuscript_RV_SI_v38_reviewed.md
+    source_sha256: f31daf56dba15b297ad0c5ec1d38eba623477252310d242f2cd4ac4a73bd3cfa
+    source_version: v38_reviewed
+    checked_on: '2026-10-11'
+    note: manuscript text is not kept in the analysis contract; this records which manuscript the executed numbers were
+      checked against
+    reporting_order:
+    - reference_hard_gate_execution_and_threshold_sensitivity
+    - hard_gate_LOO
+    - reference_additive_component_execution
+    - additive_LOCO
+    - final_route_synthesis
+    number_check:
+      checked: 40
+      match: 40
+      mismatch: 0
+      checker: 02_code/check_A6434_manuscript_numbers_v01.py
+      scope: Table 1 resolved parameters and the Methods prose values (both read from the manuscript, not restated), the
+        14 per-gate step counts, and the 9 sweep n and Jaccard ranges
+      evidence: reports/AUD_A6434_manuscript_v38_number_check_v01.tsv
+    corrections_applied_2026_10_11:
+    - Methods prose M2.12 GC3 Q3 0.308725 -> 0.308913
+    - Methods prose M2.13 Nile tilapia CAI Q3 0.585014 -> 0.584898
+    - Methods prose M2.14 zebrafish CAI Q3 0.686774 -> 0.686697
+    - Table 1 reference-population column M0_INPUT -> M0_ENTRY_REFERENCE (5 rows), so Table 1 and the Table 2 expressions
+      name the population identically
+  figures:
+    current_required:
+    - prioritisation_architecture
+    - candidate_variable_route_distributions
+    - hard_gate_sensitivity_and_LOO
+    - additive_score_and_LOCO_stability
+    v13_rank_stability_bundle_status: PROVENANCE_AND_DESIGN_REFERENCE_ONLY_UNTIL_REBUILT
+    registered:
+      FGR_A6434_GATE_PANELS:
+        version: v02
+        ruleset: ranking_rules_v27
+        content: 'the 14 v27 hard gates: retention, distribution and set stability per gate'
+        manifest: 05_figures/FGR_A6434_GATE_PANELS/figure.yaml
+  stale_policy:
+    policy: quarantine_not_silent_reuse
+    provenance_locations:
+    - 10_superseded/
+    - 11_handoff/superseded/
+    - 04_tables/superseded/legacy_ranking_sensitivity/
+    move_logs:
+    - 10_superseded/05_figures/superseded_MOVE_LOG.tsv
+    - 10_superseded/root_pre_v27_cleanup_2026-10-11/superseded_MOVE_LOG.tsv
+    - 11_handoff/superseded/tests_v27_retired/MOVE_LOG.tsv
+    prohibited_current_semantics:
+    - unique_ranking
+    - negative_penalties
+    - score_retention_thresholds
+    - N_of_M_retention
+    - additive_weight_sweeps
+    - obsolete_AEX_CEX_charge_gates
+    - obsolete_silica_pI_gate
+    - obsolete_silica_operator_gt_minus15
+  unified_archive_recovery:
+    status: NOT_YET_INGESTED
+    policy: Never merge an old unified archive directly into current paths. Stage it in quarantine, inventory/hash every
+      object, infer/verify grain, compare against current authority, and classify each object as RECOVER_CURRENT, RECOVER_PROVENANCE,
+      STALE_DUPLICATE, CONFLICT_REVIEW, or IGNORE. Only objects adding unique valid evidence/code/data may be promoted;
+      old rule tables, analysis.yaml files, ranking semantics, derived counts, and stale figures may never overwrite current
+      authority.
+  scientific_owner: C_SINIAE_PRIORITISATION_PANGENOME_ID_ROUTE
+  method:
+    description: Evaluate the 23-record v27 rule contract over the 1,527 M0-entry pangenome families on six manufacturing
+      routes. Hard gates decide eligibility (FAIL/PASS); additive components contribute 0 or +1 and never alter eligibility.
+      final_pass is the order-independent intersection of the hard gates applicable to the route. Thresholds come from the
+      rule table, with distribution-derived thresholds resolved from the frozen M0_ENTRY_REFERENCE population. No unique
+      ranking, no penalty, no retention threshold, no N-of-M rule.
+  execution:
+    entrypoint: 02_code/run_A6434_canonical_v01.py
+    interpreter: python3
+    command: python3 02_code/run_A6434_canonical_v01.py
+    declared_2026_10_07: the capsule declared its run order under canonical_run.scripts and no execution entrypoint, so
+      the generated bundle runner emitted NO_ENTRY_POINT and stopped before any stage and before checks A and B. The entrypoint
+      runs the declared order from canonical_run.scripts; it is a reader of that list, not a second copy of it.
+    skip_policy: a step whose declared upstream input is absent from the deposit is reported SKIPPED_MISSING_UPSTREAM and
+      the run continues, because the product that step would rebuild is itself deposited. Every other failure stops the
+      run with a non-zero exit code.
+    convenience_wrapper: run_all.sh
+    verify_script: verify.py
+    verify_note: 'run_all.sh (capsule root) runs the canonical pipeline then verify.py, which recomputes sha256 for every
+      artifact_manifest.tsv row carrying a recorded hash and compares. Confirmed 2026-10-07 on Python 3.11.9 / pandas 2.3.3
+      / numpy 2.3.4: two independent canonical runs reproduce byte-identical output for all 20 declared outputs, and all
+      20 now match artifact_manifest.tsv (see status_history: MANIFEST_HASH_DRIFT). A reviewer rerunning this capsule should
+      see `run_all: OK` and `20/20 match, 0 mismatch, 0 missing`; anything else is a real finding, not noise.'
+  canonical_run:
+    scripts:
+    - 02_code/build_literature_by_pangenome_id_v01.py
+    - 02_code/code_A6434_production_v27_v01.py
+    - 02_code/code_A6434_freeze_sweeps_v02_v01.py
+    - 02_code/code_A6434_execute_sweeps_v27_v01.py
+    - 02_code/code_A6434_perturbation_v27_v01.py
+    - 02_code/code_A6434_rule_authority_test_v02.py
+    modules:
+    - 02_code/_provenance.py
+    companion:
+    - 02_code/build_A6434_sweeps_xlsx_v01.py
+    superseded_present:
+    - 02_code/a6434_engine.py
+    - 02_code/code_A6434_rank_v01.py
+    - 02_code/code_A6434_sweep_v01.py
+    - 02_code/code_A6434_rules_v01.py
+    - 02_code/code_A6434_rank_stability_v01.R
+    - 02_code/build_A6434_rules_and_points_v02.py
+    - 02_code/production/S14b_QbD_Ranking_v08_SIKU01.R
+    - 02_code/production/S14c_QbD_Sensitivity_v01_SIKU01.R
+    - 03_code_figures/code_A6434_panel_coverage_v01.py
+    - 02_code/code_A6434_conform_heuristic_inputs_v01.py
+    superseded_reason: each implements the pre-v27 framework (a weighted score with negative weights, a penalty map, N-of-M
+      retention counts) that stale_policy.prohibited_current_semantics forbids, or is a version-twin of a current script.
+      Every file listed carries a header saying so. They are kept as provenance and are not the executed implementation.
+    original_r_implementation: 08_source_data/raw_data/S14a_QbD_Ranking_v07_SIKU01.R
+    original_r_note: the R implementation the rule set was originally carried from, deposited as provenance. The executed
+      implementation is table-driven Python that reads the rule records and the resolved parameters from capsule_brain/
+      and hard-codes no rule.
+  inputs:
+    candidate_data:
+      resource: RES_A6434_CANDIDATE_DATA
+      required_grain:
+      - pangenome_id
+      - route
+    rule_contract:
+      resource: RES_A6434_RULE_CONTRACT
+      note: rule owner; 1 declaration + 14 hard gates + 8 additive components
+    parameter_owner:
+      resource: RES_A6434_PARAMETER_RESOLUTION
+      note: distribution-derived thresholds, M0_ENTRY_REFERENCE n=1527
+    sweep_contract:
+      resource: RES_A6434_SWEEP_CONTRACT
+      note: pre-execution sensitivity contract, grain rule_id x sweep_id
+  outputs:
+    ranking_decisions_by_candidate:
+      data_product: DP_A6434_RANKING_DECISIONS_V27
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/ranking_decisions_by_candidate_v27.tsv
+      grain:
+      - pangenome_id
+      - route
+      retention:
+        retained: true
+      note: the per-candidate decision view of the v27 execution, emitted by the decisions adapter in the two shapes the
+        figure stack reads; it reproduces the executed per-route final-pass counts exactly and the adapter asserts that
+        before writing
+    final_inclusion_audit:
+      data_product: DP_A6434_FINAL_INCLUSION_AUDIT_V27
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 04_tables/final_inclusion_audit_v27.tsv
+      grain:
+      - pangenome_id
+      - route
+      - step_order
+      retention:
+        retained: true
+      note: the step-by-step audit of the same execution, one row per candidate per rule evaluated, carrying status, input
+        value, operator, threshold and running score
+    candidate_rule_outcomes:
+      data_product: DP_A6434_CANDIDATE_RULE_OUTCOMES
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/candidate_rule_outcomes_v27_v01.tsv
+      grain:
+      - pangenome_id
+      - route
+      - rule_id
+      retention:
+        retained: true
+    candidate_route_state:
+      data_product: DP_A6434_CANDIDATE_ROUTE_STATE
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/candidate_route_state_v27_v01.tsv
+      grain:
+      - pangenome_id
+      - route
+      retention:
+        retained: true
+    rule_outcome_counts:
+      data_product: DP_A6434_RULE_OUTCOME_COUNTS
+      publication_destination: technical_validation_table
+      artifacts:
+      - path: 01_analysis_output/derived/rule_outcome_counts_v27_v01.tsv
+      grain:
+      - rule_id
+      - route
+      retention:
+        retained: true
+    frozen_sweeps:
+      data_product: DP_A6434_ST_03_PARAMETER_SWEEPS
+      publication_destination: methods_supporting_table
+      artifacts:
+      - path: 01_analysis_output/derived/ST_A6434_03_parameter_sweeps_v02.tsv
+      grain:
+      - rule_id
+      - sweep_id
+      retention:
+        retained: true
+    hard_gate_reference_set:
+      data_product: DP_A6434_HARD_GATE_REFERENCE_SET
+      publication_destination: methods_supporting_table
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_reference_set_v01.tsv
+      grain:
+      - reference_set_id
+      retention:
+        retained: true
+    candidate_route_reference_state:
+      data_product: DP_A6434_CANDIDATE_ROUTE_REFERENCE_STATE
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/candidate_route_reference_state_v01.tsv
+      grain:
+      - candidate_id
+      - route_id
+      retention:
+        retained: true
+    hard_gate_step_reference:
+      data_product: DP_A6434_HARD_GATE_STEP_REFERENCE
+      publication_destination: technical_validation_table
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_step_reference_v01.tsv
+      grain:
+      - route_id
+      - rule_id
+      retention:
+        retained: true
+    hard_gate_loo_definition:
+      data_product: DP_A6434_HARD_GATE_LOO_DEFINITION
+      publication_destination: methods_supporting_table
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_loo_definition_v01.tsv
+      grain:
+      - perturbation_id
+      retention:
+        retained: true
+    candidate_hard_gate_loo:
+      data_product: DP_A6434_CANDIDATE_HARD_GATE_LOO
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/candidate_hard_gate_loo_v01.tsv
+      grain:
+      - candidate_id
+      - route_id
+      - perturbation_id
+      retention:
+        retained: true
+    hard_gate_loo_summary:
+      data_product: DP_A6434_HARD_GATE_LOO_SUMMARY
+      publication_destination: main_text_sensitivity_result
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_loo_summary_v01.tsv
+      grain:
+      - route_id
+      - perturbation_id
+      retention:
+        retained: true
+    additive_reference_execution:
+      data_product: DP_A6434_ADDITIVE_REFERENCE_EXECUTION
+      publication_destination: technical_validation_table
+      artifacts:
+      - path: 01_analysis_output/derived/additive_reference_execution_v01.tsv
+      grain:
+      - route_id
+      - rule_id
+      retention:
+        retained: true
+    additive_score_distribution:
+      data_product: DP_A6434_ADDITIVE_SCORE_DISTRIBUTION
+      publication_destination: technical_validation_table
+      artifacts:
+      - path: 01_analysis_output/derived/additive_score_distribution_v01.tsv
+      grain:
+      - route_id
+      - additive_score
+      retention:
+        retained: true
+    additive_perturbation_definition:
+      data_product: DP_A6434_ADDITIVE_PERTURBATION_DEFINITION
+      publication_destination: methods_supporting_table
+      artifacts:
+      - path: 01_analysis_output/derived/additive_perturbation_definition_v01.tsv
+      grain:
+      - perturbation_id
+      retention:
+        retained: true
+    candidate_additive_perturbation:
+      data_product: DP_A6434_CANDIDATE_ADDITIVE_PERTURBATION
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/candidate_additive_perturbation_v01.tsv
+      grain:
+      - candidate_id
+      - route_id
+      - perturbation_id
+      retention:
+        retained: true
+    additive_perturbation_summary:
+      data_product: DP_A6434_ADDITIVE_PERTURBATION_SUMMARY
+      publication_destination: main_text_sensitivity_result
+      artifacts:
+      - path: 01_analysis_output/derived/additive_perturbation_summary_v01.tsv
+      grain:
+      - route_id
+      - perturbation_id
+      retention:
+        retained: true
+    hard_gate_sweep_execution:
+      data_product: DP_A6434_HARD_GATE_SWEEP_EXECUTION
+      publication_destination: supplementary_candidate_level_backing_table
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_sweep_execution_v01.tsv
+      grain:
+      - rule_id
+      - sweep_id
+      - population
+      retention:
+        retained: true
+    hard_gate_sweep_summary:
+      data_product: DP_A6434_HARD_GATE_SWEEP_SUMMARY
+      publication_destination: technical_validation_table
+      artifacts:
+      - path: 01_analysis_output/derived/hard_gate_sweep_summary_v01.tsv
+      grain:
+      - rule_id
+      - population
+      retention:
+        retained: true
+      note: 'The executed envelope of the frozen sensitivity contract. n_satisfying is unconditional: it counts the stamped
+        reference population satisfying one criterion with the other gates ignored, so it is not the conditional n_pass
+        of the sequential funnel.'
+    perturbation_support_slice:
+      data_product: DP_A6434_PERTURBATION_SUPPORT_SLICE
+      publication_destination: methods_supporting_table
+      artifacts:
+      - path: 01_analysis_output/derived/A6434_perturbation_support.slice_v01.tsv
+      grain:
+      - slice_binding_id
+      retention:
+        retained: true
+      note: 'A declarative region-binding map, not a subset: it addresses regions of the perturbation tables and binds each
+        one outward to the manuscript position, figure component, claim, caveat or invariant that consumes it. It copies
+        nothing. A physical extract pulled through these pointers is a view, built on demand and not retained.'
+  emits:
+  - DP_A6434_RANKING_DECISIONS_V27
+  - DP_A6434_FINAL_INCLUSION_AUDIT_V27
+  - DP_A6434_CANDIDATE_RULE_OUTCOMES
+  - DP_A6434_CANDIDATE_ROUTE_STATE
+  - DP_A6434_RULE_OUTCOME_COUNTS
+  - DP_A6434_ST_03_PARAMETER_SWEEPS
+  - DP_A6434_HARD_GATE_REFERENCE_SET
+  - DP_A6434_CANDIDATE_ROUTE_REFERENCE_STATE
+  - DP_A6434_HARD_GATE_STEP_REFERENCE
+  - DP_A6434_HARD_GATE_LOO_DEFINITION
+  - DP_A6434_CANDIDATE_HARD_GATE_LOO
+  - DP_A6434_HARD_GATE_LOO_SUMMARY
+  - DP_A6434_ADDITIVE_REFERENCE_EXECUTION
+  - DP_A6434_ADDITIVE_SCORE_DISTRIBUTION
+  - DP_A6434_ADDITIVE_PERTURBATION_DEFINITION
+  - DP_A6434_CANDIDATE_ADDITIVE_PERTURBATION
+  - DP_A6434_ADDITIVE_PERTURBATION_SUMMARY
+  - DP_A6434_HARD_GATE_SWEEP_EXECUTION
+  - DP_A6434_HARD_GATE_SWEEP_SUMMARY
+  - DP_A6434_PERTURBATION_SUPPORT_SLICE
+  execution_stages:
+  - id: STAGE_A6434_01_REFERENCE_EXECUTION
+    entry_event: initial
+    done_when: the evidence frame is conformed and the v27 reference execution (rule outcomes, route state, rule-level counts)
+      is written
+    produces:
+    - DP_A6434_LITERATURE_BY_PANGENOME
+    - DP_A6434_CANDIDATE_RULE_OUTCOMES
+    - DP_A6434_CANDIDATE_ROUTE_STATE
+    - DP_A6434_RULE_OUTCOME_COUNTS
+    steps:
+    - id: STEP_A6434_01_CONFORM_EVIDENCE_FRAME
+      tasks:
+      - id: TSK_A6434_LITERATURE
+        producer_ref: 02_code/build_literature_by_pangenome_id_v01.py
+    - id: STEP_A6434_02_REFERENCE_EXECUTION
+      tasks:
+      - id: TSK_A6434_PRODUCTION_V27
+        producer_ref: 02_code/code_A6434_production_v27_v01.py
+  - id: STAGE_A6434_02_SENSITIVITY
+    entry_event: scheduled_later_phase
+    done_when: the sensitivity contract is frozen and executed, the hard-gate LOO and additive perturbation tables are written,
+      and the rule-authority test has run
+    requires:
+    - STAGE_A6434_01_REFERENCE_EXECUTION
+    produces:
+    - DP_A6434_ST_03_PARAMETER_SWEEPS
+    - DP_A6434_HARD_GATE_SWEEP_EXECUTION
+    - DP_A6434_HARD_GATE_SWEEP_SUMMARY
+    - DP_A6434_HARD_GATE_LOO_SUMMARY
+    - DP_A6434_ADDITIVE_PERTURBATION_SUMMARY
+    steps:
+    - id: STEP_A6434_03_FREEZE_SENSITIVITY_CONTRACT
+      tasks:
+      - id: TSK_A6434_FREEZE_SWEEPS
+        producer_ref: 02_code/code_A6434_freeze_sweeps_v02_v01.py
+    - id: STEP_A6434_04_EXECUTE_SWEEPS
+      tasks:
+      - id: TSK_A6434_EXECUTE_SWEEPS
+        producer_ref: 02_code/code_A6434_execute_sweeps_v27_v01.py
+    - id: STEP_A6434_05_PERTURBATION
+      tasks:
+      - id: TSK_A6434_PERTURBATION_V27
+        producer_ref: 02_code/code_A6434_perturbation_v27_v01.py
+    - id: STEP_A6434_06_RULE_AUTHORITY_TEST
+      tasks:
+      - id: TSK_A6434_RULE_AUTHORITY_TEST
+        producer_ref: 02_code/code_A6434_rule_authority_test_v02.py
+  - id: STAGE_A6434_03_BINDINGS
+    entry_event: scheduled_later_phase
+    done_when: the decision views, the perturbation support slice and the manuscript-facing tables are written from the
+      executed tables
+    requires:
+    - STAGE_A6434_02_SENSITIVITY
+    produces:
+    - DP_A6434_RANKING_DECISIONS_V27
+    - DP_A6434_FINAL_INCLUSION_AUDIT_V27
+    - DP_A6434_PERTURBATION_SUPPORT_SLICE
+    steps:
+    - id: STEP_A6434_07_DECISION_VIEWS
+      tasks:
+      - id: TSK_A6434_DECISIONS_ADAPTER
+        producer_ref: 02_code/build_A6434_decisions_v27_adapter_v01.py
+    - id: STEP_A6434_08_PERTURBATION_SLICE
+      tasks:
+      - id: TSK_A6434_PERTURBATION_SLICE
+        producer_ref: 02_code/build_A6434_perturbation_slice_v01.py
+    - id: STEP_A6434_09_MANUSCRIPT_TABLES
+      tasks:
+      - id: TSK_A6434_SWEEPS_XLSX
+        producer_ref: 02_code/build_A6434_sweeps_xlsx_v01.py
+  - id: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    entry_event: scheduled_later_phase
+    done_when: the audit registers, support tables, deliverable pairs and manuscript-source builders that are not part of
+      the canonical run are declared with the outputs their code names
+    requires:
+    - STAGE_A6434_03_BINDINGS
+    steps:
+    - id: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+      tasks:
+      - id: TSK_A6434_AUTHORITY_AUDIT_V02
+        producer_ref: 02_code/code_A6434_authority_audit_v02.py
+      - id: TSK_A6434_INTAKE_AUDIT
+        producer_ref: 02_code/code_A6434_intake_audit_v01.py
+      - id: TSK_A6434_MANIFEST
+        producer_ref: 02_code/code_A6434_manifest_v01.py
+      - id: TSK_A6434_VERIFY_INPUT_LOCK
+        producer_ref: 02_code/code_A6434_verify_input_lock_v01.py
+      - id: TSK_A6434_STALE_ARTIFACT_REGISTER
+        producer_ref: 02_code/code_A6434_stale_artifact_register_v01.py
+      - id: TSK_A6434_RETIRE_STALE_IDS
+        producer_ref: 02_code/code_A6434_retire_stale_ids_v02.py
+      - id: TSK_A6434_RETIRE_STALE_RULE_PREFIXES
+        producer_ref: 02_code/code_A6434_retire_stale_rule_prefixes_v01.py
+      - id: TSK_A6434_MANUSCRIPT_CONSISTENCY
+        producer_ref: 02_code/code_A6434_manuscript_consistency_v01.py
+      - id: TSK_A6434_MANUSCRIPT_SCAN
+        producer_ref: 02_code/code_A6434_manuscript_scan_v01.py
+      - id: TSK_A6434_RESOLUTIONS
+        producer_ref: 02_code/code_A6434_resolutions_v01.py
+    - id: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+      tasks:
+      - id: TSK_A6434_ADAPTED_BUFFERS
+        producer_ref: 02_code/code_A6434_adapted_buffers_v01.py
+      - id: TSK_A6434_BUFFER_OVERLAP
+        producer_ref: 02_code/code_A6434_buffer_overlap_v01.py
+      - id: TSK_A6434_CARRIAGE_CONSERVATION
+        producer_ref: 02_code/code_A6434_carriage_conservation_v01_BIOSTRINGS.R
+      - id: TSK_A6434_INPUTS
+        producer_ref: 02_code/code_A6434_inputs_v01.py
+      - id: TSK_A6434_RPS_RANGE
+        producer_ref: 02_code/code_A6434_rps_range_v01.py
+      - id: TSK_A6434_MANUSCRIPT_BOUND_TABLES
+        producer_ref: 02_code/build_A6434_manuscript_bound_tables_v01.py
+    - id: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+      tasks:
+      - id: TSK_A6434_COMPLETION_WORKBOOK
+        producer_ref: 02_code/build_A6434_completion_workbook_v01.py
+      - id: TSK_A6434_MANUSCRIPT_FIGURES
+        producer_ref: 02_code/build_A6434_manuscript_figures_v01.py
+      - id: TSK_A6434_MANUSCRIPT_FILL
+        producer_ref: 02_code/build_A6434_manuscript_fill_v01.py
+      - id: TSK_A6434_MANUSCRIPT_TABLES
+        producer_ref: 02_code/build_A6434_manuscript_tables_v01.py
+      - id: TSK_A6434_MANUSCRIPT_REALIZE_TABLES
+        producer_ref: 02_code/build_A6434_manuscript_realize_tables_v01.py
+      - id: TSK_A6434_MANUSCRIPT_PARAM_TABLE
+        producer_ref: 02_code/build_A6434_manuscript_param_table_v01.py
+      - id: TSK_A6434_MANUSCRIPT_CONSISTENCY_FIX
+        producer_ref: 02_code/build_A6434_manuscript_consistency_fix_v01.py
+    - id: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+      tasks:
+      - id: TSK_A6434_PROVENANCE_MODULE
+        producer_ref: 02_code/_provenance.py
+      - id: TSK_A6434_HOUSE_STYLE_DOCX
+        producer_ref: 02_code/siku01_house_style_v01_DOCX.py
+      - id: TSK_A6434_HOUSE_STYLE_XLSX
+        producer_ref: 02_code/siku01_xlsx_house_style_v01.py
+      - id: TSK_A6434_CANONICAL_RUNNER
+        producer_ref: 02_code/run_A6434_canonical_v01.py
+      - id: TSK_A6434_CORE_CLUSTER_QC
+        producer_ref: 02_code/production/_master/S07e_core_cluster_qc_v02_CDHIT.py
+      - id: TSK_A6434_GATE_PANELS_GGPLOT
+        producer_ref: 02_code/production/_master/plots_reference/gate_panels_v01_GGPLOT.R
+  continuation:
+    exact_next_action: Rebuild Table 2 (qbd criteria) from capsule_brain/ranking_rules_v27.tsv with a declared cutoff provenance
+      per rule, then rebuild the scientific_owner container from the v27 outputs.
+    blocked_by:
+    - no tier definition is declared, so the LOCO tier outputs stay NOT_DECLARED
+    - the manuscript editing baseline named in manuscript.editing_baseline is not present in the project
+  brain:
+    bindings:
+      capsule_brain/ranking_rules_v27.tsv:
+        layer: specification
+        authored: true
+      capsule_brain/rule_parameter_resolution_v02.tsv:
+        layer: binding
+        authored: true
+      capsule_brain/ST_A6434_03_parameter_sweep_contract_v02.tsv:
+        layer: contract
+        authored: true
+      capsule_brain/test_registry_v03.tsv:
+        layer: contract
+        authored: true
+      capsule_brain/rule_test_contract_v03.tsv:
+        layer: contract
+        authored: true
+      capsule_brain/test_definition_v03.tsv:
+        layer: definition
+        authored: true
+      capsule_brain/test_implementation_binding_v02.tsv:
+        layer: binding
+        authored: true
+        lifecycle: SUPERSEDED_BY_v03
+      capsule_brain/test_case_definition_v01.tsv:
+        layer: definition
+        authored: true
+      capsule_brain/rule_id_crosswalk_v02.tsv:
+        layer: binding
+        authored: true
+        supersedes: capsule_brain/rule_id_crosswalk_v01.tsv
+        note: the retirement map from the pre-v27 identifiers to the live ones. v01 mapped every old id to ITSELF and marked
+          it UNCHANGED, which is why nothing resolved through it; v02 separates RENAMED from SPLIT and WITHDRAWN, so an
+          identifier with no successor is declared as having none rather than appearing to resolve
+      capsule_brain/README.md:
+        layer: documentation
+        authored: true
+      capsule_brain/rule_id_crosswalk_v01.tsv:
+        layer: binding
+        authored: true
+        lifecycle: SUPERSEDED_BY_v02
+        note: the retirement map from the pre-v27 M1G_/M2D_/M2P_ identifiers to the live ones; it is what makes an old reference
+          resolvable instead of merely wrong
+      capsule_brain/test_implementation_binding_v03.tsv:
+        layer: binding
+        authored: false
+        supersedes: capsule_brain/test_implementation_binding_v02.tsv
+        note: resolves every executable rule to a test file that exists, with coverage_kind (dedicated_suite_* | production_known_answer
+          | none) and the evidence for each resolution
+      01_analysis_output/derived/test_analysis_binding_v01.tsv:
+        layer: binding
+        authored: false
+        note: 'rule_id x analysis_layer x test_id: which test covers each rule in reference execution, sensitivity, hard-gate
+          LOO and additive LOCO, with the function and module under test'
+  tasks:
+  - id: TSK_A6434_LITERATURE
+    producer_ref: 02_code/build_literature_by_pangenome_id_v01.py
+    stage: STAGE_A6434_01_REFERENCE_EXECUTION
+    step: STEP_A6434_01_CONFORM_EVIDENCE_FRAME
+    inputs:
+    - ref: 08_source_data/routed_input/ST_A6035_02_protein_literature_assignments_v01.tsv
+      kind: artifact
+    - ref: 08_source_data/routed_input/ST_A6035_03_vaccine_antigen_crossref_v01.tsv
+      kind: artifact
+    - ref: 08_source_data/routed_input/MAP_A5093_locus_pangenome_v02.tsv
+      kind: artifact
+    outputs:
+    - ref: DP_A6434_LITERATURE_BY_PANGENOME
+      kind: data_product
+  - id: TSK_A6434_PRODUCTION_V27
+    producer_ref: 02_code/code_A6434_production_v27_v01.py
+    stage: STAGE_A6434_01_REFERENCE_EXECUTION
+    step: STEP_A6434_02_REFERENCE_EXECUTION
+    inputs:
+    - ref: DP_A6434_CANDIDATE_DATA
+      kind: data_product
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    - ref: RES_A6434_PARAMETER_RESOLUTION
+      kind: resource
+    outputs:
+    - ref: DP_A6434_CANDIDATE_RULE_OUTCOMES
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ROUTE_STATE
+      kind: data_product
+    - ref: DP_A6434_RULE_OUTCOME_COUNTS
+      kind: data_product
+  - id: TSK_A6434_FREEZE_SWEEPS
+    producer_ref: 02_code/code_A6434_freeze_sweeps_v02_v01.py
+    stage: STAGE_A6434_02_SENSITIVITY
+    step: STEP_A6434_03_FREEZE_SENSITIVITY_CONTRACT
+    inputs:
+    - ref: DP_A6434_CANDIDATE_DATA
+      kind: data_product
+    - ref: RES_A6434_SWEEP_CONTRACT
+      kind: resource
+    outputs:
+    - ref: DP_A6434_ST_03_PARAMETER_SWEEPS
+      kind: data_product
+  - id: TSK_A6434_EXECUTE_SWEEPS
+    producer_ref: 02_code/code_A6434_execute_sweeps_v27_v01.py
+    stage: STAGE_A6434_02_SENSITIVITY
+    step: STEP_A6434_04_EXECUTE_SWEEPS
+    inputs:
+    - ref: DP_A6434_CANDIDATE_DATA
+      kind: data_product
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    - ref: DP_A6434_ST_03_PARAMETER_SWEEPS
+      kind: data_product
+    - ref: RES_A6434_SWEEP_CONTRACT
+      kind: resource
+    outputs:
+    - ref: DP_A6434_HARD_GATE_SWEEP_EXECUTION
+      kind: data_product
+    - ref: DP_A6434_HARD_GATE_SWEEP_SUMMARY
+      kind: data_product
+  - id: TSK_A6434_PERTURBATION_V27
+    producer_ref: 02_code/code_A6434_perturbation_v27_v01.py
+    stage: STAGE_A6434_02_SENSITIVITY
+    step: STEP_A6434_05_PERTURBATION
+    inputs:
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    - ref: DP_A6434_CANDIDATE_RULE_OUTCOMES
+      kind: data_product
+    outputs:
+    - ref: DP_A6434_HARD_GATE_REFERENCE_SET
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ROUTE_REFERENCE_STATE
+      kind: data_product
+    - ref: DP_A6434_HARD_GATE_STEP_REFERENCE
+      kind: data_product
+    - ref: DP_A6434_HARD_GATE_LOO_DEFINITION
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_HARD_GATE_LOO
+      kind: data_product
+    - ref: DP_A6434_HARD_GATE_LOO_SUMMARY
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_REFERENCE_EXECUTION
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_SCORE_DISTRIBUTION
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_PERTURBATION_DEFINITION
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ADDITIVE_PERTURBATION
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_PERTURBATION_SUMMARY
+      kind: data_product
+  - id: TSK_A6434_RULE_AUTHORITY_TEST
+    producer_ref: 02_code/code_A6434_rule_authority_test_v02.py
+    stage: STAGE_A6434_02_SENSITIVITY
+    step: STEP_A6434_06_RULE_AUTHORITY_TEST
+    inputs:
+    - ref: DP_A6434_CANDIDATE_DATA
+      kind: data_product
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    - ref: RES_A6434_PARAMETER_RESOLUTION
+      kind: resource
+  - id: TSK_A6434_DECISIONS_ADAPTER
+    producer_ref: 02_code/build_A6434_decisions_v27_adapter_v01.py
+    stage: STAGE_A6434_03_BINDINGS
+    step: STEP_A6434_07_DECISION_VIEWS
+    inputs:
+    - ref: DP_A6434_CANDIDATE_RULE_OUTCOMES
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ROUTE_STATE
+      kind: data_product
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    outputs:
+    - ref: DP_A6434_RANKING_DECISIONS_V27
+      kind: data_product
+    - ref: DP_A6434_FINAL_INCLUSION_AUDIT_V27
+      kind: data_product
+  - id: TSK_A6434_PERTURBATION_SLICE
+    producer_ref: 02_code/build_A6434_perturbation_slice_v01.py
+    stage: STAGE_A6434_03_BINDINGS
+    step: STEP_A6434_08_PERTURBATION_SLICE
+    inputs:
+    - ref: DP_A6434_HARD_GATE_LOO_SUMMARY
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_PERTURBATION_SUMMARY
+      kind: data_product
+    - ref: DP_A6434_HARD_GATE_STEP_REFERENCE
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ROUTE_REFERENCE_STATE
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_HARD_GATE_LOO
+      kind: data_product
+    - ref: DP_A6434_CANDIDATE_ADDITIVE_PERTURBATION
+      kind: data_product
+    - ref: DP_A6434_ADDITIVE_SCORE_DISTRIBUTION
+      kind: data_product
+    - ref: RES_A6434_RULE_CONTRACT
+      kind: resource
+    outputs:
+    - ref: DP_A6434_PERTURBATION_SUPPORT_SLICE
+      kind: data_product
+  - id: TSK_A6434_SWEEPS_XLSX
+    producer_ref: 02_code/build_A6434_sweeps_xlsx_v01.py
+    stage: STAGE_A6434_03_BINDINGS
+    step: STEP_A6434_09_MANUSCRIPT_TABLES
+    inputs:
+    - ref: DP_A6434_ST_03_PARAMETER_SWEEPS
+      kind: data_product
+  - id: TSK_A6434_AUTHORITY_AUDIT_V02
+    producer_ref: 02_code/code_A6434_authority_audit_v02.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 06_notes/TBL_A6434_authority_audit
+      kind: artifact
+  - id: TSK_A6434_INTAKE_AUDIT
+    producer_ref: 02_code/code_A6434_intake_audit_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 01_analysis_output/raw/INTAKE_AUDIT
+      kind: artifact
+  - id: TSK_A6434_MANIFEST
+    producer_ref: 02_code/code_A6434_manifest_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+  - id: TSK_A6434_VERIFY_INPUT_LOCK
+    producer_ref: 02_code/code_A6434_verify_input_lock_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+  - id: TSK_A6434_STALE_ARTIFACT_REGISTER
+    producer_ref: 02_code/code_A6434_stale_artifact_register_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 06_notes/TBL_A6434_stale_artifact_register
+      kind: artifact
+  - id: TSK_A6434_RETIRE_STALE_IDS
+    producer_ref: 02_code/code_A6434_retire_stale_ids_v02.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+  - id: TSK_A6434_RETIRE_STALE_RULE_PREFIXES
+    producer_ref: 02_code/code_A6434_retire_stale_rule_prefixes_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 06_notes/RPT_A6434_stale_rule_prefix_retirement
+      kind: artifact
+  - id: TSK_A6434_MANUSCRIPT_CONSISTENCY
+    producer_ref: 02_code/code_A6434_manuscript_consistency_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 06_notes/TBL_A6434_manuscript_consistency
+      kind: artifact
+  - id: TSK_A6434_MANUSCRIPT_SCAN
+    producer_ref: 02_code/code_A6434_manuscript_scan_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 06_notes/TBL_A6434_manuscript_scan
+      kind: artifact
+  - id: TSK_A6434_RESOLUTIONS
+    producer_ref: 02_code/code_A6434_resolutions_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_10_AUDIT_AND_REGISTER_TABLES
+    outputs:
+    - ref: 04_tables/tbl_A6434_06_resolutions
+      kind: artifact
+  - id: TSK_A6434_ADAPTED_BUFFERS
+    producer_ref: 02_code/code_A6434_adapted_buffers_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: 01_analysis_output/derived/adapted_buffers_by_pangenome_id
+      kind: artifact
+  - id: TSK_A6434_BUFFER_OVERLAP
+    producer_ref: 02_code/code_A6434_buffer_overlap_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: 04_tables/tbl_A6434_31_buffer_overlap
+      kind: artifact
+    - ref: 04_tables/tbl_A6434_32_buffer_by_candidate
+      kind: artifact
+  - id: TSK_A6434_CARRIAGE_CONSERVATION
+    producer_ref: 02_code/code_A6434_carriage_conservation_v01_BIOSTRINGS.R
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: 04_tables/tbl_A6434_22_carriage_conservation_numbers
+      kind: artifact
+  - id: TSK_A6434_INPUTS
+    producer_ref: 02_code/code_A6434_inputs_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: DP_A6434_RANKING_INPUTS
+      kind: data_product
+  - id: TSK_A6434_RPS_RANGE
+    producer_ref: 02_code/code_A6434_rps_range_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: 04_tables/tbl_A6434_30_rps_range
+      kind: artifact
+    - ref: 07_inserts/TBL_A6434_03_rps_range
+      kind: artifact
+  - id: TSK_A6434_MANUSCRIPT_BOUND_TABLES
+    producer_ref: 02_code/build_A6434_manuscript_bound_tables_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_11_ANALYSIS_SUPPORT_TABLES
+    outputs:
+    - ref: 04_tables/tbl_A6434_final_route_outcomes
+      kind: artifact
+    - ref: 04_tables/tbl_A6434_hard_gate_LOO_summary
+      kind: artifact
+    - ref: 04_tables/tbl_A6434_hard_gate_sensitivity_summary
+      kind: artifact
+    - ref: 04_tables/tbl_A6434_reference_additive_execution
+      kind: artifact
+    - ref: 04_tables/tbl_A6434_reference_hard_gate_execution
+      kind: artifact
+  - id: TSK_A6434_COMPLETION_WORKBOOK
+    producer_ref: 02_code/build_A6434_completion_workbook_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_FIGURES
+    producer_ref: 02_code/build_A6434_manuscript_figures_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_FILL
+    producer_ref: 02_code/build_A6434_manuscript_fill_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_TABLES
+    producer_ref: 02_code/build_A6434_manuscript_tables_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_REALIZE_TABLES
+    producer_ref: 02_code/build_A6434_manuscript_realize_tables_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_PARAM_TABLE
+    producer_ref: 02_code/build_A6434_manuscript_param_table_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_MANUSCRIPT_CONSISTENCY_FIX
+    producer_ref: 02_code/build_A6434_manuscript_consistency_fix_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_12_DELIVERABLES_AND_MANUSCRIPT_BUILDERS
+  - id: TSK_A6434_PROVENANCE_MODULE
+    producer_ref: 02_code/_provenance.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  - id: TSK_A6434_HOUSE_STYLE_DOCX
+    producer_ref: 02_code/siku01_house_style_v01_DOCX.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  - id: TSK_A6434_HOUSE_STYLE_XLSX
+    producer_ref: 02_code/siku01_xlsx_house_style_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  - id: TSK_A6434_CANONICAL_RUNNER
+    producer_ref: 02_code/run_A6434_canonical_v01.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  - id: TSK_A6434_CORE_CLUSTER_QC
+    producer_ref: 02_code/production/_master/S07e_core_cluster_qc_v02_CDHIT.py
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  - id: TSK_A6434_GATE_PANELS_GGPLOT
+    producer_ref: 02_code/production/_master/plots_reference/gate_panels_v01_GGPLOT.R
+    stage: STAGE_A6434_04_SUPPORT_AND_MANUSCRIPT_BUILDERS
+    step: STEP_A6434_13_SHARED_MODULES_AND_RUNNER
+  retired_tasks:
+  - id: TSK_A6434_CONFORM_INPUTS
+    producer_ref: 02_code/code_A6434_conform_heuristic_inputs_v01.py
+    reason: reads candidate_data_v01.tsv, ranking_rules_v02.tsv and ranking_decisions_R (pre-v27; absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_QBD_CRITERIA_TABLE
+    producer_ref: 02_code/build_TBL_A6434_02_v04.py
+    reason: reads ranking_rules_v02.tsv (absent); its output is the pre-v27 criteria table
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_COLUMN_OWNERSHIP_AUDIT
+    producer_ref: 02_code/code_A6434_column_ownership_audit_v01.py
+    reason: reads ranking_rules_v21/v22 and the v22/v23 decision tables (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_OWNERSHIP_REPAIR
+    producer_ref: 02_code/code_A6434_ownership_repair_v01.py
+    reason: reads ranking_rules_v21/v22 and the v22/v23 decision tables (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_BRANCH_ACCEPTANCE
+    producer_ref: 02_code/code_A6434_branch_acceptance_v01.py
+    reason: reads candidate_data_v01.tsv and ranking_rules_v02.tsv (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_VERIFY
+    producer_ref: 02_code/code_A6434_verify_v01.py
+    reason: reads ranking_rules_v01.tsv and the pre-v27 inserts (absent); verify.py is the current check
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_SERIALIZE
+    producer_ref: 02_code/code_A6434_serialize_v01.py
+    reason: serializes the pre-v27 MTH/RES/DSC inserts (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_RESOLVER_CONFLICTS
+    producer_ref: 02_code/code_A6434_resolver_conflicts_v01.py
+    reason: reads ranking_rules_v02.tsv (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_REGISTER_STRATEGY
+    producer_ref: 02_code/code_A6434_register_strategy_v01.py
+    reason: reads ranking_rules_v01/v02.tsv (absent); encodes the M1G/M1P/M2D thresholds
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_CRITERION_EFFICACY
+    producer_ref: 02_code/code_A6434_criterion_efficacy_v01.py
+    reason: reads ranking_rules_v02.tsv (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_RECONCILE_DESCRIPTIVE
+    producer_ref: 02_code/code_A6434_reconcile_descriptive_v02.py
+    reason: reads ranking_rules_v02.tsv (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_SWEEP_SUMMARY
+    producer_ref: 02_code/code_A6434_sweep_summary_v01.py
+    reason: reads the pre-v27 sweep A/B tables (absent); superseded by hard_gate_sweep_summary_v01.tsv
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_METHOD_TABLES
+    producer_ref: 02_code/build_A6434_method_tables_v01.py
+    reason: reads ranking_rules_v04.tsv and the pre-v27 sweep/scoring tables (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_DELIVERABLES
+    producer_ref: 02_code/build_A6434_deliverables_v01.py
+    reason: packages the pre-v27 scoring tables and inserts (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_GATE_SHEETS
+    producer_ref: 02_code/build_A6434_gate_sheets_v01.py
+    reason: reads ranking_rules_v01.tsv and the pre-v27 sweeps (absent)
+    status: PRE_V27_NOT_EXECUTABLE
+  - id: TSK_A6434_MANUSCRIPT_BLOCKS
+    producer_ref: 02_code/build_A6434_manuscript_blocks_v01.py
+    reason: reads ranking_rules_v02.tsv (absent); writes the pre-v27 weighted-criteria inserts
+    status: PRE_V27_NOT_EXECUTABLE
+  rule_audit:
+    checked_on: '2026-10-11'
+    against: capsule_brain/ranking_rules_v27.tsv and rule_id_crosswalk_v02.tsv
+    consistent:
+    - 23 rule records = 1 declaration + 14 hard gates + 8 additive components
+    - 5 distribution-derived parameters resolved (M2_CAI, M2_GC3, M2_CAI_ON, M2_CAI_DR, M2_CDS_LEN)
+    - 9 swept numeric hard gates + 5 declared exclusions = 14
+    - 152 registered test obligations in test_registry_v03.tsv
+    - rule outcomes executed for all 22 executable rules on all six routes
+    stale:
+    - outputs.qbd_criteria_table (Table 2) is the pre-v27 rule table
+    - candidate_data_v02.tsv carries the pre-v27 score columns score_m1_general, score_m1_protein and score_m2_pdna
+    - 'ranking_decisions_by_candidate_v27.tsv keeps legacy column names: final_inclusion relabels final_pass (verified on
+      9162/9162 rows) and score_m1_general is the M1 additive subtotal'
+    - ranking_rules_v27.tsv code_function reads NO CURRENT V25 PRODUCTION FUNCTION for M2.10-M2.14, yet code_A6434_production_v27_v01.py
+      executes those rules table-driven; the authored field is out of date
+    - the scientific_owner container is pre-v27 (see scientific_owner.validity)
+    - the retired pre-v27 filesets FSET_TST_COUNTS and FSET_TST_NUMERICAL declared fixtures for withdrawn rules (the retention
+      thresholds and the M1/M2_BASE windows)
+    - tests/RULE_TEST_INDEX_v26.tsv named rule-named scripts that never existed on disk, and tests/integration/ held the
+      pre-v27 S14a integration test; both quarantined to 11_handoff/superseded/tests_v27_retired/
+    missing:
+    - 'v27 rules absent from Table 2: M0_CARRIAGE, M0_CONSERVATION, M0_PROTEIN_FORM, M0_SPAN_OCCUPANCY, M2_TMH, M2_MW, M2_CAI,
+      M2_GRAVY, M2_INSTABILITY, M2_CAI_ON, M2_CAI_DR'
+    - no declared cutoff provenance per v27 rule; the v04 Table 2 carried one for the pre-v27 ids only
+    - no tier definition, so the LOCO tier outputs are reported NOT_DECLARED
+    - 'crosswalk gap: rule_id_crosswalk_v02.tsv does not carry M1_LENGTH, M1_CONSERVATION, M1_TMH, M1_PROTEIN_FORM, M1_SPAN_OCCUPANCY,
+      PRE_M1_CARRIAGE, M2_BASE_MW, M2_BASE_GRAVY, M2_BASE_PI or M2_SILICA_PI, so a pre-v27 reference to any of them resolves
+      to nothing. These are exactly the ids carried by the stale scientific_owner container, DP_A6434_RANKING_DECISIONS
+      and the TSM table manifests.'
+    - 'test declaration gap: tests/TST_numerical/ holds two v27 tests (TST_numerical_against_production.unit_test.py, TST_sweep_satisfies_against_production.unit_test.py)
+      that no fileset declares, and tests/TST_counts/ is absent entirely. Both pre-v27 filesets were retired to 10_superseded/root_pre_v27_cleanup_2026-10-11/.'
+    - three test suites (TST_carriage, TST_conservation, TST_gene_model) carry no _audit_runs.tsv, so they have no recorded
+      run in this deposit; the member is declared optional, so this is not a fileset violation.
+    - no input-level robustness fixture for M2_CDS_LEN, M2_TYPEIIS, M2_GC3, M2_CAI_ON or M2_CAI_DR; they are bound at the
+      rule-omission level only (test_implementation_binding_v03.tsv coverage_kind rule_omission_perturbation)
+    - no dedicated fixture for M0_PROTEIN_FORM or M0_SPAN_OCCUPANCY; both are bound through pipeline equivalence in the
+      perturbation test
+  reviewer_traceability:
+  - item: conservation gate direction
+    status: VERIFIED_IN_V27
+    evidence: M0_CONSERVATION reads conservation__median_conservation_hnorm > 0.98. In conservation_by_pangenome_id_v01.tsv
+      that score has rank correlation -1.0 with median_entropy_bits, and all 1483 families at 1.0 carry zero entropy, so
+      the gate retains conserved families.
+  - item: final pass is the hard-gate intersection, not an additive score
+    status: VERIFIED_IN_V27
+    evidence: 'final_pass = AND of the applicable hard gates; additive components are 0/+1 with no retention threshold.
+      Final pass per route: cellulose 515, aex 387, pdna_tilapia 363, pdna_zebrafish 363, cex 118, silica 85 (union 855
+      families), from candidate_route_state_v27_v01.tsv.'
+  - item: threshold sensitivity and stability
+    status: EXECUTED
+    evidence: '9 numeric hard gates swept (hard_gate_sweep_summary_v01.tsv). Hard-gate LOO over 14 gates: 8 change the final-pass
+      set when omitted alone, 6 do not (hard_gate_loo_summary_v01.tsv). Additive LOCO over 8 components: 0.83-94.32% of
+      scores change, Spearman rho 0.676-1.000, and final pass never changes (additive_perturbation_summary_v01.tsv).'
+  - item: cutoff provenance (literature, experiment or expert judgement)
+    status: OPEN
+    evidence: not declared per v27 rule; Table 2 must be rebuilt from the v27 rule owner
+  - item: machine-readable per-candidate record
+    status: AVAILABLE
+    evidence: candidate_rule_outcomes_v27_v01.tsv carries observed value, operator, threshold and outcome per candidate
+      x route x rule; final_inclusion_audit_v27.tsv carries the step-by-step audit
+  - item: GC3 and CAI are not treated as gates
+    status: VERIFIED_IN_V27
+    evidence: M2_GC3, M2_CAI, M2_CAI_ON and M2_CAI_DR are additive components; none is a hard gate
+  - item: Type IIS enzyme set
+    status: OPEN
+    evidence: M2_TYPEIIS reads rep__n_typeIIS_total == 0; the enzyme names and recognition sites are not declared in the
+      rule owner
+  - item: executable workflow and dependency list
+    status: PARTIAL
+    evidence: canonical_run declares 6 executable steps and verify.py reports 20/20; the v27 evidence frame candidate_data_v02.tsv
+      is a frozen deposit that cannot be rebuilt in-capsule
+  scientific_owner_state:
+    validity: NEEDS_REVALIDATION
+    reason: its 80 primary_measurements were derived on 2026-09-26 from the pre-v27 output variables; only 13 are current
+      v27 candidate-route fields
+    audit: ../../reports/AUD_C_SINIAE_PRIORITISATION_v01/
+  deposited_provenance:
+    qbd_criteria_table:
+      artifacts:
+      - path: 04_tables/TBL_A6434_02_qbd_criteria_v04.tsv
+      grain:
+      - ID
+      currency: STALE_PRE_V27
+      status: NOT_A_DECLARED_OUTPUT_UNTIL_REBUILT
+      note: manuscript Table 2 as deposited. Its builder reads ranking_rules_v02.tsv, which is not present. 29 of its 40
+        IDs are pre-v27 or descriptor-layer IDs, and 11 of the 22 v27 executable rules are absent from it. Rebuild it from
+        capsule_brain/ranking_rules_v27.tsv before citing it.
+      retired_builder: 02_code/build_TBL_A6434_02_v04.py (TSK_A6434_QBD_CRITERIA_TABLE, see retired_tasks)
+  frame_ref: FRAME_SINIAE_PRIORITISATION

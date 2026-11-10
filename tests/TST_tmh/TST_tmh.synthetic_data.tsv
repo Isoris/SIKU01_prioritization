@@ -1,0 +1,13 @@
+case_id	sample_id	pangenome_id	description	tmh_count	max_tmh	evaluable	expected_predicate	expected_state
+C01	TEST_SAMPLE	PID_TEST	no predicted helix	0	2	TRUE	TRUE	pass
+C02	TEST_SAMPLE	PID_TEST	one helix, below the cut	1	2	TRUE	TRUE	pass
+C03	TEST_SAMPLE	PID_TEST	exactly at the cut, inclusive	2	2	TRUE	TRUE	pass
+C04	TEST_SAMPLE	PID_TEST	one above the cut	3	2	TRUE	FALSE	fail
+C05	TEST_SAMPLE	PID_TEST	multi-pass membrane protein	7	2	TRUE	FALSE	fail
+C06	TEST_SAMPLE	PID_TEST	no InterProScan record for the representative	NA	2	FALSE	FALSE	not_evaluable
+C07	TEST_SAMPLE	PID_TEST	no unambiguous representative	NA	2	FALSE	FALSE	not_evaluable
+C08	TEST_SAMPLE	PID_TEST	a count present but the layer unevaluable	1	2	FALSE	TRUE	not_evaluable
+C09	TEST_SAMPLE	PID_TEST	gate opened to three helices, formerly failing	3	3	TRUE	TRUE	pass
+C10	TEST_SAMPLE	PID_TEST	gate closed to zero helices, formerly passing	1	0	TRUE	FALSE	fail
+C11	TEST_SAMPLE	PID_TEST	gate closed to zero, no helix	0	0	TRUE	TRUE	pass
+C12	TEST_SAMPLE	PID_TEST	missing count under an opened gate still fails	NA	4	FALSE	FALSE	not_evaluable

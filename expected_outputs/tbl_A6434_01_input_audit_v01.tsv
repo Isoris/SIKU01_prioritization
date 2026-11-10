@@ -1,0 +1,11 @@
+layer	source	produced_by	spine_rows	rows_joined	rows_evaluable	rows_not_evaluable	absent_means	fill_applied
+conservation	conservation_by_pangenome_id_v01.tsv	Panaroo to conservation > Bio3D conservation	1527	1527	1527	0	family not in the retained core set; no conservation measured	none
+coverage	coverage_qc_by_pangenome_id_v01.tsv	Panaroo to conservation > population occupancy	1527	1527	1527	0	family has no alignment; no occupancy or shared region measured	none
+m0	m0_gate_by_pangenome_id_v01.tsv	Panaroo to conservation > population occupancy	1527	1527	1527	0	family outside the core set; no gene-model summary	none
+descriptors_protein	protein_descriptors_by_pangenome_id_v01.tsv	Sequence-derived descriptors > orthogroup-level descriptor tables	1527	1527	1527	0	family carries no scored protein copy	none
+descriptors_nucleotide	nucleotide_descriptors_by_pangenome_id_v01.tsv	Sequence-derived descriptors > orthogroup-level descriptor tables	1527	1527	1527	0	family carries no scored coding sequence	none
+epitope	epitope_by_pangenome_id_v01.tsv	IEDB peptide homology > orthogroup transfer	1527	1512	1512	15	no unambiguous representative; a present row with 0 is a measured zero	none
+host	host_similarity_by_pangenome_id_v01.tsv	Host similarity screen > orthogroup transfer	1527	1512	1512	15	no unambiguous representative; an empty identity means no alignment, never 0	none
+surface	interpro_by_pangenome_id_v02.tsv	Localisation and topology > orthogroup transfer	1527	1512	1498	29	no unambiguous representative; an empty count means no InterProScan record	none
+literature	literature_by_pangenome_id_v01.tsv	Literature evidence > orthogroup transfer	1527	1512	1512	15	no unambiguous representative; an empty count means absent from the curated list	none
+nonspecific	nonspecific_by_pangenome_id_v01.tsv	Local non-specific similarity > orthogroup transfer	1527	1512	1512	15	no unambiguous representative; an empty count means no local match measured	none

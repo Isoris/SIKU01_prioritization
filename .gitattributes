@@ -1,0 +1,4 @@
+# keep every byte as it is: several checks hash the files, and one input table has Windows line endings
+* -text
+*.7z binary
+*.gz binary
