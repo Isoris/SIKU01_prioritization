@@ -7,9 +7,14 @@ The 23-rule, six-route prioritization of *Streptococcus iniae* SIKU01 vaccine ca
 ## Run it
 
 ```
-conda env create -f environment.yml && conda activate siku01-ranking      # python 3.11, pandas 2.3.3 (pandas must be < 3)
+git clone <URL of this repository> SIKU01_prioritization
+cd SIKU01_prioritization
+conda env create -f environment.yml                                       # once; python 3.11, pandas 2.3.3 (pandas must be < 3), R for the R tests
+conda activate siku01-ranking
 bash run_all.sh                                                           # about 2-3 minutes
 ```
+
+On Windows, run it inside WSL (bash and conda are needed).
 
 ## What you should see
 
@@ -44,3 +49,26 @@ reported as NOT RUN (a warning, never a pass); the four Python suites run.
 
 `analysis.yaml` declares the inputs, the run order and the target outputs. `PROVENANCE.md` says where every file came from.
 The inputs are large (the gene table is 97 MB), so clone with enough disk and bandwidth; nothing is downloaded when you run it.
+
+## Where each of the 13 input tables was made
+
+Each frozen table was produced by one analysis of the SIKU01 project. The analyses, with their code and outputs, are in the Zenodo deposit
+[10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953), file `SIKU01_1_capsules.zip`, under `SIKU01_clean_project_2026-10-23/capsules/`.
+
+| input table (`inputs/`) | analysis folder (in `capsules/`) | file there |
+|---|---|---|
+| `gene_data_by_pangenome_id_v01.tsv.gz` | `ANL_A5093_PANGENOME_CONSERVATION` | `04_tables/gene_data_by_pangenome_id_v01.tsv.gz` |
+| `conservation_by_pangenome_id_v01.tsv` | `ANL_A5093_AMINO_ACID_CONSERVATION` | `04_tables/conservation_by_pangenome_id_v01.tsv` (differs in one column, `reference_locus_tag`, which the ranking does not read) |
+| `m0_gate_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/m0_gate_by_pangenome_id_v01.tsv` |
+| `coverage_qc_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/coverage_qc_by_pangenome_id_v01.tsv` |
+| `descriptors_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `04_tables/descriptors_by_pangenome_id_v01.tsv.gz` |
+| `descriptors_by_pangenome_id_v01_excluded.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_by_pangenome_id_v01_excluded.tsv` |
+| `descriptors_population_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_population_by_pangenome_id_v01.tsv.gz` |
+| `protein_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/protein_descriptors_by_pangenome_id_v01.tsv` |
+| `nucleotide_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/nucleotide_descriptors_by_pangenome_id_v01.tsv` |
+| `interpro_by_pangenome_id_v02.tsv` | `ANL_A3168_SURFACE_ARCHITECTURE` | `04_tables/interpro_by_pangenome_id_v02.tsv` |
+| `host_similarity_by_pangenome_id_v01.tsv` | `ANL_A4173_HOST_SIMILARITY` | `04_tables/host_similarity_by_pangenome_id_v01.tsv` |
+| `nonspecific_by_pangenome_id_v01.tsv` | `ANL_A2731_LOCAL_HOST_SIMILARITY` | `04_tables/nonspecific_by_pangenome_id_v01.tsv` |
+| `epitope_by_pangenome_id_v01.tsv` | `ANL_A8506_EPITOPE` | `04_tables/epitope_by_pangenome_id_v01.tsv` |
+
+The full record per table (row counts, scripts that write it, lock status) is in `docs/UPSTREAM_PRODUCERS.tsv`.
