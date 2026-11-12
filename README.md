@@ -52,7 +52,7 @@ Every `run_all.sh` keeps the run it checked in `runs/<date-time>/` (not tracked 
 | `inputs/` | the 13 frozen `*_by_pangenome_id` tables, the literature inputs, `candidate_data_v02.tsv`, and `route_manifest.tsv` (the lock: the checksum of every input); `inputs/README.md` says what each file is |
 | `rules/` | `ranking_rules_v27.tsv` (the 23 rules), their resolved thresholds, the sweep plan, the test contracts |
 | `code/` | the ranking code, the capsule's own (two edits of 2026-10-23 are recorded in `PROVENANCE.md`); `run_ranking.py` runs it |
-| `tests/` | unit, robustness and known-answer test suites |
+| `tests/` | unit, robustness and known-answer test suites; `tests/README.md` says what each suite checks |
 | `expected_outputs/` | the 21 deposited result files; the final shortlists are `candidate_route_state_v27_v01.tsv` (`final_pass`) |
 | `preflight/`, `postflight/` | the checks before and after a run |
 | `raw/` | the Panaroo output, input genomes and core alignments the input tables came from (records; not re-run here) |
