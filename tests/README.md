@@ -14,6 +14,8 @@ With bash and Rscript available, `run_all_tests_A6434_v01.sh` runs all suites; w
 | `TST_execution/` | Python | re-derives the reference execution and the sensitivity sweeps from the real input frame with the production functions, and checks every deposited row | all rules |
 | `_shared/` | R | helpers the R suites load (numeric-range checks, logging) | - |
 
+Run time (measured in WSL): all suites together take about 22 minutes, almost all of it `TST_conservation` (4,000 simulated measurements, one after another in R); the other suites take seconds. `bash run_all.sh --no-tests` skips them (the whole check then takes about 70 seconds).
+
 Other files:
 
 - `RULE_TEST_INDEX_v27.tsv`: for each of the 23 rules, which unit, robustness, sensitivity, known-answer and sweep tests cover it.

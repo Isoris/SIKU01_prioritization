@@ -192,7 +192,7 @@ def main():
         with tempfile.TemporaryDirectory(prefix="siku01_post_a_") as A, tempfile.TemporaryDirectory(prefix="siku01_post_b_") as B, \
                 tempfile.TemporaryDirectory(prefix="siku01_post_logs_") as L:
             logs = [os.path.join(L, "stage_run1.log"), os.path.join(L, "stage_run2.log")]
-            print("run 1 (with tests) ... (about a minute; the stage's own output goes to stage_run1.log)"); r1 = run_stage(A, not a.no_tests, logs[0])
+            print("run 1 (with tests) ... (several minutes; the stage's own output goes to stage_run1.log)"); r1 = run_stage(A, not a.no_tests, logs[0])
             print("run 2 ..."); r2 = run_stage(B, False, logs[1])
             if not (r1 and r2):
                 print("  FAIL RUN       the stage failed (run 1: %s, run 2: %s)" % (r1, r2))

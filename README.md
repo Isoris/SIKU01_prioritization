@@ -11,8 +11,11 @@ git clone <URL of this repository> SIKU01_prioritization
 cd SIKU01_prioritization
 conda env create -f environment.yml                                       # once; python 3.11, pandas 2.3.3 (pandas must be < 3), R for the R tests
 conda activate siku01-ranking
-bash run_all.sh                                                           # about 2-3 minutes
+bash run_all.sh                                                           # about 23 minutes with all tests
+bash run_all.sh --no-tests                                                # about 70 seconds: everything except the unit tests
 ```
+
+The ranking itself takes about 30 seconds. Almost all of the 23 minutes is one R test, `TST_conservation` (4,000 simulated conservation measurements, about 22 minutes); times measured in WSL on a 20-core laptop.
 
 On Windows, run it inside WSL (bash and conda are needed).
 

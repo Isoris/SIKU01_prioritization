@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # run_all.sh - reproduce the candidate prioritization and check it against the deposited results. One command:
 #
-#   bash run_all.sh                 preflight, then the ranking twice, then every check (about 2-3 minutes);
+#   bash run_all.sh                 preflight, then the ranking twice, then every check (about 23 minutes with the tests, 70 s with --no-tests);
 #                                   the checked run is kept in runs/<date-time>/ (see below)
 #   bash run_all.sh --out DIR       the same, but keep the checked run in DIR instead of runs/<date-time>/
-#   bash run_all.sh --no-tests      skip the unit tests of the first run
+#   bash run_all.sh --no-tests      skip the unit tests of the first run (the one R test TST_conservation alone takes about 22 minutes)
 #   PYTHON=/path/to/python bash run_all.sh      use a specific python (default: python)
 #
 # What a run leaves behind (runs/ is not tracked by git):
