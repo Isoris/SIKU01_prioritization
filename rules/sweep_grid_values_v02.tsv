@@ -1,0 +1,29 @@
+rule_id	sweep_id	sweep_value	predeclared_rationale
+M0_FULL_LENGTH	FULL_LENGTH_LO_01	0.99	relax the annotation full-length floor by 1% of the ratio scale
+M0_FULL_LENGTH	FULL_LENGTH_LO_02	0.95	relax the floor by 5%; min observed ratio 0.7186, p1 0.9978
+M0_FULL_LENGTH	FULL_LENGTH_HI_01	1.01	tighten the floor by 1%; ratios above 1 exist (max 1.4676)
+M0_FULL_LENGTH	FULL_LENGTH_HI_02	1.05	tighten the floor by 5% on the same ratio scale
+M2_MW	M2_MW_LOW_02	15000;60000	lower boundary -5 kDa, upper held canonical; p25 = 21.1 kDa
+M2_MW	M2_MW_LOW_01	25000;60000	lower boundary +5 kDa, upper held canonical
+M2_MW	M2_MW_HIGH_01	20000;50000	upper boundary -10 kDa, lower held canonical; p75 = 45.8 kDa
+M2_MW	M2_MW_HIGH_02	20000;70000	upper boundary +10 kDa, lower held canonical; p95 = 81.0 kDa
+M2_SILICA_Z	M2_SILICA_Z_LOW_01	-20	5-charge-unit step below reference; p5 = -23.06
+M2_SILICA_Z	M2_SILICA_Z_LOW_02	-25	10-charge-unit step below reference; p1 = -35.39
+M2_SILICA_Z	M2_SILICA_Z_HIGH_01	-10	5-charge-unit step above reference; p25 = -9.19
+M2_SILICA_Z	M2_SILICA_Z_HIGH_02	-5	10-charge-unit step above reference; median = -2.54
+M2_CELLULOSE_LEN	M2_CELLULOSE_LEN_LOW_01	300	100-aa step below reference; median length 279 aa
+M2_CELLULOSE_LEN	M2_CELLULOSE_LEN_LOW_02	200	200-aa step below reference; p25 = 185 aa
+M2_CELLULOSE_LEN	M2_CELLULOSE_LEN_HIGH_01	500	100-aa step above reference; p75 = 411.75 aa
+M2_CELLULOSE_LEN	M2_CELLULOSE_LEN_HIGH_02	600	200-aa step above reference; p95 = 723.75 aa
+M2_AEX_PI	M2_AEX_PI_LOW_01	5.5	0.5 pI unit below reference; p25 = 4.94
+M2_AEX_PI	M2_AEX_PI_LOW_02	5.0	1.0 pI unit below reference; p5 = 4.35
+M2_AEX_PI	M2_AEX_PI_HIGH_01	6.5	0.5 pI unit above reference; median pI 6.31
+M2_AEX_PI	M2_AEX_PI_HIGH_02	7.0	1.0 pI unit above reference, still below the unassigned 6<pI<8 band top
+M2_CEX_PI	M2_CEX_PI_LOW_01	7.5	0.5 pI unit below reference, inside the unassigned band
+M2_CEX_PI	M2_CEX_PI_LOW_02	7.0	1.0 pI unit below reference
+M2_CEX_PI	M2_CEX_PI_HIGH_01	8.5	0.5 pI unit above reference; p75 = 9.25
+M2_CEX_PI	M2_CEX_PI_HIGH_02	9.0	1.0 pI unit above reference
+M2_CDS_LEN	M2_CDS_LEN_LOW_01	720	-120 nt = -40 codons from the resolved median 840
+M2_CDS_LEN	M2_CDS_LEN_LOW_02	600	-240 nt = -80 codons; p25 = 558 nt
+M2_CDS_LEN	M2_CDS_LEN_HIGH_01	960	+120 nt = +40 codons from the resolved median
+M2_CDS_LEN	M2_CDS_LEN_HIGH_02	1080	+240 nt = +80 codons; p75 = 1237.5 nt

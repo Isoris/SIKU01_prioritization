@@ -1,24 +1,32 @@
-# tests/ - what each test suite checks
+# tests/ - what is tested
 
-The tests run automatically inside every ranking run (step 6 of `run_ranking.py`, after the ranking); `postflight/postflight.py` fails the run if any test fails.
-With bash and Rscript available, `run_all_tests_A6434_v01.sh` runs all suites; without them only the four Python suites run and the R suites are reported as NOT RUN, never as passed.
+## Unit tests (Python)
 
-| suite | language | what it checks | rules |
-|---|---|---|---|
-| `TST_gene_model/` | R | unit, robustness and sensitivity tests of the gene-model gates on synthetic data | M0.1 ORF intact, M0.2 full length |
-| `TST_carriage/` | R | the same for core-genome carriage | M0.3 |
-| `TST_conservation/` | R | the conservation measure (median normalised Shannon entropy, `bio3d::entropy`) on 200 synthetic alignments with controlled noise (`TST_conservation_seed_msa_library_v01.tsv.gz`); design notes in the two `.md` files | M0.6 |
-| `TST_tmh/` | R | the transmembrane-helix gate on synthetic data | M2.1 |
-| `TST_numerical/` | Python | known-answer tests: every hard and additive rule evaluated by the production code itself (`evaluate()`), and the comparison function the sweeps use (`satisfies()`) | all 22 hard and additive rules |
-| `TST_perturbation/` | Python | known-answer tests of the leave-one-rule-out functions (`final_pass()`, `score()`) | all rules |
-| `TST_execution/` | Python | re-derives the reference execution and the sensitivity sweeps from the real input frame with the production functions, and checks every deposited row | all rules |
-| `_shared/` | R | helpers the R suites load (numeric-range checks, logging) | - |
+`python prioritize.py test` runs them (about one minute; `-v` lists each test). They use only the standard library `unittest`,
+so nothing extra has to be installed; `python -m pytest tests` works too.
 
-Run time (measured in WSL): all suites together take about 22 minutes, almost all of it `TST_conservation` (4,000 simulated measurements, one after another in R); the other suites take seconds. `bash run_all.sh --no-tests` skips them (the whole check then takes about 70 seconds).
+| file | what it checks |
+|---|---|
+| `test_rules.py` | the rule table has 23 rules (1 + 14 + 8) and the expected gates per route; every rule gives the known answer just below, at and just above its threshold (68 cases from the rule specification in `data/rule_boundary_cases.tsv`, plus generated ones); both bounds of a BETWEEN rule are included; a full truth table for each equality rule; a missing or non-numeric value is not evaluable; a rule table the code does not implement (removed rule, unknown operator or route, other missing-value policy, weighted component, duplicated identifier) is refused |
+| `test_ranking.py` | on constructed candidates with the real rule table: all gates satisfied gives PASS on every route; one failing gate gives FAIL; one missing gate value gives NOT_EVALUABLE; FAIL outranks NOT_EVALUABLE; a gate of another route does not apply; the additive score equals the number of satisfied components for every combination (160 combinations) and never changes final pass; the leave-one-out functions and the Spearman correlation on known answers |
+| `test_reproduction.py` | one full run from the input tables: the 21 tables are identical to `expected/tables/`; the independent recomputation agrees on all 9,162 candidates and does detect a changed result; final pass per route is 85 / 515 / 387 / 118 / 363 / 363; the frame built from the inputs equals the deposited candidate frame; the 11 excluded split gene calls are exactly the core orthogroups with two SIKU01 gene calls in the locus map; each sweep at its reference threshold counts exactly the candidates that pass the gate; `shortlists/` and `routes/` agree with the tables |
+| `test_cli.py` | the commands `rules`, `check-inputs`, `show`, `shortlist`, `verify` answer correctly and a wrong request exits with an error |
 
-Other files:
+## R suites of the upstream gate definitions (`r/`)
 
-- `RULE_TEST_INDEX_v27.tsv`: for each of the 23 rules, which unit, robustness, sensitivity, known-answer and sweep tests cover it.
-- `run_all_tests_A6434_v01.sh`: runs every suite (`--suite NAME` for one, `--with-sens` adds the sensitivity sweeps). It writes one status line per test (PASS, FAIL, NOT_IMPLEMENTED, BLOCKED); a missing test is never counted as a pass.
+`bash tests/r/run_r_tests.sh` (about 22 minutes), or `--fast` to leave out the one long test. `bash run_all.sh --full` includes them.
+They need Rscript with bio3d, Biostrings, digest and dplyr (`environment.yml`).
 
-The full test specification (152 registered tests, 120 test cases) is in `rules/` (`test_registry_v03.tsv`, `test_definition_v03.tsv`, `test_case_definition_v01.tsv`, `rule_test_contract_v03.tsv`, `test_implementation_binding_v03.tsv`) and in Data file 2 of the deposit.
+These suites do not test the Python code of this repository. They test, on synthetic data, the R reference functions
+(`r/_shared/siku01_helpers_and_tests_v04.R`) that define five of the gate quantities whose values arrive here inside the frozen
+input tables:
+
+| suite | gate | what it checks |
+|---|---|---|
+| `TST_gene_model/` | M0.1 ORF integrity, M0.2 full length | unit and robustness tests of the gene-model functions |
+| `TST_carriage/` | M0.3 core-genome carriage | unit and robustness tests |
+| `TST_conservation/` | M0.6 conservation | the conservation measure (median normalised Shannon entropy, `bio3d::entropy`) on 200 synthetic alignments with controlled noise, 4,000 simulated measurements; design notes in the two `.md` files |
+| `TST_tmh/` | M2.1 transmembrane helices | unit test of the three-state gate (pass / fail / not evaluable) |
+
+The R files are carried unchanged from the first version of this repository. A test that cannot run (a missing package) is reported
+BLOCKED and counted as a failure, never as a pass.

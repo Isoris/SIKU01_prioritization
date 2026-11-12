@@ -1,56 +1,66 @@
 # inputs/ - what each file is
 
-Everything the ranking reads is in this folder. Nothing is downloaded and nothing outside the repo is read.
-`pangenome_id` is the orthogroup identifier (one gene family of the 90-isolate pangenome); every table is keyed by it, directly or through a locus tag.
-The ranking is fed by the **13 frozen `*_by_pangenome_id` tables** (checksums in `route_manifest.tsv`, checked first by the run), plus the candidate frame and two literature tables.
-Row counts are data rows (header not counted).
+Everything the prioritization reads is in this folder. Nothing is downloaded and nothing outside the repository is read.
+`pangenome_id` is the orthogroup identifier (one gene family of the 90-isolate pangenome); every table is keyed by it, directly or
+through a locus tag. Row counts are data rows (header not counted).
 
-## The candidate frame
+`CHECKSUMS.tsv` lists every file with its SHA-256, size, row count, role, and whether the prioritization reads it. Every run starts
+by comparing the files with it (`python prioritize.py check-inputs`). The files are stored byte for byte as they were frozen
+(`.gitattributes` switches off line-ending conversion), so the checksums of the 13 tables are those of their original lock.
 
-| file | what | rows |
-|---|---|---|
-| `candidate_data_v02.tsv` | the frozen candidate frame: 1,527 orthogroups x 6 routes (silica, cellulose, AEX, CEX, pDNA tilapia, pDNA zebrafish), 69 columns. The ranking reads it; `postflight/frame_check.py` compares it with what the code rebuilds from the 13 tables (63 of 69 columns shared). It is a deposit and is not rebuilt here | 9,162 |
+## The 13 frozen tables
 
-## The 13 frozen tables (locked in `route_manifest.tsv`)
+Ten are read by the prioritization. Three belong to the frozen input set of the analysis and are kept with it, but no rule needs
+them (marked "not read").
 
-| file | what | rows |
-|---|---|---|
-| `conservation_by_pangenome_id_v01.tsv` | amino-acid conservation per orthogroup (normalised Shannon entropy, median and mean, alignment length, sequences, paralog handling) | 1,538 |
-| `coverage_qc_by_pangenome_id_v01.tsv` | alignment coverage and occupancy per orthogroup (shared columns, longest shared run, anchor locus) | 1,538 |
-| `m0_gate_by_pangenome_id_v01.tsv` | the M0 gate per orthogroup: ORF intact, majority length, single annotated form, topology, pass or fail with the reason | 1,538 |
-| `interpro_by_pangenome_id_v02.tsv` | InterPro and surface-architecture annotation of the representative protein (signal peptide, TMH, LPxTG, LysM, GW, Pfam) | 1,838 |
-| `host_similarity_by_pangenome_id_v01.tsv` | identity to host proteomes (seabass, tilapia, gariepinus, ...) of the representative protein | 1,838 |
-| `nonspecific_by_pangenome_id_v01.tsv` | local exact-match hits against host proteins, with the null comparison | 1,838 |
-| `epitope_by_pangenome_id_v01.tsv` | epitope-database hits of the representative protein (peptide hits, e-value, identity, coverage) | 1,838 |
-| `protein_descriptors_by_pangenome_id_v01.tsv` | protein descriptors per orthogroup as summary statistics (n, median, quartiles): length, molecular weight, pI, charge at pH 6.8 / 7.0 / 7.4, GRAVY, ... | 3,001 |
-| `nucleotide_descriptors_by_pangenome_id_v01.tsv` | nucleotide descriptors per orthogroup as summary statistics: CDS length, GC3, CAI for several hosts, restriction-site counts | 3,001 |
-| `descriptors_by_pangenome_id_v01.tsv.gz` | the same descriptors per gene copy and isolate (protein and nucleotide, 171,880 records) | 171,880 |
-| `descriptors_by_pangenome_id_v01_excluded.tsv` | the records left out of the descriptor tables, with the step and the reason | 516 |
-| `descriptors_population_by_pangenome_id_v01.tsv.gz` | per orthogroup and descriptor: member count, reference value, panel median / quartiles / range, whether the reference lies within the IQR | 43,064 |
-| `gene_data_by_pangenome_id_v01.tsv.gz` | the gene-level record per orthogroup and isolate: locus tag, pangenome class (core, softcore, shell, cloud), carriage, product, length, protein and DNA sequence (97 MB) | 171,880 |
+| file | what | rows | read |
+|---|---|---:|---|
+| `conservation_by_pangenome_id_v01.tsv` | amino-acid conservation per orthogroup (normalised Shannon entropy, median and mean, alignment length, sequences, paralog handling) | 1,538 | yes |
+| `coverage_qc_by_pangenome_id_v01.tsv` | alignment coverage and occupancy per orthogroup (shared columns, longest shared run, anchor locus) | 1,538 | yes |
+| `m0_gate_by_pangenome_id_v01.tsv` | gene-model summary per orthogroup: ORF intact, majority length, annotated forms, topology | 1,538 | yes |
+| `interpro_by_pangenome_id_v02.tsv` | InterPro and surface-architecture annotation of the SIKU01 protein (signal peptide, transmembrane helices, LPxTG, LysM, GW, Pfam) | 1,838 | yes |
+| `host_similarity_by_pangenome_id_v01.tsv` | identity of the SIKU01 protein to host proteomes | 1,838 | yes |
+| `nonspecific_by_pangenome_id_v01.tsv` | local exact-match hits against host proteins, with the null comparison | 1,838 | yes |
+| `epitope_by_pangenome_id_v01.tsv` | epitope-database (IEDB) hits of the SIKU01 protein | 1,838 | yes |
+| `protein_descriptors_by_pangenome_id_v01.tsv` | protein descriptors per orthogroup as summary statistics (n, median, quartiles); it also carries the pangenome class (core, soft-core, shell, cloud) that defines the candidate set | 3,001 | yes |
+| `nucleotide_descriptors_by_pangenome_id_v01.tsv` | nucleotide descriptors per orthogroup as summary statistics: CDS length, GC3, CAI, restriction-site counts | 3,001 | yes |
+| `descriptors_by_pangenome_id_v01.tsv.gz` | the same descriptors per gene copy and isolate; the values of the SIKU01 copy (`rep__*`) are what the route rules read | 171,880 | yes |
+| `descriptors_by_pangenome_id_v01_excluded.tsv` | the records left out of the descriptor tables, with the step and the reason | 516 | not read |
+| `descriptors_population_by_pangenome_id_v01.tsv.gz` | per orthogroup and descriptor: member count, reference value, panel median, quartiles, range | 43,064 | not read |
+| `gene_data_by_pangenome_id_v01.tsv.gz` | the gene-level record per orthogroup and isolate: locus tag, pangenome class, product, length, protein and DNA sequence (97 MB) | 171,880 | not read |
 
-The lock status in `route_manifest.tsv` (`LOCKED_VERIFIED`, `LOCKED_PRODUCER_DIVERGED`, `LOCKED_NO_PRODUCER_COPY_FOUND`) is the label written when the files were frozen.
-Which project capsule produced each table, and whether that capsule's copy is byte-identical, is in `docs/UPSTREAM_PRODUCERS.tsv`.
-`conservation_by_pangenome_id_v01.tsv` differs from its producer's copy in one column only (`reference_locus_tag`: empty here, filled by the producer's chain); the ranking does not read that column.
-
-## Other files the code reads
+## Other inputs
 
 | file | what | rows |
+|---|---|---:|
+| `MAP_A5093_locus_pangenome_v02.tsv` | the map of the SIKU01 loci (PGAP locus tag and Prokka locus tag) to `pangenome_id`; used to attach the literature evidence, and it is where the 11 split gene calls are seen | 1,996 |
+| `ST_A6035_02_protein_literature_assignments_v01.tsv` | SIKU01 proteins with published references: locus tag, product, gene, vaccine reference, PubMed IDs | 69 |
+| `ST_A6035_03_vaccine_antigen_crossref_v01.tsv` | cross-reference of vaccine antigens to SIKU01 loci | 15 |
+
+## Where each frozen table was made
+
+Each table was produced by one analysis of the SIKU01 project. The analyses, with their code and outputs, are in the Zenodo deposit
+[10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953), file `SIKU01_1_capsules.zip`, under
+`SIKU01_clean_project_2026-10-23/capsules/`.
+
+| input table | analysis folder (in `capsules/`) | file there |
 |---|---|---|
-| `route_manifest.tsv` | the lock: for each input its role, status, location and checksum. `code/code_A6434_verify_input_lock_v01.py` checks the 13 tables against it before anything else | 17 |
-| `MAP_A5093_locus_pangenome_v02.tsv` | the map of the SIKU01 loci (PGAP locus tag and Prokka locus tag, bridged where both exist) to `pangenome_id`, with the match status and pangenome class; used to attach the literature evidence and to flag genes called more than once | 1,996 |
-| `ST_A6035_02_protein_literature_assignments_v01.tsv` | SIKU01 loci with a published vaccine reference: locus tag, PGAP product, gene, reference, PubMed IDs | 69 |
-| `ST_A6035_03_vaccine_antigen_crossref_v01.tsv` | cross-reference of vaccine antigens to SIKU01 loci with the PubMed IDs | 15 |
+| `gene_data_by_pangenome_id_v01.tsv.gz` | `ANL_A5093_PANGENOME_CONSERVATION` | `04_tables/gene_data_by_pangenome_id_v01.tsv.gz` |
+| `conservation_by_pangenome_id_v01.tsv` | `ANL_A5093_AMINO_ACID_CONSERVATION` | `04_tables/conservation_by_pangenome_id_v01.tsv` (differs in one column, `reference_locus_tag`, which no rule reads) |
+| `m0_gate_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/m0_gate_by_pangenome_id_v01.tsv` |
+| `coverage_qc_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/coverage_qc_by_pangenome_id_v01.tsv` |
+| `descriptors_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `04_tables/descriptors_by_pangenome_id_v01.tsv.gz` |
+| `descriptors_by_pangenome_id_v01_excluded.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_by_pangenome_id_v01_excluded.tsv` |
+| `descriptors_population_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_population_by_pangenome_id_v01.tsv.gz` |
+| `protein_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/protein_descriptors_by_pangenome_id_v01.tsv` |
+| `nucleotide_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/nucleotide_descriptors_by_pangenome_id_v01.tsv` |
+| `interpro_by_pangenome_id_v02.tsv` | `ANL_A3168_SURFACE_ARCHITECTURE` | `04_tables/interpro_by_pangenome_id_v02.tsv` |
+| `host_similarity_by_pangenome_id_v01.tsv` | `ANL_A4173_HOST_SIMILARITY` | `04_tables/host_similarity_by_pangenome_id_v01.tsv` |
+| `nonspecific_by_pangenome_id_v01.tsv` | `ANL_A2731_LOCAL_HOST_SIMILARITY` | `04_tables/nonspecific_by_pangenome_id_v01.tsv` |
+| `epitope_by_pangenome_id_v01.tsv` | `ANL_A8506_EPITOPE` | `04_tables/epitope_by_pangenome_id_v01.tsv` |
 
-## `figure_inputs/` (not read by the ranking)
-
-| file | what |
-|---|---|
-| `ion_exchange_buffers.tsv` | the buffers and their buffering pH ranges used for the ion-exchange routes in the figures |
-| `codon_usages.tsv` | the codon-usage tables of the host species used for the CAI values |
-
-They are kept here because the figures and the manuscript tables use them; the ranking never opens them.
-
-## Checksums
-
-`preflight/manifests/inputs.tsv` lists every file in this folder with its sha256; the preflight stops the run if any file differs.
+`lock_status` in `CHECKSUMS.tsv` is the label written when the tables were frozen: `LOCKED_VERIFIED` (byte-identical to the copy of
+the producing analysis at that time), `LOCKED_PRODUCER_DIVERGED` (the conservation table: the producer copy now differs in the one
+column named above), `LOCKED_NO_PRODUCER_COPY_FOUND` (no byte copy was located at the time of the lock; `docs/UPSTREAM_PRODUCERS.tsv`
+records where the copy was found later). The raw Panaroo output, the input genomes and the core alignments these tables derive from
+are in the same deposit (`SIKU01_3_inputs_raw_and_frozen.zip`).

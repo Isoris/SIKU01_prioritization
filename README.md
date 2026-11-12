@@ -1,87 +1,134 @@
 # SIKU01 candidate prioritization
 
-The 23-rule, six-route prioritization of *Streptococcus iniae* SIKU01 vaccine candidates from the data descriptor
+The rule-based prioritization of *Streptococcus iniae* SIKU01 vaccine candidates from the data descriptor
 "Genome of *Streptococcus iniae* SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates"
-(Zenodo 10.5281/zenodo.15264953). It takes the frozen input tables, applies the rules, and checks the result against the deposited one.
+(data and full analysis record: Zenodo [10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953)).
+
+It takes 13 frozen input tables, applies 23 rules to 1,527 core orthogroups on six production routes, and writes the result
+tables and one shortlist per route. Every run can be checked against the deposited results.
 
 ## Run it
 
 ```
-git clone <URL of this repository> SIKU01_prioritization
+git clone https://github.com/Isoris/SIKU01_prioritization.git
 cd SIKU01_prioritization
-conda env create -f environment.yml                                       # once; python 3.11, pandas 2.3.3 (pandas must be < 3), R for the R tests
-conda activate siku01-ranking
-bash run_all.sh                                                           # about 23 minutes with all tests
-bash run_all.sh --no-tests                                                # about 70 seconds: everything except the unit tests
+conda env create -f environment.yml      # once
+conda activate siku01-prioritization
+bash run_all.sh                          # about 2 minutes
 ```
 
-The ranking itself takes about 30 seconds. Almost all of the 23 minutes is one R test, `TST_conservation` (4,000 simulated conservation measurements, about 22 minutes); times measured in WSL on a 20-core laptop.
+Without conda: `pip install -r requirements.txt` (python 3.11, pandas 2.3.3, numpy 2.3.4) is enough for everything except the R suites.
+Without bash (Windows): `python prioritize.py reproduce` and then `python prioritize.py test` do the same two steps.
 
-On Windows, run it inside WSL (bash and conda are needed).
-
-## What you should see
-
-The last lines are
+### What you should see
 
 ```
-postflight: PASS - the ranking reproduces the deposited results ...
-   silica             85
-   cellulose         515
-   aex               387
-   cex               118
-   pdna_tilapia      363
-   pdna_zebrafish    363
-   total            1831   (9162 candidate x route rows)
+[match]     21 of 21 result tables identical to the deposited tables in expected/tables/
+[recompute] 5 of 5 population thresholds reproduced; 9162 candidates recomputed by separate code, 0 differ
+[repeat]    54 of 54 files byte-identical between the two runs
+
+final pass per route
+   silica             85  ########
+   cellulose         515  ####################################################
+   aex               387  #######################################
+   cex               118  ############
+   pdna_tilapia      363  ####################################
+   pdna_zebrafish    363  ####################################
+   total            1831   (9162 candidates = 1527 orthogroups x 6 routes)
+...
+reproduce: PASS
+...
+tests: 39 run, 0 failed, 0 skipped
 run_all: PASS
 ```
 
-and above them `21 of 21 expected files identical`, `21 of 21 files byte-identical between two runs`, `9162 recomputed, 0 differ`. Without Rscript the four R test suites are
-reported as NOT RUN (a warning, never a pass); the four Python suites run.
+and, near the top, `13 of 13 frozen tables and 3 of 3 other inputs identical to their recorded checksum`.
 
-Every `run_all.sh` keeps the run it checked in `runs/<date-time>/` (not tracked by git):
+`bash run_all.sh --full` also runs the R test suites of the upstream gate definitions (about 25 minutes, needs Rscript; see `tests/README.md`).
 
-| file | what |
+## What comes out
+
+Each run is kept in `results/<date-time>/` (not tracked by git):
+
+| path | what |
 |---|---|
-| the 21 `*.tsv` | the results of the checked run (the same files as `expected_outputs/` when it passes) |
-| `run_log.json` | the execution trace: command, versions, each step and its exit code, test results, sha256 of every output and of the whole set |
-| `stage_run1.log`, `stage_run2.log` | what the ranking itself printed in the two runs |
-| `POSTFLIGHT_VERDICT.txt` | PASS or FAIL, and when |
-| `run_all.log` | everything `run_all.sh` printed |
+| `REPORT.md` | the run in plain words: final pass per route, the rules with the thresholds used |
+| `shortlists/final_pass_<route>.tsv` | the final-pass candidates of one route, with the values every rule read (six files) |
+| `shortlists/final_pass_all_routes.tsv` | every orthogroup that passes on at least one route, with its state on all six |
+| `shortlists/final_pass_summary.tsv` | one row per route: candidates, final pass, fail, not evaluable |
+| `routes/<route>/candidates.tsv` | all 1,527 orthogroups on that route: final pass, which gates failed, every rule outcome and value |
+| `routes/<route>/gates.tsv` | the hard gates of the route: threshold, pass / fail / not evaluable, the funnel, the effect of removing the gate |
+| `routes/<route>/additive_components.tsv` | the additive components of the route |
+| `routes/<route>/threshold_sweeps.tsv` | the threshold sweeps of the rules of that route |
+| `tables/` | the 21 result tables, the same files as the deposited ones (`docs/OUTPUTS.md` describes each) |
+| `run_log.json`, `VERDICT.txt` | versions, steps, checksum of every table; PASS or FAIL of the checks |
+
+`shortlists/` and `routes/` only rearrange what is in `tables/`; the unit tests check that they say the same thing.
+
+## The method in short
+
+- **Candidates.** One candidate is one orthogroup (gene family, `pangenome_id`) on one route. The 1,527 orthogroups are the core
+  orthogroups of the 90-isolate pangenome, minus 11 in which the SIKU01 gene is split into two calls.
+- **Routes.** Four recombinant-protein routes that differ in the purification step (`silica`, `cellulose`, `aex` = anion exchange,
+  `cex` = cation exchange) and two plasmid-DNA routes (`pdna_tilapia`, `pdna_zebrafish`).
+- **Rules.** `rules/ranking_rules_v27.tsv` holds the 23 rules: 1 declaration of the entry population, 14 hard gates and 8 additive
+  components. Each rule names the routes it applies to, the variable it reads, the operator and the threshold. The code contains no
+  threshold; `python prioritize.py rules` prints them.
+- **Hard gate.** PASS, FAIL or NOT_EVALUABLE. A candidate is **final pass** on a route when every hard gate of that route is PASS.
+  The result does not depend on the order of the gates.
+- **Additive component.** +1 when satisfied, 0 otherwise. The additive score counts favourable properties (for example an IEDB
+  epitope match, or a codon adaptation index in the top quarter). It never removes a candidate and it is not a ranking of vaccine
+  potential.
+- **Missing values.** A missing value never satisfies a condition. A hard gate then reports NOT_EVALUABLE (the candidate is not
+  final pass, and is counted separately from FAIL); an additive component adds 0. Nothing is filled in.
+- **Sensitivity.** Nine gates are re-evaluated at shifted thresholds chosen before any outcome was seen (sweeps), each hard gate
+  is removed in turn (leave-one-out), and each additive component is removed in turn.
+
+Example: orthogroup 21 (*polC*) passes every gate shared by all routes, but its protein weighs 165 kDa and the molecular-weight
+gate of the protein routes asks for 20 to 60 kDa, so it fails on the four protein routes. `python prioritize.py show polC` prints this.
 
 ## Where things are
 
-| folder | what |
+| path | what |
 |---|---|
-| `inputs/` | the 13 frozen `*_by_pangenome_id` tables, the literature inputs, `candidate_data_v02.tsv`, and `route_manifest.tsv` (the lock: the checksum of every input); `inputs/README.md` says what each file is |
-| `rules/` | `ranking_rules_v27.tsv` (the 23 rules), their resolved thresholds, the sweep plan, the test contracts |
-| `code/` | the ranking code, the capsule's own (two edits of 2026-10-23 are recorded in `PROVENANCE.md`); `run_ranking.py` runs it |
-| `tests/` | unit, robustness and known-answer test suites; `tests/README.md` says what each suite checks |
-| `expected_outputs/` | the 21 deposited result files; the final shortlists are `candidate_route_state_v27_v01.tsv` (`final_pass`) |
-| `preflight/`, `postflight/` | the checks before and after a run |
-| `raw/` | the Panaroo output, input genomes and core alignments the input tables came from (records; not re-run here) |
+| `inputs/` | the 13 frozen input tables, the locus map and the two literature tables, with `CHECKSUMS.tsv`; `inputs/README.md` describes each file |
+| `rules/` | the rule table, the five frozen population thresholds, the sweep plan; `rules/README.md` |
+| `siku01_prioritization/` | the code, one module per step (`inputs`, `rules`, `ranking`, `sweeps`, `perturbation`, `shortlists`, `verify`, `pipeline`, `cli`) |
+| `prioritize.py` | the command line |
+| `expected/` | the 21 deposited result tables a run is compared with, and the deposited candidate frame; `expected/README.md` |
+| `tests/` | the unit tests (Python) and the R suites of the upstream gate definitions; `tests/README.md` |
+| `docs/OUTPUTS.md` | what each of the 21 result tables contains |
+| `docs/UPSTREAM_PRODUCERS.tsv` | which analysis of the project produced each input table |
+| `CHANGES.md` | what changed between the first version of this repository and this one |
 
-`analysis.yaml` declares the inputs, the run order and the target outputs. `PROVENANCE.md` says where every file came from.
-The inputs are large (the gene table is 97 MB), so clone with enough disk and bandwidth; nothing is downloaded when you run it.
+## Commands
 
-## Where each of the 13 input tables was made
+```
+python prioritize.py reproduce           run twice, check against the deposited results, keep the run in results/
+python prioritize.py run                 run once
+python prioritize.py verify DIR          check a finished run
+python prioritize.py check-inputs        are the input tables the recorded ones?
+python prioritize.py rules --route cex   the rules of one route, with the thresholds used
+python prioritize.py show polC           everything about one orthogroup (pangenome_id, gene name or SIKU01 locus tag)
+python prioritize.py shortlist silica    the final-pass candidates of a route
+python prioritize.py test                the unit tests
+```
 
-Each frozen table was produced by one analysis of the SIKU01 project. The analyses, with their code and outputs, are in the Zenodo deposit
-[10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953), file `SIKU01_1_capsules.zip`, under `SIKU01_clean_project_2026-10-23/capsules/`.
+`rules`, `show` and `shortlist` answer from the deposited tables, so they work before any run.
 
-| input table (`inputs/`) | analysis folder (in `capsules/`) | file there |
-|---|---|---|
-| `gene_data_by_pangenome_id_v01.tsv.gz` | `ANL_A5093_PANGENOME_CONSERVATION` | `04_tables/gene_data_by_pangenome_id_v01.tsv.gz` |
-| `conservation_by_pangenome_id_v01.tsv` | `ANL_A5093_AMINO_ACID_CONSERVATION` | `04_tables/conservation_by_pangenome_id_v01.tsv` (differs in one column, `reference_locus_tag`, which the ranking does not read) |
-| `m0_gate_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/m0_gate_by_pangenome_id_v01.tsv` |
-| `coverage_qc_by_pangenome_id_v01.tsv` | `ANL_A5093_POPULATION_OCCUPANCY` | `04_tables/coverage_qc_by_pangenome_id_v01.tsv` |
-| `descriptors_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `04_tables/descriptors_by_pangenome_id_v01.tsv.gz` |
-| `descriptors_by_pangenome_id_v01_excluded.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_by_pangenome_id_v01_excluded.tsv` |
-| `descriptors_population_by_pangenome_id_v01.tsv.gz` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/descriptors_population_by_pangenome_id_v01.tsv.gz` |
-| `protein_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/protein_descriptors_by_pangenome_id_v01.tsv` |
-| `nucleotide_descriptors_by_pangenome_id_v01.tsv` | `ANL_A6318_SEQUENCE_DESCRIPTORS` | `01_analysis_output/derived/nucleotide_descriptors_by_pangenome_id_v01.tsv` |
-| `interpro_by_pangenome_id_v02.tsv` | `ANL_A3168_SURFACE_ARCHITECTURE` | `04_tables/interpro_by_pangenome_id_v02.tsv` |
-| `host_similarity_by_pangenome_id_v01.tsv` | `ANL_A4173_HOST_SIMILARITY` | `04_tables/host_similarity_by_pangenome_id_v01.tsv` |
-| `nonspecific_by_pangenome_id_v01.tsv` | `ANL_A2731_LOCAL_HOST_SIMILARITY` | `04_tables/nonspecific_by_pangenome_id_v01.tsv` |
-| `epitope_by_pangenome_id_v01.tsv` | `ANL_A8506_EPITOPE` | `04_tables/epitope_by_pangenome_id_v01.tsv` |
+## What the checks establish
 
-The full record per table (row counts, scripts that write it, lock status) is in `docs/UPSTREAM_PRODUCERS.tsv`.
+| check | what it shows |
+|---|---|
+| inputs | every input file has the SHA-256 recorded in `inputs/CHECKSUMS.tsv` (the 13 frozen tables carry the checksum of their original lock) |
+| thresholds | the five thresholds that are statistics of the candidate population (four third quartiles, one median) are recomputed from the data and equal the frozen values |
+| match | the 21 result tables are identical to the deposited ones (line endings are compared as LF, because one deposited table was written on Windows) |
+| recompute | a second implementation of the rules, which shares no code with the first, gives the same state for all 9,162 candidates |
+| repeat | two runs give byte-identical files: nothing is random and nothing depends on the date |
+| unit tests | known answers for every rule at and around its threshold, for missing values, for the final-pass logic and the additive score; a broken rule table is refused; the shortlists agree with the tables |
+
+## What this repository does not redo
+
+The 13 input tables are results of earlier analyses of the project (pangenome, conservation, sequence descriptors, epitope and
+host-similarity screens, domain annotation). They are frozen here and their production is not repeated: the analyses, with their
+code, their outputs and the raw Panaroo archives, are in the Zenodo deposit. `inputs/README.md` names the analysis behind each table.
