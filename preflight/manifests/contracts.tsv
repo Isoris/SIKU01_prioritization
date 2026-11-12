@@ -25,7 +25,7 @@ postflight/brain_enforcement.py	896e9d196a327a5774471cdd0f3888593951769b6021bd85
 postflight/build_expected_manifest.py	2e5e978ba48c4b485dff6cfae1766771eaf9c20a76c9ab1909ae259117a4d067	4058	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/frame_check.py	b7ac40129bc582a24381bb039411e5b7c9a24c0e68f08b3d46c1c8f70f6dd91e	3508	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/independent_recompute.py	c5111cd1971478aaa8dd54582a974a09d23f4129dd46719722ae1caaa0e92a3a	6010	the post-flight checks (a change to a checker is a change to what counts as passing)
-postflight/postflight.py	dc9c55f59d9759227131256bd722cbf44031676ef968f25ff322db685d47b8c2	10613	the post-flight checks (a change to a checker is a change to what counts as passing)
+postflight/postflight.py	0cc40820937abd4a9fd8217490d550d9a435f0d4085db1eb647bc288c29b65ec	12587	the post-flight checks (a change to a checker is a change to what counts as passing)
 expected_outputs/COLLECTION.sha256	72985eaf3efb02f2e85aed82d17df8c63f185b8b9ebdb2ea80aca38c91e1a2ff	157	the target results a run is compared with
 expected_outputs/MANIFEST.tsv	c57f1ebe56e3f41d160631ed50f473d33c96c7744477119ea3301bee507afbef	8371	the target results a run is compared with
 expected_outputs/ST_A6434_03_parameter_sweeps_v02.tsv	59110eee80941e64491497e06b75a1c959fd14dcb45abf8b70e30b0e1c12de2d	19517	the target results a run is compared with

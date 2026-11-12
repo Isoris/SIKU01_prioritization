@@ -15,13 +15,16 @@ Four questions, all must be yes:
 
 Usage
   python3 postflight/postflight.py --run [--no-tests]      run the stage twice into temporary folders, then check everything
+  python3 postflight/postflight.py --run --keep DIR        the same, and keep the checked run (run 1) in DIR: its 21 tables, its
+                                                           execution trace run_log.json, the stage's own output (stage_run1.log,
+                                                           stage_run2.log) and POSTFLIGHT_VERDICT.txt
   python3 postflight/postflight.py --out-dir DIR           check 1 only, on a run you already made with
                                                            python run_ranking.py --out-dir DIR
   python3 postflight/postflight.py --out-dir A --against B check 2 only: A against a second run B (raw bytes), plus check 1 on A
 
-Exit: 0 only if every check passes. Standard library only; writes nothing outside the temporary folders it makes.
+Exit: 0 only if every check passes. Standard library only; writes nothing outside the temporary folders it makes (and DIR with --keep).
 """
-import argparse, csv, hashlib, json, os, subprocess, sys, tempfile
+import argparse, csv, hashlib, json, os, shutil, subprocess, sys, tempfile, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_expected_manifest import collection_fingerprint  # the one definition of the collection fingerprint
@@ -114,12 +117,33 @@ def check_repeat(a, b):
     return bad == 0
 
 
-def run_stage(out, tests=True):
+def run_stage(out, tests=True, log=None):
+    """Run the stage into `out`. Its own screen output (stdout + stderr) goes to the file `log` (outside `out`, so the match check
+    does not see it); it is not shown here, except the end of it if the stage fails."""
     cmd = [sys.executable, "-B", STAGE, "--out-dir", out, "--tests", "auto" if tests else "none"]
-    r = subprocess.run(cmd, cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)   # warnings are not shown; if the stage fails, everything it said is
+    r = subprocess.run(cmd, cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    if log:
+        with open(log, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(r.stdout)
     if r.returncode != 0:
-        print(r.stderr[-3000:])
+        print(r.stdout[-3000:])
     return r.returncode == 0
+
+
+def keep_run(src, logs, dest, ok):
+    """Copy the checked run (tables + run_log.json), the stage logs and the verdict into dest."""
+    os.makedirs(dest, exist_ok=True)
+    for f in sorted(os.listdir(src)):
+        p = os.path.join(src, f)
+        if os.path.isfile(p):
+            shutil.copy2(p, os.path.join(dest, f))
+    for p in logs:
+        if os.path.isfile(p):
+            shutil.copy2(p, os.path.join(dest, os.path.basename(p)))
+    with open(os.path.join(dest, "POSTFLIGHT_VERDICT.txt"), "w", encoding="utf-8", newline="\n") as fh:
+        fh.write("postflight: %s\nchecked: %s UTC\nrepo: %s\n" % ("PASS" if ok else "FAIL", time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()), ROOT))
+        fh.write("the tables and run_log.json in this folder are run 1, the run the checks were made on\n")
+    print("postflight: the checked run is kept in %s" % dest)
 
 
 def check_brain(out):
@@ -152,6 +176,7 @@ def main():
     ap.add_argument("--out-dir")
     ap.add_argument("--against")
     ap.add_argument("--no-tests", action="store_true", help="skip the capsule tests in the first run")
+    ap.add_argument("--keep", help="with --run: keep the checked run, its logs and the verdict in this folder")
     a = ap.parse_args()
     if not (a.run or a.out_dir):
         ap.error("give --run, or --out-dir")
@@ -164,16 +189,23 @@ def main():
     print("   [tests]     the unit, robustness and known-answer tests in tests/ passed (the four R suites need bash + Rscript)")
     print("   [recompute] every one of the 9,162 candidate-route outcomes was recomputed from rules/ and inputs/ by code that shares nothing with the ranking code, and agrees")
     if a.run:
-        with tempfile.TemporaryDirectory(prefix="siku01_post_a_") as A, tempfile.TemporaryDirectory(prefix="siku01_post_b_") as B:
-            print("run 1 (with tests) ... (about a minute; the stage prints nothing here, its log is in the temporary folder)"); r1 = run_stage(A, not a.no_tests)
-            print("run 2 ..."); r2 = run_stage(B, False)
+        with tempfile.TemporaryDirectory(prefix="siku01_post_a_") as A, tempfile.TemporaryDirectory(prefix="siku01_post_b_") as B, \
+                tempfile.TemporaryDirectory(prefix="siku01_post_logs_") as L:
+            logs = [os.path.join(L, "stage_run1.log"), os.path.join(L, "stage_run2.log")]
+            print("run 1 (with tests) ... (about a minute; the stage's own output goes to stage_run1.log)"); r1 = run_stage(A, not a.no_tests, logs[0])
+            print("run 2 ..."); r2 = run_stage(B, False, logs[1])
             if not (r1 and r2):
-                print("  FAIL RUN       the stage failed (run 1: %s, run 2: %s)" % (r1, r2)); return 1
+                print("  FAIL RUN       the stage failed (run 1: %s, run 2: %s)" % (r1, r2))
+                if a.keep:
+                    keep_run(A, logs, a.keep, False)
+                return 1
             print("[match]"); ok &= check_match(A)
             print("[repeat]"); ok &= check_repeat(A, B)
             print("[brain]"); ok &= check_brain(A)
             print("[tests]"); ok &= (check_tests(A) if not a.no_tests else True)
             print("[recompute]"); ok &= check_independent(A)
+            if a.keep:
+                keep_run(A, logs, a.keep, ok)
     else:
         print("[match]"); ok &= check_match(a.out_dir)
         print("[brain]"); ok &= check_brain(a.out_dir)

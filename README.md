@@ -35,6 +35,16 @@ run_all: PASS
 and above them `21 of 21 expected files identical`, `21 of 21 files byte-identical between two runs`, `9162 recomputed, 0 differ`. Without Rscript the four R test suites are
 reported as NOT RUN (a warning, never a pass); the four Python suites run.
 
+Every `run_all.sh` keeps the run it checked in `runs/<date-time>/` (not tracked by git):
+
+| file | what |
+|---|---|
+| the 21 `*.tsv` | the results of the checked run (the same files as `expected_outputs/` when it passes) |
+| `run_log.json` | the execution trace: command, versions, each step and its exit code, test results, sha256 of every output and of the whole set |
+| `stage_run1.log`, `stage_run2.log` | what the ranking itself printed in the two runs |
+| `POSTFLIGHT_VERDICT.txt` | PASS or FAIL, and when |
+| `run_all.log` | everything `run_all.sh` printed |
+
 ## Where things are
 
 | folder | what |
