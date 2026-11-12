@@ -34,7 +34,7 @@ reported as NOT RUN (a warning, never a pass); the four Python suites run.
 
 | folder | what |
 |---|---|
-| `inputs/` | the 13 frozen `*_by_pangenome_id` tables, the literature inputs, `candidate_data_v02.tsv`, and `route_manifest.tsv` (the lock: the checksum of every input) |
+| `inputs/` | the 13 frozen `*_by_pangenome_id` tables, the literature inputs, `candidate_data_v02.tsv`, and `route_manifest.tsv` (the lock: the checksum of every input); `inputs/README.md` says what each file is |
 | `rules/` | `ranking_rules_v27.tsv` (the 23 rules), their resolved thresholds, the sweep plan, the test contracts |
 | `code/` | the ranking code, the capsule's own (two edits of 2026-10-23 are recorded in `PROVENANCE.md`); `run_ranking.py` runs it |
 | `tests/` | unit, robustness and known-answer test suites |

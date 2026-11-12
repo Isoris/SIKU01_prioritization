@@ -45,7 +45,7 @@ def build(repo, work, with_tests=True, say=None):
     ri.mkdir(parents=True, exist_ok=True)
     n = 0
     for f in sorted((repo / "inputs").iterdir()):
-        if f.is_file() and f.name != CANDIDATE:
+        if f.is_file() and f.name != CANDIDATE and f.suffix != ".md":   # inputs/README.md is documentation, not an input
             shutil.copy2(f, ri / f.name)
             n += 1
     made.append(("inputs/ (%d files)" % n, "08_source_data/routed_input/"))

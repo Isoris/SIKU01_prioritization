@@ -1,5 +1,6 @@
 path	sha256_lf	bytes	role
 inputs/MAP_A5093_locus_pangenome_v02.tsv	ba261314f7e5fbad86e1b811a97b20dcbb6a93abc9a8bc7e7c824f613cb4a3e6	305800	the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs
+inputs/README.md	659d0cc0c13589a49b95bca01e0dd5b525277f968f102a8ff499ecdcbf31e200	5102	the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs
 inputs/ST_A6035_02_protein_literature_assignments_v01.tsv	5d664dd24d0badaccfabb170fa29b9e2332f9518651b71c07fbff40521300b25	5054	the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs
 inputs/ST_A6035_03_vaccine_antigen_crossref_v01.tsv	8d7fa758cf3ecedcb2ea88fe8e79b933e97572ed5059f0afe2072dc875e53878	1040	the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs
 inputs/candidate_data_v02.tsv	ff3df42a2996a567ff88a9b3600bc7fff4023a72fe9ad879c65820b702fd2ab8	4004358	the 13 frozen *_by_pangenome_id tables, the literature inputs, the lock (route_manifest.tsv), the candidate frame, the figure inputs

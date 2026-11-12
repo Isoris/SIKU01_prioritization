@@ -20,7 +20,7 @@ code/code_A6434_rule_authority_test_v02.py	fb3b8434cee5ee4f4b0fdc3869b6ba1cf08f2
 code/code_A6434_verify_input_lock_v01.py	740ee7431c98bc1ce2043a9321a0cba635ee2e9a41fc0198603313272586dddd	2266	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
 code/run_A6434_canonical_v01.py	217f22fbcc79bcb813ceffc524b80807d0c211cf7631b25caf8bf9da9d378243	3178	the ranking code, capsule ANL_A6434's own (two recorded edits, see PROVENANCE.md)
 run_ranking.py	cc15ea6a29a3a8ec61ecac375f6e3c64c6566bf9c53ad03e342cbc177a56821c	12495	the stage launcher
-workdir.py	d799cffaea498171033913ddb739d3957013a261598a78280a82759a73411e0b	2480	the folder mapping used by the launcher and the preflight
+workdir.py	4c031f2502ed7b77dff56fb194f3ed1bfd5c0c3824849b38610ee4585ab22176	2554	the folder mapping used by the launcher and the preflight
 postflight/brain_enforcement.py	896e9d196a327a5774471cdd0f3888593951769b6021bd85322bb82298886519	7218	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/build_expected_manifest.py	2e5e978ba48c4b485dff6cfae1766771eaf9c20a76c9ab1909ae259117a4d067	4058	the post-flight checks (a change to a checker is a change to what counts as passing)
 postflight/frame_check.py	b7ac40129bc582a24381bb039411e5b7c9a24c0e68f08b3d46c1c8f70f6dd91e	3508	the post-flight checks (a change to a checker is a change to what counts as passing)
