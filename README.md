@@ -4,6 +4,11 @@ The rule-based prioritization of *Streptococcus iniae* SIKU01 vaccine candidates
 "Genome of *Streptococcus iniae* SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates"
 (data and full analysis record: Zenodo [10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953)).
 
+**Status and how to cite.** The manuscript is **under review**; it has no DOI yet. Until it has one, cite the Zenodo record, which holds the data, the
+full analysis record and the manuscript text: Andres, Q. L. S., Singchat, W., Srikulnath, K. & Srisapoome, P. (2026). Genome of *Streptococcus iniae*
+SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates. Manuscript under review. Zenodo,
+[doi:10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953). The manuscript DOI will replace this line when it is assigned.
+
 It takes 13 frozen input tables, applies 23 rules to 1,527 core orthogroups on six production routes, and writes the result
 tables and one shortlist per route. Every run can be checked against the deposited results.
 
@@ -38,7 +43,7 @@ final pass per route
 ...
 reproduce: PASS
 ...
-tests: 39 run, 0 failed, 0 skipped
+tests: 43 run, 0 failed, 0 skipped
 run_all: PASS
 ```
 
@@ -87,6 +92,10 @@ Each run is kept in `results/<date-time>/` (not tracked by git):
 Example: orthogroup 21 (*polC*) passes every gate shared by all routes, but its protein weighs 165 kDa and the molecular-weight
 gate of the protein routes asks for 20 to 60 kDa, so it fails on the four protein routes. `python prioritize.py show polC` prints this.
 
+## Licence
+
+The code is released under the MIT licence (`LICENSE`). The data deposited on Zenodo are CC-BY-4.0.
+
 ## Where things are
 
 | path | what |
@@ -97,6 +106,7 @@ gate of the protein routes asks for 20 to 60 kDa, so it fails on the four protei
 | `prioritize.py` | the command line |
 | `expected/` | the 21 deposited result tables a run is compared with, and the deposited candidate frame; `expected/README.md` |
 | `tests/` | the unit tests (Python) and the R suites of the upstream gate definitions; `tests/README.md` |
+| `specification/` | the test specification of Data file 2 (which test belongs to which rule, what it asserts, which file implements it), unchanged, and where each bound test is in this repository; `specification/README.md` |
 | `docs/OUTPUTS.md` | what each of the 21 result tables contains |
 | `docs/UPSTREAM_PRODUCERS.tsv` | which analysis of the project produced each input table |
 | `CHANGES.md` | what changed between the first version of this repository and this one |

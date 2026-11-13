@@ -1,5 +1,11 @@
 # Changes
 
+## 2026-11-14: test specification restored, licence
+
+- `specification/` added: the five test-specification tables of Data file 2 (`rule_test_contract_v03`, `test_registry_v03`, `test_definition_v03`, `test_case_definition_v01`, `test_implementation_binding_v03`), byte-identical to the deposited ones. Version 2 had left them out (see the Rules table below); they are back because they are the record of which test belongs to which rule. Their paths follow the original folder layout, so `specification/test_binding_in_this_repository.tsv` says, for each of the 32 bound tests, where it is here: 9 are the R suites in `tests/r/`, 22 are tests of the original production script (in the Zenodo record, not here) with the related test of this repository named, 1 is a declaration. `tests/test_specification.py` checks this (4 tests; 43 in all).
+- `LICENSE` (MIT) and a licence section in the README; a status and citation block in the README (manuscript under review; cite the Zenodo record).
+- No code of the prioritization and no result changed.
+
 ## Version 2 (2026-11-12): reorganisation, same results
 
 The results are unchanged: the 21 result tables are byte-identical to the deposited ones (line endings read as LF), which
