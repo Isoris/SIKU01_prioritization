@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or the deposited data, please cite the Zenodo record (the manuscript is under review and has no DOI yet)."
+title: "SIKU01 candidate prioritization: rule-based prioritization of Streptococcus iniae SIKU01 vaccine candidates"
+type: software
+version: "v2.0.0"
+date-released: "2026-11-15"
+license: MIT
+repository-code: "https://github.com/Isoris/SIKU01_prioritization"
+url: "https://github.com/Isoris/SIKU01_prioritization"
+authors:
+  - family-names: Andres
+    given-names: Quentin Ludovic Stephane
+    orcid: "https://orcid.org/0009-0003-3434-1778"
+    affiliation: Kasetsart University
+  - family-names: Singchat
+    given-names: Worapong
+    orcid: "https://orcid.org/0000-0002-7083-6159"
+    affiliation: Kasetsart University
+  - family-names: Srikulnath
+    given-names: Kornsorn
+    orcid: "https://orcid.org/0000-0002-5985-7258"
+    affiliation: Kasetsart University
+  - family-names: Srisapoome
+    given-names: Prapansak
+    orcid: "https://orcid.org/0000-0003-0354-6538"
+    affiliation: Kasetsart University
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24248966"
+    description: "Zenodo record, this release (version DOI); holds the archived copy of this repository as SIKU01_9_prioritization_repo_v2.0.0.zip"
+  - type: doi
+    value: "10.5281/zenodo.15264953"
+    description: "Zenodo concept DOI (all versions; data and full analysis record)"
+references:
+  - type: data
+    title: "Streptococcus iniae strain SIKU01 chromosome"
+    identifiers:
+      - type: other
+        value: "GenBank CP121692.1; assembly GCF_046581345.1 / GCA_046581345.1; BioProject PRJNA933632; BioSample SAMN33244440; SRA SRR23406922"

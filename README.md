@@ -4,10 +4,22 @@ The rule-based prioritization of *Streptococcus iniae* SIKU01 vaccine candidates
 "Genome of *Streptococcus iniae* SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates"
 (data and full analysis record: Zenodo [10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953)).
 
-**Status and how to cite.** The manuscript is **under review**; it has no DOI yet. Until it has one, cite the Zenodo record, which holds the data, the
-full analysis record and the manuscript text: Andres, Q. L. S., Singchat, W., Srikulnath, K. & Srisapoome, P. (2026). Genome of *Streptococcus iniae*
-SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates. Manuscript under review. Zenodo,
-[doi:10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953). The manuscript DOI will replace this line when it is assigned.
+**Archived release and data.** This repository at release `v2.0.0` is archived on Zenodo, version DOI
+[10.5281/zenodo.24248966](https://doi.org/10.5281/zenodo.24248966), as `SIKU01_9_prioritization_repo_v2.0.0.zip`, together with the data, the
+manuscript and the full analysis record (all versions: [10.5281/zenodo.15264953](https://doi.org/10.5281/zenodo.15264953)).
+Check the archive against this repository: `git archive v2.0.0` gives the same files; the checksums are in the Zenodo
+`SHA256SUMS.txt`.
+
+**Source data at NCBI.** BioProject [PRJNA933632](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA933632); strain SIKU01:
+BioSample [SAMN33244440](https://www.ncbi.nlm.nih.gov/biosample/SAMN33244440), reads
+[SRR23406922](https://www.ncbi.nlm.nih.gov/sra/SRR23406922), genome
+[CP121692.1](https://www.ncbi.nlm.nih.gov/nuccore/CP121692.1) (assemblies GCA_046581345.1 / GCF_046581345.1).
+Full list: `ACCESSIONS.tsv` in the Zenodo record.
+
+**Status and how to cite.** The manuscript is **under review**; it has no DOI yet. Until it has one, cite the Zenodo record
+(use the version DOI above for this exact release): Andres, Q. L. S., Singchat, W., Srikulnath, K. & Srisapoome, P. (2026).
+Genome of *Streptococcus iniae* SIKU01 and reverse vaccinology dataset with conservation metadata across 90 isolates.
+Manuscript under review. Zenodo, doi:10.5281/zenodo.24248966. GitHub shows "Cite this repository" from `CITATION.cff`.
 
 It takes 13 frozen input tables, applies 23 rules to 1,527 core orthogroups on six production routes, and writes the result
 tables and one shortlist per route. Every run can be checked against the deposited results.
